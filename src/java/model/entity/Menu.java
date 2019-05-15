@@ -1,4 +1,4 @@
-package java.model.entity;
+package model.entity;
 
 import java.util.List;
 
@@ -7,6 +7,14 @@ public class Menu {
     private String name;
     private Integer price;
     private List<Order> orders;
+
+    public Menu(String name, Integer price) {
+        this.name = name;
+        this.price = price;
+    }
+
+    public Menu() {
+    }
 
     public Integer getId() {
         return id;

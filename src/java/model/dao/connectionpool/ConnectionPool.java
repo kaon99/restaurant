@@ -1,4 +1,4 @@
-package java.model.dao.connectionpool;
+package model.dao.connectionpool;
 import org.apache.commons.dbcp.BasicDataSource;
 import org.apache.log4j.Logger;
 

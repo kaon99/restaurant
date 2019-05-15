@@ -1,7 +1,7 @@
-package java.model.entity;
+package model.entity;
 
-import java.util.Date;
-import java.util.List;
+
+import java.sql.Date;
 
 public class Bill {
     private Integer id;
@@ -10,6 +10,17 @@ public class Bill {
     private Integer status;
     private Integer userId;
     private Integer orderId;
+
+    public Bill(Date date, Integer sum, Integer status, Integer userId, Integer orderId) {
+        this.date = date;
+        this.sum = sum;
+        this.status = status;
+        this.userId = userId;
+        this.orderId = orderId;
+    }
+
+    public Bill() {
+    }
 
     public Integer getId() {
         return id;
