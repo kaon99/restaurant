@@ -6,10 +6,7 @@ import model.dao.mapper.UserMapper;
 import model.entity.User;
 import org.apache.log4j.Logger;
 
-import java.sql.Connection;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-import java.sql.SQLException;
+import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -23,16 +20,21 @@ public class UserDaoImpl implements UserDao {
     }
 
     @Override
-    public void create(User entity) {
-        try (PreparedStatement statement = connection.prepareStatement("INSERT INTO resstaurant.user(name, password, role, email) VALUE (?,?,?,?)")) {
+    public User create(User entity) {
+        try (PreparedStatement statement = connection.prepareStatement("INSERT INTO resstaurant.user(name, password, role, email) VALUE (?,?,?,?)" ,Statement.RETURN_GENERATED_KEYS)) {
             statement.setString(1, entity.getName());
             statement.setString(2, entity.getPassword());
             statement.setInt(3, entity.getRole());
             statement.setString(4, entity.getEmail());
             statement.executeUpdate();
+ResultSet resultSet = statement.getGeneratedKeys();
+if(resultSet.next()){
+entity.setId(resultSet.getInt(1));
+}
         } catch (SQLException e) {
             logger.info("Do not create user", e);
         }
+        return entity;
     }
 
     @Override

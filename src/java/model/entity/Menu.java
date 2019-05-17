@@ -4,12 +4,14 @@ import java.util.List;
 
 public class Menu {
     private Integer id;
-    private String name;
+    private String nameEn;
+    private String nameUa;
     private Integer price;
     private List<Order> orders;
 
-    public Menu(String name, Integer price) {
-        this.name = name;
+    public Menu(String nameEn, String nameUa, Integer price) {
+        this.nameEn = nameEn;
+        this.nameUa = nameUa;
         this.price = price;
     }
 
@@ -24,12 +26,20 @@ public class Menu {
         this.id = id;
     }
 
-    public String getName() {
-        return name;
+    public String getNameEn() {
+        return nameEn;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setNameEn(String nameEn) {
+        this.nameEn = nameEn;
+    }
+
+    public String getNameUa() {
+        return nameUa;
+    }
+
+    public void setNameUa(String nameUa) {
+        this.nameUa = nameUa;
     }
 
     public Integer getPrice() {
@@ -46,5 +56,16 @@ public class Menu {
 
     public void setOrders(List<Order> orders) {
         this.orders = orders;
+    }
+
+    @Override
+    public String toString() {
+        return "Menu{" +
+                "id=" + id +
+                ", nameEn='" + nameEn + '\'' +
+                ", nameUa='" + nameUa + '\'' +
+                ", price=" + price +
+                ", orders=" + orders +
+                '}';
     }
 }

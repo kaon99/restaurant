@@ -11,7 +11,7 @@ public class Bill {
     private Integer userId;
     private Integer orderId;
 
-    public Bill(Date date, Integer sum, Integer status, Integer userId, Integer orderId) {
+    public Bill(Date date, int sum, int status, int userId, int orderId) {
         this.date = date;
         this.sum = sum;
         this.status = status;
@@ -68,5 +68,17 @@ public class Bill {
 
     public void setOrderId(Integer orderId) {
         this.orderId = orderId;
+    }
+
+    @Override
+    public String toString() {
+        return "Bill{" +
+                "id=" + id +
+                ", date=" + date +
+                ", sum=" + sum +
+                ", status=" + status +
+                ", userId=" + userId +
+                ", orderId=" + orderId +
+                '}';
     }
 }

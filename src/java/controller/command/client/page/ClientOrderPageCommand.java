@@ -9,8 +9,8 @@ import org.apache.log4j.Logger;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-public class ClientOrderPage implements Command {
-    Logger logger = Logger.getLogger(ClientOrderPage.class);
+public class ClientOrderPageCommand implements Command {
+    Logger logger = Logger.getLogger(ClientOrderPageCommand.class);
 MenuService menuService = new MenuServiceImpl();
     @Override
     public String execute(HttpServletRequest request, HttpServletResponse response) {

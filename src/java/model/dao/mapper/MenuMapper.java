@@ -10,8 +10,9 @@ public class MenuMapper implements  ObjectMapper<Menu>{
     @Override
     public Menu extractFromResultSet(ResultSet rs) throws SQLException {
         Menu menu = new Menu();
-        menu.setId(rs.getInt("bill_id"));
-        menu.setName(rs.getString("name"));
+        menu.setId(rs.getInt("menu_id"));
+        menu.setNameEn(rs.getString("nameEn"));
+        menu.setNameUa(rs.getString("nameUa"));
         menu.setPrice(rs.getInt("price"));
         return menu;
     }

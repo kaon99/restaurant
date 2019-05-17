@@ -4145,3 +4145,2864 @@ java.sql.SQLException: Parameter index out of range (2 > number of parameters, w
 2019-05-15 22:37:37 INFO  LocaleFilter:29 - do Filter
 2019-05-15 22:37:40 INFO  EncodingFilter:17 - do Filter
 2019-05-15 22:37:40 INFO  LocaleFilter:29 - do Filter
+2019-05-15 22:53:19 INFO  EncodingFilter:17 - do Filter
+2019-05-15 22:53:19 INFO  LocaleFilter:29 - do Filter
+2019-05-15 22:53:19 INFO  CommandFactory:32 - Command get
+2019-05-15 22:53:19 INFO  DaoFactory:27 - dao factory
+2019-05-15 22:53:19 INFO  UserServiceImpl:64 - get Login and password
+2019-05-15 22:53:19 INFO  LoginCommand:36 - user login
+2019-05-15 22:53:19 INFO  EncodingFilter:17 - do Filter
+2019-05-15 22:53:19 INFO  LocaleFilter:29 - do Filter
+2019-05-15 22:53:19 INFO  AuthenticationFilter:21 - doFilter
+2019-05-15 22:53:19 INFO  RoleFilter:28 - Do Filter
+2019-05-15 22:53:19 INFO  CommandFactory:32 - Command get
+2019-05-15 22:53:19 INFO  AdminCommand:15 - execute
+2019-05-15 22:53:22 INFO  EncodingFilter:17 - do Filter
+2019-05-15 22:53:22 INFO  LocaleFilter:29 - do Filter
+2019-05-15 22:53:22 INFO  CommandFactory:32 - Command get
+2019-05-15 22:53:22 INFO  EncodingFilter:17 - do Filter
+2019-05-15 22:53:22 INFO  LocaleFilter:29 - do Filter
+2019-05-15 22:53:22 INFO  AuthenticationFilter:21 - doFilter
+2019-05-15 22:53:22 INFO  RoleFilter:28 - Do Filter
+2019-05-15 22:53:22 INFO  CommandFactory:32 - Command get
+2019-05-15 22:53:22 INFO  AdminCommand:15 - execute
+2019-05-15 22:53:26 INFO  EncodingFilter:17 - do Filter
+2019-05-15 22:53:26 INFO  LocaleFilter:29 - do Filter
+2019-05-15 22:53:26 INFO  CommandFactory:32 - Command get
+2019-05-15 22:53:26 INFO  LogoutCommand:17 - execute
+2019-05-15 22:53:26 INFO  EncodingFilter:17 - do Filter
+2019-05-15 22:53:26 INFO  LocaleFilter:29 - do Filter
+2019-05-15 22:53:26 INFO  CommandFactory:32 - Command get
+2019-05-16 00:09:28 INFO  DaoFactory:27 - dao factory
+2019-05-16 00:09:29 INFO  DaoFactory:27 - dao factory
+2019-05-16 00:09:29 INFO  MenuDaoImpl:64 - Cannot find All
+java.sql.SQLException: Column 'bill_id' not found.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.findColumn(ResultSetImpl.java:581)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.getInt(ResultSetImpl.java:916)
+	at org.apache.commons.dbcp.DelegatingResultSet.getInt(DelegatingResultSet.java:275)
+	at org.apache.commons.dbcp.DelegatingResultSet.getInt(DelegatingResultSet.java:275)
+	at model.dao.mapper.MenuMapper.extractFromResultSet(MenuMapper.java:13)
+	at model.dao.daoimpl.MenuDaoImpl.findAll(MenuDaoImpl.java:60)
+	at Main.main(Main.java:15)
+2019-05-16 00:10:05 INFO  DaoFactory:27 - dao factory
+2019-05-16 00:10:06 INFO  DaoFactory:27 - dao factory
+2019-05-16 00:10:06 INFO  MenuDaoImpl:64 - Cannot find All
+java.sql.SQLException: Column 'bill_id' not found.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.findColumn(ResultSetImpl.java:581)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.getInt(ResultSetImpl.java:916)
+	at org.apache.commons.dbcp.DelegatingResultSet.getInt(DelegatingResultSet.java:275)
+	at org.apache.commons.dbcp.DelegatingResultSet.getInt(DelegatingResultSet.java:275)
+	at model.dao.mapper.MenuMapper.extractFromResultSet(MenuMapper.java:13)
+	at model.dao.daoimpl.MenuDaoImpl.findAll(MenuDaoImpl.java:60)
+	at Main.main(Main.java:15)
+2019-05-16 00:11:47 INFO  DaoFactory:27 - dao factory
+2019-05-16 00:11:48 INFO  DaoFactory:27 - dao factory
+2019-05-16 00:11:48 INFO  MenuDaoImpl:64 - Cannot find All
+java.sql.SQLException: Column 'bill_id' not found.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.findColumn(ResultSetImpl.java:581)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.getInt(ResultSetImpl.java:916)
+	at org.apache.commons.dbcp.DelegatingResultSet.getInt(DelegatingResultSet.java:275)
+	at org.apache.commons.dbcp.DelegatingResultSet.getInt(DelegatingResultSet.java:275)
+	at model.dao.mapper.MenuMapper.extractFromResultSet(MenuMapper.java:13)
+	at model.dao.daoimpl.MenuDaoImpl.findAll(MenuDaoImpl.java:60)
+	at Main.main(Main.java:15)
+2019-05-16 00:13:20 INFO  DaoFactory:27 - dao factory
+2019-05-16 00:13:20 INFO  DaoFactory:27 - dao factory
+2019-05-16 00:13:20 INFO  MenuDaoImpl:64 - Cannot find All
+java.sql.SQLException: Column 'bill_id' not found.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.findColumn(ResultSetImpl.java:581)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.getInt(ResultSetImpl.java:916)
+	at org.apache.commons.dbcp.DelegatingResultSet.getInt(DelegatingResultSet.java:275)
+	at org.apache.commons.dbcp.DelegatingResultSet.getInt(DelegatingResultSet.java:275)
+	at model.dao.mapper.MenuMapper.extractFromResultSet(MenuMapper.java:13)
+	at model.dao.daoimpl.MenuDaoImpl.findAll(MenuDaoImpl.java:60)
+	at Main.main(Main.java:15)
+2019-05-16 00:13:20 INFO  MenuDaoImpl:47 - Menu do not find by Id
+java.sql.SQLException: Column 'bill_id' not found.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.findColumn(ResultSetImpl.java:581)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.getInt(ResultSetImpl.java:916)
+	at org.apache.commons.dbcp.DelegatingResultSet.getInt(DelegatingResultSet.java:275)
+	at org.apache.commons.dbcp.DelegatingResultSet.getInt(DelegatingResultSet.java:275)
+	at model.dao.mapper.MenuMapper.extractFromResultSet(MenuMapper.java:13)
+	at model.dao.daoimpl.MenuDaoImpl.findById(MenuDaoImpl.java:43)
+	at model.dao.daoimpl.MenuDaoImpl.findById(MenuDaoImpl.java:16)
+	at Main.main(Main.java:16)
+2019-05-16 00:14:33 INFO  DaoFactory:27 - dao factory
+2019-05-16 00:14:33 INFO  DaoFactory:27 - dao factory
+2019-05-16 00:14:33 INFO  BillDaoImpl:104 - Order don`t set 
+java.sql.BatchUpdateException: Cannot add or update a child row: a foreign key constraint fails (`resstaurant`.`order_has_menu`, CONSTRAINT `fk_order_has_menu_order` FOREIGN KEY (`order_order_id`) REFERENCES `order` (`order_id`))
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.util.Util.handleNewInstance(Util.java:191)
+	at com.mysql.cj.util.Util.getInstance(Util.java:166)
+	at com.mysql.cj.util.Util.getInstance(Util.java:173)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createBatchUpdateException(SQLError.java:224)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeBatchSerially(ClientPreparedStatement.java:870)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeBatchInternal(ClientPreparedStatement.java:452)
+	at com.mysql.cj.jdbc.StatementImpl.executeBatch(StatementImpl.java:814)
+	at org.apache.commons.dbcp.DelegatingStatement.executeBatch(DelegatingStatement.java:297)
+	at org.apache.commons.dbcp.DelegatingStatement.executeBatch(DelegatingStatement.java:297)
+	at model.dao.daoimpl.OrderDaoImpl.setDish(OrderDaoImpl.java:101)
+	at Main.main(Main.java:20)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`resstaurant`.`order_has_menu`, CONSTRAINT `fk_order_has_menu_order` FOREIGN KEY (`order_order_id`) REFERENCES `order` (`order_id`))
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:970)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1109)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeBatchSerially(ClientPreparedStatement.java:849)
+	... 6 more
+2019-05-16 00:15:23 INFO  DaoFactory:27 - dao factory
+2019-05-16 00:15:24 INFO  DaoFactory:27 - dao factory
+2019-05-16 00:16:11 INFO  BillDaoImpl:104 - Order don`t set 
+java.sql.BatchUpdateException: Cannot add or update a child row: a foreign key constraint fails (`resstaurant`.`order_has_menu`, CONSTRAINT `fk_order_has_menu_order` FOREIGN KEY (`order_order_id`) REFERENCES `order` (`order_id`))
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.util.Util.handleNewInstance(Util.java:191)
+	at com.mysql.cj.util.Util.getInstance(Util.java:166)
+	at com.mysql.cj.util.Util.getInstance(Util.java:173)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createBatchUpdateException(SQLError.java:224)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeBatchSerially(ClientPreparedStatement.java:870)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeBatchInternal(ClientPreparedStatement.java:452)
+	at com.mysql.cj.jdbc.StatementImpl.executeBatch(StatementImpl.java:814)
+	at org.apache.commons.dbcp.DelegatingStatement.executeBatch(DelegatingStatement.java:297)
+	at org.apache.commons.dbcp.DelegatingStatement.executeBatch(DelegatingStatement.java:297)
+	at model.dao.daoimpl.OrderDaoImpl.setDish(OrderDaoImpl.java:101)
+	at Main.main(Main.java:20)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`resstaurant`.`order_has_menu`, CONSTRAINT `fk_order_has_menu_order` FOREIGN KEY (`order_order_id`) REFERENCES `order` (`order_id`))
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:970)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1109)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeBatchSerially(ClientPreparedStatement.java:849)
+	... 6 more
+2019-05-16 00:16:30 INFO  DaoFactory:27 - dao factory
+2019-05-16 00:16:31 INFO  DaoFactory:27 - dao factory
+2019-05-16 00:19:11 INFO  BillDaoImpl:104 - Order don`t set 
+java.sql.BatchUpdateException: Cannot add or update a child row: a foreign key constraint fails (`resstaurant`.`order_has_menu`, CONSTRAINT `fk_order_has_menu_order` FOREIGN KEY (`order_order_id`) REFERENCES `order` (`order_id`))
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.util.Util.handleNewInstance(Util.java:191)
+	at com.mysql.cj.util.Util.getInstance(Util.java:166)
+	at com.mysql.cj.util.Util.getInstance(Util.java:173)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createBatchUpdateException(SQLError.java:224)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeBatchSerially(ClientPreparedStatement.java:870)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeBatchInternal(ClientPreparedStatement.java:452)
+	at com.mysql.cj.jdbc.StatementImpl.executeBatch(StatementImpl.java:814)
+	at org.apache.commons.dbcp.DelegatingStatement.executeBatch(DelegatingStatement.java:297)
+	at org.apache.commons.dbcp.DelegatingStatement.executeBatch(DelegatingStatement.java:297)
+	at model.dao.daoimpl.OrderDaoImpl.setDish(OrderDaoImpl.java:101)
+	at Main.main(Main.java:20)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`resstaurant`.`order_has_menu`, CONSTRAINT `fk_order_has_menu_order` FOREIGN KEY (`order_order_id`) REFERENCES `order` (`order_id`))
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:970)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1109)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeBatchSerially(ClientPreparedStatement.java:849)
+	... 6 more
+2019-05-16 00:19:14 INFO  DaoFactory:27 - dao factory
+2019-05-16 00:19:15 INFO  DaoFactory:27 - dao factory
+2019-05-16 00:59:19 INFO  DaoFactory:27 - dao factory
+2019-05-16 00:59:20 INFO  DaoFactory:27 - dao factory
+2019-05-16 00:59:32 INFO  DaoFactory:27 - dao factory
+2019-05-16 00:59:33 INFO  DaoFactory:27 - dao factory
+2019-05-16 01:01:31 INFO  DaoFactory:27 - dao factory
+2019-05-16 01:01:32 INFO  DaoFactory:27 - dao factory
+2019-05-16 01:01:32 INFO  BillDaoImpl:37 - Do not create order
+java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:970)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1109)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1057)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1377)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1042)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:105)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:105)
+	at model.dao.daoimpl.OrderDaoImpl.create(OrderDaoImpl.java:31)
+	at model.dao.daoimpl.OrderDaoImpl.create(OrderDaoImpl.java:17)
+	at Main.main(Main.java:17)
+2019-05-16 01:02:11 INFO  DaoFactory:27 - dao factory
+2019-05-16 01:02:12 INFO  DaoFactory:27 - dao factory
+2019-05-16 01:02:12 INFO  BillDaoImpl:37 - Do not create order
+java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:970)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1109)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1057)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1377)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1042)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:105)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:105)
+	at model.dao.daoimpl.OrderDaoImpl.create(OrderDaoImpl.java:31)
+	at model.dao.daoimpl.OrderDaoImpl.create(OrderDaoImpl.java:17)
+	at Main.main(Main.java:17)
+2019-05-16 01:02:17 INFO  DaoFactory:27 - dao factory
+2019-05-16 01:02:18 INFO  DaoFactory:27 - dao factory
+2019-05-16 01:02:32 INFO  BillDaoImpl:37 - Do not create order
+java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:970)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1109)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1057)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1377)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1042)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:105)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:105)
+	at model.dao.daoimpl.OrderDaoImpl.create(OrderDaoImpl.java:31)
+	at model.dao.daoimpl.OrderDaoImpl.create(OrderDaoImpl.java:17)
+	at Main.main(Main.java:17)
+2019-05-16 01:03:16 INFO  DaoFactory:27 - dao factory
+2019-05-16 01:03:16 INFO  DaoFactory:27 - dao factory
+2019-05-16 01:03:16 INFO  BillDaoImpl:37 - Do not create order
+java.sql.SQLException: Generated keys not requested. You need to specify Statement.RETURN_GENERATED_KEYS to Statement.executeUpdate(), Statement.executeLargeUpdate() or Connection.prepareStatement().
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+	at com.mysql.cj.jdbc.StatementImpl.getGeneratedKeys(StatementImpl.java:1396)
+	at org.apache.commons.dbcp.DelegatingStatement.getGeneratedKeys(DelegatingStatement.java:315)
+	at org.apache.commons.dbcp.DelegatingStatement.getGeneratedKeys(DelegatingStatement.java:315)
+	at model.dao.daoimpl.OrderDaoImpl.create(OrderDaoImpl.java:32)
+	at model.dao.daoimpl.OrderDaoImpl.create(OrderDaoImpl.java:17)
+	at Main.main(Main.java:17)
+2019-05-16 01:04:29 INFO  DaoFactory:27 - dao factory
+2019-05-16 01:04:30 INFO  DaoFactory:27 - dao factory
+2019-05-16 01:05:11 INFO  BillDaoImpl:37 - Do not create order
+java.sql.SQLException: Generated keys not requested. You need to specify Statement.RETURN_GENERATED_KEYS to Statement.executeUpdate(), Statement.executeLargeUpdate() or Connection.prepareStatement().
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+	at com.mysql.cj.jdbc.StatementImpl.getGeneratedKeys(StatementImpl.java:1396)
+	at org.apache.commons.dbcp.DelegatingStatement.getGeneratedKeys(DelegatingStatement.java:315)
+	at org.apache.commons.dbcp.DelegatingStatement.getGeneratedKeys(DelegatingStatement.java:315)
+	at model.dao.daoimpl.OrderDaoImpl.create(OrderDaoImpl.java:32)
+	at model.dao.daoimpl.OrderDaoImpl.create(OrderDaoImpl.java:17)
+	at Main.main(Main.java:17)
+2019-05-16 01:05:31 INFO  DaoFactory:27 - dao factory
+2019-05-16 01:05:32 INFO  DaoFactory:27 - dao factory
+2019-05-16 01:05:32 INFO  BillDaoImpl:37 - Do not create order
+java.sql.SQLException: Generated keys not requested. You need to specify Statement.RETURN_GENERATED_KEYS to Statement.executeUpdate(), Statement.executeLargeUpdate() or Connection.prepareStatement().
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+	at com.mysql.cj.jdbc.StatementImpl.getGeneratedKeys(StatementImpl.java:1396)
+	at org.apache.commons.dbcp.DelegatingStatement.getGeneratedKeys(DelegatingStatement.java:315)
+	at org.apache.commons.dbcp.DelegatingStatement.getGeneratedKeys(DelegatingStatement.java:315)
+	at model.dao.daoimpl.OrderDaoImpl.create(OrderDaoImpl.java:32)
+	at model.dao.daoimpl.OrderDaoImpl.create(OrderDaoImpl.java:17)
+	at Main.main(Main.java:17)
+2019-05-16 01:07:27 INFO  DaoFactory:27 - dao factory
+2019-05-16 01:07:28 INFO  DaoFactory:27 - dao factory
+2019-05-16 01:07:34 INFO  BillDaoImpl:37 - Do not create order
+java.sql.SQLException: Generated keys not requested. You need to specify Statement.RETURN_GENERATED_KEYS to Statement.executeUpdate(), Statement.executeLargeUpdate() or Connection.prepareStatement().
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+	at com.mysql.cj.jdbc.StatementImpl.getGeneratedKeys(StatementImpl.java:1396)
+	at org.apache.commons.dbcp.DelegatingStatement.getGeneratedKeys(DelegatingStatement.java:315)
+	at org.apache.commons.dbcp.DelegatingStatement.getGeneratedKeys(DelegatingStatement.java:315)
+	at model.dao.daoimpl.OrderDaoImpl.create(OrderDaoImpl.java:32)
+	at model.dao.daoimpl.OrderDaoImpl.create(OrderDaoImpl.java:17)
+	at Main.main(Main.java:17)
+2019-05-16 01:07:51 INFO  DaoFactory:27 - dao factory
+2019-05-16 01:07:51 INFO  DaoFactory:27 - dao factory
+2019-05-16 01:08:32 INFO  BillDaoImpl:37 - Do not create order
+java.sql.SQLException: Generated keys not requested. You need to specify Statement.RETURN_GENERATED_KEYS to Statement.executeUpdate(), Statement.executeLargeUpdate() or Connection.prepareStatement().
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+	at com.mysql.cj.jdbc.StatementImpl.getGeneratedKeys(StatementImpl.java:1396)
+	at org.apache.commons.dbcp.DelegatingStatement.getGeneratedKeys(DelegatingStatement.java:315)
+	at org.apache.commons.dbcp.DelegatingStatement.getGeneratedKeys(DelegatingStatement.java:315)
+	at model.dao.daoimpl.OrderDaoImpl.create(OrderDaoImpl.java:32)
+	at model.dao.daoimpl.OrderDaoImpl.create(OrderDaoImpl.java:17)
+	at Main.main(Main.java:17)
+2019-05-16 01:09:51 INFO  DaoFactory:27 - dao factory
+2019-05-16 01:09:51 INFO  DaoFactory:27 - dao factory
+2019-05-16 01:09:51 INFO  BillDaoImpl:35 - Do not create order
+java.sql.SQLException: Generated keys not requested. You need to specify Statement.RETURN_GENERATED_KEYS to Statement.executeUpdate(), Statement.executeLargeUpdate() or Connection.prepareStatement().
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+	at com.mysql.cj.jdbc.StatementImpl.getGeneratedKeys(StatementImpl.java:1396)
+	at org.apache.commons.dbcp.DelegatingStatement.getGeneratedKeys(DelegatingStatement.java:315)
+	at org.apache.commons.dbcp.DelegatingStatement.getGeneratedKeys(DelegatingStatement.java:315)
+	at model.dao.daoimpl.OrderDaoImpl.create(OrderDaoImpl.java:31)
+	at model.dao.daoimpl.OrderDaoImpl.create(OrderDaoImpl.java:17)
+	at Main.main(Main.java:17)
+2019-05-16 01:10:07 INFO  DaoFactory:27 - dao factory
+2019-05-16 01:10:07 INFO  DaoFactory:27 - dao factory
+2019-05-16 01:10:07 INFO  BillDaoImpl:36 - Do not create order
+java.sql.SQLException: Generated keys not requested. You need to specify Statement.RETURN_GENERATED_KEYS to Statement.executeUpdate(), Statement.executeLargeUpdate() or Connection.prepareStatement().
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+	at com.mysql.cj.jdbc.StatementImpl.getGeneratedKeys(StatementImpl.java:1396)
+	at org.apache.commons.dbcp.DelegatingStatement.getGeneratedKeys(DelegatingStatement.java:315)
+	at org.apache.commons.dbcp.DelegatingStatement.getGeneratedKeys(DelegatingStatement.java:315)
+	at model.dao.daoimpl.OrderDaoImpl.create(OrderDaoImpl.java:31)
+	at model.dao.daoimpl.OrderDaoImpl.create(OrderDaoImpl.java:17)
+	at Main.main(Main.java:17)
+2019-05-16 01:10:54 INFO  DaoFactory:27 - dao factory
+2019-05-16 01:10:55 INFO  DaoFactory:27 - dao factory
+2019-05-16 01:11:17 INFO  BillDaoImpl:36 - Do not create order
+java.sql.SQLException: Generated keys not requested. You need to specify Statement.RETURN_GENERATED_KEYS to Statement.executeUpdate(), Statement.executeLargeUpdate() or Connection.prepareStatement().
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+	at com.mysql.cj.jdbc.StatementImpl.getGeneratedKeys(StatementImpl.java:1396)
+	at org.apache.commons.dbcp.DelegatingStatement.getGeneratedKeys(DelegatingStatement.java:315)
+	at org.apache.commons.dbcp.DelegatingStatement.getGeneratedKeys(DelegatingStatement.java:315)
+	at model.dao.daoimpl.OrderDaoImpl.create(OrderDaoImpl.java:31)
+	at model.dao.daoimpl.OrderDaoImpl.create(OrderDaoImpl.java:17)
+	at Main.main(Main.java:17)
+2019-05-16 10:23:35 INFO  DaoFactory:27 - dao factory
+2019-05-16 10:23:36 INFO  UserServiceImpl:19 - Create user = %d
+2019-05-16 11:57:08 INFO  EncodingFilter:17 - do Filter
+2019-05-16 11:57:08 INFO  LocaleFilter:29 - do Filter
+2019-05-16 11:57:10 INFO  EncodingFilter:17 - do Filter
+2019-05-16 11:57:10 INFO  LocaleFilter:29 - do Filter
+2019-05-16 11:57:10 INFO  EncodingFilter:17 - do Filter
+2019-05-16 11:57:10 INFO  LocaleFilter:29 - do Filter
+2019-05-16 11:57:10 INFO  EncodingFilter:17 - do Filter
+2019-05-16 11:57:10 INFO  LocaleFilter:29 - do Filter
+2019-05-16 11:57:16 INFO  EncodingFilter:17 - do Filter
+2019-05-16 11:57:16 INFO  LocaleFilter:29 - do Filter
+2019-05-16 11:57:16 INFO  DaoFactory:27 - dao factory
+2019-05-16 11:57:16 INFO  DaoFactory:27 - dao factory
+2019-05-16 11:57:16 INFO  CommandFactory:36 - Command get
+2019-05-16 11:57:16 INFO  DaoFactory:27 - dao factory
+2019-05-16 11:57:16 INFO  UserServiceImpl:63 - get Login and password
+2019-05-16 11:57:17 INFO  LoginCommand:36 - user login
+2019-05-16 11:57:17 INFO  EncodingFilter:17 - do Filter
+2019-05-16 11:57:17 INFO  LocaleFilter:29 - do Filter
+2019-05-16 11:57:17 INFO  AuthenticationFilter:21 - doFilter
+2019-05-16 11:57:17 INFO  RoleFilter:30 - Do Filter
+2019-05-16 11:57:17 INFO  CommandFactory:36 - Command get
+2019-05-16 11:57:17 INFO  ClientPageCommand:21 - execute
+2019-05-16 11:57:18 INFO  EncodingFilter:17 - do Filter
+2019-05-16 11:57:18 INFO  LocaleFilter:29 - do Filter
+2019-05-16 11:57:18 INFO  AuthenticationFilter:21 - doFilter
+2019-05-16 11:57:18 INFO  RoleFilter:30 - Do Filter
+2019-05-16 11:57:18 INFO  CommandFactory:36 - Command get
+2019-05-16 11:57:18 INFO  MenuServiceImpl:40 - Find all menus
+2019-05-16 11:57:18 INFO  ClientOrderPageCommand:20 - execute
+2019-05-16 11:57:36 INFO  EncodingFilter:17 - do Filter
+2019-05-16 11:57:36 INFO  LocaleFilter:29 - do Filter
+2019-05-16 11:57:36 INFO  CommandFactory:36 - Command get
+2019-05-16 11:57:36 INFO  LogoutCommand:17 - execute
+2019-05-16 11:57:36 INFO  EncodingFilter:17 - do Filter
+2019-05-16 11:57:36 INFO  LocaleFilter:29 - do Filter
+2019-05-16 11:57:36 INFO  CommandFactory:36 - Command get
+2019-05-16 20:26:39 INFO  EncodingFilter:17 - do Filter
+2019-05-16 20:26:39 INFO  LocaleFilter:29 - do Filter
+2019-05-16 20:26:40 INFO  EncodingFilter:17 - do Filter
+2019-05-16 20:26:40 INFO  LocaleFilter:29 - do Filter
+2019-05-16 20:26:43 INFO  EncodingFilter:17 - do Filter
+2019-05-16 20:26:43 INFO  LocaleFilter:29 - do Filter
+2019-05-16 20:26:43 INFO  EncodingFilter:17 - do Filter
+2019-05-16 20:26:43 INFO  LocaleFilter:29 - do Filter
+2019-05-16 20:26:44 INFO  DaoFactory:27 - dao factory
+2019-05-16 20:26:44 INFO  DaoFactory:27 - dao factory
+2019-05-16 20:26:44 INFO  CommandFactory:36 - Command get
+2019-05-16 20:26:44 INFO  EncodingFilter:17 - do Filter
+2019-05-16 20:26:44 INFO  LocaleFilter:29 - do Filter
+2019-05-16 20:26:46 INFO  EncodingFilter:17 - do Filter
+2019-05-16 20:26:46 INFO  LocaleFilter:29 - do Filter
+2019-05-16 20:28:14 INFO  EncodingFilter:17 - do Filter
+2019-05-16 20:28:14 INFO  LocaleFilter:29 - do Filter
+2019-05-16 20:28:14 INFO  CommandFactory:36 - Command get
+2019-05-16 20:28:14 INFO  DaoFactory:27 - dao factory
+2019-05-16 20:28:15 INFO  UserServiceImpl:63 - get Login and password
+2019-05-16 20:28:15 INFO  LoginCommand:36 - user login
+2019-05-16 20:28:15 INFO  EncodingFilter:17 - do Filter
+2019-05-16 20:28:15 INFO  LocaleFilter:29 - do Filter
+2019-05-16 20:28:15 INFO  AuthenticationFilter:21 - doFilter
+2019-05-16 20:28:15 INFO  RoleFilter:30 - Do Filter
+2019-05-16 20:28:15 INFO  CommandFactory:36 - Command get
+2019-05-16 20:28:15 INFO  ClientPageCommand:21 - execute
+2019-05-16 20:28:17 INFO  EncodingFilter:17 - do Filter
+2019-05-16 20:28:17 INFO  LocaleFilter:29 - do Filter
+2019-05-16 20:28:17 INFO  AuthenticationFilter:21 - doFilter
+2019-05-16 20:28:17 INFO  RoleFilter:30 - Do Filter
+2019-05-16 20:28:17 INFO  CommandFactory:36 - Command get
+2019-05-16 20:28:17 INFO  MenuServiceImpl:40 - Find all menus
+2019-05-16 20:28:17 INFO  ClientOrderPageCommand:20 - execute
+2019-05-16 21:27:57 INFO  EncodingFilter:17 - do Filter
+2019-05-16 21:27:57 INFO  LocaleFilter:29 - do Filter
+2019-05-16 21:27:57 INFO  AuthenticationFilter:21 - doFilter
+2019-05-16 21:27:57 INFO  EncodingFilter:17 - do Filter
+2019-05-16 21:27:57 INFO  LocaleFilter:29 - do Filter
+2019-05-16 21:27:57 INFO  CommandFactory:36 - Command get
+2019-05-16 21:28:01 INFO  EncodingFilter:17 - do Filter
+2019-05-16 21:28:01 INFO  LocaleFilter:29 - do Filter
+2019-05-16 21:28:01 INFO  CommandFactory:36 - Command get
+2019-05-16 21:28:01 INFO  DaoFactory:27 - dao factory
+2019-05-16 21:28:01 INFO  UserServiceImpl:63 - get Login and password
+2019-05-16 21:28:01 INFO  LoginCommand:36 - user login
+2019-05-16 21:28:01 INFO  EncodingFilter:17 - do Filter
+2019-05-16 21:28:01 INFO  LocaleFilter:29 - do Filter
+2019-05-16 21:28:01 INFO  AuthenticationFilter:21 - doFilter
+2019-05-16 21:28:01 INFO  RoleFilter:30 - Do Filter
+2019-05-16 21:28:01 INFO  CommandFactory:36 - Command get
+2019-05-16 21:28:01 INFO  ClientPageCommand:21 - execute
+2019-05-16 21:28:02 INFO  EncodingFilter:17 - do Filter
+2019-05-16 21:28:02 INFO  LocaleFilter:29 - do Filter
+2019-05-16 21:28:02 INFO  AuthenticationFilter:21 - doFilter
+2019-05-16 21:28:02 INFO  RoleFilter:30 - Do Filter
+2019-05-16 21:28:02 INFO  CommandFactory:36 - Command get
+2019-05-16 21:28:02 INFO  MenuServiceImpl:40 - Find all menus
+2019-05-16 21:28:02 INFO  ClientOrderPageCommand:20 - execute
+2019-05-16 21:28:30 INFO  EncodingFilter:17 - do Filter
+2019-05-16 21:28:30 INFO  LocaleFilter:29 - do Filter
+2019-05-16 21:28:30 INFO  EncodingFilter:17 - do Filter
+2019-05-16 21:28:30 INFO  LocaleFilter:29 - do Filter
+2019-05-16 21:28:30 INFO  AuthenticationFilter:21 - doFilter
+2019-05-16 21:28:30 INFO  RoleFilter:30 - Do Filter
+2019-05-16 21:28:30 INFO  CommandFactory:36 - Command get
+2019-05-16 21:28:30 INFO  MenuServiceImpl:40 - Find all menus
+2019-05-16 21:28:30 INFO  ClientOrderPageCommand:20 - execute
+2019-05-16 21:28:33 INFO  EncodingFilter:17 - do Filter
+2019-05-16 21:28:33 INFO  LocaleFilter:29 - do Filter
+2019-05-16 21:28:33 INFO  EncodingFilter:17 - do Filter
+2019-05-16 21:28:33 INFO  LocaleFilter:29 - do Filter
+2019-05-16 21:28:33 INFO  AuthenticationFilter:21 - doFilter
+2019-05-16 21:28:33 INFO  RoleFilter:30 - Do Filter
+2019-05-16 21:28:33 INFO  CommandFactory:36 - Command get
+2019-05-16 21:28:33 INFO  MenuServiceImpl:40 - Find all menus
+2019-05-16 21:28:33 INFO  ClientOrderPageCommand:20 - execute
+2019-05-16 21:30:12 INFO  EncodingFilter:17 - do Filter
+2019-05-16 21:30:12 INFO  LocaleFilter:29 - do Filter
+2019-05-16 21:30:12 INFO  EncodingFilter:17 - do Filter
+2019-05-16 21:30:12 INFO  LocaleFilter:29 - do Filter
+2019-05-16 21:30:12 INFO  AuthenticationFilter:21 - doFilter
+2019-05-16 21:30:12 INFO  RoleFilter:30 - Do Filter
+2019-05-16 21:30:12 INFO  CommandFactory:36 - Command get
+2019-05-16 21:30:12 INFO  MenuServiceImpl:40 - Find all menus
+2019-05-16 21:30:12 INFO  ClientOrderPageCommand:20 - execute
+2019-05-16 21:51:31 INFO  EncodingFilter:17 - do Filter
+2019-05-16 21:51:31 INFO  LocaleFilter:29 - do Filter
+2019-05-16 21:51:31 INFO  AuthenticationFilter:21 - doFilter
+2019-05-16 21:51:31 INFO  RoleFilter:30 - Do Filter
+2019-05-16 21:51:31 INFO  CommandFactory:36 - Command get
+2019-05-16 21:51:31 INFO  MenuServiceImpl:40 - Find all menus
+2019-05-16 21:51:31 INFO  ClientOrderPageCommand:20 - execute
+2019-05-16 21:53:52 INFO  EncodingFilter:17 - do Filter
+2019-05-16 21:53:52 INFO  LocaleFilter:29 - do Filter
+2019-05-16 21:53:52 INFO  AuthenticationFilter:21 - doFilter
+2019-05-16 21:53:52 INFO  RoleFilter:30 - Do Filter
+2019-05-16 21:53:52 INFO  CommandFactory:36 - Command get
+2019-05-16 21:53:52 INFO  MenuServiceImpl:40 - Find all menus
+2019-05-16 21:53:52 INFO  ClientOrderPageCommand:20 - execute
+2019-05-16 21:53:54 INFO  EncodingFilter:17 - do Filter
+2019-05-16 21:53:54 INFO  LocaleFilter:29 - do Filter
+2019-05-16 21:53:54 INFO  AuthenticationFilter:21 - doFilter
+2019-05-16 21:53:54 INFO  RoleFilter:30 - Do Filter
+2019-05-16 21:53:54 INFO  CommandFactory:36 - Command get
+2019-05-16 21:53:54 INFO  MenuServiceImpl:40 - Find all menus
+2019-05-16 21:53:54 INFO  ClientOrderPageCommand:20 - execute
+2019-05-16 21:54:08 INFO  EncodingFilter:17 - do Filter
+2019-05-16 21:54:08 INFO  LocaleFilter:29 - do Filter
+2019-05-16 21:54:12 INFO  EncodingFilter:17 - do Filter
+2019-05-16 21:54:12 INFO  LocaleFilter:29 - do Filter
+2019-05-16 21:54:12 INFO  EncodingFilter:17 - do Filter
+2019-05-16 21:54:12 INFO  LocaleFilter:29 - do Filter
+2019-05-16 21:54:17 INFO  EncodingFilter:17 - do Filter
+2019-05-16 21:54:17 INFO  LocaleFilter:29 - do Filter
+2019-05-16 21:54:17 INFO  CommandFactory:36 - Command get
+2019-05-16 21:54:17 INFO  DaoFactory:27 - dao factory
+2019-05-16 21:54:17 INFO  UserServiceImpl:63 - get Login and password
+2019-05-16 21:54:17 INFO  LoginCommand:36 - user login
+2019-05-16 21:54:17 INFO  EncodingFilter:17 - do Filter
+2019-05-16 21:54:17 INFO  LocaleFilter:29 - do Filter
+2019-05-16 21:54:17 INFO  AuthenticationFilter:21 - doFilter
+2019-05-16 21:54:17 INFO  RoleFilter:30 - Do Filter
+2019-05-16 21:54:17 INFO  CommandFactory:36 - Command get
+2019-05-16 21:54:17 INFO  ClientPageCommand:21 - execute
+2019-05-16 21:54:18 INFO  EncodingFilter:17 - do Filter
+2019-05-16 21:54:18 INFO  LocaleFilter:29 - do Filter
+2019-05-16 21:54:18 INFO  AuthenticationFilter:21 - doFilter
+2019-05-16 21:54:18 INFO  RoleFilter:30 - Do Filter
+2019-05-16 21:54:18 INFO  CommandFactory:36 - Command get
+2019-05-16 21:54:18 INFO  MenuServiceImpl:40 - Find all menus
+2019-05-16 21:54:18 INFO  ClientOrderPageCommand:20 - execute
+2019-05-16 21:54:22 INFO  EncodingFilter:17 - do Filter
+2019-05-16 21:54:22 INFO  LocaleFilter:29 - do Filter
+2019-05-16 21:54:22 INFO  CommandFactory:36 - Command get
+2019-05-16 21:54:22 INFO  LogoutCommand:17 - execute
+2019-05-16 21:54:22 INFO  EncodingFilter:17 - do Filter
+2019-05-16 21:54:22 INFO  LocaleFilter:29 - do Filter
+2019-05-16 21:54:22 INFO  CommandFactory:36 - Command get
+2019-05-16 21:54:30 INFO  EncodingFilter:17 - do Filter
+2019-05-16 21:54:30 INFO  LocaleFilter:29 - do Filter
+2019-05-16 21:54:30 INFO  AuthenticationFilter:21 - doFilter
+2019-05-16 21:54:30 INFO  EncodingFilter:17 - do Filter
+2019-05-16 21:54:30 INFO  LocaleFilter:29 - do Filter
+2019-05-16 21:54:30 INFO  CommandFactory:36 - Command get
+2019-05-16 21:54:34 INFO  EncodingFilter:17 - do Filter
+2019-05-16 21:54:34 INFO  LocaleFilter:29 - do Filter
+2019-05-16 21:54:34 INFO  AuthenticationFilter:21 - doFilter
+2019-05-16 21:54:37 INFO  EncodingFilter:17 - do Filter
+2019-05-16 21:54:37 INFO  LocaleFilter:29 - do Filter
+2019-05-16 21:54:37 INFO  AuthenticationFilter:21 - doFilter
+2019-05-16 21:54:37 INFO  EncodingFilter:17 - do Filter
+2019-05-16 21:54:37 INFO  LocaleFilter:29 - do Filter
+2019-05-16 21:54:37 INFO  CommandFactory:36 - Command get
+2019-05-16 21:54:42 INFO  EncodingFilter:17 - do Filter
+2019-05-16 21:54:42 INFO  LocaleFilter:29 - do Filter
+2019-05-16 21:54:42 INFO  AuthenticationFilter:21 - doFilter
+2019-05-16 21:54:56 INFO  EncodingFilter:17 - do Filter
+2019-05-16 21:54:56 INFO  LocaleFilter:29 - do Filter
+2019-05-16 21:54:56 INFO  AuthenticationFilter:21 - doFilter
+2019-05-16 21:54:56 INFO  EncodingFilter:17 - do Filter
+2019-05-16 21:54:56 INFO  LocaleFilter:29 - do Filter
+2019-05-16 21:54:56 INFO  CommandFactory:36 - Command get
+2019-05-16 21:58:41 INFO  EncodingFilter:17 - do Filter
+2019-05-16 21:58:41 INFO  LocaleFilter:29 - do Filter
+2019-05-16 21:58:41 INFO  CommandFactory:36 - Command get
+2019-05-16 21:58:41 INFO  DaoFactory:27 - dao factory
+2019-05-16 21:58:41 INFO  UserServiceImpl:63 - get Login and password
+2019-05-16 21:58:41 INFO  LoginCommand:36 - user login
+2019-05-16 21:58:41 INFO  EncodingFilter:17 - do Filter
+2019-05-16 21:58:41 INFO  LocaleFilter:29 - do Filter
+2019-05-16 21:58:41 INFO  CommandFactory:36 - Command get
+2019-05-16 21:58:46 INFO  EncodingFilter:17 - do Filter
+2019-05-16 21:58:46 INFO  LocaleFilter:29 - do Filter
+2019-05-16 21:58:46 INFO  CommandFactory:36 - Command get
+2019-05-16 21:58:46 INFO  DaoFactory:27 - dao factory
+2019-05-16 21:58:46 INFO  UserServiceImpl:63 - get Login and password
+2019-05-16 21:58:46 INFO  LoginCommand:36 - user login
+2019-05-16 21:58:46 INFO  EncodingFilter:17 - do Filter
+2019-05-16 21:58:46 INFO  LocaleFilter:29 - do Filter
+2019-05-16 21:58:46 INFO  AuthenticationFilter:21 - doFilter
+2019-05-16 21:58:46 INFO  RoleFilter:30 - Do Filter
+2019-05-16 21:58:46 INFO  CommandFactory:36 - Command get
+2019-05-16 21:58:46 INFO  ClientPageCommand:21 - execute
+2019-05-16 21:58:49 INFO  EncodingFilter:17 - do Filter
+2019-05-16 21:58:49 INFO  LocaleFilter:29 - do Filter
+2019-05-16 21:58:49 INFO  EncodingFilter:17 - do Filter
+2019-05-16 21:58:49 INFO  LocaleFilter:29 - do Filter
+2019-05-16 21:58:49 INFO  AuthenticationFilter:21 - doFilter
+2019-05-16 21:58:49 INFO  RoleFilter:30 - Do Filter
+2019-05-16 21:58:49 INFO  CommandFactory:36 - Command get
+2019-05-16 21:58:49 INFO  ClientPageCommand:21 - execute
+2019-05-16 21:58:50 INFO  EncodingFilter:17 - do Filter
+2019-05-16 21:58:50 INFO  LocaleFilter:29 - do Filter
+2019-05-16 21:58:50 INFO  AuthenticationFilter:21 - doFilter
+2019-05-16 21:58:50 INFO  RoleFilter:30 - Do Filter
+2019-05-16 21:58:50 INFO  CommandFactory:36 - Command get
+2019-05-16 21:58:50 INFO  MenuServiceImpl:40 - Find all menus
+2019-05-16 21:58:50 INFO  ClientOrderPageCommand:20 - execute
+2019-05-16 22:01:46 INFO  EncodingFilter:17 - do Filter
+2019-05-16 22:01:46 INFO  LocaleFilter:29 - do Filter
+2019-05-16 22:01:47 INFO  EncodingFilter:17 - do Filter
+2019-05-16 22:01:47 INFO  LocaleFilter:29 - do Filter
+2019-05-16 22:01:47 INFO  EncodingFilter:17 - do Filter
+2019-05-16 22:01:47 INFO  LocaleFilter:29 - do Filter
+2019-05-16 22:01:58 INFO  EncodingFilter:17 - do Filter
+2019-05-16 22:01:58 INFO  LocaleFilter:29 - do Filter
+2019-05-16 22:01:58 INFO  DaoFactory:27 - dao factory
+2019-05-16 22:01:58 INFO  DaoFactory:27 - dao factory
+2019-05-16 22:01:58 INFO  CommandFactory:36 - Command get
+2019-05-16 22:01:58 INFO  DaoFactory:27 - dao factory
+2019-05-16 22:01:58 INFO  UserServiceImpl:63 - get Login and password
+2019-05-16 22:01:58 INFO  LoginCommand:36 - user login
+2019-05-16 22:01:58 INFO  EncodingFilter:17 - do Filter
+2019-05-16 22:01:58 INFO  LocaleFilter:29 - do Filter
+2019-05-16 22:01:58 INFO  AuthenticationFilter:21 - doFilter
+2019-05-16 22:01:58 INFO  RoleFilter:30 - Do Filter
+2019-05-16 22:01:58 INFO  CommandFactory:36 - Command get
+2019-05-16 22:01:58 INFO  ClientPageCommand:21 - execute
+2019-05-16 22:02:00 INFO  EncodingFilter:17 - do Filter
+2019-05-16 22:02:00 INFO  LocaleFilter:29 - do Filter
+2019-05-16 22:02:00 INFO  AuthenticationFilter:21 - doFilter
+2019-05-16 22:02:00 INFO  RoleFilter:30 - Do Filter
+2019-05-16 22:02:00 INFO  CommandFactory:36 - Command get
+2019-05-16 22:02:00 INFO  MenuServiceImpl:40 - Find all menus
+2019-05-16 22:02:00 INFO  ClientOrderPageCommand:20 - execute
+2019-05-16 22:02:32 INFO  EncodingFilter:17 - do Filter
+2019-05-16 22:02:32 INFO  LocaleFilter:29 - do Filter
+2019-05-16 22:02:34 INFO  EncodingFilter:17 - do Filter
+2019-05-16 22:02:34 INFO  LocaleFilter:29 - do Filter
+2019-05-16 22:02:34 INFO  EncodingFilter:17 - do Filter
+2019-05-16 22:02:34 INFO  LocaleFilter:29 - do Filter
+2019-05-16 22:02:41 INFO  EncodingFilter:17 - do Filter
+2019-05-16 22:02:41 INFO  LocaleFilter:29 - do Filter
+2019-05-16 22:02:41 INFO  DaoFactory:27 - dao factory
+2019-05-16 22:02:41 INFO  DaoFactory:27 - dao factory
+2019-05-16 22:02:41 INFO  CommandFactory:36 - Command get
+2019-05-16 22:02:41 INFO  DaoFactory:27 - dao factory
+2019-05-16 22:02:41 INFO  UserServiceImpl:63 - get Login and password
+2019-05-16 22:02:41 INFO  LoginCommand:36 - user login
+2019-05-16 22:02:41 INFO  EncodingFilter:17 - do Filter
+2019-05-16 22:02:41 INFO  LocaleFilter:29 - do Filter
+2019-05-16 22:02:41 INFO  AuthenticationFilter:21 - doFilter
+2019-05-16 22:02:41 INFO  RoleFilter:30 - Do Filter
+2019-05-16 22:02:41 INFO  CommandFactory:36 - Command get
+2019-05-16 22:02:41 INFO  ClientPageCommand:21 - execute
+2019-05-16 22:02:43 INFO  EncodingFilter:17 - do Filter
+2019-05-16 22:02:43 INFO  LocaleFilter:29 - do Filter
+2019-05-16 22:02:43 INFO  AuthenticationFilter:21 - doFilter
+2019-05-16 22:02:43 INFO  RoleFilter:30 - Do Filter
+2019-05-16 22:02:43 INFO  CommandFactory:36 - Command get
+2019-05-16 22:02:43 INFO  MenuServiceImpl:40 - Find all menus
+2019-05-16 22:02:43 INFO  ClientOrderPageCommand:20 - execute
+2019-05-16 22:03:11 INFO  EncodingFilter:17 - do Filter
+2019-05-16 22:03:11 INFO  LocaleFilter:29 - do Filter
+2019-05-16 22:03:13 INFO  EncodingFilter:17 - do Filter
+2019-05-16 22:03:13 INFO  LocaleFilter:29 - do Filter
+2019-05-16 22:03:13 INFO  EncodingFilter:17 - do Filter
+2019-05-16 22:03:13 INFO  LocaleFilter:29 - do Filter
+2019-05-16 22:03:20 INFO  EncodingFilter:17 - do Filter
+2019-05-16 22:03:20 INFO  LocaleFilter:29 - do Filter
+2019-05-16 22:03:20 INFO  DaoFactory:27 - dao factory
+2019-05-16 22:03:20 INFO  DaoFactory:27 - dao factory
+2019-05-16 22:03:20 INFO  CommandFactory:36 - Command get
+2019-05-16 22:03:20 INFO  DaoFactory:27 - dao factory
+2019-05-16 22:03:20 INFO  UserServiceImpl:63 - get Login and password
+2019-05-16 22:03:20 INFO  LoginCommand:36 - user login
+2019-05-16 22:03:21 INFO  EncodingFilter:17 - do Filter
+2019-05-16 22:03:21 INFO  LocaleFilter:29 - do Filter
+2019-05-16 22:03:21 INFO  AuthenticationFilter:21 - doFilter
+2019-05-16 22:03:21 INFO  RoleFilter:30 - Do Filter
+2019-05-16 22:03:21 INFO  CommandFactory:36 - Command get
+2019-05-16 22:03:21 INFO  ClientPageCommand:21 - execute
+2019-05-16 22:03:25 INFO  EncodingFilter:17 - do Filter
+2019-05-16 22:03:25 INFO  LocaleFilter:29 - do Filter
+2019-05-16 22:03:25 INFO  AuthenticationFilter:21 - doFilter
+2019-05-16 22:03:25 INFO  RoleFilter:30 - Do Filter
+2019-05-16 22:03:25 INFO  CommandFactory:36 - Command get
+2019-05-16 22:03:25 INFO  MenuServiceImpl:40 - Find all menus
+2019-05-16 22:03:25 INFO  ClientOrderPageCommand:20 - execute
+2019-05-16 22:06:01 INFO  EncodingFilter:17 - do Filter
+2019-05-16 22:06:01 INFO  LocaleFilter:29 - do Filter
+2019-05-16 22:06:03 INFO  EncodingFilter:17 - do Filter
+2019-05-16 22:06:03 INFO  LocaleFilter:29 - do Filter
+2019-05-16 22:06:04 INFO  EncodingFilter:17 - do Filter
+2019-05-16 22:06:04 INFO  LocaleFilter:29 - do Filter
+2019-05-16 22:06:14 INFO  EncodingFilter:17 - do Filter
+2019-05-16 22:06:14 INFO  LocaleFilter:29 - do Filter
+2019-05-16 22:06:14 INFO  DaoFactory:27 - dao factory
+2019-05-16 22:06:14 INFO  DaoFactory:27 - dao factory
+2019-05-16 22:06:14 INFO  CommandFactory:36 - Command get
+2019-05-16 22:06:14 INFO  DaoFactory:27 - dao factory
+2019-05-16 22:06:15 INFO  UserServiceImpl:63 - get Login and password
+2019-05-16 22:06:15 INFO  LoginCommand:36 - user login
+2019-05-16 22:06:15 INFO  EncodingFilter:17 - do Filter
+2019-05-16 22:06:15 INFO  LocaleFilter:29 - do Filter
+2019-05-16 22:06:15 INFO  AuthenticationFilter:21 - doFilter
+2019-05-16 22:06:15 INFO  RoleFilter:30 - Do Filter
+2019-05-16 22:06:15 INFO  CommandFactory:36 - Command get
+2019-05-16 22:06:15 INFO  ClientPageCommand:21 - execute
+2019-05-16 22:06:17 INFO  EncodingFilter:17 - do Filter
+2019-05-16 22:06:17 INFO  LocaleFilter:29 - do Filter
+2019-05-16 22:06:17 INFO  AuthenticationFilter:21 - doFilter
+2019-05-16 22:06:17 INFO  RoleFilter:30 - Do Filter
+2019-05-16 22:06:17 INFO  CommandFactory:36 - Command get
+2019-05-16 22:06:17 INFO  MenuServiceImpl:40 - Find all menus
+2019-05-16 22:06:17 INFO  ClientOrderPageCommand:20 - execute
+2019-05-16 22:06:47 INFO  EncodingFilter:17 - do Filter
+2019-05-16 22:06:47 INFO  LocaleFilter:29 - do Filter
+2019-05-16 22:06:50 INFO  EncodingFilter:17 - do Filter
+2019-05-16 22:06:50 INFO  LocaleFilter:29 - do Filter
+2019-05-16 22:06:50 INFO  EncodingFilter:17 - do Filter
+2019-05-16 22:06:50 INFO  LocaleFilter:29 - do Filter
+2019-05-16 22:06:57 INFO  EncodingFilter:17 - do Filter
+2019-05-16 22:06:57 INFO  LocaleFilter:29 - do Filter
+2019-05-16 22:06:57 INFO  DaoFactory:27 - dao factory
+2019-05-16 22:06:57 INFO  DaoFactory:27 - dao factory
+2019-05-16 22:06:57 INFO  CommandFactory:36 - Command get
+2019-05-16 22:06:57 INFO  DaoFactory:27 - dao factory
+2019-05-16 22:06:58 INFO  UserServiceImpl:63 - get Login and password
+2019-05-16 22:06:58 INFO  LoginCommand:36 - user login
+2019-05-16 22:06:58 INFO  EncodingFilter:17 - do Filter
+2019-05-16 22:06:58 INFO  LocaleFilter:29 - do Filter
+2019-05-16 22:06:58 INFO  AuthenticationFilter:21 - doFilter
+2019-05-16 22:06:58 INFO  RoleFilter:30 - Do Filter
+2019-05-16 22:06:58 INFO  CommandFactory:36 - Command get
+2019-05-16 22:06:58 INFO  ClientPageCommand:21 - execute
+2019-05-16 22:07:00 INFO  EncodingFilter:17 - do Filter
+2019-05-16 22:07:00 INFO  LocaleFilter:29 - do Filter
+2019-05-16 22:07:00 INFO  AuthenticationFilter:21 - doFilter
+2019-05-16 22:07:00 INFO  RoleFilter:30 - Do Filter
+2019-05-16 22:07:00 INFO  CommandFactory:36 - Command get
+2019-05-16 22:07:00 INFO  MenuServiceImpl:40 - Find all menus
+2019-05-16 22:07:00 INFO  ClientOrderPageCommand:20 - execute
+2019-05-16 22:07:35 INFO  EncodingFilter:17 - do Filter
+2019-05-16 22:07:35 INFO  LocaleFilter:29 - do Filter
+2019-05-16 22:07:37 INFO  EncodingFilter:17 - do Filter
+2019-05-16 22:07:37 INFO  LocaleFilter:29 - do Filter
+2019-05-16 22:07:38 INFO  EncodingFilter:17 - do Filter
+2019-05-16 22:07:38 INFO  LocaleFilter:29 - do Filter
+2019-05-16 22:07:46 INFO  EncodingFilter:17 - do Filter
+2019-05-16 22:07:46 INFO  LocaleFilter:29 - do Filter
+2019-05-16 22:07:46 INFO  DaoFactory:27 - dao factory
+2019-05-16 22:07:46 INFO  DaoFactory:27 - dao factory
+2019-05-16 22:07:46 INFO  CommandFactory:36 - Command get
+2019-05-16 22:07:46 INFO  DaoFactory:27 - dao factory
+2019-05-16 22:07:47 INFO  UserServiceImpl:63 - get Login and password
+2019-05-16 22:07:47 INFO  LoginCommand:36 - user login
+2019-05-16 22:07:47 INFO  EncodingFilter:17 - do Filter
+2019-05-16 22:07:47 INFO  LocaleFilter:29 - do Filter
+2019-05-16 22:07:47 INFO  AuthenticationFilter:21 - doFilter
+2019-05-16 22:07:47 INFO  RoleFilter:30 - Do Filter
+2019-05-16 22:07:47 INFO  CommandFactory:36 - Command get
+2019-05-16 22:07:47 INFO  ClientPageCommand:21 - execute
+2019-05-16 22:07:50 INFO  EncodingFilter:17 - do Filter
+2019-05-16 22:07:50 INFO  LocaleFilter:29 - do Filter
+2019-05-16 22:07:50 INFO  AuthenticationFilter:21 - doFilter
+2019-05-16 22:07:50 INFO  RoleFilter:30 - Do Filter
+2019-05-16 22:07:50 INFO  CommandFactory:36 - Command get
+2019-05-16 22:07:50 INFO  MenuServiceImpl:40 - Find all menus
+2019-05-16 22:07:50 INFO  ClientOrderPageCommand:20 - execute
+2019-05-16 22:08:27 INFO  EncodingFilter:17 - do Filter
+2019-05-16 22:08:27 INFO  LocaleFilter:29 - do Filter
+2019-05-16 22:08:30 INFO  EncodingFilter:17 - do Filter
+2019-05-16 22:08:30 INFO  LocaleFilter:29 - do Filter
+2019-05-16 22:08:30 INFO  EncodingFilter:17 - do Filter
+2019-05-16 22:08:30 INFO  LocaleFilter:29 - do Filter
+2019-05-16 22:08:44 INFO  EncodingFilter:17 - do Filter
+2019-05-16 22:08:44 INFO  LocaleFilter:29 - do Filter
+2019-05-16 22:08:44 INFO  DaoFactory:27 - dao factory
+2019-05-16 22:08:44 INFO  DaoFactory:27 - dao factory
+2019-05-16 22:08:44 INFO  CommandFactory:36 - Command get
+2019-05-16 22:08:44 INFO  DaoFactory:27 - dao factory
+2019-05-16 22:08:45 INFO  UserServiceImpl:63 - get Login and password
+2019-05-16 22:08:45 INFO  LoginCommand:36 - user login
+2019-05-16 22:08:45 INFO  EncodingFilter:17 - do Filter
+2019-05-16 22:08:45 INFO  LocaleFilter:29 - do Filter
+2019-05-16 22:08:45 INFO  AuthenticationFilter:21 - doFilter
+2019-05-16 22:08:45 INFO  RoleFilter:30 - Do Filter
+2019-05-16 22:08:45 INFO  CommandFactory:36 - Command get
+2019-05-16 22:08:45 INFO  ClientPageCommand:21 - execute
+2019-05-16 22:08:47 INFO  EncodingFilter:17 - do Filter
+2019-05-16 22:08:47 INFO  LocaleFilter:29 - do Filter
+2019-05-16 22:08:47 INFO  AuthenticationFilter:21 - doFilter
+2019-05-16 22:08:47 INFO  RoleFilter:30 - Do Filter
+2019-05-16 22:08:47 INFO  CommandFactory:36 - Command get
+2019-05-16 22:08:47 INFO  MenuServiceImpl:40 - Find all menus
+2019-05-16 22:08:47 INFO  ClientOrderPageCommand:20 - execute
+2019-05-16 22:12:26 INFO  EncodingFilter:17 - do Filter
+2019-05-16 22:12:26 INFO  LocaleFilter:29 - do Filter
+2019-05-16 22:12:27 INFO  EncodingFilter:17 - do Filter
+2019-05-16 22:12:27 INFO  LocaleFilter:29 - do Filter
+2019-05-16 22:12:28 INFO  EncodingFilter:17 - do Filter
+2019-05-16 22:12:28 INFO  LocaleFilter:29 - do Filter
+2019-05-16 22:12:36 INFO  EncodingFilter:17 - do Filter
+2019-05-16 22:12:36 INFO  LocaleFilter:29 - do Filter
+2019-05-16 22:12:36 INFO  DaoFactory:27 - dao factory
+2019-05-16 22:12:36 INFO  DaoFactory:27 - dao factory
+2019-05-16 22:12:36 INFO  CommandFactory:36 - Command get
+2019-05-16 22:12:36 INFO  DaoFactory:27 - dao factory
+2019-05-16 22:12:36 INFO  UserServiceImpl:63 - get Login and password
+2019-05-16 22:12:36 INFO  LoginCommand:36 - user login
+2019-05-16 22:12:36 INFO  EncodingFilter:17 - do Filter
+2019-05-16 22:12:36 INFO  LocaleFilter:29 - do Filter
+2019-05-16 22:12:36 INFO  AuthenticationFilter:21 - doFilter
+2019-05-16 22:12:36 INFO  RoleFilter:30 - Do Filter
+2019-05-16 22:12:36 INFO  CommandFactory:36 - Command get
+2019-05-16 22:12:36 INFO  ClientPageCommand:21 - execute
+2019-05-16 22:12:38 INFO  EncodingFilter:17 - do Filter
+2019-05-16 22:12:38 INFO  LocaleFilter:29 - do Filter
+2019-05-16 22:12:38 INFO  AuthenticationFilter:21 - doFilter
+2019-05-16 22:12:38 INFO  RoleFilter:30 - Do Filter
+2019-05-16 22:12:38 INFO  CommandFactory:36 - Command get
+2019-05-16 22:12:38 INFO  MenuServiceImpl:40 - Find all menus
+2019-05-16 22:12:38 INFO  ClientOrderPageCommand:20 - execute
+2019-05-16 22:15:00 INFO  EncodingFilter:17 - do Filter
+2019-05-16 22:15:00 INFO  LocaleFilter:29 - do Filter
+2019-05-16 22:15:01 INFO  EncodingFilter:17 - do Filter
+2019-05-16 22:15:01 INFO  LocaleFilter:29 - do Filter
+2019-05-16 22:15:02 INFO  EncodingFilter:17 - do Filter
+2019-05-16 22:15:02 INFO  LocaleFilter:29 - do Filter
+2019-05-16 22:15:12 INFO  EncodingFilter:17 - do Filter
+2019-05-16 22:15:12 INFO  LocaleFilter:29 - do Filter
+2019-05-16 22:15:12 INFO  DaoFactory:27 - dao factory
+2019-05-16 22:15:12 INFO  DaoFactory:27 - dao factory
+2019-05-16 22:15:12 INFO  CommandFactory:36 - Command get
+2019-05-16 22:15:12 INFO  DaoFactory:27 - dao factory
+2019-05-16 22:15:12 INFO  UserServiceImpl:63 - get Login and password
+2019-05-16 22:15:12 INFO  LoginCommand:36 - user login
+2019-05-16 22:15:12 INFO  EncodingFilter:17 - do Filter
+2019-05-16 22:15:12 INFO  LocaleFilter:29 - do Filter
+2019-05-16 22:15:12 INFO  AuthenticationFilter:21 - doFilter
+2019-05-16 22:15:12 INFO  RoleFilter:30 - Do Filter
+2019-05-16 22:15:12 INFO  CommandFactory:36 - Command get
+2019-05-16 22:15:12 INFO  ClientPageCommand:21 - execute
+2019-05-16 22:15:15 INFO  EncodingFilter:17 - do Filter
+2019-05-16 22:15:15 INFO  LocaleFilter:29 - do Filter
+2019-05-16 22:15:15 INFO  AuthenticationFilter:21 - doFilter
+2019-05-16 22:15:15 INFO  RoleFilter:30 - Do Filter
+2019-05-16 22:15:15 INFO  CommandFactory:36 - Command get
+2019-05-16 22:15:15 INFO  MenuServiceImpl:40 - Find all menus
+2019-05-16 22:15:15 INFO  ClientOrderPageCommand:20 - execute
+2019-05-16 22:30:12 INFO  EncodingFilter:17 - do Filter
+2019-05-16 22:30:12 INFO  LocaleFilter:29 - do Filter
+2019-05-16 22:30:13 INFO  EncodingFilter:17 - do Filter
+2019-05-16 22:30:13 INFO  LocaleFilter:29 - do Filter
+2019-05-16 22:30:13 INFO  EncodingFilter:17 - do Filter
+2019-05-16 22:30:13 INFO  LocaleFilter:29 - do Filter
+2019-05-16 22:31:25 INFO  EncodingFilter:17 - do Filter
+2019-05-16 22:31:25 INFO  LocaleFilter:29 - do Filter
+2019-05-16 22:31:25 INFO  DaoFactory:27 - dao factory
+2019-05-16 22:31:25 INFO  DaoFactory:27 - dao factory
+2019-05-16 22:31:25 INFO  CommandFactory:36 - Command get
+2019-05-16 22:31:25 INFO  DaoFactory:27 - dao factory
+2019-05-16 22:31:25 INFO  UserServiceImpl:63 - get Login and password
+2019-05-16 22:31:25 INFO  LoginCommand:36 - user login
+2019-05-16 22:31:25 INFO  EncodingFilter:17 - do Filter
+2019-05-16 22:31:25 INFO  LocaleFilter:29 - do Filter
+2019-05-16 22:31:25 INFO  AuthenticationFilter:21 - doFilter
+2019-05-16 22:31:25 INFO  RoleFilter:30 - Do Filter
+2019-05-16 22:31:25 INFO  CommandFactory:36 - Command get
+2019-05-16 22:31:25 INFO  ClientPageCommand:21 - execute
+2019-05-16 22:31:27 INFO  EncodingFilter:17 - do Filter
+2019-05-16 22:31:27 INFO  LocaleFilter:29 - do Filter
+2019-05-16 22:31:27 INFO  AuthenticationFilter:21 - doFilter
+2019-05-16 22:31:27 INFO  RoleFilter:30 - Do Filter
+2019-05-16 22:31:27 INFO  CommandFactory:36 - Command get
+2019-05-16 22:31:27 INFO  MenuServiceImpl:40 - Find all menus
+2019-05-16 22:31:27 INFO  ClientOrderPageCommand:20 - execute
+2019-05-16 22:33:39 INFO  EncodingFilter:17 - do Filter
+2019-05-16 22:33:39 INFO  LocaleFilter:29 - do Filter
+2019-05-16 22:33:41 INFO  EncodingFilter:17 - do Filter
+2019-05-16 22:33:41 INFO  LocaleFilter:29 - do Filter
+2019-05-16 22:33:42 INFO  EncodingFilter:17 - do Filter
+2019-05-16 22:33:42 INFO  LocaleFilter:29 - do Filter
+2019-05-16 22:33:49 INFO  EncodingFilter:17 - do Filter
+2019-05-16 22:33:49 INFO  LocaleFilter:29 - do Filter
+2019-05-16 22:33:49 INFO  DaoFactory:27 - dao factory
+2019-05-16 22:33:49 INFO  DaoFactory:27 - dao factory
+2019-05-16 22:33:49 INFO  CommandFactory:36 - Command get
+2019-05-16 22:33:49 INFO  DaoFactory:27 - dao factory
+2019-05-16 22:33:49 INFO  UserServiceImpl:63 - get Login and password
+2019-05-16 22:33:49 INFO  LoginCommand:36 - user login
+2019-05-16 22:33:49 INFO  EncodingFilter:17 - do Filter
+2019-05-16 22:33:49 INFO  LocaleFilter:29 - do Filter
+2019-05-16 22:33:49 INFO  AuthenticationFilter:21 - doFilter
+2019-05-16 22:33:49 INFO  RoleFilter:30 - Do Filter
+2019-05-16 22:33:49 INFO  CommandFactory:36 - Command get
+2019-05-16 22:33:49 INFO  ClientPageCommand:21 - execute
+2019-05-16 22:33:51 INFO  EncodingFilter:17 - do Filter
+2019-05-16 22:33:51 INFO  LocaleFilter:29 - do Filter
+2019-05-16 22:33:51 INFO  AuthenticationFilter:21 - doFilter
+2019-05-16 22:33:51 INFO  RoleFilter:30 - Do Filter
+2019-05-16 22:33:51 INFO  CommandFactory:36 - Command get
+2019-05-16 22:33:51 INFO  MenuServiceImpl:40 - Find all menus
+2019-05-16 22:33:51 INFO  ClientOrderPageCommand:20 - execute
+2019-05-16 22:41:32 INFO  EncodingFilter:17 - do Filter
+2019-05-16 22:41:32 INFO  LocaleFilter:29 - do Filter
+2019-05-16 22:41:34 INFO  EncodingFilter:17 - do Filter
+2019-05-16 22:41:34 INFO  LocaleFilter:29 - do Filter
+2019-05-16 22:41:34 INFO  EncodingFilter:17 - do Filter
+2019-05-16 22:41:34 INFO  LocaleFilter:29 - do Filter
+2019-05-16 22:41:42 INFO  EncodingFilter:17 - do Filter
+2019-05-16 22:41:42 INFO  LocaleFilter:29 - do Filter
+2019-05-16 22:41:42 INFO  DaoFactory:27 - dao factory
+2019-05-16 22:41:42 INFO  DaoFactory:27 - dao factory
+2019-05-16 22:41:42 INFO  CommandFactory:36 - Command get
+2019-05-16 22:41:42 INFO  DaoFactory:27 - dao factory
+2019-05-16 22:41:42 INFO  UserServiceImpl:63 - get Login and password
+2019-05-16 22:41:42 INFO  LoginCommand:36 - user login
+2019-05-16 22:41:42 INFO  EncodingFilter:17 - do Filter
+2019-05-16 22:41:42 INFO  LocaleFilter:29 - do Filter
+2019-05-16 22:41:42 INFO  AuthenticationFilter:21 - doFilter
+2019-05-16 22:41:42 INFO  RoleFilter:30 - Do Filter
+2019-05-16 22:41:42 INFO  CommandFactory:36 - Command get
+2019-05-16 22:41:42 INFO  ClientPageCommand:21 - execute
+2019-05-16 22:41:45 INFO  EncodingFilter:17 - do Filter
+2019-05-16 22:41:45 INFO  LocaleFilter:29 - do Filter
+2019-05-16 22:41:45 INFO  AuthenticationFilter:21 - doFilter
+2019-05-16 22:41:45 INFO  RoleFilter:30 - Do Filter
+2019-05-16 22:41:45 INFO  CommandFactory:36 - Command get
+2019-05-16 22:41:45 INFO  MenuServiceImpl:40 - Find all menus
+2019-05-16 22:41:45 INFO  ClientOrderPageCommand:20 - execute
+2019-05-16 22:42:45 INFO  EncodingFilter:17 - do Filter
+2019-05-16 22:42:45 INFO  LocaleFilter:29 - do Filter
+2019-05-16 22:42:47 INFO  EncodingFilter:17 - do Filter
+2019-05-16 22:42:47 INFO  LocaleFilter:29 - do Filter
+2019-05-16 22:42:47 INFO  EncodingFilter:17 - do Filter
+2019-05-16 22:42:47 INFO  LocaleFilter:29 - do Filter
+2019-05-16 22:42:54 INFO  EncodingFilter:17 - do Filter
+2019-05-16 22:42:54 INFO  LocaleFilter:29 - do Filter
+2019-05-16 22:42:54 INFO  DaoFactory:27 - dao factory
+2019-05-16 22:42:54 INFO  DaoFactory:27 - dao factory
+2019-05-16 22:42:54 INFO  CommandFactory:36 - Command get
+2019-05-16 22:42:54 INFO  DaoFactory:27 - dao factory
+2019-05-16 22:42:54 INFO  UserServiceImpl:63 - get Login and password
+2019-05-16 22:42:54 INFO  LoginCommand:36 - user login
+2019-05-16 22:42:54 INFO  EncodingFilter:17 - do Filter
+2019-05-16 22:42:54 INFO  LocaleFilter:29 - do Filter
+2019-05-16 22:42:54 INFO  AuthenticationFilter:21 - doFilter
+2019-05-16 22:42:54 INFO  RoleFilter:30 - Do Filter
+2019-05-16 22:42:54 INFO  CommandFactory:36 - Command get
+2019-05-16 22:42:54 INFO  ClientPageCommand:21 - execute
+2019-05-16 22:42:56 INFO  EncodingFilter:17 - do Filter
+2019-05-16 22:42:56 INFO  LocaleFilter:29 - do Filter
+2019-05-16 22:42:56 INFO  AuthenticationFilter:21 - doFilter
+2019-05-16 22:42:56 INFO  RoleFilter:30 - Do Filter
+2019-05-16 22:42:56 INFO  CommandFactory:36 - Command get
+2019-05-16 22:42:56 INFO  MenuServiceImpl:40 - Find all menus
+2019-05-16 22:42:56 INFO  ClientOrderPageCommand:20 - execute
+2019-05-16 22:43:07 INFO  EncodingFilter:17 - do Filter
+2019-05-16 22:43:07 INFO  LocaleFilter:29 - do Filter
+2019-05-16 22:43:11 INFO  EncodingFilter:17 - do Filter
+2019-05-16 22:43:11 INFO  LocaleFilter:29 - do Filter
+2019-05-16 22:50:21 INFO  EncodingFilter:17 - do Filter
+2019-05-16 22:50:21 INFO  LocaleFilter:29 - do Filter
+2019-05-16 22:50:23 INFO  EncodingFilter:17 - do Filter
+2019-05-16 22:50:23 INFO  LocaleFilter:29 - do Filter
+2019-05-16 22:50:25 INFO  EncodingFilter:17 - do Filter
+2019-05-16 22:50:25 INFO  LocaleFilter:29 - do Filter
+2019-05-16 23:06:21 INFO  EncodingFilter:17 - do Filter
+2019-05-16 23:06:21 INFO  LocaleFilter:29 - do Filter
+2019-05-16 23:06:21 INFO  DaoFactory:27 - dao factory
+2019-05-16 23:06:21 INFO  DaoFactory:27 - dao factory
+2019-05-16 23:06:21 INFO  CommandFactory:36 - Command get
+2019-05-16 23:06:21 INFO  DaoFactory:27 - dao factory
+2019-05-16 23:06:21 INFO  UserServiceImpl:63 - get Login and password
+2019-05-16 23:06:21 INFO  LoginCommand:36 - user login
+2019-05-16 23:06:22 INFO  EncodingFilter:17 - do Filter
+2019-05-16 23:06:22 INFO  LocaleFilter:29 - do Filter
+2019-05-16 23:06:22 INFO  AuthenticationFilter:21 - doFilter
+2019-05-16 23:06:22 INFO  RoleFilter:30 - Do Filter
+2019-05-16 23:06:22 INFO  CommandFactory:36 - Command get
+2019-05-16 23:06:22 INFO  ClientPageCommand:21 - execute
+2019-05-16 23:06:23 INFO  EncodingFilter:17 - do Filter
+2019-05-16 23:06:23 INFO  LocaleFilter:29 - do Filter
+2019-05-16 23:06:23 INFO  AuthenticationFilter:21 - doFilter
+2019-05-16 23:06:23 INFO  RoleFilter:30 - Do Filter
+2019-05-16 23:06:23 INFO  CommandFactory:36 - Command get
+2019-05-16 23:06:23 INFO  MenuServiceImpl:40 - Find all menus
+2019-05-16 23:06:23 INFO  ClientOrderPageCommand:20 - execute
+2019-05-16 23:07:33 INFO  EncodingFilter:17 - do Filter
+2019-05-16 23:07:33 INFO  LocaleFilter:29 - do Filter
+2019-05-16 23:07:34 INFO  EncodingFilter:17 - do Filter
+2019-05-16 23:07:34 INFO  LocaleFilter:29 - do Filter
+2019-05-16 23:07:35 INFO  EncodingFilter:17 - do Filter
+2019-05-16 23:07:35 INFO  LocaleFilter:29 - do Filter
+2019-05-16 23:07:40 INFO  EncodingFilter:17 - do Filter
+2019-05-16 23:07:40 INFO  LocaleFilter:29 - do Filter
+2019-05-16 23:07:41 INFO  DaoFactory:27 - dao factory
+2019-05-16 23:07:41 INFO  DaoFactory:27 - dao factory
+2019-05-16 23:07:41 INFO  CommandFactory:36 - Command get
+2019-05-16 23:07:41 INFO  DaoFactory:27 - dao factory
+2019-05-16 23:07:41 INFO  UserServiceImpl:63 - get Login and password
+2019-05-16 23:07:41 INFO  LoginCommand:36 - user login
+2019-05-16 23:07:41 INFO  EncodingFilter:17 - do Filter
+2019-05-16 23:07:41 INFO  LocaleFilter:29 - do Filter
+2019-05-16 23:07:41 INFO  AuthenticationFilter:21 - doFilter
+2019-05-16 23:07:41 INFO  RoleFilter:30 - Do Filter
+2019-05-16 23:07:41 INFO  CommandFactory:36 - Command get
+2019-05-16 23:07:41 INFO  ClientPageCommand:21 - execute
+2019-05-16 23:07:42 INFO  EncodingFilter:17 - do Filter
+2019-05-16 23:07:42 INFO  LocaleFilter:29 - do Filter
+2019-05-16 23:07:42 INFO  AuthenticationFilter:21 - doFilter
+2019-05-16 23:07:42 INFO  RoleFilter:30 - Do Filter
+2019-05-16 23:07:42 INFO  CommandFactory:36 - Command get
+2019-05-16 23:07:42 INFO  MenuServiceImpl:40 - Find all menus
+2019-05-16 23:07:42 INFO  ClientOrderPageCommand:20 - execute
+2019-05-16 23:10:59 INFO  EncodingFilter:17 - do Filter
+2019-05-16 23:10:59 INFO  LocaleFilter:29 - do Filter
+2019-05-16 23:10:59 INFO  AuthenticationFilter:21 - doFilter
+2019-05-16 23:10:59 INFO  RoleFilter:30 - Do Filter
+2019-05-16 23:10:59 INFO  CommandFactory:36 - Command get
+2019-05-16 23:10:59 INFO  MenuServiceImpl:40 - Find all menus
+2019-05-16 23:10:59 INFO  ClientOrderPageCommand:20 - execute
+2019-05-16 23:12:34 INFO  EncodingFilter:17 - do Filter
+2019-05-16 23:12:34 INFO  LocaleFilter:29 - do Filter
+2019-05-16 23:12:34 INFO  AuthenticationFilter:21 - doFilter
+2019-05-16 23:12:34 INFO  RoleFilter:30 - Do Filter
+2019-05-16 23:12:34 INFO  CommandFactory:36 - Command get
+2019-05-16 23:12:34 INFO  MenuServiceImpl:40 - Find all menus
+2019-05-16 23:12:34 INFO  ClientOrderPageCommand:20 - execute
+2019-05-16 23:15:57 INFO  EncodingFilter:17 - do Filter
+2019-05-16 23:15:57 INFO  LocaleFilter:29 - do Filter
+2019-05-16 23:15:58 INFO  EncodingFilter:17 - do Filter
+2019-05-16 23:15:58 INFO  LocaleFilter:29 - do Filter
+2019-05-16 23:15:59 INFO  EncodingFilter:17 - do Filter
+2019-05-16 23:15:59 INFO  LocaleFilter:29 - do Filter
+2019-05-16 23:16:08 INFO  EncodingFilter:17 - do Filter
+2019-05-16 23:16:08 INFO  LocaleFilter:29 - do Filter
+2019-05-16 23:16:08 INFO  DaoFactory:27 - dao factory
+2019-05-16 23:16:08 INFO  DaoFactory:27 - dao factory
+2019-05-16 23:16:08 INFO  CommandFactory:36 - Command get
+2019-05-16 23:16:08 INFO  DaoFactory:27 - dao factory
+2019-05-16 23:16:08 INFO  UserServiceImpl:63 - get Login and password
+2019-05-16 23:16:08 INFO  LoginCommand:36 - user login
+2019-05-16 23:16:08 INFO  EncodingFilter:17 - do Filter
+2019-05-16 23:16:08 INFO  LocaleFilter:29 - do Filter
+2019-05-16 23:16:08 INFO  AuthenticationFilter:21 - doFilter
+2019-05-16 23:16:08 INFO  RoleFilter:30 - Do Filter
+2019-05-16 23:16:08 INFO  CommandFactory:36 - Command get
+2019-05-16 23:16:08 INFO  ClientPageCommand:21 - execute
+2019-05-16 23:16:09 INFO  EncodingFilter:17 - do Filter
+2019-05-16 23:16:09 INFO  LocaleFilter:29 - do Filter
+2019-05-16 23:16:09 INFO  AuthenticationFilter:21 - doFilter
+2019-05-16 23:16:09 INFO  RoleFilter:30 - Do Filter
+2019-05-16 23:16:09 INFO  CommandFactory:36 - Command get
+2019-05-16 23:16:09 INFO  MenuServiceImpl:40 - Find all menus
+2019-05-16 23:16:09 INFO  ClientOrderPageCommand:20 - execute
+2019-05-16 23:24:42 INFO  EncodingFilter:17 - do Filter
+2019-05-16 23:24:42 INFO  LocaleFilter:29 - do Filter
+2019-05-16 23:24:42 INFO  AuthenticationFilter:21 - doFilter
+2019-05-16 23:24:42 INFO  EncodingFilter:17 - do Filter
+2019-05-16 23:24:42 INFO  LocaleFilter:29 - do Filter
+2019-05-16 23:24:42 INFO  DaoFactory:27 - dao factory
+2019-05-16 23:24:42 INFO  DaoFactory:27 - dao factory
+2019-05-16 23:24:42 INFO  CommandFactory:36 - Command get
+2019-05-16 23:24:44 INFO  EncodingFilter:17 - do Filter
+2019-05-16 23:24:44 INFO  LocaleFilter:29 - do Filter
+2019-05-16 23:24:44 INFO  CommandFactory:36 - Command get
+2019-05-16 23:25:05 INFO  EncodingFilter:17 - do Filter
+2019-05-16 23:25:05 INFO  LocaleFilter:29 - do Filter
+2019-05-16 23:25:05 INFO  EncodingFilter:17 - do Filter
+2019-05-16 23:25:05 INFO  LocaleFilter:29 - do Filter
+2019-05-16 23:25:05 INFO  EncodingFilter:17 - do Filter
+2019-05-16 23:25:05 INFO  LocaleFilter:29 - do Filter
+2019-05-16 23:25:34 INFO  EncodingFilter:17 - do Filter
+2019-05-16 23:25:34 INFO  LocaleFilter:29 - do Filter
+2019-05-16 23:25:34 INFO  EncodingFilter:17 - do Filter
+2019-05-16 23:25:34 INFO  LocaleFilter:29 - do Filter
+2019-05-16 23:25:34 INFO  EncodingFilter:17 - do Filter
+2019-05-16 23:25:34 INFO  LocaleFilter:29 - do Filter
+2019-05-16 23:26:24 INFO  EncodingFilter:17 - do Filter
+2019-05-16 23:26:24 INFO  LocaleFilter:29 - do Filter
+2019-05-16 23:26:24 INFO  EncodingFilter:17 - do Filter
+2019-05-16 23:26:24 INFO  LocaleFilter:29 - do Filter
+2019-05-16 23:26:25 INFO  EncodingFilter:17 - do Filter
+2019-05-16 23:26:25 INFO  LocaleFilter:29 - do Filter
+2019-05-16 23:26:30 INFO  EncodingFilter:17 - do Filter
+2019-05-16 23:26:30 INFO  LocaleFilter:29 - do Filter
+2019-05-16 23:26:47 INFO  EncodingFilter:17 - do Filter
+2019-05-16 23:26:47 INFO  LocaleFilter:29 - do Filter
+2019-05-16 23:26:47 INFO  DaoFactory:27 - dao factory
+2019-05-16 23:26:47 INFO  DaoFactory:27 - dao factory
+2019-05-16 23:26:47 INFO  CommandFactory:36 - Command get
+2019-05-16 23:26:48 INFO  EncodingFilter:17 - do Filter
+2019-05-16 23:26:48 INFO  LocaleFilter:29 - do Filter
+2019-05-16 23:26:48 INFO  CommandFactory:36 - Command get
+2019-05-16 23:26:50 INFO  EncodingFilter:17 - do Filter
+2019-05-16 23:26:50 INFO  LocaleFilter:29 - do Filter
+2019-05-16 23:26:55 INFO  EncodingFilter:17 - do Filter
+2019-05-16 23:26:55 INFO  LocaleFilter:29 - do Filter
+2019-05-16 23:26:55 INFO  CommandFactory:36 - Command get
+2019-05-16 23:27:20 INFO  EncodingFilter:17 - do Filter
+2019-05-16 23:27:20 INFO  LocaleFilter:29 - do Filter
+2019-05-16 23:27:20 INFO  EncodingFilter:17 - do Filter
+2019-05-16 23:27:20 INFO  LocaleFilter:29 - do Filter
+2019-05-16 23:27:20 INFO  EncodingFilter:17 - do Filter
+2019-05-16 23:27:20 INFO  LocaleFilter:29 - do Filter
+2019-05-16 23:28:09 INFO  EncodingFilter:17 - do Filter
+2019-05-16 23:28:09 INFO  LocaleFilter:29 - do Filter
+2019-05-16 23:28:11 INFO  EncodingFilter:17 - do Filter
+2019-05-16 23:28:11 INFO  LocaleFilter:29 - do Filter
+2019-05-16 23:28:12 INFO  EncodingFilter:17 - do Filter
+2019-05-16 23:28:12 INFO  LocaleFilter:29 - do Filter
+2019-05-16 23:28:20 INFO  EncodingFilter:17 - do Filter
+2019-05-16 23:28:20 INFO  LocaleFilter:29 - do Filter
+2019-05-16 23:28:20 INFO  DaoFactory:27 - dao factory
+2019-05-16 23:28:20 INFO  DaoFactory:27 - dao factory
+2019-05-16 23:28:20 INFO  CommandFactory:36 - Command get
+2019-05-16 23:28:20 INFO  DaoFactory:27 - dao factory
+2019-05-16 23:28:20 INFO  UserServiceImpl:63 - get Login and password
+2019-05-16 23:28:20 INFO  LoginCommand:36 - user login
+2019-05-16 23:28:20 INFO  EncodingFilter:17 - do Filter
+2019-05-16 23:28:20 INFO  LocaleFilter:29 - do Filter
+2019-05-16 23:28:20 INFO  AuthenticationFilter:21 - doFilter
+2019-05-16 23:28:20 INFO  RoleFilter:30 - Do Filter
+2019-05-16 23:28:20 INFO  CommandFactory:36 - Command get
+2019-05-16 23:28:20 INFO  ClientPageCommand:21 - execute
+2019-05-16 23:28:22 INFO  EncodingFilter:17 - do Filter
+2019-05-16 23:28:22 INFO  LocaleFilter:29 - do Filter
+2019-05-16 23:28:22 INFO  AuthenticationFilter:21 - doFilter
+2019-05-16 23:28:22 INFO  RoleFilter:30 - Do Filter
+2019-05-16 23:28:22 INFO  CommandFactory:36 - Command get
+2019-05-16 23:28:22 INFO  MenuServiceImpl:40 - Find all menus
+2019-05-16 23:28:22 INFO  ClientOrderPageCommand:20 - execute
+2019-05-16 23:30:51 INFO  EncodingFilter:17 - do Filter
+2019-05-16 23:30:51 INFO  LocaleFilter:29 - do Filter
+2019-05-16 23:30:51 INFO  AuthenticationFilter:21 - doFilter
+2019-05-16 23:30:51 INFO  RoleFilter:30 - Do Filter
+2019-05-16 23:30:51 INFO  CommandFactory:36 - Command get
+2019-05-16 23:30:51 INFO  MenuServiceImpl:40 - Find all menus
+2019-05-16 23:30:51 INFO  ClientOrderPageCommand:20 - execute
+2019-05-16 23:31:26 INFO  EncodingFilter:17 - do Filter
+2019-05-16 23:31:26 INFO  LocaleFilter:29 - do Filter
+2019-05-16 23:31:26 INFO  AuthenticationFilter:21 - doFilter
+2019-05-16 23:31:26 INFO  RoleFilter:30 - Do Filter
+2019-05-16 23:31:26 INFO  CommandFactory:36 - Command get
+2019-05-16 23:31:26 INFO  MenuServiceImpl:40 - Find all menus
+2019-05-16 23:31:26 INFO  ClientOrderPageCommand:20 - execute
+2019-05-16 23:32:00 INFO  EncodingFilter:17 - do Filter
+2019-05-16 23:32:00 INFO  LocaleFilter:29 - do Filter
+2019-05-16 23:32:00 INFO  AuthenticationFilter:21 - doFilter
+2019-05-16 23:32:00 INFO  RoleFilter:30 - Do Filter
+2019-05-16 23:32:00 INFO  CommandFactory:36 - Command get
+2019-05-16 23:32:00 INFO  MenuServiceImpl:40 - Find all menus
+2019-05-16 23:32:00 INFO  ClientOrderPageCommand:20 - execute
+2019-05-16 23:32:01 INFO  EncodingFilter:17 - do Filter
+2019-05-16 23:32:01 INFO  LocaleFilter:29 - do Filter
+2019-05-16 23:32:01 INFO  AuthenticationFilter:21 - doFilter
+2019-05-16 23:32:01 INFO  RoleFilter:30 - Do Filter
+2019-05-16 23:32:01 INFO  CommandFactory:36 - Command get
+2019-05-16 23:32:01 INFO  MenuServiceImpl:40 - Find all menus
+2019-05-16 23:32:01 INFO  ClientOrderPageCommand:20 - execute
+2019-05-16 23:32:02 INFO  EncodingFilter:17 - do Filter
+2019-05-16 23:32:02 INFO  LocaleFilter:29 - do Filter
+2019-05-16 23:32:02 INFO  AuthenticationFilter:21 - doFilter
+2019-05-16 23:32:02 INFO  RoleFilter:30 - Do Filter
+2019-05-16 23:32:02 INFO  CommandFactory:36 - Command get
+2019-05-16 23:32:02 INFO  MenuServiceImpl:40 - Find all menus
+2019-05-16 23:32:02 INFO  ClientOrderPageCommand:20 - execute
+2019-05-16 23:42:33 INFO  EncodingFilter:17 - do Filter
+2019-05-16 23:42:33 INFO  LocaleFilter:29 - do Filter
+2019-05-16 23:42:35 INFO  EncodingFilter:17 - do Filter
+2019-05-16 23:42:35 INFO  LocaleFilter:29 - do Filter
+2019-05-16 23:42:37 INFO  EncodingFilter:17 - do Filter
+2019-05-16 23:42:37 INFO  EncodingFilter:17 - do Filter
+2019-05-16 23:42:37 INFO  LocaleFilter:29 - do Filter
+2019-05-16 23:42:37 INFO  LocaleFilter:29 - do Filter
+2019-05-16 23:42:37 INFO  EncodingFilter:17 - do Filter
+2019-05-16 23:42:37 INFO  EncodingFilter:17 - do Filter
+2019-05-16 23:42:37 INFO  LocaleFilter:29 - do Filter
+2019-05-16 23:42:37 INFO  AuthenticationFilter:21 - doFilter
+2019-05-16 23:42:37 INFO  LocaleFilter:29 - do Filter
+2019-05-16 23:42:37 INFO  DaoFactory:27 - dao factory
+2019-05-16 23:42:37 INFO  DaoFactory:27 - dao factory
+2019-05-16 23:42:37 INFO  CommandFactory:36 - Command get
+2019-05-16 23:42:37 INFO  MainCommand:26 - execute
+2019-05-16 23:42:37 INFO  CommandFactory:36 - Command get
+2019-05-16 23:42:37 INFO  EncodingFilter:17 - do Filter
+2019-05-16 23:42:37 INFO  LocaleFilter:29 - do Filter
+2019-05-16 23:42:37 INFO  EncodingFilter:17 - do Filter
+2019-05-16 23:42:37 INFO  CommandFactory:36 - Command get
+2019-05-16 23:42:37 INFO  LocaleFilter:29 - do Filter
+2019-05-16 23:42:38 INFO  EncodingFilter:17 - do Filter
+2019-05-16 23:42:38 INFO  LocaleFilter:29 - do Filter
+2019-05-16 23:42:38 INFO  CommandFactory:36 - Command get
+2019-05-16 23:42:40 INFO  EncodingFilter:17 - do Filter
+2019-05-16 23:42:40 INFO  LocaleFilter:29 - do Filter
+2019-05-16 23:42:48 INFO  EncodingFilter:17 - do Filter
+2019-05-16 23:42:48 INFO  LocaleFilter:29 - do Filter
+2019-05-16 23:42:48 INFO  CommandFactory:36 - Command get
+2019-05-16 23:42:48 INFO  DaoFactory:27 - dao factory
+2019-05-16 23:42:49 INFO  UserServiceImpl:63 - get Login and password
+2019-05-16 23:42:49 INFO  LoginCommand:36 - user login
+2019-05-16 23:42:49 INFO  EncodingFilter:17 - do Filter
+2019-05-16 23:42:49 INFO  LocaleFilter:29 - do Filter
+2019-05-16 23:42:49 INFO  AuthenticationFilter:21 - doFilter
+2019-05-16 23:42:49 INFO  RoleFilter:30 - Do Filter
+2019-05-16 23:42:49 INFO  CommandFactory:36 - Command get
+2019-05-16 23:42:49 INFO  ClientPageCommand:21 - execute
+2019-05-16 23:42:51 INFO  EncodingFilter:17 - do Filter
+2019-05-16 23:42:51 INFO  LocaleFilter:29 - do Filter
+2019-05-16 23:42:51 INFO  AuthenticationFilter:21 - doFilter
+2019-05-16 23:42:51 INFO  RoleFilter:30 - Do Filter
+2019-05-16 23:42:51 INFO  CommandFactory:36 - Command get
+2019-05-16 23:42:51 INFO  MenuServiceImpl:40 - Find all menus
+2019-05-16 23:42:51 INFO  ClientOrderPageCommand:20 - execute
+2019-05-16 23:44:52 INFO  EncodingFilter:17 - do Filter
+2019-05-16 23:44:52 INFO  LocaleFilter:29 - do Filter
+2019-05-16 23:44:52 INFO  AuthenticationFilter:21 - doFilter
+2019-05-16 23:44:52 INFO  RoleFilter:30 - Do Filter
+2019-05-16 23:44:52 INFO  CommandFactory:36 - Command get
+2019-05-16 23:44:52 INFO  MenuServiceImpl:40 - Find all menus
+2019-05-16 23:44:52 INFO  ClientOrderPageCommand:20 - execute
+2019-05-16 23:44:59 INFO  EncodingFilter:17 - do Filter
+2019-05-16 23:44:59 INFO  LocaleFilter:29 - do Filter
+2019-05-16 23:44:59 INFO  AuthenticationFilter:21 - doFilter
+2019-05-16 23:44:59 INFO  RoleFilter:30 - Do Filter
+2019-05-16 23:44:59 INFO  CommandFactory:36 - Command get
+2019-05-16 23:44:59 INFO  PageErrorCommand:15 - execute
+2019-05-16 23:45:00 INFO  EncodingFilter:17 - do Filter
+2019-05-16 23:45:00 INFO  LocaleFilter:29 - do Filter
+2019-05-16 23:45:00 INFO  CommandFactory:36 - Command get
+2019-05-16 23:45:00 INFO  EncodingFilter:17 - do Filter
+2019-05-16 23:45:00 INFO  LocaleFilter:29 - do Filter
+2019-05-16 23:45:00 INFO  AuthenticationFilter:21 - doFilter
+2019-05-16 23:45:00 INFO  RoleFilter:30 - Do Filter
+2019-05-16 23:45:00 INFO  CommandFactory:36 - Command get
+2019-05-16 23:45:00 INFO  ClientPageCommand:21 - execute
+2019-05-16 23:45:01 INFO  EncodingFilter:17 - do Filter
+2019-05-16 23:45:01 INFO  LocaleFilter:29 - do Filter
+2019-05-16 23:45:01 INFO  AuthenticationFilter:21 - doFilter
+2019-05-16 23:45:01 INFO  RoleFilter:30 - Do Filter
+2019-05-16 23:45:01 INFO  CommandFactory:36 - Command get
+2019-05-16 23:45:01 INFO  MenuServiceImpl:40 - Find all menus
+2019-05-16 23:45:01 INFO  ClientOrderPageCommand:20 - execute
+2019-05-16 23:45:04 INFO  EncodingFilter:17 - do Filter
+2019-05-16 23:45:04 INFO  LocaleFilter:29 - do Filter
+2019-05-16 23:45:04 INFO  CommandFactory:36 - Command get
+2019-05-16 23:45:04 INFO  EncodingFilter:17 - do Filter
+2019-05-16 23:45:04 INFO  LocaleFilter:29 - do Filter
+2019-05-16 23:45:04 INFO  AuthenticationFilter:21 - doFilter
+2019-05-16 23:45:04 INFO  RoleFilter:30 - Do Filter
+2019-05-16 23:45:04 INFO  CommandFactory:36 - Command get
+2019-05-16 23:45:04 INFO  ClientPageCommand:21 - execute
+2019-05-16 23:45:06 INFO  EncodingFilter:17 - do Filter
+2019-05-16 23:45:06 INFO  LocaleFilter:29 - do Filter
+2019-05-16 23:45:06 INFO  CommandFactory:36 - Command get
+2019-05-16 23:45:06 INFO  LogoutCommand:17 - execute
+2019-05-16 23:45:06 INFO  EncodingFilter:17 - do Filter
+2019-05-16 23:45:06 INFO  LocaleFilter:29 - do Filter
+2019-05-16 23:45:06 INFO  CommandFactory:36 - Command get
+2019-05-16 23:45:15 INFO  EncodingFilter:17 - do Filter
+2019-05-16 23:45:15 INFO  LocaleFilter:29 - do Filter
+2019-05-16 23:45:15 INFO  AuthenticationFilter:21 - doFilter
+2019-05-16 23:45:15 INFO  EncodingFilter:17 - do Filter
+2019-05-16 23:45:15 INFO  LocaleFilter:29 - do Filter
+2019-05-16 23:45:15 INFO  CommandFactory:36 - Command get
+2019-05-16 23:46:54 INFO  EncodingFilter:17 - do Filter
+2019-05-16 23:46:54 INFO  LocaleFilter:29 - do Filter
+2019-05-16 23:46:54 INFO  CommandFactory:36 - Command get
+2019-05-16 23:46:54 INFO  DaoFactory:27 - dao factory
+2019-05-16 23:46:54 INFO  UserServiceImpl:63 - get Login and password
+2019-05-16 23:46:54 INFO  LoginCommand:36 - user login
+2019-05-16 23:46:54 INFO  EncodingFilter:17 - do Filter
+2019-05-16 23:46:54 INFO  LocaleFilter:29 - do Filter
+2019-05-16 23:46:54 INFO  AuthenticationFilter:21 - doFilter
+2019-05-16 23:46:54 INFO  RoleFilter:30 - Do Filter
+2019-05-16 23:46:54 INFO  CommandFactory:36 - Command get
+2019-05-16 23:46:54 INFO  ClientPageCommand:21 - execute
+2019-05-16 23:46:56 INFO  EncodingFilter:17 - do Filter
+2019-05-16 23:46:56 INFO  LocaleFilter:29 - do Filter
+2019-05-16 23:46:56 INFO  AuthenticationFilter:21 - doFilter
+2019-05-16 23:46:56 INFO  RoleFilter:30 - Do Filter
+2019-05-16 23:46:56 INFO  CommandFactory:36 - Command get
+2019-05-16 23:46:56 INFO  MenuServiceImpl:40 - Find all menus
+2019-05-16 23:46:56 INFO  ClientOrderPageCommand:20 - execute
+2019-05-16 23:57:01 INFO  EncodingFilter:17 - do Filter
+2019-05-16 23:57:01 INFO  LocaleFilter:29 - do Filter
+2019-05-16 23:57:01 INFO  AuthenticationFilter:21 - doFilter
+2019-05-16 23:57:01 INFO  RoleFilter:30 - Do Filter
+2019-05-16 23:57:01 INFO  CommandFactory:36 - Command get
+2019-05-16 23:57:01 INFO  MenuServiceImpl:40 - Find all menus
+2019-05-16 23:57:01 INFO  ClientOrderPageCommand:20 - execute
+2019-05-16 23:59:11 INFO  EncodingFilter:17 - do Filter
+2019-05-16 23:59:11 INFO  LocaleFilter:29 - do Filter
+2019-05-16 23:59:12 INFO  EncodingFilter:17 - do Filter
+2019-05-16 23:59:12 INFO  LocaleFilter:29 - do Filter
+2019-05-16 23:59:12 INFO  EncodingFilter:17 - do Filter
+2019-05-16 23:59:12 INFO  LocaleFilter:29 - do Filter
+2019-05-16 23:59:20 INFO  EncodingFilter:17 - do Filter
+2019-05-16 23:59:20 INFO  LocaleFilter:29 - do Filter
+2019-05-16 23:59:20 INFO  DaoFactory:27 - dao factory
+2019-05-16 23:59:20 INFO  DaoFactory:27 - dao factory
+2019-05-16 23:59:20 INFO  CommandFactory:36 - Command get
+2019-05-16 23:59:20 INFO  DaoFactory:27 - dao factory
+2019-05-16 23:59:20 INFO  UserServiceImpl:63 - get Login and password
+2019-05-16 23:59:20 INFO  LoginCommand:36 - user login
+2019-05-16 23:59:20 INFO  EncodingFilter:17 - do Filter
+2019-05-16 23:59:20 INFO  LocaleFilter:29 - do Filter
+2019-05-16 23:59:20 INFO  AuthenticationFilter:21 - doFilter
+2019-05-16 23:59:20 INFO  RoleFilter:30 - Do Filter
+2019-05-16 23:59:20 INFO  CommandFactory:36 - Command get
+2019-05-16 23:59:20 INFO  ClientPageCommand:21 - execute
+2019-05-16 23:59:21 INFO  EncodingFilter:17 - do Filter
+2019-05-16 23:59:21 INFO  LocaleFilter:29 - do Filter
+2019-05-16 23:59:21 INFO  AuthenticationFilter:21 - doFilter
+2019-05-16 23:59:21 INFO  RoleFilter:30 - Do Filter
+2019-05-16 23:59:21 INFO  CommandFactory:36 - Command get
+2019-05-16 23:59:21 INFO  MenuServiceImpl:40 - Find all menus
+2019-05-16 23:59:21 INFO  ClientOrderPageCommand:20 - execute
+2019-05-17 00:00:15 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:00:15 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:00:15 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:00:15 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:00:15 INFO  CommandFactory:36 - Command get
+2019-05-17 00:00:15 INFO  MenuServiceImpl:40 - Find all menus
+2019-05-17 00:00:15 INFO  ClientOrderPageCommand:20 - execute
+2019-05-17 00:00:20 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:00:20 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:00:20 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:00:20 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:00:20 INFO  CommandFactory:36 - Command get
+2019-05-17 00:00:20 INFO  MenuServiceImpl:40 - Find all menus
+2019-05-17 00:00:20 INFO  ClientOrderPageCommand:20 - execute
+2019-05-17 00:00:21 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:00:21 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:00:21 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:00:21 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:00:21 INFO  CommandFactory:36 - Command get
+2019-05-17 00:00:21 INFO  MenuServiceImpl:40 - Find all menus
+2019-05-17 00:00:21 INFO  ClientOrderPageCommand:20 - execute
+2019-05-17 00:00:24 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:00:24 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:00:24 INFO  CommandFactory:36 - Command get
+2019-05-17 00:00:24 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:00:24 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:00:24 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:00:24 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:00:24 INFO  CommandFactory:36 - Command get
+2019-05-17 00:00:24 INFO  ClientPageCommand:21 - execute
+2019-05-17 00:00:26 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:00:26 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:00:26 INFO  CommandFactory:36 - Command get
+2019-05-17 00:00:26 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:00:26 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:00:26 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:00:26 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:00:26 INFO  CommandFactory:36 - Command get
+2019-05-17 00:00:26 INFO  ClientPageCommand:21 - execute
+2019-05-17 00:00:27 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:00:27 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:00:27 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:00:27 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:00:27 INFO  CommandFactory:36 - Command get
+2019-05-17 00:00:27 INFO  ClientPageCommand:21 - execute
+2019-05-17 00:00:27 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:00:27 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:00:27 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:00:27 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:00:27 INFO  CommandFactory:36 - Command get
+2019-05-17 00:00:27 INFO  ClientPageCommand:21 - execute
+2019-05-17 00:00:28 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:00:28 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:00:28 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:00:28 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:00:28 INFO  CommandFactory:36 - Command get
+2019-05-17 00:00:28 INFO  ClientPageCommand:21 - execute
+2019-05-17 00:00:44 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:00:44 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:00:44 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:00:44 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:00:44 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:00:44 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:00:44 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:00:44 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:00:44 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:00:44 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:00:44 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:00:44 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:00:44 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:00:44 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:00:44 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:00:44 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:00:44 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:00:44 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:00:44 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:00:44 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:00:44 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:00:44 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:00:44 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:00:44 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:00:44 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:00:44 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:00:44 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:00:44 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:00:44 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:00:44 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:00:44 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:00:44 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:00:44 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:00:44 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:00:44 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:00:44 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:00:44 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:00:44 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:00:44 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:00:44 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:00:44 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:00:44 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:00:44 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:00:44 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:00:44 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:00:44 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:00:44 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:00:44 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:00:44 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:00:44 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:00:44 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:00:44 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:00:44 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:00:44 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:00:44 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:00:44 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:00:44 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:00:44 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:00:44 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:00:44 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:00:44 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:00:44 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:00:44 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:00:44 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:00:44 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:00:44 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:00:44 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:00:44 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:00:44 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:00:44 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:00:44 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:00:44 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:00:44 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:00:44 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:00:44 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:00:44 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:00:44 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:00:44 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:00:44 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:00:44 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:00:45 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:00:45 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:00:45 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:00:45 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:00:45 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:00:45 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:00:45 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:00:45 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:00:45 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:00:45 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:00:45 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:00:45 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:00:45 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:00:45 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:00:45 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:00:45 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:00:45 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:00:45 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:00:45 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:00:45 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:00:45 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:00:45 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:00:45 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:00:45 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:00:45 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:00:45 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:00:45 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:00:45 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:00:45 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:00:45 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:00:45 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:00:45 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:00:45 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:00:45 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:00:45 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:00:45 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:00:45 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:00:45 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:00:45 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:00:45 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:00:45 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:00:45 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:00:45 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:00:45 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:00:45 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:00:45 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:00:45 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:00:45 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:00:45 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:00:45 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:00:45 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:00:45 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:00:45 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:00:45 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:00:45 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:00:45 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:00:45 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:00:45 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:00:45 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:00:45 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:00:45 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:00:45 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:00:45 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:00:45 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:00:45 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:00:45 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:00:45 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:00:45 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:00:45 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:00:45 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:00:45 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:00:45 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:00:45 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:00:45 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:00:45 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:00:45 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:00:45 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:00:45 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:00:45 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:00:45 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:00:50 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:00:50 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:00:50 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:00:50 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:00:50 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:00:50 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:00:50 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:00:50 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:00:50 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:00:50 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:00:50 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:00:50 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:00:50 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:00:50 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:00:50 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:00:50 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:00:50 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:00:50 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:00:50 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:00:50 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:00:50 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:00:50 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:00:50 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:00:50 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:00:50 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:00:50 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:00:50 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:00:50 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:00:50 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:00:50 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:00:50 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:00:50 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:00:50 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:00:50 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:00:50 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:00:50 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:00:50 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:00:50 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:00:50 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:00:50 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:00:50 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:00:50 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:00:50 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:00:50 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:00:50 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:00:50 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:00:50 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:00:50 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:00:50 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:00:50 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:00:50 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:00:50 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:00:50 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:00:50 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:00:50 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:00:50 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:00:51 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:00:51 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:00:51 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:00:51 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:00:51 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:00:51 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:00:51 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:00:51 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:00:51 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:00:51 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:00:51 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:00:51 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:00:51 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:00:51 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:00:51 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:00:51 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:00:51 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:00:51 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:00:51 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:00:51 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:00:51 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:00:51 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:00:51 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:00:51 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:01:00 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:01:00 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:01:00 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:01:00 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:01:00 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:01:00 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:01:00 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:01:00 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:01:00 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:01:00 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:01:00 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:01:00 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:01:00 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:01:00 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:01:00 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:01:00 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:01:00 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:01:00 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:01:00 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:01:00 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:01:00 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:01:00 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:01:00 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:01:00 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:01:00 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:01:00 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:01:00 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:01:00 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:01:00 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:01:00 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:01:00 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:01:00 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:01:00 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:01:00 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:01:00 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:01:00 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:01:00 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:01:00 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:01:00 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:01:00 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:01:00 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:01:00 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:01:00 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:01:00 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:01:00 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:01:00 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:01:00 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:01:00 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:01:00 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:01:00 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:01:00 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:01:00 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:01:00 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:01:00 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:01:00 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:01:00 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:01:00 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:01:00 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:01:00 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:01:00 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:01:00 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:01:00 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:01:00 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:01:00 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:01:00 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:01:00 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:01:00 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:01:00 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:01:00 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:01:00 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:01:00 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:01:00 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:01:00 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:01:00 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:01:00 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:01:00 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:01:00 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:01:00 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:01:00 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:01:00 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:01:00 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:01:00 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:01:00 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:01:00 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:01:00 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:01:00 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:01:00 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:01:00 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:01:00 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:01:00 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:01:00 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:01:00 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:01:00 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:01:00 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:01:00 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:01:00 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:01:00 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:01:00 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:01:00 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:01:00 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:01:00 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:01:00 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:01:00 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:01:00 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:01:00 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:01:00 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:01:00 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:01:00 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:01:00 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:01:00 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:01:00 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:01:00 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:01:00 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:01:00 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:01:00 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:01:00 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:01:00 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:01:00 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:01:00 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:01:00 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:01:00 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:01:00 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:01:00 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:01:00 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:01:00 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:01:00 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:01:00 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:01:00 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:01:00 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:01:00 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:01:00 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:01:00 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:01:00 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:01:00 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:01:00 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:01:00 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:01:00 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:01:00 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:01:00 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:01:00 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:01:00 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:01:00 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:01:00 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:01:00 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:01:00 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:01:00 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:01:00 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:01:00 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:01:00 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:01:00 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:01:00 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:01:00 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:01:00 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:01:00 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:01:00 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:01:00 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:01:00 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:01:00 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:01:00 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:01:00 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:01:04 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:01:04 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:01:04 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:01:04 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:01:04 INFO  CommandFactory:36 - Command get
+2019-05-17 00:01:04 INFO  MenuServiceImpl:40 - Find all menus
+2019-05-17 00:01:04 INFO  ClientOrderPageCommand:20 - execute
+2019-05-17 00:02:24 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:02:24 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:02:24 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:02:24 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:02:24 INFO  CommandFactory:36 - Command get
+2019-05-17 00:02:24 INFO  ClientPageCommand:21 - execute
+2019-05-17 00:02:26 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:02:26 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:02:26 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:02:26 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:02:26 INFO  CommandFactory:36 - Command get
+2019-05-17 00:02:26 INFO  MenuServiceImpl:40 - Find all menus
+2019-05-17 00:02:26 INFO  ClientOrderPageCommand:20 - execute
+2019-05-17 00:02:36 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:02:36 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:02:36 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:02:36 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:02:36 INFO  CommandFactory:36 - Command get
+2019-05-17 00:02:36 INFO  MenuServiceImpl:40 - Find all menus
+2019-05-17 00:02:36 INFO  ClientOrderPageCommand:20 - execute
+2019-05-17 00:03:21 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:03:21 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:03:21 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:03:21 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:03:21 INFO  CommandFactory:36 - Command get
+2019-05-17 00:03:21 INFO  MenuServiceImpl:40 - Find all menus
+2019-05-17 00:03:21 INFO  ClientOrderPageCommand:20 - execute
+2019-05-17 00:03:53 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:03:53 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:03:53 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:03:53 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:03:53 INFO  CommandFactory:36 - Command get
+2019-05-17 00:03:53 INFO  MenuServiceImpl:40 - Find all menus
+2019-05-17 00:03:53 INFO  ClientOrderPageCommand:20 - execute
+2019-05-17 00:04:45 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:04:45 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:04:45 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:04:45 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:04:45 INFO  CommandFactory:36 - Command get
+2019-05-17 00:04:45 INFO  MenuServiceImpl:40 - Find all menus
+2019-05-17 00:04:45 INFO  ClientOrderPageCommand:20 - execute
+2019-05-17 00:04:46 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:04:46 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:04:46 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:04:46 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:04:46 INFO  CommandFactory:36 - Command get
+2019-05-17 00:04:46 INFO  MenuServiceImpl:40 - Find all menus
+2019-05-17 00:04:46 INFO  ClientOrderPageCommand:20 - execute
+2019-05-17 00:05:47 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:05:47 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:05:47 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:05:47 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:05:47 INFO  CommandFactory:36 - Command get
+2019-05-17 00:05:47 INFO  MenuServiceImpl:40 - Find all menus
+2019-05-17 00:05:47 INFO  ClientOrderPageCommand:20 - execute
+2019-05-17 00:06:53 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:06:53 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:06:53 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:06:53 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:06:53 INFO  CommandFactory:36 - Command get
+2019-05-17 00:06:53 INFO  MenuServiceImpl:40 - Find all menus
+2019-05-17 00:06:53 INFO  ClientOrderPageCommand:20 - execute
+2019-05-17 00:11:46 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:11:46 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:11:46 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:11:46 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:11:46 INFO  CommandFactory:36 - Command get
+2019-05-17 00:11:46 INFO  MenuServiceImpl:40 - Find all menus
+2019-05-17 00:11:46 INFO  ClientOrderPageCommand:20 - execute
+2019-05-17 00:12:27 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:12:27 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:12:27 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:12:27 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:12:27 INFO  CommandFactory:36 - Command get
+2019-05-17 00:12:27 INFO  MenuServiceImpl:40 - Find all menus
+2019-05-17 00:12:27 INFO  ClientOrderPageCommand:20 - execute
+2019-05-17 00:12:29 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:12:29 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:12:29 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:12:29 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:12:29 INFO  CommandFactory:36 - Command get
+2019-05-17 00:12:29 INFO  MenuServiceImpl:40 - Find all menus
+2019-05-17 00:12:29 INFO  ClientOrderPageCommand:20 - execute
+2019-05-17 00:13:07 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:13:07 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:13:07 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:13:07 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:13:07 INFO  CommandFactory:36 - Command get
+2019-05-17 00:13:07 INFO  MenuServiceImpl:40 - Find all menus
+2019-05-17 00:13:07 INFO  ClientOrderPageCommand:20 - execute
+2019-05-17 00:13:38 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:13:38 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:13:38 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:13:38 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:13:38 INFO  CommandFactory:36 - Command get
+2019-05-17 00:13:38 INFO  MenuServiceImpl:40 - Find all menus
+2019-05-17 00:13:38 INFO  ClientOrderPageCommand:20 - execute
+2019-05-17 00:14:09 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:14:09 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:14:09 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:14:09 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:14:09 INFO  CommandFactory:36 - Command get
+2019-05-17 00:14:09 INFO  MenuServiceImpl:40 - Find all menus
+2019-05-17 00:14:09 INFO  ClientOrderPageCommand:20 - execute
+2019-05-17 00:16:49 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:16:49 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:16:49 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:16:49 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:16:49 INFO  CommandFactory:36 - Command get
+2019-05-17 00:16:49 INFO  MenuServiceImpl:40 - Find all menus
+2019-05-17 00:16:49 INFO  ClientOrderPageCommand:20 - execute
+2019-05-17 00:17:18 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:17:18 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:17:18 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:17:18 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:17:18 INFO  CommandFactory:36 - Command get
+2019-05-17 00:17:18 INFO  MenuServiceImpl:40 - Find all menus
+2019-05-17 00:17:18 INFO  ClientOrderPageCommand:20 - execute
+2019-05-17 00:21:58 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:21:58 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:21:58 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:21:58 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:21:58 INFO  CommandFactory:36 - Command get
+2019-05-17 00:21:58 INFO  MenuServiceImpl:40 - Find all menus
+2019-05-17 00:21:58 INFO  ClientOrderPageCommand:20 - execute
+2019-05-17 00:22:01 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:22:01 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:22:01 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:22:01 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:22:01 INFO  CommandFactory:36 - Command get
+2019-05-17 00:22:01 INFO  MenuServiceImpl:40 - Find all menus
+2019-05-17 00:22:01 INFO  CreateOrderCommand:20 - execute
+2019-05-17 00:22:01 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:22:01 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:22:01 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:22:01 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:22:01 INFO  CommandFactory:36 - Command get
+2019-05-17 00:22:01 INFO  MenuServiceImpl:40 - Find all menus
+2019-05-17 00:22:01 INFO  ClientOrderPageCommand:20 - execute
+2019-05-17 00:22:08 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:22:08 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:22:08 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:22:08 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:22:08 INFO  CommandFactory:36 - Command get
+2019-05-17 00:22:08 INFO  MenuServiceImpl:40 - Find all menus
+2019-05-17 00:22:08 INFO  CreateOrderCommand:20 - execute
+2019-05-17 00:22:08 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:22:08 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:22:08 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:22:08 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:22:08 INFO  CommandFactory:36 - Command get
+2019-05-17 00:22:08 INFO  MenuServiceImpl:40 - Find all menus
+2019-05-17 00:22:08 INFO  ClientOrderPageCommand:20 - execute
+2019-05-17 00:22:29 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:22:29 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:22:29 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:22:29 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:22:29 INFO  CommandFactory:36 - Command get
+2019-05-17 00:22:29 INFO  MenuServiceImpl:40 - Find all menus
+2019-05-17 00:22:29 INFO  CreateOrderCommand:20 - execute
+2019-05-17 00:22:29 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:22:29 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:22:29 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:22:29 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:22:29 INFO  CommandFactory:36 - Command get
+2019-05-17 00:22:29 INFO  MenuServiceImpl:40 - Find all menus
+2019-05-17 00:22:29 INFO  ClientOrderPageCommand:20 - execute
+2019-05-17 00:22:30 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:22:30 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:22:30 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:22:30 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:22:30 INFO  CommandFactory:36 - Command get
+2019-05-17 00:22:30 INFO  MenuServiceImpl:40 - Find all menus
+2019-05-17 00:22:30 INFO  CreateOrderCommand:20 - execute
+2019-05-17 00:22:30 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:22:30 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:22:30 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:22:30 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:22:30 INFO  CommandFactory:36 - Command get
+2019-05-17 00:22:30 INFO  MenuServiceImpl:40 - Find all menus
+2019-05-17 00:22:30 INFO  ClientOrderPageCommand:20 - execute
+2019-05-17 00:22:31 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:22:31 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:22:31 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:22:31 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:22:31 INFO  CommandFactory:36 - Command get
+2019-05-17 00:22:31 INFO  MenuServiceImpl:40 - Find all menus
+2019-05-17 00:22:31 INFO  CreateOrderCommand:20 - execute
+2019-05-17 00:22:31 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:22:31 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:22:31 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:22:31 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:22:31 INFO  CommandFactory:36 - Command get
+2019-05-17 00:22:31 INFO  MenuServiceImpl:40 - Find all menus
+2019-05-17 00:22:31 INFO  ClientOrderPageCommand:20 - execute
+2019-05-17 00:22:32 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:22:32 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:22:32 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:22:32 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:22:32 INFO  CommandFactory:36 - Command get
+2019-05-17 00:22:32 INFO  MenuServiceImpl:40 - Find all menus
+2019-05-17 00:22:32 INFO  CreateOrderCommand:20 - execute
+2019-05-17 00:22:32 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:22:32 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:22:32 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:22:32 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:22:32 INFO  CommandFactory:36 - Command get
+2019-05-17 00:22:32 INFO  MenuServiceImpl:40 - Find all menus
+2019-05-17 00:22:32 INFO  ClientOrderPageCommand:20 - execute
+2019-05-17 00:22:32 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:22:32 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:22:32 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:22:32 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:22:32 INFO  CommandFactory:36 - Command get
+2019-05-17 00:22:32 INFO  MenuServiceImpl:40 - Find all menus
+2019-05-17 00:22:32 INFO  CreateOrderCommand:20 - execute
+2019-05-17 00:22:32 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:22:32 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:22:32 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:22:32 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:22:32 INFO  CommandFactory:36 - Command get
+2019-05-17 00:22:32 INFO  MenuServiceImpl:40 - Find all menus
+2019-05-17 00:22:32 INFO  ClientOrderPageCommand:20 - execute
+2019-05-17 00:48:04 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:48:04 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:48:04 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:48:04 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:48:04 INFO  CommandFactory:36 - Command get
+2019-05-17 00:48:04 INFO  MenuServiceImpl:40 - Find all menus
+2019-05-17 00:48:04 INFO  ClientOrderPageCommand:20 - execute
+2019-05-17 00:48:08 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:48:08 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:48:08 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:48:08 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:48:08 INFO  CommandFactory:36 - Command get
+2019-05-17 00:48:08 INFO  MenuServiceImpl:40 - Find all menus
+2019-05-17 00:48:08 INFO  CreateOrderCommand:20 - execute
+2019-05-17 00:48:09 INFO  EncodingFilter:17 - do Filter
+2019-05-17 00:48:09 INFO  LocaleFilter:29 - do Filter
+2019-05-17 00:48:09 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 00:48:09 INFO  RoleFilter:30 - Do Filter
+2019-05-17 00:48:09 INFO  CommandFactory:36 - Command get
+2019-05-17 00:48:09 INFO  MenuServiceImpl:40 - Find all menus
+2019-05-17 00:48:09 INFO  ClientOrderPageCommand:20 - execute
+2019-05-17 01:04:26 INFO  EncodingFilter:17 - do Filter
+2019-05-17 01:04:26 INFO  LocaleFilter:29 - do Filter
+2019-05-17 01:04:26 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 01:04:26 INFO  RoleFilter:30 - Do Filter
+2019-05-17 01:04:26 INFO  CommandFactory:36 - Command get
+2019-05-17 01:04:26 INFO  MenuServiceImpl:40 - Find all menus
+2019-05-17 01:04:26 INFO  ClientOrderPageCommand:20 - execute
+2019-05-17 01:04:50 INFO  EncodingFilter:17 - do Filter
+2019-05-17 01:04:50 INFO  LocaleFilter:29 - do Filter
+2019-05-17 01:04:50 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 01:04:50 INFO  RoleFilter:30 - Do Filter
+2019-05-17 01:04:50 INFO  CommandFactory:36 - Command get
+2019-05-17 01:04:50 INFO  MenuServiceImpl:40 - Find all menus
+2019-05-17 01:04:50 INFO  ClientOrderPageCommand:20 - execute
+2019-05-17 01:04:51 INFO  EncodingFilter:17 - do Filter
+2019-05-17 01:04:51 INFO  LocaleFilter:29 - do Filter
+2019-05-17 01:04:51 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 01:04:51 INFO  RoleFilter:30 - Do Filter
+2019-05-17 01:04:51 INFO  CommandFactory:36 - Command get
+2019-05-17 01:04:51 INFO  MenuServiceImpl:40 - Find all menus
+2019-05-17 01:04:51 INFO  ClientOrderPageCommand:20 - execute
+2019-05-17 01:04:53 INFO  EncodingFilter:17 - do Filter
+2019-05-17 01:04:53 INFO  LocaleFilter:29 - do Filter
+2019-05-17 01:04:53 INFO  EncodingFilter:17 - do Filter
+2019-05-17 01:04:53 INFO  LocaleFilter:29 - do Filter
+2019-05-17 01:04:53 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 01:04:53 INFO  RoleFilter:30 - Do Filter
+2019-05-17 01:04:53 INFO  CommandFactory:36 - Command get
+2019-05-17 01:04:53 INFO  MenuServiceImpl:40 - Find all menus
+2019-05-17 01:04:53 INFO  ClientOrderPageCommand:20 - execute
+2019-05-17 01:04:54 INFO  EncodingFilter:17 - do Filter
+2019-05-17 01:04:54 INFO  LocaleFilter:29 - do Filter
+2019-05-17 01:04:54 INFO  EncodingFilter:17 - do Filter
+2019-05-17 01:04:54 INFO  LocaleFilter:29 - do Filter
+2019-05-17 01:04:54 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 01:04:54 INFO  RoleFilter:30 - Do Filter
+2019-05-17 01:04:54 INFO  CommandFactory:36 - Command get
+2019-05-17 01:04:54 INFO  MenuServiceImpl:40 - Find all menus
+2019-05-17 01:04:54 INFO  ClientOrderPageCommand:20 - execute
+2019-05-17 01:04:55 INFO  EncodingFilter:17 - do Filter
+2019-05-17 01:04:55 INFO  LocaleFilter:29 - do Filter
+2019-05-17 01:04:55 INFO  EncodingFilter:17 - do Filter
+2019-05-17 01:04:55 INFO  LocaleFilter:29 - do Filter
+2019-05-17 01:04:55 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 01:04:55 INFO  RoleFilter:30 - Do Filter
+2019-05-17 01:04:55 INFO  CommandFactory:36 - Command get
+2019-05-17 01:04:55 INFO  MenuServiceImpl:40 - Find all menus
+2019-05-17 01:04:55 INFO  ClientOrderPageCommand:20 - execute
+2019-05-17 01:04:56 INFO  EncodingFilter:17 - do Filter
+2019-05-17 01:04:56 INFO  LocaleFilter:29 - do Filter
+2019-05-17 01:04:56 INFO  EncodingFilter:17 - do Filter
+2019-05-17 01:04:56 INFO  LocaleFilter:29 - do Filter
+2019-05-17 01:04:56 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 01:04:56 INFO  RoleFilter:30 - Do Filter
+2019-05-17 01:04:56 INFO  CommandFactory:36 - Command get
+2019-05-17 01:04:56 INFO  MenuServiceImpl:40 - Find all menus
+2019-05-17 01:04:56 INFO  ClientOrderPageCommand:20 - execute
+2019-05-17 01:05:43 INFO  EncodingFilter:17 - do Filter
+2019-05-17 01:05:43 INFO  LocaleFilter:29 - do Filter
+2019-05-17 01:05:43 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 01:05:43 INFO  RoleFilter:30 - Do Filter
+2019-05-17 01:05:43 INFO  CommandFactory:36 - Command get
+2019-05-17 01:05:43 INFO  MenuServiceImpl:40 - Find all menus
+2019-05-17 01:05:43 INFO  ClientOrderPageCommand:20 - execute
+2019-05-17 01:05:44 INFO  EncodingFilter:17 - do Filter
+2019-05-17 01:05:44 INFO  LocaleFilter:29 - do Filter
+2019-05-17 01:05:44 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 01:05:44 INFO  RoleFilter:30 - Do Filter
+2019-05-17 01:05:44 INFO  CommandFactory:36 - Command get
+2019-05-17 01:05:44 INFO  MenuServiceImpl:40 - Find all menus
+2019-05-17 01:05:44 INFO  ClientOrderPageCommand:20 - execute
+2019-05-17 01:05:46 INFO  EncodingFilter:17 - do Filter
+2019-05-17 01:05:46 INFO  LocaleFilter:29 - do Filter
+2019-05-17 01:05:46 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 01:05:46 INFO  RoleFilter:30 - Do Filter
+2019-05-17 01:05:46 INFO  CommandFactory:36 - Command get
+2019-05-17 01:05:46 INFO  MenuServiceImpl:40 - Find all menus
+2019-05-17 01:05:46 INFO  ClientOrderPageCommand:20 - execute
+2019-05-17 01:05:47 INFO  EncodingFilter:17 - do Filter
+2019-05-17 01:05:47 INFO  LocaleFilter:29 - do Filter
+2019-05-17 01:05:47 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 01:05:47 INFO  RoleFilter:30 - Do Filter
+2019-05-17 01:05:47 INFO  CommandFactory:36 - Command get
+2019-05-17 01:05:47 INFO  MenuServiceImpl:40 - Find all menus
+2019-05-17 01:05:47 INFO  ClientOrderPageCommand:20 - execute
+2019-05-17 01:05:53 INFO  EncodingFilter:17 - do Filter
+2019-05-17 01:05:53 INFO  LocaleFilter:29 - do Filter
+2019-05-17 01:05:53 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 01:05:53 INFO  RoleFilter:30 - Do Filter
+2019-05-17 01:05:53 INFO  CommandFactory:36 - Command get
+2019-05-17 01:05:53 INFO  MenuServiceImpl:40 - Find all menus
+2019-05-17 01:05:53 INFO  CreateOrderCommand:20 - execute
+2019-05-17 01:05:53 INFO  EncodingFilter:17 - do Filter
+2019-05-17 01:05:53 INFO  LocaleFilter:29 - do Filter
+2019-05-17 01:05:53 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 01:05:53 INFO  RoleFilter:30 - Do Filter
+2019-05-17 01:05:53 INFO  CommandFactory:36 - Command get
+2019-05-17 01:05:53 INFO  MenuServiceImpl:40 - Find all menus
+2019-05-17 01:05:53 INFO  ClientOrderPageCommand:20 - execute
+2019-05-17 01:06:05 INFO  EncodingFilter:17 - do Filter
+2019-05-17 01:06:05 INFO  LocaleFilter:29 - do Filter
+2019-05-17 01:06:05 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 01:06:05 INFO  RoleFilter:30 - Do Filter
+2019-05-17 01:06:05 INFO  CommandFactory:36 - Command get
+2019-05-17 01:06:05 INFO  MenuServiceImpl:40 - Find all menus
+2019-05-17 01:06:05 INFO  CreateOrderCommand:20 - execute
+2019-05-17 01:06:05 INFO  EncodingFilter:17 - do Filter
+2019-05-17 01:06:05 INFO  LocaleFilter:29 - do Filter
+2019-05-17 01:06:05 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 01:06:05 INFO  RoleFilter:30 - Do Filter
+2019-05-17 01:06:05 INFO  CommandFactory:36 - Command get
+2019-05-17 01:06:05 INFO  MenuServiceImpl:40 - Find all menus
+2019-05-17 01:06:05 INFO  ClientOrderPageCommand:20 - execute
+2019-05-17 01:10:24 INFO  DaoFactory:27 - dao factory
+2019-05-17 01:10:24 INFO  OrderServiceImpl:23 - Create order = %d
+2019-05-17 01:15:54 INFO  DaoFactory:27 - dao factory
+2019-05-17 01:15:55 INFO  OrderServiceImpl:23 - Create order = %d
+2019-05-17 01:15:56 INFO  DaoFactory:27 - dao factory
+2019-05-17 01:15:58 INFO  OrderServiceImpl:23 - Create order = %d
+2019-05-17 01:16:25 INFO  EncodingFilter:17 - do Filter
+2019-05-17 01:16:25 INFO  LocaleFilter:29 - do Filter
+2019-05-17 01:16:25 INFO  EncodingFilter:17 - do Filter
+2019-05-17 01:16:25 INFO  LocaleFilter:29 - do Filter
+2019-05-17 01:16:25 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 01:16:26 INFO  EncodingFilter:17 - do Filter
+2019-05-17 01:16:26 INFO  LocaleFilter:29 - do Filter
+2019-05-17 01:16:27 INFO  DaoFactory:27 - dao factory
+2019-05-17 01:16:27 INFO  DaoFactory:27 - dao factory
+2019-05-17 01:16:27 INFO  DaoFactory:27 - dao factory
+2019-05-17 01:16:27 INFO  CommandFactory:36 - Command get
+2019-05-17 01:17:10 INFO  EncodingFilter:17 - do Filter
+2019-05-17 01:17:10 INFO  LocaleFilter:29 - do Filter
+2019-05-17 01:17:10 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 01:17:10 INFO  EncodingFilter:17 - do Filter
+2019-05-17 01:17:10 INFO  LocaleFilter:29 - do Filter
+2019-05-17 01:17:10 INFO  EncodingFilter:17 - do Filter
+2019-05-17 01:17:10 INFO  LocaleFilter:29 - do Filter
+2019-05-17 01:17:10 INFO  CommandFactory:36 - Command get
+2019-05-17 01:17:12 INFO  EncodingFilter:17 - do Filter
+2019-05-17 01:17:12 INFO  LocaleFilter:29 - do Filter
+2019-05-17 01:17:13 INFO  EncodingFilter:17 - do Filter
+2019-05-17 01:17:13 INFO  LocaleFilter:29 - do Filter
+2019-05-17 01:17:44 INFO  EncodingFilter:17 - do Filter
+2019-05-17 01:17:44 INFO  LocaleFilter:29 - do Filter
+2019-05-17 01:17:44 INFO  CommandFactory:36 - Command get
+2019-05-17 01:18:02 INFO  DaoFactory:27 - dao factory
+2019-05-17 01:18:03 INFO  UserServiceImpl:63 - get Login and password
+2019-05-17 01:18:03 INFO  LoginCommand:36 - user login
+2019-05-17 01:18:03 INFO  EncodingFilter:17 - do Filter
+2019-05-17 01:18:03 INFO  LocaleFilter:29 - do Filter
+2019-05-17 01:18:03 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 01:18:03 INFO  RoleFilter:30 - Do Filter
+2019-05-17 01:18:03 INFO  CommandFactory:36 - Command get
+2019-05-17 01:18:03 INFO  ClientPageCommand:21 - execute
+2019-05-17 01:18:06 INFO  EncodingFilter:17 - do Filter
+2019-05-17 01:18:06 INFO  LocaleFilter:29 - do Filter
+2019-05-17 01:18:06 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 01:18:06 INFO  RoleFilter:30 - Do Filter
+2019-05-17 01:18:06 INFO  CommandFactory:36 - Command get
+2019-05-17 01:18:06 INFO  MenuServiceImpl:40 - Find all menus
+2019-05-17 01:18:06 INFO  ClientOrderPageCommand:20 - execute
+2019-05-17 01:18:36 INFO  EncodingFilter:17 - do Filter
+2019-05-17 01:18:36 INFO  LocaleFilter:29 - do Filter
+2019-05-17 01:18:36 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 01:18:36 INFO  RoleFilter:30 - Do Filter
+2019-05-17 01:18:36 INFO  CommandFactory:36 - Command get
+2019-05-17 01:18:36 INFO  MenuServiceImpl:40 - Find all menus
+2019-05-17 01:39:50 INFO  DaoFactory:27 - dao factory
+2019-05-17 01:39:50 INFO  DaoFactory:27 - dao factory
+2019-05-17 01:39:50 INFO  MenuServiceImpl:43 - Find all menus
+2019-05-17 01:40:12 INFO  DaoFactory:27 - dao factory
+2019-05-17 01:40:12 INFO  DaoFactory:27 - dao factory
+2019-05-17 01:40:53 INFO  MenuServiceImpl:43 - Find all menus
+2019-05-17 01:43:06 INFO  DaoFactory:27 - dao factory
+2019-05-17 01:43:06 INFO  DaoFactory:27 - dao factory
+2019-05-17 01:43:07 INFO  MenuServiceImpl:43 - Find all menus
+2019-05-17 01:45:49 INFO  DaoFactory:27 - dao factory
+2019-05-17 01:45:49 INFO  DaoFactory:27 - dao factory
+2019-05-17 01:45:49 INFO  MenuServiceImpl:43 - Find all menus
+2019-05-17 01:46:37 INFO  DaoFactory:27 - dao factory
+2019-05-17 01:46:37 INFO  DaoFactory:27 - dao factory
+2019-05-17 01:46:37 INFO  MenuServiceImpl:43 - Find all menus
+2019-05-17 01:48:56 INFO  DaoFactory:27 - dao factory
+2019-05-17 01:48:56 INFO  DaoFactory:27 - dao factory
+2019-05-17 01:48:56 INFO  MenuServiceImpl:43 - Find all menus
+2019-05-17 09:16:56 INFO  DaoFactory:27 - dao factory
+2019-05-17 09:16:56 INFO  DaoFactory:27 - dao factory
+2019-05-17 09:16:56 INFO  MenuServiceImpl:44 - Find all menus
+2019-05-17 09:21:53 INFO  DaoFactory:27 - dao factory
+2019-05-17 09:21:53 INFO  DaoFactory:27 - dao factory
+2019-05-17 09:21:53 INFO  MenuServiceImpl:44 - Find all menus
+2019-05-17 09:23:37 INFO  DaoFactory:27 - dao factory
+2019-05-17 09:23:37 INFO  DaoFactory:27 - dao factory
+2019-05-17 09:23:38 INFO  MenuServiceImpl:44 - Find all menus
+2019-05-17 09:23:53 INFO  DaoFactory:27 - dao factory
+2019-05-17 09:23:53 INFO  DaoFactory:27 - dao factory
+2019-05-17 09:23:53 INFO  MenuServiceImpl:44 - Find all menus
+2019-05-17 10:31:55 INFO  DaoFactory:27 - dao factory
+2019-05-17 10:31:55 INFO  DaoFactory:27 - dao factory
+2019-05-17 10:31:55 INFO  MenuDaoImpl:122 - Cannot find by id
+java.sql.SQLException: No value specified for parameter 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1037)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at model.dao.daoimpl.MenuDaoImpl.findDishListById(MenuDaoImpl.java:110)
+	at Main.main(Main.java:22)
+2019-05-17 10:32:10 INFO  DaoFactory:27 - dao factory
+2019-05-17 10:32:10 INFO  DaoFactory:27 - dao factory
+2019-05-17 10:32:11 INFO  MenuDaoImpl:122 - Cannot find by id
+java.sql.SQLException: No value specified for parameter 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1037)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at model.dao.daoimpl.MenuDaoImpl.findDishListById(MenuDaoImpl.java:110)
+	at Main.main(Main.java:22)
+2019-05-17 10:32:21 INFO  DaoFactory:27 - dao factory
+2019-05-17 10:32:21 INFO  DaoFactory:27 - dao factory
+2019-05-17 10:32:48 INFO  MenuDaoImpl:122 - Cannot find by id
+java.sql.SQLException: No value specified for parameter 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1037)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at model.dao.daoimpl.MenuDaoImpl.findDishListById(MenuDaoImpl.java:110)
+	at Main.main(Main.java:22)
+2019-05-17 10:32:50 INFO  DaoFactory:27 - dao factory
+2019-05-17 10:32:50 INFO  DaoFactory:27 - dao factory
+2019-05-17 10:33:58 INFO  MenuDaoImpl:122 - Cannot find by id
+java.sql.SQLException: No value specified for parameter 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1037)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at model.dao.daoimpl.MenuDaoImpl.findDishListById(MenuDaoImpl.java:110)
+	at Main.main(Main.java:22)
+2019-05-17 10:35:39 INFO  DaoFactory:27 - dao factory
+2019-05-17 10:35:40 INFO  DaoFactory:27 - dao factory
+2019-05-17 10:35:44 INFO  MenuDaoImpl:123 - Cannot find by id
+java.sql.SQLException: No value specified for parameter 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1037)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at model.dao.daoimpl.MenuDaoImpl.findDishListById(MenuDaoImpl.java:110)
+	at Main.main(Main.java:22)
+2019-05-17 10:35:58 INFO  DaoFactory:27 - dao factory
+2019-05-17 10:35:58 INFO  DaoFactory:27 - dao factory
+2019-05-17 10:35:59 INFO  MenuDaoImpl:123 - Cannot find by id
+java.sql.SQLException: No value specified for parameter 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1037)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at model.dao.daoimpl.MenuDaoImpl.findDishListById(MenuDaoImpl.java:110)
+	at Main.main(Main.java:22)
+2019-05-17 10:36:04 INFO  DaoFactory:27 - dao factory
+2019-05-17 10:36:04 INFO  DaoFactory:27 - dao factory
+2019-05-17 10:36:23 INFO  MenuDaoImpl:123 - Cannot find by id
+java.sql.SQLException: No value specified for parameter 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1037)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at model.dao.daoimpl.MenuDaoImpl.findDishListById(MenuDaoImpl.java:110)
+	at Main.main(Main.java:22)
+2019-05-17 10:37:12 INFO  DaoFactory:27 - dao factory
+2019-05-17 10:37:12 INFO  DaoFactory:27 - dao factory
+2019-05-17 10:37:12 INFO  MenuDaoImpl:124 - Cannot find by id
+java.sql.SQLException: No value specified for parameter 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1037)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at model.dao.daoimpl.MenuDaoImpl.findDishListById(MenuDaoImpl.java:110)
+	at Main.main(Main.java:22)
+2019-05-17 10:37:17 INFO  DaoFactory:27 - dao factory
+2019-05-17 10:37:17 INFO  DaoFactory:27 - dao factory
+2019-05-17 10:37:31 INFO  MenuDaoImpl:124 - Cannot find by id
+java.sql.SQLException: No value specified for parameter 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1037)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at model.dao.daoimpl.MenuDaoImpl.findDishListById(MenuDaoImpl.java:110)
+	at Main.main(Main.java:22)
+2019-05-17 10:37:50 INFO  DaoFactory:27 - dao factory
+2019-05-17 10:37:50 INFO  DaoFactory:27 - dao factory
+2019-05-17 10:37:50 INFO  MenuDaoImpl:124 - Cannot find by id
+java.sql.SQLException: No value specified for parameter 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1037)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at model.dao.daoimpl.MenuDaoImpl.findDishListById(MenuDaoImpl.java:110)
+	at Main.main(Main.java:22)
+2019-05-17 10:37:54 INFO  DaoFactory:27 - dao factory
+2019-05-17 10:37:54 INFO  DaoFactory:27 - dao factory
+2019-05-17 10:38:47 INFO  MenuDaoImpl:124 - Cannot find by id
+java.sql.SQLException: No value specified for parameter 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1037)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at model.dao.daoimpl.MenuDaoImpl.findDishListById(MenuDaoImpl.java:110)
+	at Main.main(Main.java:22)
+2019-05-17 10:38:50 INFO  DaoFactory:27 - dao factory
+2019-05-17 10:38:50 INFO  DaoFactory:27 - dao factory
+2019-05-17 10:39:47 INFO  MenuDaoImpl:125 - Cannot find by id
+java.sql.BatchUpdateException: Can not issue executeUpdate() or executeLargeUpdate() for SELECTs
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.util.Util.handleNewInstance(Util.java:191)
+	at com.mysql.cj.util.Util.getInstance(Util.java:166)
+	at com.mysql.cj.util.Util.getInstance(Util.java:173)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createBatchUpdateException(SQLError.java:224)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeBatchSerially(ClientPreparedStatement.java:870)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeBatchInternal(ClientPreparedStatement.java:452)
+	at com.mysql.cj.jdbc.StatementImpl.executeBatch(StatementImpl.java:814)
+	at org.apache.commons.dbcp.DelegatingStatement.executeBatch(DelegatingStatement.java:297)
+	at org.apache.commons.dbcp.DelegatingStatement.executeBatch(DelegatingStatement.java:297)
+	at model.dao.daoimpl.MenuDaoImpl.findDishListById(MenuDaoImpl.java:120)
+	at Main.main(Main.java:22)
+Caused by: java.sql.SQLException: Can not issue executeUpdate() or executeLargeUpdate() for SELECTs
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1086)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeBatchSerially(ClientPreparedStatement.java:849)
+	... 6 more
+2019-05-17 10:39:50 INFO  DaoFactory:27 - dao factory
+2019-05-17 10:39:50 INFO  DaoFactory:27 - dao factory
+2019-05-17 11:20:53 INFO  MenuDaoImpl:125 - Cannot find by id
+java.sql.BatchUpdateException: Can not issue executeUpdate() or executeLargeUpdate() for SELECTs
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.util.Util.handleNewInstance(Util.java:191)
+	at com.mysql.cj.util.Util.getInstance(Util.java:166)
+	at com.mysql.cj.util.Util.getInstance(Util.java:173)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createBatchUpdateException(SQLError.java:224)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeBatchSerially(ClientPreparedStatement.java:870)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeBatchInternal(ClientPreparedStatement.java:452)
+	at com.mysql.cj.jdbc.StatementImpl.executeBatch(StatementImpl.java:814)
+	at org.apache.commons.dbcp.DelegatingStatement.executeBatch(DelegatingStatement.java:297)
+	at org.apache.commons.dbcp.DelegatingStatement.executeBatch(DelegatingStatement.java:297)
+	at model.dao.daoimpl.MenuDaoImpl.findDishListById(MenuDaoImpl.java:117)
+	at Main.main(Main.java:22)
+Caused by: java.sql.SQLException: Can not issue executeUpdate() or executeLargeUpdate() for SELECTs
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1086)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeBatchSerially(ClientPreparedStatement.java:849)
+	... 6 more
+2019-05-17 11:20:57 INFO  DaoFactory:27 - dao factory
+2019-05-17 11:20:57 INFO  DaoFactory:27 - dao factory
+2019-05-17 11:20:57 INFO  MenuServiceImpl:44 - Find all menus
+2019-05-17 11:21:10 INFO  DaoFactory:27 - dao factory
+2019-05-17 11:21:10 INFO  DaoFactory:27 - dao factory
+2019-05-17 11:21:11 INFO  MenuServiceImpl:44 - Find all menus
+2019-05-17 11:26:23 INFO  DaoFactory:27 - dao factory
+2019-05-17 11:26:23 INFO  DaoFactory:27 - dao factory
+2019-05-17 11:26:23 INFO  MenuServiceImpl:44 - Find all menus
+2019-05-17 11:28:07 INFO  EncodingFilter:17 - do Filter
+2019-05-17 11:28:07 INFO  EncodingFilter:17 - do Filter
+2019-05-17 11:28:07 INFO  LocaleFilter:29 - do Filter
+2019-05-17 11:28:07 INFO  LocaleFilter:29 - do Filter
+2019-05-17 11:28:07 INFO  OrderServiceImpl:23 - Create order = %d
+2019-05-17 11:28:07 INFO  CreateOrderCommand:32 - execute
+2019-05-17 11:28:07 INFO  EncodingFilter:17 - do Filter
+2019-05-17 11:28:07 INFO  LocaleFilter:29 - do Filter
+2019-05-17 11:28:07 INFO  EncodingFilter:17 - do Filter
+2019-05-17 11:28:07 INFO  LocaleFilter:29 - do Filter
+2019-05-17 11:28:08 INFO  EncodingFilter:17 - do Filter
+2019-05-17 11:28:08 INFO  LocaleFilter:29 - do Filter
+2019-05-17 11:28:25 INFO  EncodingFilter:17 - do Filter
+2019-05-17 11:28:25 INFO  LocaleFilter:29 - do Filter
+2019-05-17 11:28:27 INFO  EncodingFilter:17 - do Filter
+2019-05-17 11:28:27 INFO  LocaleFilter:29 - do Filter
+2019-05-17 11:28:28 INFO  EncodingFilter:17 - do Filter
+2019-05-17 11:28:28 INFO  LocaleFilter:29 - do Filter
+2019-05-17 11:28:29 INFO  EncodingFilter:17 - do Filter
+2019-05-17 11:28:29 INFO  LocaleFilter:29 - do Filter
+2019-05-17 11:28:36 INFO  EncodingFilter:17 - do Filter
+2019-05-17 11:28:36 INFO  LocaleFilter:29 - do Filter
+2019-05-17 11:28:36 INFO  DaoFactory:27 - dao factory
+2019-05-17 11:28:36 INFO  DaoFactory:27 - dao factory
+2019-05-17 11:28:36 INFO  DaoFactory:27 - dao factory
+2019-05-17 11:28:36 INFO  CommandFactory:36 - Command get
+2019-05-17 11:28:36 INFO  DaoFactory:27 - dao factory
+2019-05-17 11:28:37 INFO  UserServiceImpl:63 - get Login and password
+2019-05-17 11:28:37 INFO  LoginCommand:36 - user login
+2019-05-17 11:28:37 INFO  EncodingFilter:17 - do Filter
+2019-05-17 11:28:37 INFO  LocaleFilter:29 - do Filter
+2019-05-17 11:28:37 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 11:28:37 INFO  RoleFilter:30 - Do Filter
+2019-05-17 11:28:37 INFO  CommandFactory:36 - Command get
+2019-05-17 11:28:37 INFO  ClientPageCommand:21 - execute
+2019-05-17 11:28:39 INFO  EncodingFilter:17 - do Filter
+2019-05-17 11:28:39 INFO  LocaleFilter:29 - do Filter
+2019-05-17 11:28:39 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 11:28:39 INFO  RoleFilter:30 - Do Filter
+2019-05-17 11:28:39 INFO  CommandFactory:36 - Command get
+2019-05-17 11:28:39 INFO  MenuServiceImpl:44 - Find all menus
+2019-05-17 11:28:39 INFO  ClientOrderPageCommand:20 - execute
+2019-05-17 11:29:22 INFO  EncodingFilter:17 - do Filter
+2019-05-17 11:29:22 INFO  LocaleFilter:29 - do Filter
+2019-05-17 11:29:22 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 11:29:22 INFO  RoleFilter:30 - Do Filter
+2019-05-17 11:29:22 INFO  CommandFactory:36 - Command get
+2019-05-17 11:29:22 INFO  MenuServiceImpl:44 - Find all menus
+2019-05-17 11:29:22 INFO  OrderServiceImpl:23 - Create order = %d
+2019-05-17 11:29:22 INFO  CreateOrderCommand:32 - execute
+2019-05-17 11:29:22 INFO  EncodingFilter:17 - do Filter
+2019-05-17 11:29:22 INFO  LocaleFilter:29 - do Filter
+2019-05-17 11:29:22 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 11:29:22 INFO  RoleFilter:30 - Do Filter
+2019-05-17 11:29:22 INFO  CommandFactory:36 - Command get
+2019-05-17 11:29:22 INFO  MenuServiceImpl:44 - Find all menus
+2019-05-17 11:29:22 INFO  ClientOrderPageCommand:20 - execute
+2019-05-17 11:30:35 INFO  EncodingFilter:17 - do Filter
+2019-05-17 11:30:35 INFO  LocaleFilter:29 - do Filter
+2019-05-17 11:30:35 INFO  EncodingFilter:17 - do Filter
+2019-05-17 11:30:35 INFO  LocaleFilter:29 - do Filter
+2019-05-17 11:30:35 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 11:30:35 INFO  RoleFilter:30 - Do Filter
+2019-05-17 11:30:35 INFO  CommandFactory:36 - Command get
+2019-05-17 11:30:35 INFO  MenuServiceImpl:44 - Find all menus
+2019-05-17 11:30:35 INFO  ClientOrderPageCommand:20 - execute
+2019-05-17 11:30:36 INFO  EncodingFilter:17 - do Filter
+2019-05-17 11:30:36 INFO  LocaleFilter:29 - do Filter
+2019-05-17 11:30:36 INFO  EncodingFilter:17 - do Filter
+2019-05-17 11:30:36 INFO  LocaleFilter:29 - do Filter
+2019-05-17 11:30:36 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 11:30:36 INFO  RoleFilter:30 - Do Filter
+2019-05-17 11:30:36 INFO  CommandFactory:36 - Command get
+2019-05-17 11:30:36 INFO  MenuServiceImpl:44 - Find all menus
+2019-05-17 11:30:36 INFO  ClientOrderPageCommand:20 - execute
+2019-05-17 11:30:37 INFO  EncodingFilter:17 - do Filter
+2019-05-17 11:30:37 INFO  LocaleFilter:29 - do Filter
+2019-05-17 11:30:37 INFO  EncodingFilter:17 - do Filter
+2019-05-17 11:30:37 INFO  LocaleFilter:29 - do Filter
+2019-05-17 11:30:37 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 11:30:37 INFO  RoleFilter:30 - Do Filter
+2019-05-17 11:30:37 INFO  CommandFactory:36 - Command get
+2019-05-17 11:30:37 INFO  MenuServiceImpl:44 - Find all menus
+2019-05-17 11:30:37 INFO  ClientOrderPageCommand:20 - execute
+2019-05-17 11:30:38 INFO  EncodingFilter:17 - do Filter
+2019-05-17 11:30:38 INFO  LocaleFilter:29 - do Filter
+2019-05-17 11:30:38 INFO  EncodingFilter:17 - do Filter
+2019-05-17 11:30:38 INFO  LocaleFilter:29 - do Filter
+2019-05-17 11:30:38 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 11:30:38 INFO  RoleFilter:30 - Do Filter
+2019-05-17 11:30:38 INFO  CommandFactory:36 - Command get
+2019-05-17 11:30:38 INFO  MenuServiceImpl:44 - Find all menus
+2019-05-17 11:30:38 INFO  ClientOrderPageCommand:20 - execute
+2019-05-17 11:30:38 INFO  EncodingFilter:17 - do Filter
+2019-05-17 11:30:38 INFO  LocaleFilter:29 - do Filter
+2019-05-17 11:30:38 INFO  EncodingFilter:17 - do Filter
+2019-05-17 11:30:38 INFO  LocaleFilter:29 - do Filter
+2019-05-17 11:30:38 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 11:30:38 INFO  RoleFilter:30 - Do Filter
+2019-05-17 11:30:38 INFO  CommandFactory:36 - Command get
+2019-05-17 11:30:38 INFO  MenuServiceImpl:44 - Find all menus
+2019-05-17 11:30:38 INFO  ClientOrderPageCommand:20 - execute
+2019-05-17 11:30:40 INFO  EncodingFilter:17 - do Filter
+2019-05-17 11:30:40 INFO  LocaleFilter:29 - do Filter
+2019-05-17 11:30:40 INFO  EncodingFilter:17 - do Filter
+2019-05-17 11:30:40 INFO  LocaleFilter:29 - do Filter
+2019-05-17 11:30:40 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 11:30:40 INFO  RoleFilter:30 - Do Filter
+2019-05-17 11:30:40 INFO  CommandFactory:36 - Command get
+2019-05-17 11:30:40 INFO  MenuServiceImpl:44 - Find all menus
+2019-05-17 11:30:40 INFO  ClientOrderPageCommand:20 - execute
+2019-05-17 11:38:51 INFO  DaoFactory:27 - dao factory
+2019-05-17 11:38:51 INFO  DaoFactory:27 - dao factory
+2019-05-17 11:38:51 INFO  MenuServiceImpl:44 - Find all menus
+2019-05-17 11:44:05 INFO  EncodingFilter:17 - do Filter
+2019-05-17 11:44:05 INFO  LocaleFilter:29 - do Filter
+2019-05-17 11:44:06 INFO  EncodingFilter:17 - do Filter
+2019-05-17 11:44:06 INFO  LocaleFilter:29 - do Filter
+2019-05-17 11:44:07 INFO  EncodingFilter:17 - do Filter
+2019-05-17 11:44:07 INFO  LocaleFilter:29 - do Filter
+2019-05-17 11:45:34 INFO  EncodingFilter:17 - do Filter
+2019-05-17 11:45:34 INFO  LocaleFilter:29 - do Filter
+2019-05-17 11:45:34 INFO  DaoFactory:27 - dao factory
+2019-05-17 11:45:34 INFO  DaoFactory:27 - dao factory
+2019-05-17 11:45:34 INFO  DaoFactory:27 - dao factory
+2019-05-17 11:45:34 INFO  CommandFactory:36 - Command get
+2019-05-17 11:45:34 INFO  DaoFactory:27 - dao factory
+2019-05-17 11:45:34 INFO  UserServiceImpl:63 - get Login and password
+2019-05-17 11:45:34 INFO  LoginCommand:36 - user login
+2019-05-17 11:45:34 INFO  EncodingFilter:17 - do Filter
+2019-05-17 11:45:34 INFO  LocaleFilter:29 - do Filter
+2019-05-17 11:45:34 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 11:45:34 INFO  RoleFilter:30 - Do Filter
+2019-05-17 11:45:34 INFO  CommandFactory:36 - Command get
+2019-05-17 11:45:34 INFO  ClientPageCommand:21 - execute
+2019-05-17 11:45:36 INFO  EncodingFilter:17 - do Filter
+2019-05-17 11:45:36 INFO  LocaleFilter:29 - do Filter
+2019-05-17 11:45:36 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 11:45:36 INFO  RoleFilter:30 - Do Filter
+2019-05-17 11:45:36 INFO  CommandFactory:36 - Command get
+2019-05-17 11:45:36 INFO  MenuServiceImpl:44 - Find all menus
+2019-05-17 11:45:36 INFO  ClientOrderPageCommand:20 - execute
+2019-05-17 11:45:39 INFO  EncodingFilter:17 - do Filter
+2019-05-17 11:45:39 INFO  LocaleFilter:29 - do Filter
+2019-05-17 11:45:39 INFO  EncodingFilter:17 - do Filter
+2019-05-17 11:45:39 INFO  LocaleFilter:29 - do Filter
+2019-05-17 11:45:39 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 11:45:39 INFO  RoleFilter:30 - Do Filter
+2019-05-17 11:45:39 INFO  CommandFactory:36 - Command get
+2019-05-17 11:45:39 INFO  MenuServiceImpl:44 - Find all menus
+2019-05-17 11:45:39 INFO  ClientOrderPageCommand:20 - execute
+2019-05-17 11:45:40 INFO  EncodingFilter:17 - do Filter
+2019-05-17 11:45:40 INFO  LocaleFilter:29 - do Filter
+2019-05-17 11:45:40 INFO  EncodingFilter:17 - do Filter
+2019-05-17 11:45:40 INFO  LocaleFilter:29 - do Filter
+2019-05-17 11:45:40 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 11:45:40 INFO  RoleFilter:30 - Do Filter
+2019-05-17 11:45:40 INFO  CommandFactory:36 - Command get
+2019-05-17 11:45:40 INFO  MenuServiceImpl:44 - Find all menus
+2019-05-17 11:45:40 INFO  ClientOrderPageCommand:20 - execute
+2019-05-17 11:45:41 INFO  EncodingFilter:17 - do Filter
+2019-05-17 11:45:41 INFO  LocaleFilter:29 - do Filter
+2019-05-17 11:45:41 INFO  EncodingFilter:17 - do Filter
+2019-05-17 11:45:41 INFO  LocaleFilter:29 - do Filter
+2019-05-17 11:45:41 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 11:45:41 INFO  RoleFilter:30 - Do Filter
+2019-05-17 11:45:41 INFO  CommandFactory:36 - Command get
+2019-05-17 11:45:41 INFO  MenuServiceImpl:44 - Find all menus
+2019-05-17 11:45:41 INFO  ClientOrderPageCommand:20 - execute
+2019-05-17 11:45:43 INFO  EncodingFilter:17 - do Filter
+2019-05-17 11:45:43 INFO  LocaleFilter:29 - do Filter
+2019-05-17 11:45:43 INFO  EncodingFilter:17 - do Filter
+2019-05-17 11:45:43 INFO  LocaleFilter:29 - do Filter
+2019-05-17 11:45:43 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 11:45:43 INFO  RoleFilter:30 - Do Filter
+2019-05-17 11:45:43 INFO  CommandFactory:36 - Command get
+2019-05-17 11:45:43 INFO  MenuServiceImpl:44 - Find all menus
+2019-05-17 11:45:43 INFO  ClientOrderPageCommand:20 - execute
+2019-05-17 11:45:44 INFO  EncodingFilter:17 - do Filter
+2019-05-17 11:45:44 INFO  LocaleFilter:29 - do Filter
+2019-05-17 11:45:44 INFO  EncodingFilter:17 - do Filter
+2019-05-17 11:45:44 INFO  LocaleFilter:29 - do Filter
+2019-05-17 11:45:44 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 11:45:44 INFO  RoleFilter:30 - Do Filter
+2019-05-17 11:45:44 INFO  CommandFactory:36 - Command get
+2019-05-17 11:45:44 INFO  MenuServiceImpl:44 - Find all menus
+2019-05-17 11:45:44 INFO  ClientOrderPageCommand:20 - execute
+2019-05-17 11:45:45 INFO  EncodingFilter:17 - do Filter
+2019-05-17 11:45:45 INFO  LocaleFilter:29 - do Filter
+2019-05-17 11:45:45 INFO  EncodingFilter:17 - do Filter
+2019-05-17 11:45:45 INFO  LocaleFilter:29 - do Filter
+2019-05-17 11:45:45 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 11:45:45 INFO  RoleFilter:30 - Do Filter
+2019-05-17 11:45:45 INFO  CommandFactory:36 - Command get
+2019-05-17 11:45:45 INFO  MenuServiceImpl:44 - Find all menus
+2019-05-17 11:45:45 INFO  ClientOrderPageCommand:20 - execute
+2019-05-17 11:45:46 INFO  EncodingFilter:17 - do Filter
+2019-05-17 11:45:46 INFO  LocaleFilter:29 - do Filter
+2019-05-17 11:45:46 INFO  EncodingFilter:17 - do Filter
+2019-05-17 11:45:46 INFO  LocaleFilter:29 - do Filter
+2019-05-17 11:45:46 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 11:45:46 INFO  RoleFilter:30 - Do Filter
+2019-05-17 11:45:46 INFO  CommandFactory:36 - Command get
+2019-05-17 11:45:46 INFO  MenuServiceImpl:44 - Find all menus
+2019-05-17 11:45:46 INFO  ClientOrderPageCommand:20 - execute
+2019-05-17 11:45:47 INFO  EncodingFilter:17 - do Filter
+2019-05-17 11:45:47 INFO  LocaleFilter:29 - do Filter
+2019-05-17 11:45:47 INFO  EncodingFilter:17 - do Filter
+2019-05-17 11:45:47 INFO  LocaleFilter:29 - do Filter
+2019-05-17 11:45:47 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 11:45:47 INFO  RoleFilter:30 - Do Filter
+2019-05-17 11:45:47 INFO  CommandFactory:36 - Command get
+2019-05-17 11:45:47 INFO  MenuServiceImpl:44 - Find all menus
+2019-05-17 11:45:47 INFO  ClientOrderPageCommand:20 - execute
+2019-05-17 11:45:52 INFO  EncodingFilter:17 - do Filter
+2019-05-17 11:45:52 INFO  LocaleFilter:29 - do Filter
+2019-05-17 11:45:52 INFO  EncodingFilter:17 - do Filter
+2019-05-17 11:45:52 INFO  LocaleFilter:29 - do Filter
+2019-05-17 11:45:52 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 11:45:52 INFO  RoleFilter:30 - Do Filter
+2019-05-17 11:45:52 INFO  CommandFactory:36 - Command get
+2019-05-17 11:45:52 INFO  MenuServiceImpl:44 - Find all menus
+2019-05-17 11:45:52 INFO  ClientOrderPageCommand:20 - execute
+2019-05-17 11:55:09 INFO  EncodingFilter:17 - do Filter
+2019-05-17 11:55:09 INFO  LocaleFilter:29 - do Filter
+2019-05-17 11:55:09 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 11:55:09 INFO  RoleFilter:30 - Do Filter
+2019-05-17 11:55:09 INFO  CommandFactory:36 - Command get
+2019-05-17 11:55:09 INFO  MenuServiceImpl:44 - Find all menus
+2019-05-17 11:55:09 INFO  ClientOrderPageCommand:20 - execute
+2019-05-17 11:55:17 INFO  EncodingFilter:17 - do Filter
+2019-05-17 11:55:17 INFO  LocaleFilter:29 - do Filter
+2019-05-17 11:55:17 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 11:55:17 INFO  RoleFilter:30 - Do Filter
+2019-05-17 11:55:17 INFO  CommandFactory:36 - Command get
+2019-05-17 11:55:17 INFO  MenuServiceImpl:44 - Find all menus
+2019-05-17 11:55:17 INFO  ClientOrderPageCommand:20 - execute
+2019-05-17 11:55:18 INFO  EncodingFilter:17 - do Filter
+2019-05-17 11:55:18 INFO  LocaleFilter:29 - do Filter
+2019-05-17 11:55:18 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 11:55:18 INFO  RoleFilter:30 - Do Filter
+2019-05-17 11:55:18 INFO  CommandFactory:36 - Command get
+2019-05-17 11:55:18 INFO  MenuServiceImpl:44 - Find all menus
+2019-05-17 11:55:18 INFO  ClientOrderPageCommand:20 - execute
+2019-05-17 11:55:33 INFO  EncodingFilter:17 - do Filter
+2019-05-17 11:55:33 INFO  LocaleFilter:29 - do Filter
+2019-05-17 11:55:33 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 11:55:33 INFO  RoleFilter:30 - Do Filter
+2019-05-17 11:55:33 INFO  CommandFactory:36 - Command get
+2019-05-17 11:55:33 INFO  MenuServiceImpl:44 - Find all menus
+2019-05-17 11:55:33 INFO  OrderServiceImpl:23 - Create order = %d
+2019-05-17 11:55:33 INFO  CreateOrderCommand:32 - execute
+2019-05-17 11:55:33 INFO  EncodingFilter:17 - do Filter
+2019-05-17 11:55:33 INFO  LocaleFilter:29 - do Filter
+2019-05-17 11:55:33 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 11:55:33 INFO  RoleFilter:30 - Do Filter
+2019-05-17 11:55:33 INFO  CommandFactory:36 - Command get
+2019-05-17 11:55:33 INFO  MenuServiceImpl:44 - Find all menus
+2019-05-17 11:55:33 INFO  ClientOrderPageCommand:20 - execute
+2019-05-17 16:43:39 INFO  EncodingFilter:17 - do Filter
+2019-05-17 16:43:39 INFO  LocaleFilter:29 - do Filter
+2019-05-17 16:43:41 INFO  EncodingFilter:17 - do Filter
+2019-05-17 16:43:41 INFO  LocaleFilter:29 - do Filter
+2019-05-17 16:43:42 INFO  EncodingFilter:17 - do Filter
+2019-05-17 16:43:42 INFO  LocaleFilter:29 - do Filter
+2019-05-17 16:43:54 INFO  EncodingFilter:17 - do Filter
+2019-05-17 16:43:54 INFO  LocaleFilter:29 - do Filter
+2019-05-17 16:43:55 INFO  DaoFactory:27 - dao factory
+2019-05-17 16:43:55 INFO  DaoFactory:27 - dao factory
+2019-05-17 16:43:55 INFO  DaoFactory:27 - dao factory
+2019-05-17 16:43:55 INFO  CommandFactory:36 - Command get
+2019-05-17 16:43:55 INFO  DaoFactory:27 - dao factory
+2019-05-17 16:43:56 INFO  UserServiceImpl:63 - get Login and password
+2019-05-17 16:43:56 INFO  LoginCommand:36 - user login
+2019-05-17 16:43:56 INFO  EncodingFilter:17 - do Filter
+2019-05-17 16:43:56 INFO  LocaleFilter:29 - do Filter
+2019-05-17 16:43:56 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 16:43:56 INFO  RoleFilter:30 - Do Filter
+2019-05-17 16:43:56 INFO  CommandFactory:36 - Command get
+2019-05-17 16:43:56 INFO  ClientPageCommand:21 - execute
+2019-05-17 16:43:58 INFO  EncodingFilter:17 - do Filter
+2019-05-17 16:43:58 INFO  LocaleFilter:29 - do Filter
+2019-05-17 16:43:58 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 16:43:58 INFO  RoleFilter:30 - Do Filter
+2019-05-17 16:43:58 INFO  CommandFactory:36 - Command get
+2019-05-17 16:43:58 INFO  MenuServiceImpl:44 - Find all menus
+2019-05-17 16:43:58 INFO  ClientOrderPageCommand:20 - execute
+2019-05-17 16:44:35 INFO  EncodingFilter:17 - do Filter
+2019-05-17 16:44:35 INFO  LocaleFilter:29 - do Filter
+2019-05-17 16:44:35 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 16:44:35 INFO  RoleFilter:30 - Do Filter
+2019-05-17 16:44:35 INFO  CommandFactory:36 - Command get
+2019-05-17 16:44:35 INFO  MenuServiceImpl:44 - Find all menus
+2019-05-17 16:44:35 INFO  OrderServiceImpl:23 - Create order = %d
+2019-05-17 16:46:48 INFO  MenuServiceImpl:44 - Find all menus
+2019-05-17 16:49:48 INFO  OrderServiceImpl:67 - dish  has selected
+2019-05-17 16:49:53 INFO  CreateOrderCommand:32 - execute
+2019-05-17 16:49:58 INFO  EncodingFilter:17 - do Filter
+2019-05-17 16:49:58 INFO  LocaleFilter:29 - do Filter
+2019-05-17 16:49:58 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 16:49:58 INFO  RoleFilter:30 - Do Filter
+2019-05-17 16:49:58 INFO  CommandFactory:36 - Command get
+2019-05-17 16:49:58 INFO  MenuServiceImpl:44 - Find all menus
+2019-05-17 16:49:58 INFO  ClientOrderPageCommand:20 - execute
+2019-05-17 16:51:06 INFO  EncodingFilter:17 - do Filter
+2019-05-17 16:51:06 INFO  LocaleFilter:29 - do Filter
+2019-05-17 16:51:06 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 16:51:06 INFO  RoleFilter:30 - Do Filter
+2019-05-17 16:51:06 INFO  CommandFactory:36 - Command get
+2019-05-17 16:51:06 INFO  MenuServiceImpl:44 - Find all menus
+2019-05-17 16:51:06 INFO  OrderServiceImpl:23 - Create order = %d
+2019-05-17 16:51:12 INFO  MenuServiceImpl:44 - Find all menus
+2019-05-17 16:51:14 INFO  OrderServiceImpl:67 - dish  has selected
+2019-05-17 16:51:14 INFO  CreateOrderCommand:32 - execute
+2019-05-17 16:51:14 INFO  EncodingFilter:17 - do Filter
+2019-05-17 16:51:14 INFO  LocaleFilter:29 - do Filter
+2019-05-17 16:51:14 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 16:51:14 INFO  RoleFilter:30 - Do Filter
+2019-05-17 16:51:14 INFO  CommandFactory:36 - Command get
+2019-05-17 16:51:14 INFO  MenuServiceImpl:44 - Find all menus
+2019-05-17 16:51:14 INFO  ClientOrderPageCommand:20 - execute
+2019-05-17 17:59:35 INFO  EncodingFilter:17 - do Filter
+2019-05-17 17:59:35 INFO  LocaleFilter:29 - do Filter
+2019-05-17 17:59:35 INFO  CommandFactory:36 - Command get
+2019-05-17 17:59:35 INFO  MainCommand:26 - execute
+2019-05-17 17:59:36 INFO  EncodingFilter:17 - do Filter
+2019-05-17 17:59:36 INFO  LocaleFilter:29 - do Filter
+2019-05-17 17:59:36 INFO  CommandFactory:36 - Command get
+2019-05-17 17:59:42 INFO  EncodingFilter:17 - do Filter
+2019-05-17 17:59:42 INFO  LocaleFilter:29 - do Filter
+2019-05-17 17:59:42 INFO  CommandFactory:36 - Command get
+2019-05-17 17:59:42 INFO  DaoFactory:27 - dao factory
+2019-05-17 17:59:42 INFO  UserServiceImpl:63 - get Login and password
+2019-05-17 17:59:42 INFO  LoginCommand:36 - user login
+2019-05-17 17:59:42 INFO  EncodingFilter:17 - do Filter
+2019-05-17 17:59:42 INFO  LocaleFilter:29 - do Filter
+2019-05-17 17:59:42 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 17:59:42 INFO  RoleFilter:30 - Do Filter
+2019-05-17 17:59:42 INFO  CommandFactory:36 - Command get
+2019-05-17 17:59:42 INFO  AdminCommand:15 - execute
+2019-05-17 20:10:08 INFO  EncodingFilter:17 - do Filter
+2019-05-17 20:10:08 INFO  LocaleFilter:29 - do Filter
+2019-05-17 20:10:08 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 20:10:08 INFO  EncodingFilter:17 - do Filter
+2019-05-17 20:10:08 INFO  LocaleFilter:29 - do Filter
+2019-05-17 20:10:08 INFO  CommandFactory:36 - Command get
+2019-05-17 20:10:14 INFO  EncodingFilter:17 - do Filter
+2019-05-17 20:10:14 INFO  LocaleFilter:29 - do Filter
+2019-05-17 20:10:14 INFO  CommandFactory:36 - Command get
+2019-05-17 20:10:14 INFO  DaoFactory:27 - dao factory
+2019-05-17 20:10:14 INFO  UserServiceImpl:63 - get Login and password
+2019-05-17 20:10:14 INFO  LoginCommand:36 - user login
+2019-05-17 20:10:14 INFO  EncodingFilter:17 - do Filter
+2019-05-17 20:10:14 INFO  LocaleFilter:29 - do Filter
+2019-05-17 20:10:14 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 20:10:14 INFO  RoleFilter:30 - Do Filter
+2019-05-17 20:10:14 INFO  CommandFactory:36 - Command get
+2019-05-17 20:10:14 INFO  AdminCommand:15 - execute
+2019-05-17 20:25:46 INFO  EncodingFilter:17 - do Filter
+2019-05-17 20:25:46 INFO  LocaleFilter:29 - do Filter
+2019-05-17 20:25:48 INFO  EncodingFilter:17 - do Filter
+2019-05-17 20:25:48 INFO  LocaleFilter:29 - do Filter
+2019-05-17 20:25:48 INFO  EncodingFilter:17 - do Filter
+2019-05-17 20:25:48 INFO  LocaleFilter:29 - do Filter
+2019-05-17 20:26:04 INFO  EncodingFilter:17 - do Filter
+2019-05-17 20:26:04 INFO  LocaleFilter:29 - do Filter
+2019-05-17 20:26:04 INFO  DaoFactory:27 - dao factory
+2019-05-17 20:26:04 INFO  DaoFactory:27 - dao factory
+2019-05-17 20:26:04 INFO  DaoFactory:27 - dao factory
+2019-05-17 20:26:04 INFO  DaoFactory:27 - dao factory
+2019-05-17 20:26:04 INFO  CommandFactory:38 - Command get
+2019-05-17 20:26:04 INFO  DaoFactory:27 - dao factory
+2019-05-17 20:26:04 INFO  UserServiceImpl:63 - get Login and password
+2019-05-17 20:26:04 INFO  LoginCommand:36 - user login
+2019-05-17 20:26:04 INFO  EncodingFilter:17 - do Filter
+2019-05-17 20:26:04 INFO  LocaleFilter:29 - do Filter
+2019-05-17 20:26:04 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 20:26:04 INFO  RoleFilter:30 - Do Filter
+2019-05-17 20:26:04 INFO  CommandFactory:38 - Command get
+2019-05-17 20:26:04 INFO  AdminPageCommand:15 - execute
+2019-05-17 20:26:08 INFO  EncodingFilter:17 - do Filter
+2019-05-17 20:26:08 INFO  LocaleFilter:29 - do Filter
+2019-05-17 20:26:08 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 20:26:08 INFO  RoleFilter:30 - Do Filter
+2019-05-17 20:26:08 INFO  CommandFactory:38 - Command get
+2019-05-17 20:26:08 INFO  OrderServiceImpl:42 - Find all orders
+2019-05-17 20:26:08 INFO  AdminCommandPageBill:18 - execute
+2019-05-17 20:36:35 INFO  EncodingFilter:17 - do Filter
+2019-05-17 20:36:35 INFO  LocaleFilter:29 - do Filter
+2019-05-17 20:36:35 INFO  EncodingFilter:17 - do Filter
+2019-05-17 20:36:35 INFO  LocaleFilter:29 - do Filter
+2019-05-17 20:36:35 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 20:36:35 INFO  RoleFilter:30 - Do Filter
+2019-05-17 20:36:35 INFO  EncodingFilter:17 - do Filter
+2019-05-17 20:36:35 INFO  LocaleFilter:29 - do Filter
+2019-05-17 20:36:35 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 20:36:35 INFO  RoleFilter:30 - Do Filter
+2019-05-17 20:36:35 INFO  CommandFactory:38 - Command get
+2019-05-17 20:36:35 INFO  PageErrorCommand:15 - execute
+2019-05-17 20:54:58 INFO  EncodingFilter:17 - do Filter
+2019-05-17 20:54:58 INFO  LocaleFilter:29 - do Filter
+2019-05-17 20:54:58 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 20:54:58 INFO  RoleFilter:30 - Do Filter
+2019-05-17 20:54:58 INFO  CommandFactory:38 - Command get
+2019-05-17 20:54:58 INFO  OrderServiceImpl:42 - Find all orders
+2019-05-17 20:54:58 INFO  AdminCommandPageBill:18 - execute
+2019-05-17 21:01:16 INFO  EncodingFilter:17 - do Filter
+2019-05-17 21:01:16 INFO  LocaleFilter:29 - do Filter
+2019-05-17 21:01:16 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 21:01:16 INFO  RoleFilter:30 - Do Filter
+2019-05-17 21:01:16 INFO  CommandFactory:38 - Command get
+2019-05-17 21:01:16 INFO  OrderServiceImpl:42 - Find all orders
+2019-05-17 21:01:16 INFO  AdminCommandPageBill:18 - execute
+2019-05-17 21:01:18 INFO  EncodingFilter:17 - do Filter
+2019-05-17 21:01:18 INFO  LocaleFilter:29 - do Filter
+2019-05-17 21:01:18 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 21:01:18 INFO  RoleFilter:30 - Do Filter
+2019-05-17 21:01:18 INFO  CommandFactory:38 - Command get
+2019-05-17 21:01:18 INFO  OrderServiceImpl:42 - Find all orders
+2019-05-17 21:01:18 INFO  AdminCommandPageBill:18 - execute
+2019-05-17 21:01:27 INFO  EncodingFilter:17 - do Filter
+2019-05-17 21:01:27 INFO  LocaleFilter:29 - do Filter
+2019-05-17 21:01:27 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 21:01:27 INFO  RoleFilter:30 - Do Filter
+2019-05-17 21:01:27 INFO  CommandFactory:38 - Command get
+2019-05-17 21:01:27 INFO  PageErrorCommand:15 - execute
+2019-05-17 21:01:32 INFO  EncodingFilter:17 - do Filter
+2019-05-17 21:01:32 INFO  LocaleFilter:29 - do Filter
+2019-05-17 21:01:32 INFO  CommandFactory:38 - Command get
+2019-05-17 21:01:32 INFO  EncodingFilter:17 - do Filter
+2019-05-17 21:01:32 INFO  LocaleFilter:29 - do Filter
+2019-05-17 21:01:32 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 21:01:32 INFO  RoleFilter:30 - Do Filter
+2019-05-17 21:01:32 INFO  CommandFactory:38 - Command get
+2019-05-17 21:01:32 INFO  AdminPageCommand:15 - execute
+2019-05-17 21:01:38 INFO  EncodingFilter:17 - do Filter
+2019-05-17 21:01:38 INFO  LocaleFilter:29 - do Filter
+2019-05-17 21:01:38 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 21:01:38 INFO  RoleFilter:30 - Do Filter
+2019-05-17 21:01:38 INFO  EncodingFilter:17 - do Filter
+2019-05-17 21:01:38 INFO  LocaleFilter:29 - do Filter
+2019-05-17 21:01:38 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 21:01:38 INFO  RoleFilter:30 - Do Filter
+2019-05-17 21:01:38 INFO  CommandFactory:38 - Command get
+2019-05-17 21:01:38 INFO  AdminPageCommand:15 - execute
+2019-05-17 21:49:23 INFO  EncodingFilter:17 - do Filter
+2019-05-17 21:49:23 INFO  LocaleFilter:29 - do Filter
+2019-05-17 21:49:23 INFO  AuthenticationFilter:21 - doFilter
+2019-05-17 21:49:23 INFO  EncodingFilter:17 - do Filter
+2019-05-17 21:49:23 INFO  LocaleFilter:29 - do Filter
+2019-05-17 21:49:23 INFO  CommandFactory:38 - Command get
+2019-05-17 22:45:43 INFO  EncodingFilter:17 - do Filter
+2019-05-17 22:45:43 INFO  LocaleFilter:29 - do Filter
+2019-05-17 22:45:46 INFO  EncodingFilter:17 - do Filter
+2019-05-17 22:45:46 INFO  LocaleFilter:29 - do Filter
+2019-05-17 23:10:20 INFO  DaoFactory:27 - dao factory
+2019-05-17 23:10:20 INFO  DaoFactory:27 - dao factory
+2019-05-17 23:10:38 INFO  DaoFactory:27 - dao factory
+2019-05-17 23:10:38 INFO  DaoFactory:27 - dao factory

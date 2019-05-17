@@ -1,5 +1,6 @@
 package model.service.implement;
 
+import com.sun.org.apache.xpath.internal.operations.Or;
 import model.dao.daoimpl.DaoFactory;
 import model.dao.daointerface.MenuDao;
 import model.dao.daointerface.OrderDao;
@@ -17,10 +18,11 @@ public class OrderServiceImpl implements OrderService {
     private static Logger logger = Logger.getLogger(OrderServiceImpl.class);
 
     @Override
-    public void create(Order entity) {
+    public Order create(Order entity) {
         try (OrderDao orderDao = daoFactory.createOrderDao()) {
-            orderDao.create(entity);
             logger.info("Create order = %d");
+            return orderDao.create(entity);
+
         }
     }
 
@@ -59,9 +61,9 @@ public class OrderServiceImpl implements OrderService {
     }
 
     @Override
-    public void setDish(Order order, Menu menu) {
+    public void setDish(Order order, List<Menu> menuList) {
         try (OrderDao orderDao = daoFactory.createOrderDao()) {
-            orderDao.setDish(order.getId(), menu.getId());
+            orderDao.setDish(order.getId(), menuList);
             logger.info("dish  has selected");
         }
     }

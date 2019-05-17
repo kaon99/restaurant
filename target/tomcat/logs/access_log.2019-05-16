@@ -1,0 +1,7 @@
+0:0:0:0:0:0:0:1 - - [16/May/2019:23:32:41 +0300] "POST /restaurant/client/order HTTP/1.1" 404 - http-bio-8080-exec-1 0
+0:0:0:0:0:0:0:1 - - [16/May/2019:23:32:45 +0300] "GET / HTTP/1.1" 404 - http-bio-8080-exec-3 0
+0:0:0:0:0:0:0:1 - - [16/May/2019:23:32:46 +0300] "GET / HTTP/1.1" 404 - http-bio-8080-exec-4 0
+0:0:0:0:0:0:0:1 - - [16/May/2019:23:33:48 +0300] "GET / HTTP/1.1" 404 - http-bio-8080-exec-6 0
+0:0:0:0:0:0:0:1 - - [16/May/2019:23:36:58 +0300] "POST /restaurant/client/order HTTP/1.1" 404 - http-bio-8080-exec-9 0
+0:0:0:0:0:0:0:1 - - [16/May/2019:23:37:04 +0300] "GET /restaurant/main HTTP/1.1" 404 - http-bio-8080-exec-9 0
+0:0:0:0:0:0:0:1 - - [16/May/2019:23:37:09 +0300] "GET / HTTP/1.1" 404 - http-bio-8080-exec-9 0

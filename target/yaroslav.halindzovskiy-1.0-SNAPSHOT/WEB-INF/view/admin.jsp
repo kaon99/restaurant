@@ -16,8 +16,19 @@
 <div class="container">
     <h1 class="flow-text"><fmt:message key="text.admin.page"/></h1>
     <div class="center-pill">
+        <div class="container">
+            <div class="row">
+                <div class="col s12 m6">
 
+                    <form method="post"
+                          action="${pageContext.request.contextPath}/restaurant/admin/bill">
+                        <input type="hidden">
+                        <button class="btn" type="submit"><fmt:message key="text.client.order"/></button>
+                    </form>
 
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 </body>

@@ -1,10 +1,13 @@
 package controller.command;
 
 
-import controller.command.admin.page.AdminCommand;
+import controller.command.admin.page.AdminPageBillCommand;
+import controller.command.admin.page.AdminPageCommand;
 import controller.command.another.action.LogoutCommand;
 import controller.command.another.action.RegistrationCommand;
 import controller.command.another.page.*;
+import controller.command.client.action.CreateOrderCommand;
+import controller.command.client.page.ClientOrderPageCommand;
 import controller.command.client.page.ClientPageCommand;
 import org.apache.log4j.Logger;
 
@@ -16,13 +19,16 @@ public class CommandFactory {
     static private Map<String, Command> commandMap = new HashMap<>();
 
     static {
-        commandMap.put("admin", new AdminCommand());
+        commandMap.put("admin", new AdminPageCommand());
+        commandMap.put("admin/bill", new AdminPageBillCommand());
         commandMap.put("login", new LoginCommand());
         commandMap.put("main", new MainCommand());
         commandMap.put("logout", new LogoutCommand());
         commandMap.put("registration", new RegistrationCommandPage());
         commandMap.put("registration/create", new RegistrationCommand());
         commandMap.put("client", new ClientPageCommand());
+        commandMap.put("client/order", new ClientOrderPageCommand());
+        commandMap.put("client/order/create", new CreateOrderCommand());
 
 
 

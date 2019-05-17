@@ -6,20 +6,25 @@ import model.entity.Menu;
 import model.service.MenuService;
 import org.apache.log4j.Logger;
 
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 public class MenuServiceImpl implements MenuService {
     DaoFactory daoFactory = DaoFactory.getInstance();
     private static Logger logger = Logger.getLogger(MenuServiceImpl.class);
 
     @Override
-    public void create(Menu entity) {
+    public Menu create(Menu entity) {
         try (MenuDao menuDao = daoFactory.createMenuDao()) {
-            menuDao.create(entity);
             logger.info("Create menu = %d");
-        }
+            return menuDao.create(entity);
 
         }
+
+    }
 
     @Override
     public Menu findById(int id) {
@@ -59,6 +64,24 @@ public class MenuServiceImpl implements MenuService {
             menuDao.delete(id);
             logger.info("delete bill");
         }
+
+
+    }
+
+    @Override
+    public List<Menu> chooseDishes(String[] dishList, List<Menu> allDish) {
+        int[] array = Arrays.stream(dishList).mapToInt(Integer::parseInt).toArray();
+
+        List<Menu> menus = new ArrayList<>();
+        for (Menu menu : allDish) {
+            for (int i : array) {
+                if (menu.getId().equals(i)) {
+                    menus.add(menu);
+                }
+            }
+
+        }
+        return menus;
 
 
     }

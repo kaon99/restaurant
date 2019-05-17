@@ -4,5 +4,5 @@ import model.entity.Bill;
 import model.entity.Order;
 
 public interface BillDao  extends GenericDao<Bill>{
-    void createBillWithSum (Bill bill);
+    void createBillWithSum (int orderId);
 }

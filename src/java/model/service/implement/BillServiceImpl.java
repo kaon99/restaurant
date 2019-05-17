@@ -2,10 +2,12 @@ package model.service.implement;
 
 import model.dao.daoimpl.DaoFactory;
 import model.dao.daointerface.BillDao;
+import model.dao.daointerface.OrderDao;
 import model.entity.Bill;
 import model.service.BillService;
 import org.apache.log4j.Logger;
 
+import java.time.LocalDateTime;
 import java.util.List;
 
 public class BillServiceImpl implements BillService {
@@ -13,10 +15,15 @@ public class BillServiceImpl implements BillService {
     private static Logger logger = Logger.getLogger(OrderServiceImpl.class);
 
     @Override
-    public void create(Bill entity) {
-        try (BillDao billDao = daoFactory.createBillDao()) {
-            billDao.create(entity);
+    public Bill create(Bill entity) {
+        try (BillDao billDao = daoFactory.createBillDao();
+             OrderDao orderDao = daoFactory.createOrderDao()) {
+
+          //  Bill bill = new Bill(LocalDateTime.now(), );
+
+
             logger.info("Create menu = %d");
+            return billDao.create(entity);
         }
     }
 

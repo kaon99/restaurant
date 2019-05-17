@@ -1,4 +1,4 @@
-package java.model.entity.types;
+package model.entity.types;
 
 public enum Status {
     UNPAID(0),

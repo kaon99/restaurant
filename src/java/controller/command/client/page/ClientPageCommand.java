@@ -12,19 +12,16 @@ import javax.servlet.http.HttpServletResponse;
 
 public class ClientPageCommand implements Command {
     Logger logger = Logger.getLogger(ClientPageCommand.class);
+
     @Override
     public String execute(HttpServletRequest request, HttpServletResponse response) {
         User user = (User) request.getSession().getAttribute(AttributesResourseManager.getProperty("parameter.user"));
-            request.setAttribute("name",user.getName());
-            request.setAttribute(AttributesResourseManager.getProperty("parameter.email"),user.getEmail());
+        request.setAttribute("name", user.getName());
+        request.setAttribute(AttributesResourseManager.getProperty("parameter.email"), user.getEmail());
+        logger.info("execute");
+        return PageResourseManager.getProperty("client");
+    }
 
 
-logger.info("execute");
-            return PageResourseManager.getProperty("client");
-        }
-
-
-
-
-       }
+}
 

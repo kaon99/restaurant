@@ -1,15 +1,14 @@
 package model.dao.daoimpl;
 
 
+import com.sun.org.apache.xpath.internal.operations.Or;
 import model.dao.daointerface.OrderDao;
 import model.dao.mapper.OrderMapper;
+import model.entity.Menu;
 import model.entity.Order;
 import org.apache.log4j.Logger;
 
-import java.sql.Connection;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-import java.sql.SQLException;
+import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -23,14 +22,21 @@ public class OrderDaoImpl implements OrderDao {
     }
 
     @Override
-    public void create(Order entity) {
-        try (PreparedStatement statement = connection.prepareStatement("INSERT INTO resstaurant.order(Note, user_user_id) value (?,?")) {
+    public Order create(Order entity) {
+        try (PreparedStatement statement = connection.prepareStatement("INSERT INTO resstaurant.order(Note, user_user_id) value (?,?)", Statement.RETURN_GENERATED_KEYS)) {
             statement.setString(1, entity.getNote());
             statement.setInt(2, entity.getUserId());
             statement.executeUpdate();
+
+            ResultSet resultSet = statement.getGeneratedKeys();
+            if (resultSet.next()) {
+                entity.setId(resultSet.getInt(1));
+
+            }
         } catch (SQLException e) {
             logger.info("Do not create order", e);
         }
+        return entity;
     }
 
     @Override
@@ -89,18 +95,25 @@ public class OrderDaoImpl implements OrderDao {
     }
 
     @Override
-    public void setDish(int orderId, int menuId) {
+    public void setDish(int orderId, List<Menu> menuList) {
         try (PreparedStatement statement = connection.prepareStatement("INSERT INTO resstaurant.order_has_menu (order_order_id, menu_menu_id) value (?,?)")) {
-            statement.setInt(1, orderId);
-            statement.setInt(2, menuId);
 
+            for (Menu menu : menuList) {
+                statement.setInt(1, orderId);
+                statement.setInt(2, menu.getId());
+                statement.addBatch();
+            }
+            statement.executeBatch();
 
         } catch (SQLException e) {
             logger.info("Order don`t set ", e);
         }
     }
 
-    @Override
+
+
+
+        @Override
     public void close() {
         try {
             connection.close();

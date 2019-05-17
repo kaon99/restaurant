@@ -14,12 +14,11 @@ public class UserServiceImpl implements UserService {
 
 
     @Override
-    public void create(User entity) {
+    public User create(User entity) {
         try (UserDao userDao = daoFactory.createUserDao()) {
-            userDao.create(entity);
+            logger.info("Create user = %d");
+            return userDao.create(entity);
         }
-        logger.info("Create user = %d");
-
     }
 
     @Override

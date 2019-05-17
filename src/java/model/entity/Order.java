@@ -4,10 +4,24 @@ import java.util.List;
 
 public class Order {
     private Integer id;
-    private String Note;
+    private String note;
     private List<Menu> menu;
     private Integer billId;
     private Integer userId;
+
+    public Order() {
+    }
+
+    public Order(String note, Integer userId) {
+        this.note = note;
+        this.userId = userId;
+    }
+
+    public Order(String note, Integer billId, Integer userId) {
+        this.note = note;
+        this.billId = billId;
+        this.userId = userId;
+    }
 
     public Integer getId() {
         return id;
@@ -18,7 +32,7 @@ public class Order {
     }
 
     public String getNote() {
-        return Note;
+        return note;
     }
 
     public Integer getUserId() {
@@ -30,7 +44,7 @@ public class Order {
     }
 
     public void setNote(String note) {
-        Note = note;
+        this.note = note;
     }
 
     public List<Menu> getMenu() {
