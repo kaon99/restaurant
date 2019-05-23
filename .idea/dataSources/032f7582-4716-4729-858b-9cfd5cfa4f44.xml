@@ -30,6 +30,7 @@
       <Collation>utf8mb4_0900_ai_ci</Collation>
     </schema>
     <schema id="9" parent="1" name="resstaurant">
+      <Current>1</Current>
       <Visible>1</Visible>
       <Collation>utf8_general_ci</Collation>
     </schema>

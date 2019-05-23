@@ -2,8 +2,8 @@ package controller;
 
 
 
-import controller.command.filter.AuthenticationFilter;
 
+import controller.filter.AuthenticationFilter;
 import org.junit.Test;
 import org.mockito.Mock;
 
@@ -31,14 +31,12 @@ public class FilterTest {
     @Test
     public void testAuthenficationFilter() throws IOException, ServletException {
 
-        // mock the getRequestURI() response
         when(httpServletRequest.getRequestURI()).thenReturn("/otherurl.jsp");
 
         AuthenticationFilter authenticationFilter = new AuthenticationFilter();
         authenticationFilter.doFilter(httpServletRequest, httpServletResponse,
                 filterChain);
 
-        // verify if a sendRedirect() was performed with the expected value
-        verify(httpServletResponse).sendRedirect("/university/login");
+        verify(httpServletResponse).sendRedirect("/restaurant/login");
     }
 }
