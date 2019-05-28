@@ -1,5 +1,9 @@
 package controller.filter;
 
+/**
+ * * @author Yaroslav
+ *  * @version 1.0
+ *  */
 
 import model.entity.User;
 import model.entity.types.Role;
@@ -38,14 +42,14 @@ public class RoleFilter implements Filter {
             if (user.getRole().equals(Role.ADMIN.getRole())) {
                 filterChain.doFilter(servletRequest, servletResponse);
             } else {
-                httpResponse.sendRedirect("client");
+                httpResponse.sendRedirect("main");
                 return;
             }
         } else if (path.contains("client")) {
             if (Objects.nonNull(user.getEmail()) && user.getRole().equals(Role.CLIENT.getRole())) {
                 filterChain.doFilter(servletRequest, servletResponse);
             } else {
-                httpResponse.sendRedirect("admin");
+                httpResponse.sendRedirect("main");
 
                 return;
             }

@@ -73,6 +73,7 @@ public class MenuServiceImpl implements MenuService {
         int[] array = Arrays.stream(dishList).mapToInt(Integer::parseInt).toArray();
 
         List<Menu> menus = new ArrayList<>();
+
         for (Menu menu : allDish) {
             for (int i : array) {
                 if (menu.getId().equals(i)) {

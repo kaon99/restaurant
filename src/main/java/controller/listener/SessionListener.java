@@ -1,4 +1,8 @@
 package controller.listener;
+/**
+ * * @author Yaroslav
+ *  * @version 1.0
+ *  */
 
 import controller.util.AttributesResourseManager;
 import model.entity.User;

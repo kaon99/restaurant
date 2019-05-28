@@ -1,4 +1,8 @@
 package model.service;
+/**
+ * * @author Yaroslav
+ *  * @version 1.0
+ *  */
 
 import java.util.List;
 

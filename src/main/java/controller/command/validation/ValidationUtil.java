@@ -1,5 +1,9 @@
 package controller.command.validation;
 
+/**
+ * * @author Yaroslav
+ *  * @version 1.0
+ *  */
 
 import model.exception.WrongDataException;
 import model.service.UserService;

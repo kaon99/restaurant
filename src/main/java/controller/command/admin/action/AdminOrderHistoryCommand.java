@@ -12,7 +12,7 @@ import java.util.Optional;
 public class AdminOrderHistoryCommand implements Command {
    private OrderService orderService = new OrderServiceImpl();
     private int recordsPerPage = 5;
-    private int currentPage = 1;
+    private int currentPage;
     private int numberOfPages;
 
     @Override
@@ -36,4 +36,5 @@ public class AdminOrderHistoryCommand implements Command {
         Optional<String> page = Optional.ofNullable(request.getParameter("currentPage"));
         currentPage = page.map(Integer::valueOf).orElse(1);
     }
+
 }

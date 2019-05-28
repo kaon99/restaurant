@@ -1,4 +1,9 @@
 package model.service;
+/**
+ * * @author Yaroslav
+ *  * @version 1.0
+ *  */
+
 
 import model.entity.Menu;
 import model.entity.Order;

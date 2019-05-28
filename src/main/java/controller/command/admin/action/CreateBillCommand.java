@@ -13,23 +13,23 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 
-
 public class CreateBillCommand implements Command {
-    OrderService orderService = new OrderServiceImpl();
-    BillService billService = new BillServiceImpl();
-    Logger logger = Logger.getLogger(CreateBillCommand.class);
+    private OrderService orderService = new OrderServiceImpl();
+  private   BillService billService = new BillServiceImpl();
+   private static Logger logger = Logger.getLogger(CreateBillCommand.class);
 
     @Override
     public String execute(HttpServletRequest request, HttpServletResponse response) {
         try {
-        request.setAttribute("orderList", orderService.findAllUnpaid());
-int orderId = Integer.parseInt(request.getParameter(AttributesResourseManager.getProperty("parameter.order")));
+            request.setAttribute("orderList", orderService.findAllUnpaid());
+            int orderId = Integer.parseInt(request.getParameter(AttributesResourseManager.getProperty("parameter.order")));
 
 
             billService.createBillWithSum(orderId);
         } catch (NumberFormatException e) {
-            logger.info("Dont choose any order",e);
-            return PageResourseManager.getProperty("redirect.admin.bill");        }
+            logger.info("Dont choose any order", e);
+            return PageResourseManager.getProperty("redirect.admin.bill");
+        }
 
         logger.info("execute");
         return PageResourseManager.getProperty("redirect.admin.bill");

@@ -1,4 +1,8 @@
 package controller.command;
+/**
+ * * @author Yaroslav
+ *  * @version 1.0
+ *  */
 
 
 import controller.command.admin.action.AdminOrderHistoryCommand;

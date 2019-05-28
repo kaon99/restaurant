@@ -62,10 +62,11 @@ public class OrderServiceImpl implements OrderService {
     @Override
     public void setDish(Order order, List<Menu> menuList) {
         try (OrderDao orderDao = daoFactory.createOrderDao()) {
+            if(!menuList.isEmpty()){
             orderDao.setDish(order.getId(), menuList);
             logger.info("dish  has selected");
         }
-    }
+    }}
 
     @Override
     public List<Order> findAllUnpaid() {

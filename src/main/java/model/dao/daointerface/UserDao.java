@@ -1,10 +1,22 @@
 package model.dao.daointerface;
 
+/**
+ * * @author Yaroslav
+ *  * @version 1.0
+ *  */
 
 import model.entity.User;
 
 public interface UserDao extends GenericDao<User> {
-    User getByLoginAndPass(String login, String password) ;
+    /**
+     * @return entity
+     * @param login
+     * @param password
+     * */
+    User getByLoginAndPass(String login, String password);
+    /** @return entity
+     * @param email
+     * */
     User findByEmail(String email);
 
 

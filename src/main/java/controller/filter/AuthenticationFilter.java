@@ -8,6 +8,10 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import controller.util.PageResourseManager;
 import java.io.IOException;
+/**
+ * * @author Yaroslav
+ *  * @version 1.0
+ *  */
 
 public class AuthenticationFilter implements Filter  {
     private Logger logger = Logger.getLogger(AuthenticationFilter.class);

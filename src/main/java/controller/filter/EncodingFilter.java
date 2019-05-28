@@ -1,4 +1,8 @@
 package controller.filter;
+/**
+ * * @author Yaroslav
+ *  * @version 1.0
+ *  */
 
 
 import org.apache.log4j.Logger;

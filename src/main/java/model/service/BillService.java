@@ -1,4 +1,8 @@
 package model.service;
+/**
+ * * @author Yaroslav
+ *  * @version 1.0
+ *  */
 
 import model.entity.Bill;
 

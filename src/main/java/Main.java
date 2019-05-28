@@ -19,13 +19,29 @@ import model.service.implement.UserServiceImpl;
 import java.sql.Date;
 import java.time.LocalDateTime;
 import java.time.LocalTime;
-import java.util.Arrays;
-import java.util.Calendar;
-import java.util.List;
+import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-        OrderService orderService=  new  OrderServiceImpl();
-       orderService.findOrdersPagination(1,4).stream().forEach(System.out::println);
+        MenuService menuService = new MenuServiceImpl();
+        Optional<String [] > optionalStrings ;
+        optionalStrings = Optional.ofNullable(null);
+
+
+
+        String [] dishList = {"1","2","4"};
+
+        int[] array = Arrays.stream(optionalStrings.orElse(dishList)).mapToInt(Integer::parseInt).toArray();
+
+        List<Menu> menus = new ArrayList<>();
+        List<Menu> allMenus = menuService.findAll();
+
+        for (Menu menu : menuService.findAll()) {
+            for (int i : array) {
+                if (menu.getId().equals(i)) {
+                    menus.add(menu);
+                }
+            }
+        }menus.stream().forEach(System.out::println);
     }
 }

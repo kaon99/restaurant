@@ -16,6 +16,7 @@ import java.util.Calendar;
 import java.util.List;
 import java.util.Objects;
 
+
 public class BillDaoImpl implements BillDao {
     private Logger logger = Logger.getLogger(BillDaoImpl.class);
     private Connection connection;
@@ -120,7 +121,7 @@ public class BillDaoImpl implements BillDao {
             if (Objects.isNull(bill)) {
                 connection.rollback();
             }
-            try (PreparedStatement statementInsert = connection.prepareStatement(QueriesResourseManager.getProperty("bill.create.with.sum"))) {
+            try (PreparedStatement statementInsert = connection.prepareStatement("INSERT into resstaurant.bill (date, sum,status,user_user_id,order_order_id) value (?,?,?,?,?);")) {
                 statementInsert.setDate(1, bill.getDate());
                 statementInsert.setInt(2, bill.getSum());
                 statementInsert.setInt(3, bill.getStatus());

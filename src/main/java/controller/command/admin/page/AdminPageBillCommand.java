@@ -12,8 +12,8 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 public class AdminPageBillCommand implements Command {
-    OrderService orderService = new OrderServiceImpl();
-    Logger logger = Logger.getLogger(AdminPageBillCommand.class);
+  private   OrderService orderService = new OrderServiceImpl();
+  private   Logger logger = Logger.getLogger(AdminPageBillCommand.class);
     @Override
     public String execute(HttpServletRequest request, HttpServletResponse response) {
         request.setAttribute("orderList",orderService.findAllUnpaid());

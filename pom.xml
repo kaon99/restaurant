@@ -4,8 +4,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>yaroslav-halindzovskit</groupId>
-    <artifactId>yaroslav.halindzovskiy</artifactId>
+    <groupId>yaroslav-halindzovskiy</groupId>
+    <artifactId>yaroslav.halindzovskiy-final-project</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>war</packaging>
 
@@ -14,6 +14,7 @@
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
+
 
     <build>
         <plugins>

@@ -8,7 +8,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 public class AdminPageCommand implements Command {
-    private Logger logger = Logger.getLogger(AdminPageCommand.class);
+    private static Logger logger = Logger.getLogger(AdminPageCommand.class);
 
     @Override
     public String execute(HttpServletRequest request, HttpServletResponse response) {
