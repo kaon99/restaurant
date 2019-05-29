@@ -2,7 +2,7 @@ package model.dao.queriesManager;
 
 import java.util.ResourceBundle;
 
-public class QueriesResourseManager {
+public class QueriesResourceManager {
 
         private static ResourceBundle resourceBundle = ResourceBundle.getBundle("queries");
 

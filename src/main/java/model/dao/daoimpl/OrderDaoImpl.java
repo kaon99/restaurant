@@ -1,11 +1,9 @@
 package model.dao.daoimpl;
 
 
-import com.mysql.cj.jdbc.result.ResultSetImpl;
-import com.sun.org.apache.xpath.internal.operations.Or;
 import model.dao.daointerface.OrderDao;
 import model.dao.mapper.OrderMapper;
-import model.dao.queriesManager.QueriesResourseManager;
+import model.dao.queriesManager.QueriesResourceManager;
 import model.entity.Menu;
 import model.entity.Order;
 import org.apache.log4j.Logger;
@@ -25,7 +23,7 @@ public class OrderDaoImpl implements OrderDao {
 
     @Override
     public Order create(Order entity) {
-        try (PreparedStatement statement = connection.prepareStatement(QueriesResourseManager.getProperty("order.create"), Statement.RETURN_GENERATED_KEYS)) {
+        try (PreparedStatement statement = connection.prepareStatement(QueriesResourceManager.getProperty("order.create"), Statement.RETURN_GENERATED_KEYS)) {
             statement.setString(1, entity.getNote());
             statement.setInt(2, entity.getUserId());
             statement.executeUpdate();
@@ -43,7 +41,7 @@ public class OrderDaoImpl implements OrderDao {
 
     @Override
     public Order findById(int id) {
-        try (PreparedStatement statement = connection.prepareStatement(QueriesResourseManager.getProperty("order.find.by.id"))) {
+        try (PreparedStatement statement = connection.prepareStatement(QueriesResourceManager.getProperty("order.find.by.id"))) {
 
             Order order = null;
             statement.setInt(1, id);
@@ -62,7 +60,7 @@ public class OrderDaoImpl implements OrderDao {
 
     @Override
     public List<Order> findAll() {
-        try (PreparedStatement statement = connection.prepareStatement(QueriesResourseManager.getProperty("order.find.all"))) {
+        try (PreparedStatement statement = connection.prepareStatement(QueriesResourceManager.getProperty("order.find.all"))) {
             ResultSet resultSet = statement.executeQuery();
             List orders = new ArrayList();
             while (resultSet.next()) {
@@ -77,7 +75,7 @@ public class OrderDaoImpl implements OrderDao {
 
     @Override
     public List<Order> findAllUnpaid() {
-        try (PreparedStatement statement = connection.prepareStatement(QueriesResourseManager.getProperty("order.find.all.unpaid"))) {
+        try (PreparedStatement statement = connection.prepareStatement(QueriesResourceManager.getProperty("order.find.all.unpaid"))) {
             ResultSet resultSet = statement.executeQuery();
             List orders = new ArrayList();
             while (resultSet.next()) {
@@ -92,7 +90,7 @@ public class OrderDaoImpl implements OrderDao {
 
     @Override
     public List<Order> findOrdersPagination(int start, int recordsPerPage) {
-        try (PreparedStatement statement = connection.prepareStatement(QueriesResourseManager.getProperty("order.find.pagination"))) {
+        try (PreparedStatement statement = connection.prepareStatement(QueriesResourceManager.getProperty("order.find.pagination"))) {
            statement.setInt(1,start);
            statement.setInt(2,recordsPerPage);
             ResultSet resultSet = statement.executeQuery();
@@ -110,7 +108,7 @@ public class OrderDaoImpl implements OrderDao {
 
     @Override
     public int getNumberOfRows() {
-        try (PreparedStatement statement = connection.prepareStatement(QueriesResourseManager.getProperty("order.get.number"))) {
+        try (PreparedStatement statement = connection.prepareStatement(QueriesResourceManager.getProperty("order.get.number"))) {
             int numOfRows = 0;
             ResultSet resultSet = statement.executeQuery();
             if(resultSet.next()){
@@ -127,7 +125,7 @@ public class OrderDaoImpl implements OrderDao {
 
         @Override
         public void update (Order entity){
-            try (PreparedStatement statement = connection.prepareStatement(QueriesResourseManager.getProperty("order.update"))) {
+            try (PreparedStatement statement = connection.prepareStatement(QueriesResourceManager.getProperty("order.update"))) {
                 statement.setString(1, entity.getNote());
                 statement.setInt(2, entity.getUserId());
                 statement.executeUpdate();
@@ -138,7 +136,7 @@ public class OrderDaoImpl implements OrderDao {
 
         @Override
         public void delete ( int id){
-            try (PreparedStatement statement = connection.prepareStatement(QueriesResourseManager.getProperty("order.delete"))) {
+            try (PreparedStatement statement = connection.prepareStatement(QueriesResourceManager.getProperty("order.delete"))) {
                 statement.setInt(1, id);
                 statement.executeUpdate();
             } catch (SQLException e) {
@@ -148,7 +146,7 @@ public class OrderDaoImpl implements OrderDao {
 
         @Override
         public void setDish ( int orderId, List<Menu > menuList){
-            try (PreparedStatement statement = connection.prepareStatement(QueriesResourseManager.getProperty("order.set.dish"))) {
+            try (PreparedStatement statement = connection.prepareStatement(QueriesResourceManager.getProperty("order.set.dish"))) {
 
                 for (Menu menu : menuList) {
                     statement.setInt(1, orderId);

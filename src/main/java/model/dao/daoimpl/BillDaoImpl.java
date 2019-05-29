@@ -2,15 +2,12 @@ package model.dao.daoimpl;
 
 import model.dao.daointerface.BillDao;
 import model.dao.mapper.BillMapper;
-import model.dao.queriesManager.QueriesResourseManager;
+import model.dao.queriesManager.QueriesResourceManager;
 import model.entity.Bill;
-import model.entity.Order;
 import model.entity.types.Status;
 import org.apache.log4j.Logger;
 
 import java.sql.*;
-import java.time.LocalDateTime;
-import java.time.LocalTime;
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.List;
@@ -27,7 +24,7 @@ public class BillDaoImpl implements BillDao {
 
     @Override
     public Bill create(Bill entity) {
-        try (PreparedStatement statement = connection.prepareStatement(QueriesResourseManager.getProperty("bill.create"), Statement.RETURN_GENERATED_KEYS)) {
+        try (PreparedStatement statement = connection.prepareStatement(QueriesResourceManager.getProperty("bill.create"), Statement.RETURN_GENERATED_KEYS)) {
             statement.setDate(1, entity.getDate());
             statement.setInt(2, entity.getSum());
             statement.setInt(3, entity.getStatus());
@@ -48,7 +45,7 @@ public class BillDaoImpl implements BillDao {
 
     @Override
     public Bill findById(int id) {
-        try (PreparedStatement statement = connection.prepareStatement(QueriesResourseManager.getProperty("bill.find.by.id"))) {
+        try (PreparedStatement statement = connection.prepareStatement(QueriesResourceManager.getProperty("bill.find.by.id"))) {
             Bill bill = null;
             statement.setInt(1, id);
             ResultSet resultSet = statement.executeQuery();
@@ -66,7 +63,7 @@ public class BillDaoImpl implements BillDao {
 
     @Override
     public List<Bill> findAll() {
-        try (PreparedStatement statement = connection.prepareStatement(QueriesResourseManager.getProperty("bill.find.all"))) {
+        try (PreparedStatement statement = connection.prepareStatement(QueriesResourceManager.getProperty("bill.find.all"))) {
             ResultSet resultSet = statement.executeQuery();
             List bills = new ArrayList();
             while (resultSet.next()) {
@@ -81,7 +78,7 @@ public class BillDaoImpl implements BillDao {
 
     @Override
     public void update(Bill entity) {
-        try (PreparedStatement statement = connection.prepareStatement(QueriesResourseManager.getProperty("bill.update"))) {
+        try (PreparedStatement statement = connection.prepareStatement(QueriesResourceManager.getProperty("bill.update"))) {
             statement.setInt(1, entity.getUserId());
             statement.setInt(2, entity.getOrderId());
             statement.setInt(3, entity.getStatus());
@@ -96,7 +93,7 @@ public class BillDaoImpl implements BillDao {
 
     @Override
     public void delete(int id) {
-        try (PreparedStatement statement = connection.prepareStatement(QueriesResourseManager.getProperty("bill.delete"))) {
+        try (PreparedStatement statement = connection.prepareStatement(QueriesResourceManager.getProperty("bill.delete"))) {
             statement.setInt(1, id);
             statement.executeUpdate();
 
@@ -107,7 +104,7 @@ public class BillDaoImpl implements BillDao {
 
     @Override
     public void createBillWithSum(int orderId) {
-        try (PreparedStatement statement = connection.prepareStatement(QueriesResourseManager.getProperty("bill.find.sum"))) {
+        try (PreparedStatement statement = connection.prepareStatement(QueriesResourceManager.getProperty("bill.find.sum"))) {
             connection.setAutoCommit(false);
             Bill bill = new Bill(new Date(Calendar.getInstance().getTime().getTime()), Status.UNPAID.getStatus(), orderId);
             statement.setInt(1, orderId);
@@ -140,7 +137,7 @@ public class BillDaoImpl implements BillDao {
 
     @Override
     public void pay(int billID, int status) {
-        try (PreparedStatement statement = connection.prepareStatement(QueriesResourseManager.getProperty("bill.pay"))) {
+        try (PreparedStatement statement = connection.prepareStatement(QueriesResourceManager.getProperty("bill.pay"))) {
             statement.setInt(1, status);
             statement.setInt(2, billID);
             statement.executeUpdate();
@@ -151,7 +148,8 @@ public class BillDaoImpl implements BillDao {
 
     @Override
     public List<Bill> unpaidList(int userId) {
-        try (PreparedStatement statement = connection.prepareStatement(QueriesResourseManager.getProperty("bill.unpay.list"))) {
+        try (PreparedStatement statement = connection.prepareStatement(QueriesResourceManager.getProperty("bill.paid.list"))) {
+            statement.setInt(1,0);
             statement.setInt(1, userId);
 
             ResultSet resultSet = statement.executeQuery();
@@ -168,8 +166,9 @@ public class BillDaoImpl implements BillDao {
 
     @Override
     public List<Bill> paidList(int userId) {
-        try (PreparedStatement statement = connection.prepareStatement(QueriesResourseManager.getProperty("bill.paid.list"))) {
-            statement.setInt(1, userId);
+        try (PreparedStatement statement = connection.prepareStatement(QueriesResourceManager.getProperty("bill.paid.list"))) {
+            statement.setInt(1,1);
+            statement.setInt(2, userId);
 
             ResultSet resultSet = statement.executeQuery();
             List bills = new ArrayList();

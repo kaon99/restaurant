@@ -3,7 +3,7 @@ package model.dao.daoimpl;
 
 import model.dao.daointerface.UserDao;
 import model.dao.mapper.UserMapper;
-import model.dao.queriesManager.QueriesResourseManager;
+import model.dao.queriesManager.QueriesResourceManager;
 import model.entity.User;
 import org.apache.log4j.Logger;
 
@@ -22,7 +22,7 @@ public class UserDaoImpl implements UserDao {
 
     @Override
     public User create(User entity) {
-        try (PreparedStatement statement = connection.prepareStatement(QueriesResourseManager.getProperty("user.create"), Statement.RETURN_GENERATED_KEYS)) {
+        try (PreparedStatement statement = connection.prepareStatement(QueriesResourceManager.getProperty("user.create"), Statement.RETURN_GENERATED_KEYS)) {
             statement.setString(1, entity.getName());
             statement.setString(2, entity.getPassword());
             statement.setInt(3, entity.getRole());
@@ -40,7 +40,7 @@ public class UserDaoImpl implements UserDao {
 
     @Override
     public User findById(int id) {
-        try (PreparedStatement statement = connection.prepareStatement(QueriesResourseManager.getProperty("user.find.by.id"))) {
+        try (PreparedStatement statement = connection.prepareStatement(QueriesResourceManager.getProperty("user.find.by.id"))) {
 
             User user = null;
             statement.setInt(1, id);
@@ -59,7 +59,7 @@ public class UserDaoImpl implements UserDao {
 
     @Override
     public List<User> findAll() {
-        try (PreparedStatement statement = connection.prepareStatement(QueriesResourseManager.getProperty("user.find.all"))) {
+        try (PreparedStatement statement = connection.prepareStatement(QueriesResourceManager.getProperty("user.find.all"))) {
             ResultSet resultSet = statement.executeQuery();
             List users = new ArrayList();
             while (resultSet.next()) {
@@ -74,7 +74,7 @@ public class UserDaoImpl implements UserDao {
 
     @Override
     public void update(User entity) {
-        try (PreparedStatement statement = connection.prepareStatement(QueriesResourseManager.getProperty("user.update"))) {
+        try (PreparedStatement statement = connection.prepareStatement(QueriesResourceManager.getProperty("user.update"))) {
             statement.setString(1, entity.getName());
             statement.setString(2, entity.getPassword());
             statement.setInt(3, entity.getRole());
@@ -89,7 +89,7 @@ public class UserDaoImpl implements UserDao {
 
     @Override
     public void delete(int id) {
-        try (PreparedStatement statement = connection.prepareStatement(QueriesResourseManager.getProperty("user.delete"))) {
+        try (PreparedStatement statement = connection.prepareStatement(QueriesResourceManager.getProperty("user.delete"))) {
             statement.setInt(1, id);
             statement.executeUpdate();
         } catch (SQLException e) {
@@ -108,7 +108,7 @@ public class UserDaoImpl implements UserDao {
 
     @Override
     public User getByLoginAndPass(String login, String password) {
-        try (PreparedStatement statement = connection.prepareStatement(QueriesResourseManager.getProperty("user.get.by.login.pass"))) {
+        try (PreparedStatement statement = connection.prepareStatement(QueriesResourceManager.getProperty("user.get.by.login.pass"))) {
 
             User user = null;
             statement.setString(1, login);
@@ -129,7 +129,7 @@ public class UserDaoImpl implements UserDao {
 
     @Override
     public User findByEmail(String email) {
-        try (PreparedStatement statement = connection.prepareStatement(QueriesResourseManager.getProperty("user.find.by.email"))) {
+        try (PreparedStatement statement = connection.prepareStatement(QueriesResourceManager.getProperty("user.find.by.email"))) {
 
             User user = null;
             statement.setString(1, email);

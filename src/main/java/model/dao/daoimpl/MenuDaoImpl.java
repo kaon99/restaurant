@@ -3,7 +3,7 @@ package model.dao.daoimpl;
 
 import model.dao.daointerface.MenuDao;
 import model.dao.mapper.MenuMapper;
-import model.dao.queriesManager.QueriesResourseManager;
+import model.dao.queriesManager.QueriesResourceManager;
 import model.entity.Menu;
 import org.apache.log4j.Logger;
 
@@ -21,7 +21,7 @@ public class MenuDaoImpl implements MenuDao {
 
     @Override
     public Menu create(Menu entity) {
-        try (PreparedStatement statement = connection.prepareStatement(QueriesResourseManager.getProperty("menu.create"), Statement.RETURN_GENERATED_KEYS)) {
+        try (PreparedStatement statement = connection.prepareStatement(QueriesResourceManager.getProperty("menu.create"), Statement.RETURN_GENERATED_KEYS)) {
             statement.setString(1, entity.getNameEn());
             statement.setString(1, entity.getNameUa());
             statement.setInt(2, entity.getPrice());
@@ -40,7 +40,7 @@ public class MenuDaoImpl implements MenuDao {
 
     @Override
     public Menu findById(int id) {
-        try (PreparedStatement statement = connection.prepareStatement(QueriesResourseManager.getProperty("menu.find.by.id"))) {
+        try (PreparedStatement statement = connection.prepareStatement(QueriesResourceManager.getProperty("menu.find.by.id"))) {
             Menu menu = null;
             statement.setInt(1, id);
             ResultSet resultSet = statement.executeQuery();
@@ -58,7 +58,7 @@ public class MenuDaoImpl implements MenuDao {
 
     @Override
     public List<Menu> findAll() {
-        try (PreparedStatement statement = connection.prepareStatement(QueriesResourseManager.getProperty("menu.find.all"))) {
+        try (PreparedStatement statement = connection.prepareStatement(QueriesResourceManager.getProperty("menu.find.all"))) {
             ResultSet resultSet = statement.executeQuery();
             ArrayList menu = new ArrayList();
             while (resultSet.next()) {
@@ -73,7 +73,7 @@ public class MenuDaoImpl implements MenuDao {
 
     @Override
     public void update(Menu entity) {
-        try (PreparedStatement statement = connection.prepareStatement(QueriesResourseManager.getProperty("menu.update"))) {
+        try (PreparedStatement statement = connection.prepareStatement(QueriesResourceManager.getProperty("menu.update"))) {
 
             statement.setString(1, entity.getNameEn());
             statement.setString(2, entity.getNameUa());
@@ -87,7 +87,7 @@ public class MenuDaoImpl implements MenuDao {
 
     @Override
     public void delete(int id) {
-        try (PreparedStatement statement = connection.prepareStatement(QueriesResourseManager.getProperty("menu.delete"))) {
+        try (PreparedStatement statement = connection.prepareStatement(QueriesResourceManager.getProperty("menu.delete"))) {
             statement.setInt(1, id);
             statement.executeUpdate();
 
@@ -108,7 +108,7 @@ public class MenuDaoImpl implements MenuDao {
 
     @Override
     public List<Menu> findDishListById(int[] id) {
-        try (PreparedStatement statement = connection.prepareStatement(QueriesResourseManager.getProperty("menu.find.dish.by.id"))) {
+        try (PreparedStatement statement = connection.prepareStatement(QueriesResourceManager.getProperty("menu.find.dish.by.id"))) {
 
             ArrayList menu = new ArrayList();
             for (int i : id) {
