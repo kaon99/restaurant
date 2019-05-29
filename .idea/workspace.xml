@@ -7,23 +7,46 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df91a624-026f-4f8a-8866-3e2312a99273" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log_file.log" beforeDir="false" afterPath="$PROJECT_DIR$/log_file.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/command/another/action/LogoutCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/command/another/action/LogoutCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/command/another/action/RegistrationCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/command/another/action/RegistrationCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/command/another/page/LoginCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/command/another/page/LoginCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/command/another/page/MainCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/command/another/page/MainCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/pages.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/pages.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/controller/command/another/action/LogoutCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controller/command/another/action/LogoutCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/controller/command/another/action/RegistrationCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controller/command/another/action/RegistrationCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/controller/command/another/page/LoginCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controller/command/another/page/LoginCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/controller/command/another/page/MainCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controller/command/another/page/MainCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yaroslav.halindzovskiy-final-project-1.0-SNAPSHOT/WEB-INF/classes/controller/command/another/action/LogoutCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/yaroslav.halindzovskiy-final-project-1.0-SNAPSHOT/WEB-INF/classes/controller/command/another/action/LogoutCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yaroslav.halindzovskiy-final-project-1.0-SNAPSHOT/WEB-INF/classes/controller/command/another/action/RegistrationCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/yaroslav.halindzovskiy-final-project-1.0-SNAPSHOT/WEB-INF/classes/controller/command/another/action/RegistrationCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yaroslav.halindzovskiy-final-project-1.0-SNAPSHOT/WEB-INF/classes/controller/command/another/page/LoginCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/yaroslav.halindzovskiy-final-project-1.0-SNAPSHOT/WEB-INF/classes/controller/command/another/page/LoginCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yaroslav.halindzovskiy-final-project-1.0-SNAPSHOT/WEB-INF/classes/controller/command/another/page/MainCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/yaroslav.halindzovskiy-final-project-1.0-SNAPSHOT/WEB-INF/classes/controller/command/another/page/MainCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/yaroslav.halindzovskiy-final-project-1.0-SNAPSHOT/WEB-INF/classes/pages.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/yaroslav.halindzovskiy-final-project-1.0-SNAPSHOT/WEB-INF/classes/pages.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/command/CommandFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/command/CommandFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/command/client/action/CreateOrderCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/command/client/action/CreateOrderCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/command/client/action/PayBillCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/command/client/action/PayBillCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/command/client/page/ClientBillPageCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/command/client/page/ClientBillPageCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/command/client/page/ClientOrderPageCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/command/client/page/ClientOrderPageCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/command/client/page/ClientPageCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/command/client/page/ClientPageCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/dao/daoimpl/BillDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/dao/daoimpl/BillDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/finalproject.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/controller/command/client/action/CreateOrderCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controller/command/client/action/CreateOrderCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/controller/command/client/action/PayBillCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controller/command/client/action/PayBillCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/controller/command/client/page/ClientBillPageCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controller/command/client/page/ClientBillPageCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/controller/command/client/page/ClientOrderPageCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controller/command/client/page/ClientOrderPageCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/controller/command/client/page/ClientPageCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controller/command/client/page/ClientPageCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/conf/logging.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/conf/tomcat-users.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/conf/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/logs/access_log.2019-05-23" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/parts/footer_jsp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/parts/footer_jsp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/parts/header_jsp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/parts/header_jsp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/view/admin_005fhistory_jsp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/view/admin_005fhistory_jsp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/view/admin_jsp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/view/admin_jsp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/view/login_jsp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/view/login_jsp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/view/not_005ffound_jsp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/view/not_005ffound_jsp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/view/pagintaion_jsp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tomcat/work/Tomcat/localhost/_/org/apache/jsp/WEB_002dINF/view/pagintaion_jsp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/yaroslav.halindzovskiy-1.0-SNAPSHOT.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/yaroslav.halindzovskiy-final-project-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/yaroslav.halindzovskiy-final-project-1.0-SNAPSHOT/WEB-INF/classes/META-INF/finalproject.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/yaroslav.halindzovskiy-final-project-1.0-SNAPSHOT/WEB-INF/classes/controller/command/client/action/CreateOrderCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/yaroslav.halindzovskiy-final-project-1.0-SNAPSHOT/WEB-INF/classes/controller/command/client/action/CreateOrderCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/yaroslav.halindzovskiy-final-project-1.0-SNAPSHOT/WEB-INF/classes/controller/command/client/action/PayBillCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/yaroslav.halindzovskiy-final-project-1.0-SNAPSHOT/WEB-INF/classes/controller/command/client/action/PayBillCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/yaroslav.halindzovskiy-final-project-1.0-SNAPSHOT/WEB-INF/classes/controller/command/client/page/ClientBillPageCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/yaroslav.halindzovskiy-final-project-1.0-SNAPSHOT/WEB-INF/classes/controller/command/client/page/ClientBillPageCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/yaroslav.halindzovskiy-final-project-1.0-SNAPSHOT/WEB-INF/classes/controller/command/client/page/ClientOrderPageCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/yaroslav.halindzovskiy-final-project-1.0-SNAPSHOT/WEB-INF/classes/controller/command/client/page/ClientOrderPageCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/yaroslav.halindzovskiy-final-project-1.0-SNAPSHOT/WEB-INF/classes/controller/command/client/page/ClientPageCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/yaroslav.halindzovskiy-final-project-1.0-SNAPSHOT/WEB-INF/classes/controller/command/client/page/ClientPageCommand.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -89,47 +112,74 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/not_permissions.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="386">
-              <caret line="23" column="62" selection-start-line="23" selection-start-column="62" selection-end-line="23" selection-end-column="62" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/not_found.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
+            <state relative-caret-position="133">
               <caret line="23" column="59" selection-start-line="23" selection-start-column="59" selection-end-line="23" selection-end-column="59" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/controller/command/admin/page/AdminPageCommand.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/controller/command/client/page/ClientOrderPageCommand.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/model/dao/daoimpl/BillDaoImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="219">
+              <caret line="152" column="30" selection-start-line="152" selection-start-column="30" selection-end-line="152" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/controller/command/client/page/ClientPageCommand.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/controller/command/client/page/ClientBillPageCommand.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/controller/command/client/action/PayBillCommand.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
+              <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/controller/command/CommandFactory.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/controller/command/client/action/CreateOrderCommand.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/controller/command/admin/action/AdminOrderHistoryCommand.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="33" selection-start-line="33" selection-end-line="33" />
+            <state relative-caret-position="123">
+              <caret line="23" column="60" selection-start-line="23" selection-start-column="60" selection-end-line="23" selection-end-column="60" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -147,25 +197,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/controller/command/another/page/LoginCommand.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="420">
-              <caret line="43" column="13" lean-forward="true" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/controller/command/another/page/RegistrationCommandPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/controller/command/another/page/PageErrorCommand.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="10" column="18" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="18" />
+              <caret line="43" column="13" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -191,8 +223,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/java/model/service/implement/BillServiceImpl.java" />
-        <option value="$PROJECT_DIR$/webapp/WEB-INF/view/client_bill.jsp" />
         <option value="$PROJECT_DIR$/src/java/controller/command/admin/action/RequestsToProcessCommand.java" />
         <option value="$PROJECT_DIR$/src/java/controller/command/admin/action/AdminHistoryCommand.java" />
         <option value="$PROJECT_DIR$/src/java/model/service/OrderService.java" />
@@ -236,12 +266,14 @@
         <option value="$PROJECT_DIR$/src/main/java/controller/command/validation/InputValid.java" />
         <option value="$PROJECT_DIR$/src/main/java/Main.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/order.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/model/dao/daoimpl/BillDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/not_permisions.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/controller/filter/RoleFilter.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/not_permissions.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/not_found.jsp" />
         <option value="$PROJECT_DIR$/src/main/resources/pages.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/model/dao/daoimpl/BillDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/command/CommandFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/command/client/action/PayBillCommand.java" />
       </list>
     </option>
   </component>
@@ -332,6 +364,38 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
               <item name="command" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="restaurant" type="b2602c69:ProjectViewProjectNode" />
+              <item name="finalproject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="command" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="restaurant" type="b2602c69:ProjectViewProjectNode" />
+              <item name="finalproject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="command" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="action" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="restaurant" type="b2602c69:ProjectViewProjectNode" />
+              <item name="finalproject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="command" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="page" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="restaurant" type="b2602c69:ProjectViewProjectNode" />
@@ -725,10 +789,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="223261000" />
+    <option name="totallyTimeSpent" value="224117000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="1" />
@@ -737,27 +802,27 @@
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Web" order="6" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="7" visible="true" weight="0.2" />
+      <window_info content_ui="combo" id="Project" order="7" visible="true" weight="0.2" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32808024" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.31303117" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.35835695" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.57223797" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32808024" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.22804533" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.22804533" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.32761088" />
       <window_info anchor="bottom" id="Version Control" order="12" weight="0.64164305" />
       <window_info anchor="bottom" id="Database Changes" order="13" weight="0.3286119" />
       <window_info anchor="bottom" id="Database Console" order="14" weight="0.28895184" />
-      <window_info anchor="bottom" id="Messages" order="15" weight="0.21671388" />
+      <window_info anchor="bottom" id="Messages" order="15" weight="0.04249292" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.46601942" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.46577182" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" weight="0.50067115" />
@@ -888,14 +953,6 @@
           <option name="timeStamp" value="121" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/controller/command/client/action/CreateOrderCommand.java</url>
-          <line>29</line>
-          <properties class="controller.command.client.action.CreateOrderCommand" method="execute">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="125" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/model/service/implement/OrderServiceImpl.java</url>
           <line>62</line>
           <properties class="model.service.implement.OrderServiceImpl" method="setDish">
@@ -920,27 +977,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/service/BillService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/log_file.log.1">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-170">
-          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/not_permisons.jsp" />
     <entry file="file://$PROJECT_DIR$/src/main/java/controller/command/admin/page/AdminPageBillCommand.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -969,13 +1005,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/command/client/action/PayBillCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1084,13 +1113,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/command/client/action/CreateOrderCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="23" column="60" selection-start-line="23" selection-start-column="60" selection-end-line="23" selection-end-column="60" />
         </state>
       </provider>
     </entry>
@@ -1214,16 +1236,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/dao/daoimpl/BillDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2091">
-          <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/not_permissions.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="386">
@@ -1235,13 +1247,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/command/CommandFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -1262,14 +1267,14 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/controller/command/another/page/PageErrorCommand.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="10" column="18" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="18" />
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/controller/command/another/page/LoginCommand.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
-          <caret line="43" column="13" lean-forward="true" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
+          <caret line="43" column="13" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1287,9 +1292,76 @@
         </state>
       </provider>
     </entry>
+    <entry file="das://032f7582-4716-4729-858b-9cfd5cfa4f44/schema/resstaurant/table/bill">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="b5a4be7b-5fbe-4883-83fb-f4ead5a9db72">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/dao/daoimpl/BillDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="152" column="30" selection-start-line="152" selection-start-column="30" selection-end-line="152" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/command/client/page/ClientOrderPageCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/command/client/page/ClientPageCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/command/client/page/ClientBillPageCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/command/client/action/PayBillCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/command/client/action/CreateOrderCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="23" column="60" selection-start-line="23" selection-start-column="60" selection-end-line="23" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/command/CommandFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/not_found.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
+        <state relative-caret-position="133">
           <caret line="23" column="59" selection-start-line="23" selection-start-column="59" selection-end-line="23" selection-end-column="59" />
         </state>
       </provider>

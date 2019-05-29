@@ -10658,3 +10658,1154 @@ java.sql.SQLException: No value specified for parameter 2
 2019-05-30 02:11:39 INFO  EncodingFilter:21 - do Filter
 2019-05-30 02:11:39 INFO  LocaleFilter:34 - do Filter
 2019-05-30 02:11:39 INFO  CommandFactory:47 - Command get
+2019-05-30 02:18:33 INFO  EncodingFilter:21 - do Filter
+2019-05-30 02:18:33 INFO  LocaleFilter:34 - do Filter
+2019-05-30 02:18:35 INFO  EncodingFilter:21 - do Filter
+2019-05-30 02:18:35 INFO  LocaleFilter:34 - do Filter
+2019-05-30 02:18:36 INFO  EncodingFilter:21 - do Filter
+2019-05-30 02:18:36 INFO  LocaleFilter:34 - do Filter
+2019-05-30 02:19:51 INFO  EncodingFilter:21 - do Filter
+2019-05-30 02:19:51 INFO  LocaleFilter:34 - do Filter
+2019-05-30 02:19:51 INFO  DaoFactory:27 - dao factory
+2019-05-30 02:19:51 INFO  DaoFactory:27 - dao factory
+2019-05-30 02:19:51 INFO  DaoFactory:27 - dao factory
+2019-05-30 02:19:51 INFO  DaoFactory:27 - dao factory
+2019-05-30 02:19:51 INFO  DaoFactory:27 - dao factory
+2019-05-30 02:19:51 INFO  DaoFactory:27 - dao factory
+2019-05-30 02:19:51 INFO  DaoFactory:27 - dao factory
+2019-05-30 02:19:51 INFO  DaoFactory:27 - dao factory
+2019-05-30 02:19:51 INFO  DaoFactory:27 - dao factory
+2019-05-30 02:19:51 INFO  CommandFactory:47 - Command get
+2019-05-30 02:19:51 INFO  DaoFactory:27 - dao factory
+2019-05-30 02:19:52 INFO  UserServiceImpl:63 - get Login and password
+2019-05-30 02:19:52 INFO  LoginCommand:36 - user login
+2019-05-30 02:19:52 INFO  EncodingFilter:21 - do Filter
+2019-05-30 02:19:52 INFO  LocaleFilter:34 - do Filter
+2019-05-30 02:19:52 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 02:19:52 INFO  RoleFilter:35 - Do Filter
+2019-05-30 02:19:52 INFO  CommandFactory:47 - Command get
+2019-05-30 02:19:52 INFO  ClientPageCommand:21 - execute
+2019-05-30 02:19:54 INFO  EncodingFilter:21 - do Filter
+2019-05-30 02:19:54 INFO  LocaleFilter:34 - do Filter
+2019-05-30 02:19:54 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 02:19:54 INFO  RoleFilter:35 - Do Filter
+2019-05-30 02:19:54 INFO  CommandFactory:47 - Command get
+2019-05-30 02:19:54 INFO  OrderServiceImpl:73 - create bill with sum
+2019-05-30 02:19:54 INFO  BillDaoImpl:162 - Cannot find All
+java.sql.SQLException: No value specified for parameter 2
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1037)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at model.dao.daoimpl.BillDaoImpl.unpaidList(BillDaoImpl.java:155)
+	at model.service.implement.BillServiceImpl.unpaidList(BillServiceImpl.java:74)
+	at controller.command.client.page.ClientBillPageCommand.execute(ClientBillPageCommand.java:20)
+	at controller.Servlet.processRequest(Servlet.java:32)
+	at controller.Servlet.doPost(Servlet.java:22)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at controller.filter.RoleFilter.doFilter(RoleFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at controller.filter.AuthenticationFilter.doFilter(AuthenticationFilter.java:37)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at controller.filter.LocaleFilter.doFilter(LocaleFilter.java:46)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at controller.filter.EncodingFilter.doFilter(EncodingFilter.java:25)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:800)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:806)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2019-05-30 02:19:54 INFO  ClientBillPageCommand:21 - execute
+2019-05-30 02:19:59 INFO  EncodingFilter:21 - do Filter
+2019-05-30 02:19:59 INFO  LocaleFilter:34 - do Filter
+2019-05-30 02:19:59 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 02:19:59 INFO  RoleFilter:35 - Do Filter
+2019-05-30 02:19:59 INFO  CommandFactory:47 - Command get
+2019-05-30 02:19:59 INFO  MenuServiceImpl:44 - Find all menus
+2019-05-30 02:19:59 INFO  ClientOrderPageCommand:21 - execute
+2019-05-30 02:20:17 INFO  EncodingFilter:21 - do Filter
+2019-05-30 02:20:17 INFO  LocaleFilter:34 - do Filter
+2019-05-30 02:20:17 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 02:20:17 INFO  RoleFilter:35 - Do Filter
+2019-05-30 02:20:17 INFO  CommandFactory:47 - Command get
+2019-05-30 02:20:17 INFO  MenuServiceImpl:44 - Find all menus
+2019-05-30 02:20:17 INFO  OrderServiceImpl:22 - Create order = %d
+2019-05-30 02:20:17 INFO  OrderServiceImpl:67 - dish  has selected
+2019-05-30 02:20:17 INFO  CreateOrderCommand:43 - execute
+2019-05-30 02:20:17 INFO  EncodingFilter:21 - do Filter
+2019-05-30 02:20:17 INFO  LocaleFilter:34 - do Filter
+2019-05-30 02:20:17 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 02:20:17 INFO  RoleFilter:35 - Do Filter
+2019-05-30 02:20:17 INFO  CommandFactory:47 - Command get
+2019-05-30 02:20:17 INFO  MenuServiceImpl:44 - Find all menus
+2019-05-30 02:20:17 INFO  ClientOrderPageCommand:21 - execute
+2019-05-30 02:20:19 INFO  EncodingFilter:21 - do Filter
+2019-05-30 02:20:19 INFO  LocaleFilter:34 - do Filter
+2019-05-30 02:20:19 INFO  CommandFactory:47 - Command get
+2019-05-30 02:20:19 INFO  EncodingFilter:21 - do Filter
+2019-05-30 02:20:19 INFO  LocaleFilter:34 - do Filter
+2019-05-30 02:20:19 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 02:20:19 INFO  RoleFilter:35 - Do Filter
+2019-05-30 02:20:19 INFO  CommandFactory:47 - Command get
+2019-05-30 02:20:19 INFO  ClientPageCommand:21 - execute
+2019-05-30 02:20:21 INFO  EncodingFilter:21 - do Filter
+2019-05-30 02:20:21 INFO  LocaleFilter:34 - do Filter
+2019-05-30 02:20:21 INFO  CommandFactory:47 - Command get
+2019-05-30 02:20:21 INFO  LogoutCommand:17 - execute
+2019-05-30 02:20:21 INFO  EncodingFilter:21 - do Filter
+2019-05-30 02:20:21 INFO  LocaleFilter:34 - do Filter
+2019-05-30 02:20:21 INFO  CommandFactory:47 - Command get
+2019-05-30 02:20:26 INFO  EncodingFilter:21 - do Filter
+2019-05-30 02:20:26 INFO  LocaleFilter:34 - do Filter
+2019-05-30 02:20:26 INFO  CommandFactory:47 - Command get
+2019-05-30 02:20:26 INFO  DaoFactory:27 - dao factory
+2019-05-30 02:20:26 INFO  UserServiceImpl:63 - get Login and password
+2019-05-30 02:20:26 INFO  LoginCommand:36 - user login
+2019-05-30 02:20:26 INFO  EncodingFilter:21 - do Filter
+2019-05-30 02:20:26 INFO  LocaleFilter:34 - do Filter
+2019-05-30 02:20:26 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 02:20:26 INFO  RoleFilter:35 - Do Filter
+2019-05-30 02:20:26 INFO  CommandFactory:47 - Command get
+2019-05-30 02:20:26 INFO  AdminPageCommand:15 - execute
+2019-05-30 02:20:28 INFO  EncodingFilter:21 - do Filter
+2019-05-30 02:20:28 INFO  LocaleFilter:34 - do Filter
+2019-05-30 02:20:28 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 02:20:28 INFO  RoleFilter:35 - Do Filter
+2019-05-30 02:20:28 INFO  CommandFactory:47 - Command get
+2019-05-30 02:20:28 INFO  OrderServiceImpl:75 - Find all orders
+2019-05-30 02:20:28 INFO  AdminPageBillCommand:22 - execute
+2019-05-30 02:20:30 INFO  EncodingFilter:21 - do Filter
+2019-05-30 02:20:30 INFO  LocaleFilter:34 - do Filter
+2019-05-30 02:20:30 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 02:20:30 INFO  RoleFilter:35 - Do Filter
+2019-05-30 02:20:30 INFO  CommandFactory:47 - Command get
+2019-05-30 02:20:30 INFO  OrderServiceImpl:75 - Find all orders
+2019-05-30 02:20:30 INFO  OrderServiceImpl:67 - create bill with sum
+2019-05-30 02:20:30 INFO  CreateBillCommand:34 - execute
+2019-05-30 02:20:30 INFO  EncodingFilter:21 - do Filter
+2019-05-30 02:20:30 INFO  LocaleFilter:34 - do Filter
+2019-05-30 02:20:30 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 02:20:30 INFO  RoleFilter:35 - Do Filter
+2019-05-30 02:20:30 INFO  CommandFactory:47 - Command get
+2019-05-30 02:20:30 INFO  OrderServiceImpl:75 - Find all orders
+2019-05-30 02:20:30 INFO  AdminPageBillCommand:22 - execute
+2019-05-30 02:20:32 INFO  EncodingFilter:21 - do Filter
+2019-05-30 02:20:32 INFO  LocaleFilter:34 - do Filter
+2019-05-30 02:20:32 INFO  CommandFactory:47 - Command get
+2019-05-30 02:20:32 INFO  EncodingFilter:21 - do Filter
+2019-05-30 02:20:32 INFO  LocaleFilter:34 - do Filter
+2019-05-30 02:20:32 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 02:20:32 INFO  RoleFilter:35 - Do Filter
+2019-05-30 02:20:32 INFO  CommandFactory:47 - Command get
+2019-05-30 02:20:32 INFO  AdminPageCommand:15 - execute
+2019-05-30 02:20:33 INFO  EncodingFilter:21 - do Filter
+2019-05-30 02:20:33 INFO  LocaleFilter:34 - do Filter
+2019-05-30 02:20:33 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 02:20:33 INFO  RoleFilter:35 - Do Filter
+2019-05-30 02:20:33 INFO  CommandFactory:47 - Command get
+2019-05-30 02:20:33 INFO  OrderServiceImpl:85 - find pages
+2019-05-30 02:20:33 INFO  OrderServiceImpl:94 - get number of page
+2019-05-30 02:20:35 INFO  EncodingFilter:21 - do Filter
+2019-05-30 02:20:35 INFO  LocaleFilter:34 - do Filter
+2019-05-30 02:20:35 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 02:20:35 INFO  RoleFilter:35 - Do Filter
+2019-05-30 02:20:35 INFO  CommandFactory:47 - Command get
+2019-05-30 02:20:35 INFO  OrderServiceImpl:85 - find pages
+2019-05-30 02:20:35 INFO  OrderServiceImpl:94 - get number of page
+2019-05-30 02:20:51 INFO  EncodingFilter:21 - do Filter
+2019-05-30 02:20:51 INFO  LocaleFilter:34 - do Filter
+2019-05-30 02:20:51 INFO  CommandFactory:47 - Command get
+2019-05-30 02:20:51 INFO  LogoutCommand:17 - execute
+2019-05-30 02:20:51 INFO  EncodingFilter:21 - do Filter
+2019-05-30 02:20:51 INFO  LocaleFilter:34 - do Filter
+2019-05-30 02:20:51 INFO  CommandFactory:47 - Command get
+2019-05-30 02:20:55 INFO  EncodingFilter:21 - do Filter
+2019-05-30 02:20:55 INFO  LocaleFilter:34 - do Filter
+2019-05-30 02:20:55 INFO  CommandFactory:47 - Command get
+2019-05-30 02:20:55 INFO  DaoFactory:27 - dao factory
+2019-05-30 02:20:55 INFO  UserServiceImpl:63 - get Login and password
+2019-05-30 02:20:55 INFO  LoginCommand:36 - user login
+2019-05-30 02:20:55 INFO  EncodingFilter:21 - do Filter
+2019-05-30 02:20:55 INFO  LocaleFilter:34 - do Filter
+2019-05-30 02:20:55 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 02:20:55 INFO  RoleFilter:35 - Do Filter
+2019-05-30 02:20:55 INFO  CommandFactory:47 - Command get
+2019-05-30 02:20:55 INFO  ClientPageCommand:21 - execute
+2019-05-30 02:20:57 INFO  EncodingFilter:21 - do Filter
+2019-05-30 02:20:57 INFO  LocaleFilter:34 - do Filter
+2019-05-30 02:20:57 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 02:20:57 INFO  RoleFilter:35 - Do Filter
+2019-05-30 02:20:57 INFO  CommandFactory:47 - Command get
+2019-05-30 02:20:57 INFO  OrderServiceImpl:73 - create bill with sum
+2019-05-30 02:20:57 INFO  BillDaoImpl:162 - Cannot find All
+java.sql.SQLException: No value specified for parameter 2
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1037)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at model.dao.daoimpl.BillDaoImpl.unpaidList(BillDaoImpl.java:155)
+	at model.service.implement.BillServiceImpl.unpaidList(BillServiceImpl.java:74)
+	at controller.command.client.page.ClientBillPageCommand.execute(ClientBillPageCommand.java:20)
+	at controller.Servlet.processRequest(Servlet.java:32)
+	at controller.Servlet.doPost(Servlet.java:22)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at controller.filter.RoleFilter.doFilter(RoleFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at controller.filter.AuthenticationFilter.doFilter(AuthenticationFilter.java:37)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at controller.filter.LocaleFilter.doFilter(LocaleFilter.java:46)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at controller.filter.EncodingFilter.doFilter(EncodingFilter.java:25)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:800)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:806)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2019-05-30 02:20:57 INFO  ClientBillPageCommand:21 - execute
+2019-05-30 02:21:03 INFO  EncodingFilter:21 - do Filter
+2019-05-30 02:21:03 INFO  LocaleFilter:34 - do Filter
+2019-05-30 02:21:03 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 02:21:03 INFO  RoleFilter:35 - Do Filter
+2019-05-30 02:21:03 INFO  CommandFactory:47 - Command get
+2019-05-30 02:21:03 INFO  OrderServiceImpl:73 - create bill with sum
+2019-05-30 02:21:03 INFO  BillDaoImpl:162 - Cannot find All
+java.sql.SQLException: No value specified for parameter 2
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1037)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at model.dao.daoimpl.BillDaoImpl.unpaidList(BillDaoImpl.java:155)
+	at model.service.implement.BillServiceImpl.unpaidList(BillServiceImpl.java:74)
+	at controller.command.client.action.PayBillCommand.execute(PayBillCommand.java:24)
+	at controller.Servlet.processRequest(Servlet.java:32)
+	at controller.Servlet.doPost(Servlet.java:22)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at controller.filter.RoleFilter.doFilter(RoleFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at controller.filter.AuthenticationFilter.doFilter(AuthenticationFilter.java:37)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at controller.filter.LocaleFilter.doFilter(LocaleFilter.java:46)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at controller.filter.EncodingFilter.doFilter(EncodingFilter.java:25)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:800)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:806)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2019-05-30 02:21:03 INFO  ClientBillPageCommand:29 - Dont choose any order
+java.lang.NumberFormatException: null
+	at java.lang.Integer.parseInt(Integer.java:542)
+	at java.lang.Integer.parseInt(Integer.java:615)
+	at controller.command.client.action.PayBillCommand.execute(PayBillCommand.java:25)
+	at controller.Servlet.processRequest(Servlet.java:32)
+	at controller.Servlet.doPost(Servlet.java:22)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at controller.filter.RoleFilter.doFilter(RoleFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at controller.filter.AuthenticationFilter.doFilter(AuthenticationFilter.java:37)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at controller.filter.LocaleFilter.doFilter(LocaleFilter.java:46)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at controller.filter.EncodingFilter.doFilter(EncodingFilter.java:25)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:800)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:806)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2019-05-30 02:21:03 INFO  EncodingFilter:21 - do Filter
+2019-05-30 02:21:03 INFO  LocaleFilter:34 - do Filter
+2019-05-30 02:21:03 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 02:21:03 INFO  RoleFilter:35 - Do Filter
+2019-05-30 02:21:03 INFO  CommandFactory:47 - Command get
+2019-05-30 02:21:03 INFO  OrderServiceImpl:73 - create bill with sum
+2019-05-30 02:21:03 INFO  BillDaoImpl:162 - Cannot find All
+java.sql.SQLException: No value specified for parameter 2
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1037)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at model.dao.daoimpl.BillDaoImpl.unpaidList(BillDaoImpl.java:155)
+	at model.service.implement.BillServiceImpl.unpaidList(BillServiceImpl.java:74)
+	at controller.command.client.page.ClientBillPageCommand.execute(ClientBillPageCommand.java:20)
+	at controller.Servlet.processRequest(Servlet.java:32)
+	at controller.Servlet.doGet(Servlet.java:16)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at controller.filter.RoleFilter.doFilter(RoleFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at controller.filter.AuthenticationFilter.doFilter(AuthenticationFilter.java:37)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at controller.filter.LocaleFilter.doFilter(LocaleFilter.java:46)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at controller.filter.EncodingFilter.doFilter(EncodingFilter.java:25)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:800)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:806)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2019-05-30 02:21:03 INFO  ClientBillPageCommand:21 - execute
+2019-05-30 02:22:08 INFO  EncodingFilter:21 - do Filter
+2019-05-30 02:22:08 INFO  LocaleFilter:34 - do Filter
+2019-05-30 02:22:10 INFO  EncodingFilter:21 - do Filter
+2019-05-30 02:22:10 INFO  LocaleFilter:34 - do Filter
+2019-05-30 02:22:10 INFO  EncodingFilter:21 - do Filter
+2019-05-30 02:22:10 INFO  LocaleFilter:34 - do Filter
+2019-05-30 02:22:19 INFO  EncodingFilter:21 - do Filter
+2019-05-30 02:22:19 INFO  LocaleFilter:34 - do Filter
+2019-05-30 02:22:19 INFO  DaoFactory:27 - dao factory
+2019-05-30 02:22:19 INFO  DaoFactory:27 - dao factory
+2019-05-30 02:22:19 INFO  DaoFactory:27 - dao factory
+2019-05-30 02:22:19 INFO  DaoFactory:27 - dao factory
+2019-05-30 02:22:19 INFO  DaoFactory:27 - dao factory
+2019-05-30 02:22:19 INFO  DaoFactory:27 - dao factory
+2019-05-30 02:22:19 INFO  DaoFactory:27 - dao factory
+2019-05-30 02:22:19 INFO  DaoFactory:27 - dao factory
+2019-05-30 02:22:19 INFO  DaoFactory:27 - dao factory
+2019-05-30 02:22:19 INFO  CommandFactory:47 - Command get
+2019-05-30 02:22:19 INFO  DaoFactory:27 - dao factory
+2019-05-30 02:22:19 INFO  UserServiceImpl:63 - get Login and password
+2019-05-30 02:22:19 INFO  LoginCommand:36 - user login
+2019-05-30 02:22:19 INFO  EncodingFilter:21 - do Filter
+2019-05-30 02:22:19 INFO  LocaleFilter:34 - do Filter
+2019-05-30 02:22:19 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 02:22:19 INFO  RoleFilter:35 - Do Filter
+2019-05-30 02:22:19 INFO  CommandFactory:47 - Command get
+2019-05-30 02:22:19 INFO  ClientPageCommand:21 - execute
+2019-05-30 02:22:21 INFO  EncodingFilter:21 - do Filter
+2019-05-30 02:22:21 INFO  LocaleFilter:34 - do Filter
+2019-05-30 02:22:21 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 02:22:21 INFO  RoleFilter:35 - Do Filter
+2019-05-30 02:22:21 INFO  CommandFactory:47 - Command get
+2019-05-30 02:22:21 INFO  OrderServiceImpl:73 - create bill with sum
+2019-05-30 02:22:21 INFO  BillDaoImpl:162 - Cannot find All
+java.sql.SQLException: No value specified for parameter 2
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1037)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at model.dao.daoimpl.BillDaoImpl.unpaidList(BillDaoImpl.java:155)
+	at model.service.implement.BillServiceImpl.unpaidList(BillServiceImpl.java:74)
+	at controller.command.client.page.ClientBillPageCommand.execute(ClientBillPageCommand.java:20)
+	at controller.Servlet.processRequest(Servlet.java:32)
+	at controller.Servlet.doPost(Servlet.java:22)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at controller.filter.RoleFilter.doFilter(RoleFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at controller.filter.AuthenticationFilter.doFilter(AuthenticationFilter.java:37)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at controller.filter.LocaleFilter.doFilter(LocaleFilter.java:46)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at controller.filter.EncodingFilter.doFilter(EncodingFilter.java:25)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:800)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:806)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2019-05-30 02:22:21 INFO  ClientBillPageCommand:21 - execute
+2019-05-30 02:22:25 INFO  EncodingFilter:21 - do Filter
+2019-05-30 02:22:25 INFO  LocaleFilter:34 - do Filter
+2019-05-30 02:22:25 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 02:22:25 INFO  RoleFilter:35 - Do Filter
+2019-05-30 02:22:25 INFO  CommandFactory:47 - Command get
+2019-05-30 02:22:25 INFO  MenuServiceImpl:44 - Find all menus
+2019-05-30 02:22:25 INFO  ClientOrderPageCommand:20 - execute
+2019-05-30 02:22:39 INFO  EncodingFilter:21 - do Filter
+2019-05-30 02:22:39 INFO  LocaleFilter:34 - do Filter
+2019-05-30 02:22:39 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 02:22:39 INFO  RoleFilter:35 - Do Filter
+2019-05-30 02:22:39 INFO  CommandFactory:47 - Command get
+2019-05-30 02:22:39 INFO  MenuServiceImpl:44 - Find all menus
+2019-05-30 02:22:39 INFO  OrderServiceImpl:22 - Create order = %d
+2019-05-30 02:22:39 INFO  OrderServiceImpl:67 - dish  has selected
+2019-05-30 02:22:39 INFO  CreateOrderCommand:43 - execute
+2019-05-30 02:22:39 INFO  EncodingFilter:21 - do Filter
+2019-05-30 02:22:39 INFO  LocaleFilter:34 - do Filter
+2019-05-30 02:22:39 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 02:22:39 INFO  RoleFilter:35 - Do Filter
+2019-05-30 02:22:39 INFO  CommandFactory:47 - Command get
+2019-05-30 02:22:39 INFO  MenuServiceImpl:44 - Find all menus
+2019-05-30 02:22:39 INFO  ClientOrderPageCommand:20 - execute
+2019-05-30 02:22:40 INFO  EncodingFilter:21 - do Filter
+2019-05-30 02:22:40 INFO  LocaleFilter:34 - do Filter
+2019-05-30 02:22:40 INFO  CommandFactory:47 - Command get
+2019-05-30 02:22:40 INFO  LogoutCommand:17 - execute
+2019-05-30 02:22:40 INFO  EncodingFilter:21 - do Filter
+2019-05-30 02:22:40 INFO  LocaleFilter:34 - do Filter
+2019-05-30 02:22:40 INFO  CommandFactory:47 - Command get
+2019-05-30 02:22:44 INFO  EncodingFilter:21 - do Filter
+2019-05-30 02:22:44 INFO  LocaleFilter:34 - do Filter
+2019-05-30 02:22:44 INFO  CommandFactory:47 - Command get
+2019-05-30 02:22:44 INFO  DaoFactory:27 - dao factory
+2019-05-30 02:22:44 INFO  UserServiceImpl:63 - get Login and password
+2019-05-30 02:22:44 INFO  LoginCommand:36 - user login
+2019-05-30 02:22:44 INFO  EncodingFilter:21 - do Filter
+2019-05-30 02:22:44 INFO  LocaleFilter:34 - do Filter
+2019-05-30 02:22:44 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 02:22:44 INFO  RoleFilter:35 - Do Filter
+2019-05-30 02:22:44 INFO  CommandFactory:47 - Command get
+2019-05-30 02:22:44 INFO  AdminPageCommand:15 - execute
+2019-05-30 02:22:46 INFO  EncodingFilter:21 - do Filter
+2019-05-30 02:22:46 INFO  LocaleFilter:34 - do Filter
+2019-05-30 02:22:46 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 02:22:46 INFO  RoleFilter:35 - Do Filter
+2019-05-30 02:22:46 INFO  CommandFactory:47 - Command get
+2019-05-30 02:22:46 INFO  OrderServiceImpl:75 - Find all orders
+2019-05-30 02:22:46 INFO  AdminPageBillCommand:22 - execute
+2019-05-30 02:22:49 INFO  EncodingFilter:21 - do Filter
+2019-05-30 02:22:49 INFO  LocaleFilter:34 - do Filter
+2019-05-30 02:22:49 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 02:22:49 INFO  RoleFilter:35 - Do Filter
+2019-05-30 02:22:49 INFO  CommandFactory:47 - Command get
+2019-05-30 02:22:49 INFO  OrderServiceImpl:75 - Find all orders
+2019-05-30 02:22:49 INFO  OrderServiceImpl:67 - create bill with sum
+2019-05-30 02:22:49 INFO  CreateBillCommand:34 - execute
+2019-05-30 02:22:49 INFO  EncodingFilter:21 - do Filter
+2019-05-30 02:22:49 INFO  LocaleFilter:34 - do Filter
+2019-05-30 02:22:49 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 02:22:49 INFO  RoleFilter:35 - Do Filter
+2019-05-30 02:22:49 INFO  CommandFactory:47 - Command get
+2019-05-30 02:22:49 INFO  OrderServiceImpl:75 - Find all orders
+2019-05-30 02:22:49 INFO  AdminPageBillCommand:22 - execute
+2019-05-30 02:22:51 INFO  EncodingFilter:21 - do Filter
+2019-05-30 02:22:51 INFO  LocaleFilter:34 - do Filter
+2019-05-30 02:22:51 INFO  CommandFactory:47 - Command get
+2019-05-30 02:22:51 INFO  LogoutCommand:17 - execute
+2019-05-30 02:22:51 INFO  EncodingFilter:21 - do Filter
+2019-05-30 02:22:51 INFO  LocaleFilter:34 - do Filter
+2019-05-30 02:22:51 INFO  CommandFactory:47 - Command get
+2019-05-30 02:22:55 INFO  EncodingFilter:21 - do Filter
+2019-05-30 02:22:55 INFO  LocaleFilter:34 - do Filter
+2019-05-30 02:22:55 INFO  CommandFactory:47 - Command get
+2019-05-30 02:22:55 INFO  DaoFactory:27 - dao factory
+2019-05-30 02:22:55 INFO  UserServiceImpl:63 - get Login and password
+2019-05-30 02:22:55 INFO  LoginCommand:36 - user login
+2019-05-30 02:22:55 INFO  EncodingFilter:21 - do Filter
+2019-05-30 02:22:55 INFO  LocaleFilter:34 - do Filter
+2019-05-30 02:22:55 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 02:22:55 INFO  RoleFilter:35 - Do Filter
+2019-05-30 02:22:55 INFO  CommandFactory:47 - Command get
+2019-05-30 02:22:55 INFO  ClientPageCommand:21 - execute
+2019-05-30 02:22:56 INFO  EncodingFilter:21 - do Filter
+2019-05-30 02:22:56 INFO  LocaleFilter:34 - do Filter
+2019-05-30 02:22:56 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 02:22:56 INFO  RoleFilter:35 - Do Filter
+2019-05-30 02:22:56 INFO  CommandFactory:47 - Command get
+2019-05-30 02:22:56 INFO  OrderServiceImpl:73 - create bill with sum
+2019-05-30 02:22:56 INFO  BillDaoImpl:162 - Cannot find All
+java.sql.SQLException: No value specified for parameter 2
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1037)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at model.dao.daoimpl.BillDaoImpl.unpaidList(BillDaoImpl.java:155)
+	at model.service.implement.BillServiceImpl.unpaidList(BillServiceImpl.java:74)
+	at controller.command.client.page.ClientBillPageCommand.execute(ClientBillPageCommand.java:20)
+	at controller.Servlet.processRequest(Servlet.java:32)
+	at controller.Servlet.doPost(Servlet.java:22)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at controller.filter.RoleFilter.doFilter(RoleFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at controller.filter.AuthenticationFilter.doFilter(AuthenticationFilter.java:37)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at controller.filter.LocaleFilter.doFilter(LocaleFilter.java:46)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at controller.filter.EncodingFilter.doFilter(EncodingFilter.java:25)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:800)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:806)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2019-05-30 02:22:56 INFO  ClientBillPageCommand:21 - execute
+2019-05-30 02:24:16 INFO  EncodingFilter:21 - do Filter
+2019-05-30 02:24:16 INFO  LocaleFilter:34 - do Filter
+2019-05-30 02:24:16 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 02:24:16 INFO  RoleFilter:35 - Do Filter
+2019-05-30 02:24:16 INFO  CommandFactory:47 - Command get
+2019-05-30 02:24:16 INFO  OrderServiceImpl:73 - create bill with sum
+2019-05-30 02:24:16 INFO  BillDaoImpl:162 - Cannot find All
+java.sql.SQLException: No value specified for parameter 2
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1037)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at model.dao.daoimpl.BillDaoImpl.unpaidList(BillDaoImpl.java:155)
+	at model.service.implement.BillServiceImpl.unpaidList(BillServiceImpl.java:74)
+	at controller.command.client.page.ClientBillPageCommand.execute(ClientBillPageCommand.java:20)
+	at controller.Servlet.processRequest(Servlet.java:32)
+	at controller.Servlet.doPost(Servlet.java:22)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at controller.filter.RoleFilter.doFilter(RoleFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at controller.filter.AuthenticationFilter.doFilter(AuthenticationFilter.java:37)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at controller.filter.LocaleFilter.doFilter(LocaleFilter.java:46)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at controller.filter.EncodingFilter.doFilter(EncodingFilter.java:25)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:800)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:806)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2019-05-30 02:24:16 INFO  ClientBillPageCommand:21 - execute
+2019-05-30 02:24:17 INFO  EncodingFilter:21 - do Filter
+2019-05-30 02:24:17 INFO  LocaleFilter:34 - do Filter
+2019-05-30 02:24:17 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 02:24:17 INFO  RoleFilter:35 - Do Filter
+2019-05-30 02:24:17 INFO  CommandFactory:47 - Command get
+2019-05-30 02:24:17 INFO  OrderServiceImpl:73 - create bill with sum
+2019-05-30 02:24:17 INFO  BillDaoImpl:162 - Cannot find All
+java.sql.SQLException: No value specified for parameter 2
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1037)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at model.dao.daoimpl.BillDaoImpl.unpaidList(BillDaoImpl.java:155)
+	at model.service.implement.BillServiceImpl.unpaidList(BillServiceImpl.java:74)
+	at controller.command.client.page.ClientBillPageCommand.execute(ClientBillPageCommand.java:20)
+	at controller.Servlet.processRequest(Servlet.java:32)
+	at controller.Servlet.doPost(Servlet.java:22)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at controller.filter.RoleFilter.doFilter(RoleFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at controller.filter.AuthenticationFilter.doFilter(AuthenticationFilter.java:37)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at controller.filter.LocaleFilter.doFilter(LocaleFilter.java:46)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at controller.filter.EncodingFilter.doFilter(EncodingFilter.java:25)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:800)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:806)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2019-05-30 02:24:17 INFO  ClientBillPageCommand:21 - execute
+2019-05-30 02:24:19 INFO  EncodingFilter:21 - do Filter
+2019-05-30 02:24:19 INFO  LocaleFilter:34 - do Filter
+2019-05-30 02:24:19 INFO  CommandFactory:47 - Command get
+2019-05-30 02:24:19 INFO  EncodingFilter:21 - do Filter
+2019-05-30 02:24:19 INFO  LocaleFilter:34 - do Filter
+2019-05-30 02:24:19 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 02:24:19 INFO  RoleFilter:35 - Do Filter
+2019-05-30 02:24:19 INFO  CommandFactory:47 - Command get
+2019-05-30 02:24:19 INFO  ClientPageCommand:21 - execute
+2019-05-30 02:24:21 INFO  EncodingFilter:21 - do Filter
+2019-05-30 02:24:21 INFO  LocaleFilter:34 - do Filter
+2019-05-30 02:24:21 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 02:24:21 INFO  RoleFilter:35 - Do Filter
+2019-05-30 02:24:21 INFO  CommandFactory:47 - Command get
+2019-05-30 02:24:21 INFO  OrderServiceImpl:73 - create bill with sum
+2019-05-30 02:24:21 INFO  BillDaoImpl:162 - Cannot find All
+java.sql.SQLException: No value specified for parameter 2
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1037)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at model.dao.daoimpl.BillDaoImpl.unpaidList(BillDaoImpl.java:155)
+	at model.service.implement.BillServiceImpl.unpaidList(BillServiceImpl.java:74)
+	at controller.command.client.page.ClientBillPageCommand.execute(ClientBillPageCommand.java:20)
+	at controller.Servlet.processRequest(Servlet.java:32)
+	at controller.Servlet.doPost(Servlet.java:22)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at controller.filter.RoleFilter.doFilter(RoleFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at controller.filter.AuthenticationFilter.doFilter(AuthenticationFilter.java:37)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at controller.filter.LocaleFilter.doFilter(LocaleFilter.java:46)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at controller.filter.EncodingFilter.doFilter(EncodingFilter.java:25)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:800)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:806)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2019-05-30 02:24:21 INFO  ClientBillPageCommand:21 - execute
+2019-05-30 02:25:11 INFO  EncodingFilter:21 - do Filter
+2019-05-30 02:25:11 INFO  LocaleFilter:34 - do Filter
+2019-05-30 02:25:13 INFO  EncodingFilter:21 - do Filter
+2019-05-30 02:25:13 INFO  LocaleFilter:34 - do Filter
+2019-05-30 02:25:14 INFO  EncodingFilter:21 - do Filter
+2019-05-30 02:25:14 INFO  LocaleFilter:34 - do Filter
+2019-05-30 02:25:19 INFO  EncodingFilter:21 - do Filter
+2019-05-30 02:25:19 INFO  LocaleFilter:34 - do Filter
+2019-05-30 02:25:19 INFO  DaoFactory:27 - dao factory
+2019-05-30 02:25:19 INFO  DaoFactory:27 - dao factory
+2019-05-30 02:25:19 INFO  DaoFactory:27 - dao factory
+2019-05-30 02:25:19 INFO  DaoFactory:27 - dao factory
+2019-05-30 02:25:19 INFO  DaoFactory:27 - dao factory
+2019-05-30 02:25:19 INFO  DaoFactory:27 - dao factory
+2019-05-30 02:25:19 INFO  DaoFactory:27 - dao factory
+2019-05-30 02:25:19 INFO  DaoFactory:27 - dao factory
+2019-05-30 02:25:19 INFO  DaoFactory:27 - dao factory
+2019-05-30 02:25:19 INFO  CommandFactory:47 - Command get
+2019-05-30 02:25:19 INFO  DaoFactory:27 - dao factory
+2019-05-30 02:25:19 INFO  UserServiceImpl:63 - get Login and password
+2019-05-30 02:25:19 INFO  LoginCommand:36 - user login
+2019-05-30 02:25:19 INFO  EncodingFilter:21 - do Filter
+2019-05-30 02:25:19 INFO  LocaleFilter:34 - do Filter
+2019-05-30 02:25:19 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 02:25:19 INFO  RoleFilter:35 - Do Filter
+2019-05-30 02:25:19 INFO  CommandFactory:47 - Command get
+2019-05-30 02:25:19 INFO  ClientPageCommand:21 - execute
+2019-05-30 02:25:21 INFO  EncodingFilter:21 - do Filter
+2019-05-30 02:25:21 INFO  LocaleFilter:34 - do Filter
+2019-05-30 02:25:21 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 02:25:21 INFO  RoleFilter:35 - Do Filter
+2019-05-30 02:25:21 INFO  CommandFactory:47 - Command get
+2019-05-30 02:25:21 INFO  OrderServiceImpl:73 - create bill with sum
+2019-05-30 02:25:21 INFO  ClientBillPageCommand:21 - execute
+2019-05-30 02:25:28 INFO  EncodingFilter:21 - do Filter
+2019-05-30 02:25:28 INFO  LocaleFilter:34 - do Filter
+2019-05-30 02:25:28 INFO  CommandFactory:47 - Command get
+2019-05-30 02:25:28 INFO  EncodingFilter:21 - do Filter
+2019-05-30 02:25:28 INFO  LocaleFilter:34 - do Filter
+2019-05-30 02:25:28 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 02:25:28 INFO  RoleFilter:35 - Do Filter
+2019-05-30 02:25:28 INFO  CommandFactory:47 - Command get
+2019-05-30 02:25:28 INFO  ClientPageCommand:21 - execute
+2019-05-30 02:30:47 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 02:30:48 INFO  DaoFactory:27 - dao factory
+2019-05-30 02:30:48 INFO  OrderServiceImpl:73 - create bill with sum
+2019-05-30 02:30:48 INFO  DaoFactory:27 - dao factory
+2019-05-30 02:30:48 INFO  OrderServiceImpl:23 - Create menu = %d
+2019-05-30 02:30:48 INFO  DaoFactory:27 - dao factory
+2019-05-30 02:30:48 INFO  OrderServiceImpl:58 - delete bill
+2019-05-30 02:30:48 INFO  DaoFactory:27 - dao factory
+2019-05-30 02:30:48 INFO  OrderServiceImpl:41 - Find all bills
+2019-05-30 02:30:48 INFO  DaoFactory:27 - dao factory
+2019-05-30 02:30:48 INFO  OrderServiceImpl:50 - bill update %d
+2019-05-30 02:30:48 INFO  DaoFactory:27 - dao factory
+2019-05-30 02:30:48 INFO  OrderServiceImpl:32 - Find bill by id 
+2019-05-30 02:30:48 INFO  DaoFactory:27 - dao factory
+2019-05-30 02:30:48 FATAL OrderServiceImpl:82 - set status
+2019-05-30 02:30:48 INFO  DaoFactory:27 - dao factory
+2019-05-30 02:30:48 INFO  OrderServiceImpl:67 - create bill with sum
+2019-05-30 02:30:48 INFO  DaoFactory:27 - dao factory
+2019-05-30 02:30:48 INFO  DaoFactory:27 - dao factory
+2019-05-30 02:30:48 INFO  MenuServiceImpl:22 - Create menu = %d
+2019-05-30 02:30:48 INFO  DaoFactory:27 - dao factory
+2019-05-30 02:30:48 INFO  MenuServiceImpl:65 - delete bill
+2019-05-30 02:30:48 INFO  DaoFactory:27 - dao factory
+2019-05-30 02:30:48 INFO  MenuServiceImpl:44 - Find all menus
+2019-05-30 02:30:48 INFO  DaoFactory:27 - dao factory
+2019-05-30 02:30:48 INFO  MenuServiceImpl:55 - bill update %d
+2019-05-30 02:30:48 INFO  DaoFactory:27 - dao factory
+2019-05-30 02:30:48 INFO  MenuServiceImpl:33 - Find menu by id 
+2019-05-30 02:30:48 INFO  DaoFactory:27 - dao factory
+2019-05-30 02:30:48 INFO  OrderServiceImpl:94 - get number of page
+2019-05-30 02:30:48 INFO  DaoFactory:27 - dao factory
+2019-05-30 02:30:48 INFO  OrderServiceImpl:85 - find pages
+2019-05-30 02:30:48 INFO  DaoFactory:27 - dao factory
+2019-05-30 02:30:48 INFO  OrderServiceImpl:22 - Create order = %d
+2019-05-30 02:30:48 INFO  DaoFactory:27 - dao factory
+2019-05-30 02:30:48 INFO  OrderServiceImpl:58 - delete order
+2019-05-30 02:30:48 INFO  DaoFactory:27 - dao factory
+2019-05-30 02:30:48 INFO  OrderServiceImpl:41 - Find all orders
+2019-05-30 02:30:48 INFO  DaoFactory:27 - dao factory
+2019-05-30 02:30:48 INFO  OrderServiceImpl:50 - order update %d
+2019-05-30 02:30:48 INFO  DaoFactory:27 - dao factory
+2019-05-30 02:30:48 INFO  OrderServiceImpl:32 - Find student by id 
+2019-05-30 02:30:48 INFO  DaoFactory:27 - dao factory
+2019-05-30 02:30:48 INFO  OrderServiceImpl:75 - Find all orders
+2019-05-30 02:30:48 INFO  DaoFactory:27 - dao factory
+2019-05-30 02:30:48 INFO  OrderServiceImpl:67 - dish  has selected
+2019-05-30 02:30:48 INFO  DaoFactory:27 - dao factory
+2019-05-30 02:30:48 INFO  UserServiceImpl:63 - get Login and password
+2019-05-30 02:30:48 INFO  DaoFactory:27 - dao factory
+2019-05-30 02:30:48 INFO  UserServiceImpl:19 - Create user = %d
+2019-05-30 02:30:48 INFO  DaoFactory:27 - dao factory
+2019-05-30 02:30:48 INFO  UserServiceImpl:53 - delete user
+2019-05-30 02:30:48 INFO  DaoFactory:27 - dao factory
+2019-05-30 02:30:48 INFO  UserServiceImpl:37 - Find all users
+2019-05-30 02:30:48 INFO  DaoFactory:27 - dao factory
+2019-05-30 02:30:48 INFO  UserServiceImpl:46 - User update %d
+2019-05-30 02:30:48 INFO  DaoFactory:27 - dao factory
+2019-05-30 02:30:48 INFO  UserServiceImpl:28 - Find user by id
+2019-05-30 02:30:48 INFO  DaoFactory:27 - dao factory
+2019-05-30 02:31:45 INFO  EncodingFilter:21 - do Filter
+2019-05-30 02:31:45 INFO  LocaleFilter:34 - do Filter
+2019-05-30 02:31:47 INFO  EncodingFilter:21 - do Filter
+2019-05-30 02:31:47 INFO  LocaleFilter:34 - do Filter
+2019-05-30 02:31:48 INFO  EncodingFilter:21 - do Filter
+2019-05-30 02:31:48 INFO  LocaleFilter:34 - do Filter
+2019-05-30 02:31:52 INFO  EncodingFilter:21 - do Filter
+2019-05-30 02:31:52 INFO  LocaleFilter:34 - do Filter
+2019-05-30 02:31:52 INFO  DaoFactory:27 - dao factory
+2019-05-30 02:31:52 INFO  DaoFactory:27 - dao factory
+2019-05-30 02:31:52 INFO  DaoFactory:27 - dao factory
+2019-05-30 02:31:52 INFO  DaoFactory:27 - dao factory
+2019-05-30 02:31:52 INFO  DaoFactory:27 - dao factory
+2019-05-30 02:31:52 INFO  DaoFactory:27 - dao factory
+2019-05-30 02:31:52 INFO  DaoFactory:27 - dao factory
+2019-05-30 02:31:52 INFO  DaoFactory:27 - dao factory
+2019-05-30 02:31:52 INFO  DaoFactory:27 - dao factory
+2019-05-30 02:31:52 INFO  CommandFactory:51 - Command get
+2019-05-30 02:31:52 INFO  DaoFactory:27 - dao factory
+2019-05-30 02:31:53 INFO  UserServiceImpl:63 - get Login and password
+2019-05-30 02:31:53 INFO  LoginCommand:36 - user login
+2019-05-30 02:31:53 INFO  EncodingFilter:21 - do Filter
+2019-05-30 02:31:53 INFO  LocaleFilter:34 - do Filter
+2019-05-30 02:31:53 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 02:31:53 INFO  RoleFilter:35 - Do Filter
+2019-05-30 02:31:53 INFO  CommandFactory:51 - Command get
+2019-05-30 02:31:53 INFO  AdminPageCommand:15 - execute
+2019-05-30 02:31:55 INFO  EncodingFilter:21 - do Filter
+2019-05-30 02:31:55 INFO  LocaleFilter:34 - do Filter
+2019-05-30 02:31:55 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 02:31:55 INFO  RoleFilter:35 - Do Filter
+2019-05-30 02:31:55 INFO  CommandFactory:51 - Command get
+2019-05-30 02:31:55 INFO  OrderServiceImpl:85 - find pages
+2019-05-30 02:31:55 INFO  OrderServiceImpl:94 - get number of page
+2019-05-30 02:31:58 INFO  EncodingFilter:21 - do Filter
+2019-05-30 02:31:58 INFO  LocaleFilter:34 - do Filter
+2019-05-30 02:31:58 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 02:31:58 INFO  RoleFilter:35 - Do Filter
+2019-05-30 02:31:58 INFO  CommandFactory:51 - Command get
+2019-05-30 02:31:58 INFO  OrderServiceImpl:85 - find pages
+2019-05-30 02:31:58 INFO  OrderServiceImpl:94 - get number of page
+2019-05-30 02:31:59 INFO  EncodingFilter:21 - do Filter
+2019-05-30 02:31:59 INFO  LocaleFilter:34 - do Filter
+2019-05-30 02:31:59 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 02:31:59 INFO  RoleFilter:35 - Do Filter
+2019-05-30 02:31:59 INFO  CommandFactory:51 - Command get
+2019-05-30 02:31:59 INFO  OrderServiceImpl:85 - find pages
+2019-05-30 02:31:59 INFO  OrderServiceImpl:94 - get number of page
+2019-05-30 02:32:01 INFO  EncodingFilter:21 - do Filter
+2019-05-30 02:32:01 INFO  LocaleFilter:34 - do Filter
+2019-05-30 02:32:01 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 02:32:01 INFO  RoleFilter:35 - Do Filter
+2019-05-30 02:32:01 INFO  CommandFactory:51 - Command get
+2019-05-30 02:32:01 INFO  OrderServiceImpl:85 - find pages
+2019-05-30 02:32:01 INFO  OrderServiceImpl:94 - get number of page
+2019-05-30 02:32:02 INFO  EncodingFilter:21 - do Filter
+2019-05-30 02:32:02 INFO  LocaleFilter:34 - do Filter
+2019-05-30 02:32:02 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 02:32:02 INFO  RoleFilter:35 - Do Filter
+2019-05-30 02:32:02 INFO  CommandFactory:51 - Command get
+2019-05-30 02:32:02 INFO  OrderServiceImpl:85 - find pages
+2019-05-30 02:32:02 INFO  OrderServiceImpl:94 - get number of page
+2019-05-30 02:32:03 INFO  EncodingFilter:21 - do Filter
+2019-05-30 02:32:03 INFO  LocaleFilter:34 - do Filter
+2019-05-30 02:32:03 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 02:32:03 INFO  RoleFilter:35 - Do Filter
+2019-05-30 02:32:03 INFO  CommandFactory:51 - Command get
+2019-05-30 02:32:03 INFO  OrderServiceImpl:85 - find pages
+2019-05-30 02:32:03 INFO  OrderServiceImpl:94 - get number of page
+2019-05-30 02:32:05 INFO  EncodingFilter:21 - do Filter
+2019-05-30 02:32:05 INFO  LocaleFilter:34 - do Filter
+2019-05-30 02:32:05 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 02:32:05 INFO  RoleFilter:35 - Do Filter
+2019-05-30 02:32:05 INFO  CommandFactory:51 - Command get
+2019-05-30 02:32:05 INFO  OrderServiceImpl:85 - find pages
+2019-05-30 02:32:05 INFO  OrderServiceImpl:94 - get number of page
+2019-05-30 02:32:07 INFO  EncodingFilter:21 - do Filter
+2019-05-30 02:32:07 INFO  LocaleFilter:34 - do Filter
+2019-05-30 02:32:07 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 02:32:07 INFO  RoleFilter:35 - Do Filter
+2019-05-30 02:32:07 INFO  CommandFactory:51 - Command get
+2019-05-30 02:32:07 INFO  OrderServiceImpl:85 - find pages
+2019-05-30 02:32:07 INFO  OrderServiceImpl:94 - get number of page
+2019-05-30 02:32:08 INFO  EncodingFilter:21 - do Filter
+2019-05-30 02:32:08 INFO  LocaleFilter:34 - do Filter
+2019-05-30 02:32:08 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 02:32:08 INFO  RoleFilter:35 - Do Filter
+2019-05-30 02:32:08 INFO  CommandFactory:51 - Command get
+2019-05-30 02:32:08 INFO  OrderServiceImpl:85 - find pages
+2019-05-30 02:32:08 INFO  OrderServiceImpl:94 - get number of page
+2019-05-30 02:32:09 INFO  EncodingFilter:21 - do Filter
+2019-05-30 02:32:09 INFO  LocaleFilter:34 - do Filter
+2019-05-30 02:32:09 INFO  EncodingFilter:21 - do Filter
+2019-05-30 02:32:09 INFO  LocaleFilter:34 - do Filter
+2019-05-30 02:32:09 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 02:32:09 INFO  RoleFilter:35 - Do Filter
+2019-05-30 02:32:09 INFO  CommandFactory:51 - Command get
+2019-05-30 02:32:09 INFO  OrderServiceImpl:85 - find pages
+2019-05-30 02:32:09 INFO  OrderServiceImpl:94 - get number of page
+2019-05-30 02:32:10 INFO  EncodingFilter:21 - do Filter
+2019-05-30 02:32:10 INFO  LocaleFilter:34 - do Filter
+2019-05-30 02:32:10 INFO  EncodingFilter:21 - do Filter
+2019-05-30 02:32:10 INFO  LocaleFilter:34 - do Filter
+2019-05-30 02:32:10 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 02:32:10 INFO  RoleFilter:35 - Do Filter
+2019-05-30 02:32:10 INFO  CommandFactory:51 - Command get
+2019-05-30 02:32:10 INFO  OrderServiceImpl:85 - find pages
+2019-05-30 02:32:10 INFO  OrderServiceImpl:94 - get number of page
+2019-05-30 02:32:13 INFO  EncodingFilter:21 - do Filter
+2019-05-30 02:32:13 INFO  LocaleFilter:34 - do Filter
+2019-05-30 02:32:13 INFO  EncodingFilter:21 - do Filter
+2019-05-30 02:32:13 INFO  LocaleFilter:34 - do Filter
+2019-05-30 02:32:13 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 02:32:13 INFO  RoleFilter:35 - Do Filter
+2019-05-30 02:32:13 INFO  CommandFactory:51 - Command get
+2019-05-30 02:32:13 INFO  OrderServiceImpl:85 - find pages
+2019-05-30 02:32:13 INFO  OrderServiceImpl:94 - get number of page
+2019-05-30 02:32:14 INFO  EncodingFilter:21 - do Filter
+2019-05-30 02:32:14 INFO  LocaleFilter:34 - do Filter
+2019-05-30 02:32:14 INFO  EncodingFilter:21 - do Filter
+2019-05-30 02:32:14 INFO  LocaleFilter:34 - do Filter
+2019-05-30 02:32:14 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 02:32:14 INFO  RoleFilter:35 - Do Filter
+2019-05-30 02:32:14 INFO  CommandFactory:51 - Command get
+2019-05-30 02:32:14 INFO  OrderServiceImpl:85 - find pages
+2019-05-30 02:32:14 INFO  OrderServiceImpl:94 - get number of page
+2019-05-30 02:32:16 INFO  EncodingFilter:21 - do Filter
+2019-05-30 02:32:16 INFO  LocaleFilter:34 - do Filter
+2019-05-30 02:32:16 INFO  EncodingFilter:21 - do Filter
+2019-05-30 02:32:16 INFO  LocaleFilter:34 - do Filter
+2019-05-30 02:32:16 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 02:32:16 INFO  RoleFilter:35 - Do Filter
+2019-05-30 02:32:16 INFO  CommandFactory:51 - Command get
+2019-05-30 02:32:16 INFO  OrderServiceImpl:85 - find pages
+2019-05-30 02:32:16 INFO  OrderServiceImpl:94 - get number of page
+2019-05-30 02:32:17 INFO  EncodingFilter:21 - do Filter
+2019-05-30 02:32:17 INFO  LocaleFilter:34 - do Filter
+2019-05-30 02:32:17 INFO  EncodingFilter:21 - do Filter
+2019-05-30 02:32:17 INFO  LocaleFilter:34 - do Filter
+2019-05-30 02:32:17 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 02:32:17 INFO  RoleFilter:35 - Do Filter
+2019-05-30 02:32:17 INFO  CommandFactory:51 - Command get
+2019-05-30 02:32:17 INFO  OrderServiceImpl:85 - find pages
+2019-05-30 02:32:17 INFO  OrderServiceImpl:94 - get number of page
+2019-05-30 02:32:18 INFO  EncodingFilter:21 - do Filter
+2019-05-30 02:32:18 INFO  LocaleFilter:34 - do Filter
+2019-05-30 02:32:18 INFO  EncodingFilter:21 - do Filter
+2019-05-30 02:32:18 INFO  LocaleFilter:34 - do Filter
+2019-05-30 02:32:18 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 02:32:18 INFO  RoleFilter:35 - Do Filter
+2019-05-30 02:32:18 INFO  CommandFactory:51 - Command get
+2019-05-30 02:32:18 INFO  OrderServiceImpl:85 - find pages
+2019-05-30 02:32:18 INFO  OrderServiceImpl:94 - get number of page
+2019-05-30 02:32:19 INFO  EncodingFilter:21 - do Filter
+2019-05-30 02:32:19 INFO  LocaleFilter:34 - do Filter
+2019-05-30 02:32:19 INFO  EncodingFilter:21 - do Filter
+2019-05-30 02:32:19 INFO  LocaleFilter:34 - do Filter
+2019-05-30 02:32:19 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 02:32:19 INFO  RoleFilter:35 - Do Filter
+2019-05-30 02:32:19 INFO  CommandFactory:51 - Command get
+2019-05-30 02:32:19 INFO  OrderServiceImpl:85 - find pages
+2019-05-30 02:32:19 INFO  OrderServiceImpl:94 - get number of page
+2019-05-30 02:32:56 INFO  EncodingFilter:21 - do Filter
+2019-05-30 02:32:56 INFO  LocaleFilter:34 - do Filter
+2019-05-30 02:32:56 INFO  CommandFactory:51 - Command get
+2019-05-30 02:32:56 INFO  LogoutCommand:17 - execute
+2019-05-30 02:32:56 INFO  EncodingFilter:21 - do Filter
+2019-05-30 02:32:56 INFO  LocaleFilter:34 - do Filter
+2019-05-30 02:32:56 INFO  CommandFactory:51 - Command get
+2019-05-30 02:32:59 INFO  EncodingFilter:21 - do Filter
+2019-05-30 02:32:59 INFO  LocaleFilter:34 - do Filter
+2019-05-30 02:32:59 INFO  CommandFactory:51 - Command get
+2019-05-30 02:32:59 INFO  DaoFactory:27 - dao factory
+2019-05-30 02:32:59 INFO  UserServiceImpl:63 - get Login and password
+2019-05-30 02:32:59 INFO  LoginCommand:36 - user login
+2019-05-30 02:32:59 INFO  EncodingFilter:21 - do Filter
+2019-05-30 02:32:59 INFO  LocaleFilter:34 - do Filter
+2019-05-30 02:32:59 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 02:32:59 INFO  RoleFilter:35 - Do Filter
+2019-05-30 02:32:59 INFO  CommandFactory:51 - Command get
+2019-05-30 02:32:59 INFO  ClientPageCommand:21 - execute
+2019-05-30 02:33:01 INFO  EncodingFilter:21 - do Filter
+2019-05-30 02:33:01 INFO  LocaleFilter:34 - do Filter
+2019-05-30 02:33:01 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 02:33:01 INFO  RoleFilter:35 - Do Filter
+2019-05-30 02:33:01 INFO  CommandFactory:51 - Command get
+2019-05-30 02:33:01 INFO  OrderServiceImpl:73 - create bill with sum
+2019-05-30 02:33:01 INFO  ClientBillPageCommand:21 - execute
+2019-05-30 02:33:05 INFO  EncodingFilter:21 - do Filter
+2019-05-30 02:33:05 INFO  LocaleFilter:34 - do Filter
+2019-05-30 02:33:05 INFO  CommandFactory:51 - Command get
+2019-05-30 02:33:05 INFO  EncodingFilter:21 - do Filter
+2019-05-30 02:33:05 INFO  LocaleFilter:34 - do Filter
+2019-05-30 02:33:05 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 02:33:05 INFO  RoleFilter:35 - Do Filter
+2019-05-30 02:33:05 INFO  CommandFactory:51 - Command get
+2019-05-30 02:33:05 INFO  ClientPageCommand:21 - execute
+2019-05-30 02:33:06 INFO  EncodingFilter:21 - do Filter
+2019-05-30 02:33:06 INFO  LocaleFilter:34 - do Filter
+2019-05-30 02:33:06 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 02:33:06 INFO  RoleFilter:35 - Do Filter
+2019-05-30 02:33:06 INFO  CommandFactory:51 - Command get
+2019-05-30 02:33:06 INFO  MenuServiceImpl:44 - Find all menus
+2019-05-30 02:33:06 INFO  ClientOrderPageCommand:21 - execute
+2019-05-30 02:33:10 INFO  EncodingFilter:21 - do Filter
+2019-05-30 02:33:10 INFO  LocaleFilter:34 - do Filter
+2019-05-30 02:33:10 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 02:33:10 INFO  RoleFilter:35 - Do Filter
+2019-05-30 02:33:14 INFO  EncodingFilter:21 - do Filter
+2019-05-30 02:33:14 INFO  LocaleFilter:34 - do Filter
+2019-05-30 02:33:16 INFO  EncodingFilter:21 - do Filter
+2019-05-30 02:33:16 INFO  LocaleFilter:34 - do Filter
+2019-05-30 02:33:16 INFO  CommandFactory:51 - Command get
+2019-05-30 02:33:16 INFO  EncodingFilter:21 - do Filter
+2019-05-30 02:33:16 INFO  LocaleFilter:34 - do Filter
+2019-05-30 02:33:16 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 02:33:16 INFO  RoleFilter:35 - Do Filter
+2019-05-30 02:33:16 INFO  CommandFactory:51 - Command get
+2019-05-30 02:33:16 INFO  ClientPageCommand:21 - execute
+2019-05-30 02:33:20 INFO  EncodingFilter:21 - do Filter
+2019-05-30 02:33:20 INFO  LocaleFilter:34 - do Filter
+2019-05-30 02:33:20 INFO  EncodingFilter:21 - do Filter
+2019-05-30 02:33:20 INFO  LocaleFilter:34 - do Filter
+2019-05-30 02:33:20 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 02:33:20 INFO  RoleFilter:35 - Do Filter
+2019-05-30 02:33:20 INFO  CommandFactory:51 - Command get
+2019-05-30 02:33:20 INFO  ClientPageCommand:21 - execute
+2019-05-30 02:33:21 INFO  EncodingFilter:21 - do Filter
+2019-05-30 02:33:21 INFO  LocaleFilter:34 - do Filter
+2019-05-30 02:33:21 INFO  EncodingFilter:21 - do Filter
+2019-05-30 02:33:21 INFO  LocaleFilter:34 - do Filter
+2019-05-30 02:33:21 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 02:33:21 INFO  RoleFilter:35 - Do Filter
+2019-05-30 02:33:21 INFO  CommandFactory:51 - Command get
+2019-05-30 02:33:21 INFO  ClientPageCommand:21 - execute
+2019-05-30 02:33:23 INFO  EncodingFilter:21 - do Filter
+2019-05-30 02:33:23 INFO  LocaleFilter:34 - do Filter
+2019-05-30 02:33:23 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 02:33:23 INFO  RoleFilter:35 - Do Filter
+2019-05-30 02:33:23 INFO  CommandFactory:51 - Command get
+2019-05-30 02:33:23 INFO  MenuServiceImpl:44 - Find all menus
+2019-05-30 02:33:23 INFO  ClientOrderPageCommand:21 - execute

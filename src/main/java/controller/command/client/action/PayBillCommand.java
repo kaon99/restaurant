@@ -21,7 +21,7 @@ public class PayBillCommand  implements Command {
 
 
             User user = (User) request.getSession().getAttribute(AttributesResourseManager.getProperty("parameter.user"));
-            request.setAttribute("billList", billService.unpaidList(user.getId()));
+            request.setAttribute(AttributesResourseManager.getProperty("parameter.bill.list"), billService.unpaidList(user.getId()));
             int billId = Integer.parseInt(request.getParameter(AttributesResourseManager.getProperty("parameter.bill")));
             billService.pay(billId);
         }

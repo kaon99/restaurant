@@ -5,13 +5,17 @@ package controller.command;
  *  */
 
 
+
 import controller.command.admin.action.AdminOrderHistoryCommand;
 import controller.command.admin.action.CreateBillCommand;
 import controller.command.admin.page.AdminPageBillCommand;
 import controller.command.admin.page.AdminPageCommand;
 import controller.command.another.action.LogoutCommand;
 import controller.command.another.action.RegistrationCommand;
-import controller.command.another.page.*;
+import controller.command.another.page.LoginCommand;
+import controller.command.another.page.MainCommand;
+import controller.command.another.page.PageErrorCommand;
+import controller.command.another.page.RegistrationCommandPage;
 import controller.command.client.action.CreateOrderCommand;
 import controller.command.client.action.PayBillCommand;
 import controller.command.client.page.ClientBillPageCommand;

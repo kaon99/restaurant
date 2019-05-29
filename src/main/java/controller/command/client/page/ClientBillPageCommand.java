@@ -17,7 +17,7 @@ public class ClientBillPageCommand implements Command {
     @Override
     public String execute(HttpServletRequest request, HttpServletResponse response) {
         User user = (User) request.getSession().getAttribute(AttributesResourseManager.getProperty("parameter.user"));
-        request.setAttribute("billList", billService.unpaidList(user.getId()));
+        request.setAttribute(AttributesResourseManager.getProperty("parameter.bill.list"), billService.unpaidList(user.getId()));
         logger.info("execute");
         return PageResourseManager.getProperty("client.pay.bill");
     }

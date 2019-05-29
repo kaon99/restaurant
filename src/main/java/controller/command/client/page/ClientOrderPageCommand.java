@@ -1,6 +1,7 @@
 package controller.command.client.page;
 
 import controller.command.Command;
+import controller.util.AttributesResourseManager;
 import controller.util.PageResourseManager;
 import model.service.MenuService;
 import model.service.implement.MenuServiceImpl;
@@ -14,7 +15,7 @@ public class ClientOrderPageCommand implements Command {
 MenuService menuService = new MenuServiceImpl();
     @Override
     public String execute(HttpServletRequest request, HttpServletResponse response) {
-        request.setAttribute("databaseList", menuService.findAll());
+        request.setAttribute(AttributesResourseManager.getProperty("parameter.database.list"), menuService.findAll());
 
 
         logger.info("execute");

@@ -28,7 +28,6 @@ model\service\GenenralService.class
 model\service\implement\UserServiceImpl.class
 controller\Servlet.class
 model\dao\daointerface\BillDao.class
-model\dao\queriesManager\QueriesResourseManager.class
 model\service\MenuService.class
 controller\filter\AuthenticationFilter.class
 controller\command\client\page\ClientOrderPageCommand.class
@@ -49,6 +48,7 @@ model\dao\mapper\MenuMapper.class
 model\dao\daointerface\MenuDao.class
 controller\command\validation\InputValid.class
 model\service\UserService.class
+model\dao\queriesManager\QueriesResourceManager.class
 controller\filter\LocaleFilter.class
 model\dao\daointerface\OrderDao.class
 controller\command\client\page\ClientPageCommand.class

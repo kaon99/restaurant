@@ -32,7 +32,7 @@ public class CreateOrderCommand implements Command {
 
         User user = (User) request.getSession().getAttribute(AttributesResourseManager.getProperty("parameter.user"));
         String note = request.getParameter(AttributesResourseManager.getProperty("parameter.note"));
-        request.setAttribute("databaseList", allDish);
+        request.setAttribute(AttributesResourseManager.getProperty("parameter.database.list"), allDish);
         dishNamesToOrder = Optional.ofNullable(request.getParameterValues(AttributesResourseManager.getProperty("parameter.dish")));
         if(dishNamesToOrder.isPresent()){
             Order order = orderService.create(new Order(note, user.getId()));

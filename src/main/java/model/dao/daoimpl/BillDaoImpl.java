@@ -150,7 +150,7 @@ public class BillDaoImpl implements BillDao {
     public List<Bill> unpaidList(int userId) {
         try (PreparedStatement statement = connection.prepareStatement(QueriesResourceManager.getProperty("bill.paid.list"))) {
             statement.setInt(1,0);
-            statement.setInt(1, userId);
+            statement.setInt(2, userId);
 
             ResultSet resultSet = statement.executeQuery();
             List bills = new ArrayList();
