@@ -1,6 +1,7 @@
 package controller.command.admin.page;
 
 import controller.command.Command;
+import controller.util.AttributesResourseManager;
 import controller.util.PageResourseManager;
 import model.service.BillService;
 import model.service.OrderService;
@@ -16,7 +17,7 @@ public class AdminPageBillCommand implements Command {
   private   Logger logger = Logger.getLogger(AdminPageBillCommand.class);
     @Override
     public String execute(HttpServletRequest request, HttpServletResponse response) {
-        request.setAttribute("orderList",orderService.findAllUnpaid());
+        request.setAttribute(AttributesResourseManager.getProperty("parameter.order.list"),orderService.findAllUnpaid());
 
         logger.info("execute");
         return PageResourseManager.getProperty("admin.bill");

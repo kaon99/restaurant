@@ -21,7 +21,7 @@ public class CreateBillCommand implements Command {
     @Override
     public String execute(HttpServletRequest request, HttpServletResponse response) {
         try {
-            request.setAttribute("orderList", orderService.findAllUnpaid());
+            request.setAttribute(AttributesResourseManager.getProperty("parameter.order.list"), orderService.findAllUnpaid());
             int orderId = Integer.parseInt(request.getParameter(AttributesResourseManager.getProperty("parameter.order")));
 
 
