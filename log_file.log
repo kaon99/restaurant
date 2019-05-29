@@ -7815,3 +7815,76 @@ java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child 
 2019-05-29 02:00:20 INFO  MenuServiceImpl:44 - Find all menus
 2019-05-29 02:02:36 INFO  DaoFactory:27 - dao factory
 2019-05-29 02:02:37 INFO  MenuServiceImpl:44 - Find all menus
+2019-05-30 01:27:35 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:27:35 INFO  LocaleFilter:29 - do Filter
+2019-05-30 01:27:36 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:27:36 INFO  LocaleFilter:29 - do Filter
+2019-05-30 01:27:36 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:27:36 INFO  LocaleFilter:29 - do Filter
+2019-05-30 01:27:43 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:27:43 INFO  LocaleFilter:29 - do Filter
+2019-05-30 01:27:44 INFO  DaoFactory:27 - dao factory
+2019-05-30 01:27:44 INFO  DaoFactory:27 - dao factory
+2019-05-30 01:27:44 INFO  DaoFactory:27 - dao factory
+2019-05-30 01:27:44 INFO  DaoFactory:27 - dao factory
+2019-05-30 01:27:44 INFO  DaoFactory:27 - dao factory
+2019-05-30 01:27:44 INFO  DaoFactory:27 - dao factory
+2019-05-30 01:27:44 INFO  DaoFactory:27 - dao factory
+2019-05-30 01:27:44 INFO  DaoFactory:27 - dao factory
+2019-05-30 01:27:44 INFO  DaoFactory:27 - dao factory
+2019-05-30 01:27:44 INFO  CommandFactory:43 - Command get
+2019-05-30 01:27:44 INFO  DaoFactory:27 - dao factory
+2019-05-30 01:27:44 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:27:44 INFO  LocaleFilter:29 - do Filter
+2019-05-30 01:27:44 INFO  CommandFactory:43 - Command get
+2019-05-30 01:27:44 INFO  DaoFactory:27 - dao factory
+2019-05-30 01:27:44 INFO  UserServiceImpl:63 - get Login and password
+2019-05-30 01:27:44 INFO  UserServiceImpl:63 - get Login and password
+2019-05-30 01:27:44 INFO  LoginCommand:36 - user login
+2019-05-30 01:27:44 INFO  LoginCommand:36 - user login
+2019-05-30 01:27:44 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:27:44 INFO  LocaleFilter:29 - do Filter
+2019-05-30 01:27:44 INFO  AuthenticationFilter:21 - doFilter
+2019-05-30 01:27:44 INFO  RoleFilter:30 - Do Filter
+2019-05-30 01:27:44 INFO  CommandFactory:43 - Command get
+2019-05-30 01:27:44 INFO  AdminPageCommand:15 - execute
+2019-05-30 01:27:45 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:27:45 INFO  LocaleFilter:29 - do Filter
+2019-05-30 01:27:45 INFO  AuthenticationFilter:21 - doFilter
+2019-05-30 01:27:45 INFO  RoleFilter:30 - Do Filter
+2019-05-30 01:27:45 INFO  CommandFactory:43 - Command get
+2019-05-30 01:27:45 INFO  OrderServiceImpl:94 - get number of page
+2019-05-30 01:27:45 INFO  OrderServiceImpl:85 - find pages
+2019-05-30 01:27:48 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:27:48 INFO  LocaleFilter:29 - do Filter
+2019-05-30 01:27:48 INFO  AuthenticationFilter:21 - doFilter
+2019-05-30 01:27:48 INFO  RoleFilter:30 - Do Filter
+2019-05-30 01:27:48 INFO  CommandFactory:43 - Command get
+2019-05-30 01:27:48 INFO  OrderServiceImpl:75 - Find all orders
+2019-05-30 01:27:48 INFO  AdminPageBillCommand:21 - execute
+2019-05-30 01:27:50 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:27:50 INFO  LocaleFilter:29 - do Filter
+2019-05-30 01:27:50 INFO  CommandFactory:43 - Command get
+2019-05-30 01:27:50 INFO  LogoutCommand:17 - execute
+2019-05-30 01:27:50 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:27:50 INFO  LocaleFilter:29 - do Filter
+2019-05-30 01:27:50 INFO  CommandFactory:43 - Command get
+2019-05-30 01:27:54 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:27:54 INFO  LocaleFilter:29 - do Filter
+2019-05-30 01:27:54 INFO  CommandFactory:43 - Command get
+2019-05-30 01:27:54 INFO  DaoFactory:27 - dao factory
+2019-05-30 01:27:54 INFO  UserServiceImpl:63 - get Login and password
+2019-05-30 01:27:54 INFO  LoginCommand:36 - user login
+2019-05-30 01:27:54 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:27:54 INFO  LocaleFilter:29 - do Filter
+2019-05-30 01:27:54 INFO  AuthenticationFilter:21 - doFilter
+2019-05-30 01:27:54 INFO  RoleFilter:30 - Do Filter
+2019-05-30 01:27:54 INFO  CommandFactory:43 - Command get
+2019-05-30 01:27:54 INFO  ClientPageCommand:21 - execute
+2019-05-30 01:27:55 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:27:55 INFO  LocaleFilter:29 - do Filter
+2019-05-30 01:27:55 INFO  AuthenticationFilter:21 - doFilter
+2019-05-30 01:27:55 INFO  RoleFilter:30 - Do Filter
+2019-05-30 01:27:55 INFO  CommandFactory:43 - Command get
+2019-05-30 01:27:55 INFO  MenuServiceImpl:44 - Find all menus
+2019-05-30 01:27:55 INFO  ClientOrderPageCommand:20 - execute

@@ -1,9 +1,4 @@
 package model.dao.connectionpool;
-
-/***
- * @author Yaroslav
- * @version 1.0
-* */
 import org.apache.commons.dbcp.BasicDataSource;
 import org.apache.log4j.Logger;
 

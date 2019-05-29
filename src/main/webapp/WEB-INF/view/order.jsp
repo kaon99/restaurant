@@ -53,7 +53,7 @@
                         <p>
                             <label>
 
-                                <input type="checkbox" name="dish"  value="${dish.getId()}"/>
+                                <input type="checkbox" name="dish"  value="${dish.getId()}"/><span> </span>
                             </label>
                         </p>
                     </td>
