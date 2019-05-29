@@ -5,6 +5,7 @@ package controller.filter;
  *  * @version 1.0
  *  */
 
+import controller.util.PageResourseManager;
 import model.entity.User;
 import model.entity.types.Role;
 import org.apache.log4j.Logger;
@@ -42,14 +43,14 @@ public class RoleFilter implements Filter {
             if (user.getRole().equals(Role.ADMIN.getRole())) {
                 filterChain.doFilter(servletRequest, servletResponse);
             } else {
-                httpResponse.sendRedirect("main");
+                httpResponse.sendRedirect(PageResourseManager.getProperty("page_not_permissions"));
                 return;
             }
         } else if (path.contains("client")) {
             if (Objects.nonNull(user.getEmail()) && user.getRole().equals(Role.CLIENT.getRole())) {
                 filterChain.doFilter(servletRequest, servletResponse);
             } else {
-                httpResponse.sendRedirect("main");
+                httpResponse.sendRedirect(PageResourseManager.getProperty("page_not_permissions"));
 
                 return;
             }

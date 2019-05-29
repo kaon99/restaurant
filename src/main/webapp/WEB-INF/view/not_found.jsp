@@ -21,7 +21,7 @@
 </head>
 <body>
 <div class="container">
-<H1 class="flow-text"> Error 404</H1>
+<H1 class="flow-text"> <fmt:message key="text.error.page"/> </H1>
 <form method="post"
       action="${pageContext.request.contextPath}/restaurant/main">
     <input type="hidden">

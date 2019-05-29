@@ -5,6 +5,7 @@ package controller.filter;
  *  * @version 1.0
  *  */
 
+import controller.util.PageResourseManager;
 import org.apache.log4j.Logger;
 
 import javax.servlet.*;
@@ -36,7 +37,7 @@ public class LocaleFilter implements Filter {
         HttpSession session = request.getSession();
 
         String path = request.getRequestURI();
-        String page = request.getHeader("referer");
+        String page = request.getHeader(PageResourseManager.getProperty("header"));
         if (path.contains("/language/")) {
             String language = path.replaceAll(".*/language/", "");
             session.setAttribute(AttributesResourseManager.getProperty("parameter.language"), languages.get(language));

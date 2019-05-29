@@ -8125,3 +8125,1854 @@ java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child 
 2019-05-30 01:34:27 INFO  RoleFilter:30 - Do Filter
 2019-05-30 01:34:27 INFO  CommandFactory:43 - Command get
 2019-05-30 01:34:27 INFO  ClientPageCommand:21 - execute
+2019-05-30 01:40:15 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:40:15 INFO  LocaleFilter:29 - do Filter
+2019-05-30 01:40:16 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:40:16 INFO  LocaleFilter:29 - do Filter
+2019-05-30 01:40:16 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:40:16 INFO  LocaleFilter:29 - do Filter
+2019-05-30 01:40:22 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:40:22 INFO  LocaleFilter:29 - do Filter
+2019-05-30 01:40:22 INFO  DaoFactory:27 - dao factory
+2019-05-30 01:40:22 INFO  DaoFactory:27 - dao factory
+2019-05-30 01:40:22 INFO  DaoFactory:27 - dao factory
+2019-05-30 01:40:22 INFO  DaoFactory:27 - dao factory
+2019-05-30 01:40:22 INFO  DaoFactory:27 - dao factory
+2019-05-30 01:40:22 INFO  DaoFactory:27 - dao factory
+2019-05-30 01:40:22 INFO  DaoFactory:27 - dao factory
+2019-05-30 01:40:22 INFO  DaoFactory:27 - dao factory
+2019-05-30 01:40:22 INFO  DaoFactory:27 - dao factory
+2019-05-30 01:40:22 INFO  CommandFactory:43 - Command get
+2019-05-30 01:40:22 INFO  DaoFactory:27 - dao factory
+2019-05-30 01:40:22 INFO  UserServiceImpl:63 - get Login and password
+2019-05-30 01:40:22 INFO  LoginCommand:36 - user login
+2019-05-30 01:40:22 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:40:22 INFO  LocaleFilter:29 - do Filter
+2019-05-30 01:40:22 INFO  AuthenticationFilter:21 - doFilter
+2019-05-30 01:40:22 INFO  RoleFilter:30 - Do Filter
+2019-05-30 01:40:22 INFO  CommandFactory:43 - Command get
+2019-05-30 01:40:22 INFO  AdminPageCommand:15 - execute
+2019-05-30 01:40:24 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:40:24 INFO  LocaleFilter:29 - do Filter
+2019-05-30 01:40:24 INFO  AuthenticationFilter:21 - doFilter
+2019-05-30 01:40:24 INFO  RoleFilter:30 - Do Filter
+2019-05-30 01:40:24 INFO  CommandFactory:43 - Command get
+2019-05-30 01:40:24 INFO  OrderServiceImpl:94 - get number of page
+2019-05-30 01:40:24 INFO  OrderServiceImpl:85 - find pages
+2019-05-30 01:40:25 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:40:25 INFO  LocaleFilter:29 - do Filter
+2019-05-30 01:40:25 INFO  AuthenticationFilter:21 - doFilter
+2019-05-30 01:40:25 INFO  RoleFilter:30 - Do Filter
+2019-05-30 01:40:25 INFO  CommandFactory:43 - Command get
+2019-05-30 01:40:25 INFO  OrderServiceImpl:94 - get number of page
+2019-05-30 01:40:25 INFO  OrderServiceImpl:85 - find pages
+2019-05-30 01:40:26 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:40:26 INFO  LocaleFilter:29 - do Filter
+2019-05-30 01:40:26 INFO  AuthenticationFilter:21 - doFilter
+2019-05-30 01:40:26 INFO  RoleFilter:30 - Do Filter
+2019-05-30 01:40:26 INFO  CommandFactory:43 - Command get
+2019-05-30 01:40:26 INFO  OrderServiceImpl:94 - get number of page
+2019-05-30 01:40:26 INFO  OrderServiceImpl:85 - find pages
+2019-05-30 01:40:27 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:40:27 INFO  LocaleFilter:29 - do Filter
+2019-05-30 01:40:27 INFO  AuthenticationFilter:21 - doFilter
+2019-05-30 01:40:27 INFO  RoleFilter:30 - Do Filter
+2019-05-30 01:40:27 INFO  CommandFactory:43 - Command get
+2019-05-30 01:40:27 INFO  OrderServiceImpl:94 - get number of page
+2019-05-30 01:40:27 INFO  OrderServiceImpl:85 - find pages
+2019-05-30 01:40:28 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:40:28 INFO  LocaleFilter:29 - do Filter
+2019-05-30 01:40:28 INFO  CommandFactory:43 - Command get
+2019-05-30 01:40:28 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:40:28 INFO  LocaleFilter:29 - do Filter
+2019-05-30 01:40:28 INFO  AuthenticationFilter:21 - doFilter
+2019-05-30 01:40:28 INFO  RoleFilter:30 - Do Filter
+2019-05-30 01:40:28 INFO  CommandFactory:43 - Command get
+2019-05-30 01:40:28 INFO  AdminPageCommand:15 - execute
+2019-05-30 01:40:32 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:40:32 INFO  LocaleFilter:29 - do Filter
+2019-05-30 01:40:32 INFO  AuthenticationFilter:21 - doFilter
+2019-05-30 01:40:32 INFO  RoleFilter:30 - Do Filter
+2019-05-30 01:40:32 INFO  CommandFactory:43 - Command get
+2019-05-30 01:40:32 INFO  OrderServiceImpl:75 - Find all orders
+2019-05-30 01:40:32 INFO  AdminPageBillCommand:21 - execute
+2019-05-30 01:40:34 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:40:34 INFO  LocaleFilter:29 - do Filter
+2019-05-30 01:40:34 INFO  CommandFactory:43 - Command get
+2019-05-30 01:40:34 INFO  LogoutCommand:17 - execute
+2019-05-30 01:40:34 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:40:34 INFO  LocaleFilter:29 - do Filter
+2019-05-30 01:40:34 INFO  CommandFactory:43 - Command get
+2019-05-30 01:40:39 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:40:39 INFO  LocaleFilter:29 - do Filter
+2019-05-30 01:40:39 INFO  CommandFactory:43 - Command get
+2019-05-30 01:40:39 INFO  DaoFactory:27 - dao factory
+2019-05-30 01:40:39 INFO  UserServiceImpl:63 - get Login and password
+2019-05-30 01:40:39 INFO  LoginCommand:36 - user login
+2019-05-30 01:40:39 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:40:39 INFO  LocaleFilter:29 - do Filter
+2019-05-30 01:40:39 INFO  AuthenticationFilter:21 - doFilter
+2019-05-30 01:40:39 INFO  RoleFilter:30 - Do Filter
+2019-05-30 01:40:39 INFO  CommandFactory:43 - Command get
+2019-05-30 01:40:39 INFO  ClientPageCommand:21 - execute
+2019-05-30 01:40:40 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:40:40 INFO  LocaleFilter:29 - do Filter
+2019-05-30 01:40:40 INFO  AuthenticationFilter:21 - doFilter
+2019-05-30 01:40:40 INFO  RoleFilter:30 - Do Filter
+2019-05-30 01:40:40 INFO  CommandFactory:43 - Command get
+2019-05-30 01:40:40 INFO  MenuServiceImpl:44 - Find all menus
+2019-05-30 01:40:40 INFO  ClientOrderPageCommand:20 - execute
+2019-05-30 01:40:49 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:40:49 INFO  LocaleFilter:29 - do Filter
+2019-05-30 01:40:49 INFO  AuthenticationFilter:21 - doFilter
+2019-05-30 01:40:49 INFO  RoleFilter:30 - Do Filter
+2019-05-30 01:40:49 INFO  CommandFactory:43 - Command get
+2019-05-30 01:40:49 INFO  MenuServiceImpl:44 - Find all menus
+2019-05-30 01:40:49 INFO  OrderServiceImpl:22 - Create order = %d
+2019-05-30 01:40:49 INFO  OrderServiceImpl:67 - dish  has selected
+2019-05-30 01:40:49 INFO  CreateOrderCommand:43 - execute
+2019-05-30 01:40:49 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:40:49 INFO  LocaleFilter:29 - do Filter
+2019-05-30 01:40:49 INFO  AuthenticationFilter:21 - doFilter
+2019-05-30 01:40:49 INFO  RoleFilter:30 - Do Filter
+2019-05-30 01:40:49 INFO  CommandFactory:43 - Command get
+2019-05-30 01:40:49 INFO  MenuServiceImpl:44 - Find all menus
+2019-05-30 01:40:49 INFO  ClientOrderPageCommand:20 - execute
+2019-05-30 01:40:51 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:40:51 INFO  LocaleFilter:29 - do Filter
+2019-05-30 01:40:51 INFO  CommandFactory:43 - Command get
+2019-05-30 01:40:51 INFO  LogoutCommand:17 - execute
+2019-05-30 01:40:51 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:40:51 INFO  LocaleFilter:29 - do Filter
+2019-05-30 01:40:51 INFO  CommandFactory:43 - Command get
+2019-05-30 01:40:55 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:40:55 INFO  LocaleFilter:29 - do Filter
+2019-05-30 01:40:55 INFO  CommandFactory:43 - Command get
+2019-05-30 01:40:55 INFO  DaoFactory:27 - dao factory
+2019-05-30 01:40:55 INFO  UserServiceImpl:63 - get Login and password
+2019-05-30 01:40:55 INFO  LoginCommand:36 - user login
+2019-05-30 01:40:55 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:40:55 INFO  LocaleFilter:29 - do Filter
+2019-05-30 01:40:55 INFO  AuthenticationFilter:21 - doFilter
+2019-05-30 01:40:55 INFO  RoleFilter:30 - Do Filter
+2019-05-30 01:40:55 INFO  CommandFactory:43 - Command get
+2019-05-30 01:40:55 INFO  AdminPageCommand:15 - execute
+2019-05-30 01:40:56 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:40:56 INFO  LocaleFilter:29 - do Filter
+2019-05-30 01:40:56 INFO  AuthenticationFilter:21 - doFilter
+2019-05-30 01:40:56 INFO  RoleFilter:30 - Do Filter
+2019-05-30 01:40:56 INFO  CommandFactory:43 - Command get
+2019-05-30 01:40:56 INFO  OrderServiceImpl:75 - Find all orders
+2019-05-30 01:40:56 INFO  AdminPageBillCommand:21 - execute
+2019-05-30 01:40:58 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:40:58 INFO  LocaleFilter:29 - do Filter
+2019-05-30 01:40:58 INFO  AuthenticationFilter:21 - doFilter
+2019-05-30 01:40:58 INFO  RoleFilter:30 - Do Filter
+2019-05-30 01:40:58 INFO  CommandFactory:43 - Command get
+2019-05-30 01:40:58 INFO  OrderServiceImpl:75 - Find all orders
+2019-05-30 01:40:58 INFO  OrderServiceImpl:67 - create bill with sum
+2019-05-30 01:40:58 INFO  CreateBillCommand:34 - execute
+2019-05-30 01:40:58 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:40:58 INFO  LocaleFilter:29 - do Filter
+2019-05-30 01:40:58 INFO  AuthenticationFilter:21 - doFilter
+2019-05-30 01:40:58 INFO  RoleFilter:30 - Do Filter
+2019-05-30 01:40:58 INFO  CommandFactory:43 - Command get
+2019-05-30 01:40:58 INFO  OrderServiceImpl:75 - Find all orders
+2019-05-30 01:40:58 INFO  AdminPageBillCommand:21 - execute
+2019-05-30 01:41:00 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:41:00 INFO  LocaleFilter:29 - do Filter
+2019-05-30 01:41:00 INFO  CommandFactory:43 - Command get
+2019-05-30 01:41:00 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:41:00 INFO  LocaleFilter:29 - do Filter
+2019-05-30 01:41:00 INFO  AuthenticationFilter:21 - doFilter
+2019-05-30 01:41:00 INFO  RoleFilter:30 - Do Filter
+2019-05-30 01:41:00 INFO  CommandFactory:43 - Command get
+2019-05-30 01:41:00 INFO  AdminPageCommand:15 - execute
+2019-05-30 01:41:01 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:41:01 INFO  LocaleFilter:29 - do Filter
+2019-05-30 01:41:01 INFO  AuthenticationFilter:21 - doFilter
+2019-05-30 01:41:01 INFO  RoleFilter:30 - Do Filter
+2019-05-30 01:41:01 INFO  CommandFactory:43 - Command get
+2019-05-30 01:41:01 INFO  OrderServiceImpl:94 - get number of page
+2019-05-30 01:41:01 INFO  OrderServiceImpl:85 - find pages
+2019-05-30 01:41:01 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:41:01 INFO  LocaleFilter:29 - do Filter
+2019-05-30 01:41:01 INFO  AuthenticationFilter:21 - doFilter
+2019-05-30 01:41:01 INFO  RoleFilter:30 - Do Filter
+2019-05-30 01:41:01 INFO  CommandFactory:43 - Command get
+2019-05-30 01:41:01 INFO  OrderServiceImpl:94 - get number of page
+2019-05-30 01:41:01 INFO  OrderServiceImpl:85 - find pages
+2019-05-30 01:41:02 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:41:02 INFO  LocaleFilter:29 - do Filter
+2019-05-30 01:41:02 INFO  AuthenticationFilter:21 - doFilter
+2019-05-30 01:41:02 INFO  RoleFilter:30 - Do Filter
+2019-05-30 01:41:02 INFO  CommandFactory:43 - Command get
+2019-05-30 01:41:02 INFO  OrderServiceImpl:94 - get number of page
+2019-05-30 01:41:02 INFO  OrderServiceImpl:85 - find pages
+2019-05-30 01:41:04 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:41:04 INFO  LocaleFilter:29 - do Filter
+2019-05-30 01:41:04 INFO  AuthenticationFilter:21 - doFilter
+2019-05-30 01:41:04 INFO  RoleFilter:30 - Do Filter
+2019-05-30 01:41:04 INFO  CommandFactory:43 - Command get
+2019-05-30 01:41:04 INFO  OrderServiceImpl:94 - get number of page
+2019-05-30 01:41:04 INFO  OrderServiceImpl:85 - find pages
+2019-05-30 01:41:05 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:41:05 INFO  LocaleFilter:29 - do Filter
+2019-05-30 01:41:05 INFO  AuthenticationFilter:21 - doFilter
+2019-05-30 01:41:05 INFO  RoleFilter:30 - Do Filter
+2019-05-30 01:41:05 INFO  CommandFactory:43 - Command get
+2019-05-30 01:41:05 INFO  OrderServiceImpl:94 - get number of page
+2019-05-30 01:41:05 INFO  OrderServiceImpl:85 - find pages
+2019-05-30 01:41:06 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:41:06 INFO  LocaleFilter:29 - do Filter
+2019-05-30 01:41:06 INFO  CommandFactory:43 - Command get
+2019-05-30 01:41:06 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:41:06 INFO  LocaleFilter:29 - do Filter
+2019-05-30 01:41:06 INFO  AuthenticationFilter:21 - doFilter
+2019-05-30 01:41:06 INFO  RoleFilter:30 - Do Filter
+2019-05-30 01:41:06 INFO  CommandFactory:43 - Command get
+2019-05-30 01:41:06 INFO  AdminPageCommand:15 - execute
+2019-05-30 01:41:07 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:41:07 INFO  LocaleFilter:29 - do Filter
+2019-05-30 01:41:07 INFO  CommandFactory:43 - Command get
+2019-05-30 01:41:07 INFO  LogoutCommand:17 - execute
+2019-05-30 01:41:07 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:41:07 INFO  LocaleFilter:29 - do Filter
+2019-05-30 01:41:07 INFO  CommandFactory:43 - Command get
+2019-05-30 01:41:10 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:41:10 INFO  LocaleFilter:29 - do Filter
+2019-05-30 01:41:10 INFO  CommandFactory:43 - Command get
+2019-05-30 01:41:10 INFO  RegistrationCommandPage:15 - execute
+2019-05-30 01:42:56 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:42:56 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:42:58 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:42:58 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:42:58 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:42:58 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:43:03 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:43:03 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:43:03 INFO  DaoFactory:27 - dao factory
+2019-05-30 01:43:03 INFO  DaoFactory:27 - dao factory
+2019-05-30 01:43:03 INFO  DaoFactory:27 - dao factory
+2019-05-30 01:43:03 INFO  DaoFactory:27 - dao factory
+2019-05-30 01:43:03 INFO  DaoFactory:27 - dao factory
+2019-05-30 01:43:03 INFO  DaoFactory:27 - dao factory
+2019-05-30 01:43:03 INFO  DaoFactory:27 - dao factory
+2019-05-30 01:43:03 INFO  DaoFactory:27 - dao factory
+2019-05-30 01:43:03 INFO  DaoFactory:27 - dao factory
+2019-05-30 01:43:03 INFO  CommandFactory:43 - Command get
+2019-05-30 01:43:03 INFO  DaoFactory:27 - dao factory
+2019-05-30 01:43:04 INFO  UserServiceImpl:63 - get Login and password
+2019-05-30 01:43:04 INFO  LoginCommand:36 - user login
+2019-05-30 01:43:04 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:43:04 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:43:04 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:43:04 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:43:04 INFO  CommandFactory:43 - Command get
+2019-05-30 01:43:04 INFO  AdminPageCommand:15 - execute
+2019-05-30 01:43:05 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:43:05 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:43:05 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:43:05 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:43:05 INFO  CommandFactory:43 - Command get
+2019-05-30 01:43:05 INFO  OrderServiceImpl:94 - get number of page
+2019-05-30 01:43:05 INFO  OrderServiceImpl:85 - find pages
+2019-05-30 01:43:07 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:43:07 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:43:07 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:43:07 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:43:07 INFO  CommandFactory:43 - Command get
+2019-05-30 01:43:07 INFO  OrderServiceImpl:94 - get number of page
+2019-05-30 01:43:07 INFO  OrderServiceImpl:85 - find pages
+2019-05-30 01:43:09 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:43:09 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:43:09 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:43:09 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:43:09 INFO  CommandFactory:43 - Command get
+2019-05-30 01:43:09 INFO  OrderServiceImpl:94 - get number of page
+2019-05-30 01:43:09 INFO  OrderServiceImpl:85 - find pages
+2019-05-30 01:43:12 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:43:12 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:43:12 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:43:12 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:43:12 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:43:12 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:43:12 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:43:12 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:43:12 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:43:12 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:43:12 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:43:12 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:43:12 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:43:12 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:43:12 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:43:12 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:43:12 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:43:12 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:43:12 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:43:12 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:43:12 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:43:12 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:43:12 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:43:12 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:43:12 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:43:12 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:43:12 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:43:12 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:43:12 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:43:12 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:43:12 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:43:12 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:43:12 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:43:12 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:43:12 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:43:12 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:43:12 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:43:12 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:43:12 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:43:12 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:43:12 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:43:12 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:43:12 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:43:12 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:43:13 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:43:13 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:43:13 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:43:13 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:43:13 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:43:13 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:43:13 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:43:13 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:43:13 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:43:13 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:43:13 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:43:13 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:43:13 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:43:13 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:43:13 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:43:13 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:43:13 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:43:13 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:43:13 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:43:13 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:43:13 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:43:13 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:43:13 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:43:13 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:43:13 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:43:13 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:43:13 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:43:13 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:43:13 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:43:13 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:43:13 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:43:13 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:43:13 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:43:13 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:43:13 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:43:13 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:43:13 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:43:13 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:43:13 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:43:13 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:43:13 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:43:13 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:43:13 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:43:13 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:43:13 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:43:13 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:43:13 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:43:13 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:43:13 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:43:13 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:43:13 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:43:13 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:43:13 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:43:13 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:43:13 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:43:13 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:43:13 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:43:13 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:43:13 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:43:13 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:43:13 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:43:13 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:43:13 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:43:13 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:43:13 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:43:13 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:43:13 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:43:13 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:43:13 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:43:13 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:43:13 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:43:13 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:43:13 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:43:13 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:43:13 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:43:13 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:43:13 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:43:13 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:43:13 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:43:13 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:43:13 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:43:13 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:43:13 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:43:13 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:43:13 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:43:13 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:43:13 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:43:13 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:43:13 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:43:13 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:43:13 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:43:13 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:43:13 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:43:13 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:43:13 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:43:13 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:43:13 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:43:13 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:43:13 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:43:13 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:43:13 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:43:13 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:43:13 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:43:13 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:43:13 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:43:13 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:43:13 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:43:13 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:43:13 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:43:13 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:43:13 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:43:13 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:43:13 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:43:13 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:43:13 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:43:13 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:43:18 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:43:18 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:43:18 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:43:18 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:43:18 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:43:18 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:43:18 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:43:18 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:43:18 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:43:18 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:43:18 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:43:18 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:43:18 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:43:18 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:43:18 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:43:18 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:43:18 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:43:18 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:43:18 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:43:18 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:43:18 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:43:18 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:43:18 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:43:18 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:43:18 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:43:18 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:43:18 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:43:18 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:43:18 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:43:18 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:43:18 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:43:18 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:43:18 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:43:18 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:43:18 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:43:18 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:43:18 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:43:18 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:43:18 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:43:18 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:43:18 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:43:18 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:43:18 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:43:18 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:43:18 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:43:18 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:43:18 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:43:18 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:43:18 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:43:18 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:43:18 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:43:18 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:43:18 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:43:18 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:43:18 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:43:18 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:43:18 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:43:18 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:43:18 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:43:18 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:43:18 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:43:18 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:43:18 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:43:18 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:43:19 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:43:19 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:43:19 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:43:19 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:43:19 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:43:19 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:43:19 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:43:19 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:43:19 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:43:19 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:43:19 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:43:19 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:43:19 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:43:19 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:43:19 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:43:19 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:43:29 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:43:29 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:43:29 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:43:29 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:43:29 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:43:29 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:43:29 INFO  CommandFactory:43 - Command get
+2019-05-30 01:43:29 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:43:29 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:43:29 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:43:29 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:43:29 INFO  CommandFactory:43 - Command get
+2019-05-30 01:43:29 INFO  AdminPageCommand:15 - execute
+2019-05-30 01:43:33 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:43:33 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:43:33 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:43:33 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:43:33 INFO  CommandFactory:43 - Command get
+2019-05-30 01:43:33 INFO  AdminPageCommand:15 - execute
+2019-05-30 01:43:36 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:43:36 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:43:36 INFO  CommandFactory:43 - Command get
+2019-05-30 01:43:36 INFO  PageErrorCommand:15 - execute
+2019-05-30 01:43:39 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:43:39 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:43:39 INFO  CommandFactory:43 - Command get
+2019-05-30 01:43:39 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:43:39 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:43:39 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:43:39 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:43:39 INFO  CommandFactory:43 - Command get
+2019-05-30 01:43:39 INFO  AdminPageCommand:15 - execute
+2019-05-30 01:43:52 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:43:52 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:43:52 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:43:52 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:43:52 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:43:52 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:43:52 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:43:52 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:43:52 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:43:52 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:43:52 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:43:52 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:43:52 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:43:52 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:43:52 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:43:52 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:43:52 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:43:52 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:43:52 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:43:52 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:43:52 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:43:52 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:43:52 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:43:52 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:43:52 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:43:52 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:43:52 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:43:52 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:43:52 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:43:52 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:43:52 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:43:52 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:43:52 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:43:52 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:43:52 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:43:52 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:43:52 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:43:52 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:43:52 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:43:52 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:43:52 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:43:52 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:43:52 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:43:52 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:43:52 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:43:52 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:43:52 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:43:52 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:43:52 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:43:52 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:43:52 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:43:52 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:43:52 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:43:52 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:43:52 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:43:52 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:43:52 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:43:52 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:43:52 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:43:52 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:43:52 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:43:52 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:43:52 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:43:52 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:43:52 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:43:52 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:43:52 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:43:52 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:43:52 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:43:52 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:43:52 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:43:52 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:43:52 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:43:52 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:43:52 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:43:52 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:43:52 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:43:52 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:43:52 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:43:52 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:43:52 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:43:52 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:43:52 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:43:52 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:43:52 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:43:52 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:43:52 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:43:52 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:43:52 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:43:52 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:43:52 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:43:52 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:43:52 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:43:52 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:43:52 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:43:52 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:43:52 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:43:52 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:43:52 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:43:52 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:43:52 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:43:52 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:43:52 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:43:52 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:43:52 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:43:52 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:43:52 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:43:52 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:43:52 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:43:52 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:43:52 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:43:52 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:43:52 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:43:52 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:43:52 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:43:52 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:43:52 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:43:52 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:43:52 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:43:52 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:43:52 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:43:52 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:43:52 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:43:52 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:43:52 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:43:52 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:43:52 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:43:52 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:43:52 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:43:52 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:43:52 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:43:52 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:43:52 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:43:52 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:43:52 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:43:52 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:43:52 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:43:52 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:43:52 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:43:52 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:43:52 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:43:52 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:43:52 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:43:52 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:43:52 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:43:52 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:43:52 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:43:52 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:43:52 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:43:52 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:43:52 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:43:52 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:43:53 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:43:53 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:43:53 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:43:53 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:43:53 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:43:53 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:43:53 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:43:53 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:43:58 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:43:58 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:43:58 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:43:58 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:43:58 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:43:58 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:43:58 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:43:58 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:43:58 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:43:58 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:43:58 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:43:58 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:43:58 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:43:58 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:43:58 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:43:58 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:43:58 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:43:58 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:43:58 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:43:58 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:43:58 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:43:58 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:43:58 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:43:58 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:43:58 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:43:58 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:43:58 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:43:58 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:43:58 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:43:58 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:43:58 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:43:58 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:43:58 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:43:58 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:43:58 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:43:58 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:43:58 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:43:58 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:43:58 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:43:58 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:43:58 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:43:58 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:43:58 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:43:58 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:43:58 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:43:58 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:43:58 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:43:58 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:43:58 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:43:58 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:43:58 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:43:58 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:43:58 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:43:58 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:43:58 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:43:58 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:43:58 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:43:58 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:43:58 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:43:58 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:43:58 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:43:58 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:43:58 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:43:58 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:43:58 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:43:58 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:43:58 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:43:58 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:43:58 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:43:58 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:43:58 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:43:58 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:43:58 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:43:58 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:43:58 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:43:58 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:43:58 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:43:58 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:43:58 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:43:58 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:44:28 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:44:28 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:44:28 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:44:28 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:44:28 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:44:28 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:44:28 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:44:28 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:44:28 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:44:28 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:44:28 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:44:28 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:44:28 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:44:28 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:44:28 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:44:28 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:44:28 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:44:28 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:44:28 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:44:28 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:44:28 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:44:28 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:44:28 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:44:28 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:44:28 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:44:28 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:44:28 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:44:28 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:44:28 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:44:28 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:44:28 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:44:28 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:44:28 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:44:28 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:44:28 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:44:28 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:44:28 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:44:28 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:44:28 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:44:28 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:44:28 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:44:28 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:44:28 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:44:28 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:44:28 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:44:28 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:44:28 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:44:28 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:44:28 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:44:28 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:44:28 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:44:28 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:44:28 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:44:28 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:44:28 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:44:28 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:44:28 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:44:28 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:44:28 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:44:28 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:44:28 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:44:28 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:44:28 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:44:28 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:44:28 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:44:28 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:44:28 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:44:28 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:44:28 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:44:28 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:44:28 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:44:28 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:44:28 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:44:28 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:44:28 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:44:28 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:44:28 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:44:28 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:44:28 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:44:28 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:44:44 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:44:44 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:44:44 INFO  CommandFactory:43 - Command get
+2019-05-30 01:44:44 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:44:44 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:44:44 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:44:44 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:44:44 INFO  CommandFactory:43 - Command get
+2019-05-30 01:44:44 INFO  AdminPageCommand:15 - execute
+2019-05-30 01:44:57 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:44:57 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:44:57 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:44:57 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:44:57 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:44:57 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:44:57 INFO  CommandFactory:43 - Command get
+2019-05-30 01:44:57 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:44:57 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:44:57 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:44:57 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:44:57 INFO  CommandFactory:43 - Command get
+2019-05-30 01:44:57 INFO  AdminPageCommand:15 - execute
+2019-05-30 01:45:05 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:45:05 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:45:05 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:45:05 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:45:05 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:45:05 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:45:05 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:45:05 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:45:05 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:45:05 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:45:05 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:45:05 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:45:05 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:45:05 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:45:05 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:45:05 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:45:05 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:45:05 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:45:05 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:45:05 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:45:05 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:45:05 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:45:05 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:45:05 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:45:05 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:45:05 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:45:05 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:45:05 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:45:05 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:45:05 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:45:05 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:45:05 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:45:05 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:45:05 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:45:05 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:45:05 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:45:05 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:45:05 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:45:05 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:45:05 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:45:05 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:45:05 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:45:05 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:45:05 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:45:05 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:45:05 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:45:05 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:45:05 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:45:05 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:45:05 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:45:05 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:45:05 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:45:05 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:45:05 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:45:05 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:45:05 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:45:05 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:45:05 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:45:05 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:45:05 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:45:05 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:45:05 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:45:05 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:45:05 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:45:05 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:45:05 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:45:05 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:45:05 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:45:05 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:45:05 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:45:05 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:45:05 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:45:05 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:45:05 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:45:05 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:45:05 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:45:05 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:45:05 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:45:05 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:45:05 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:45:05 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:45:05 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:45:05 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:45:05 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:45:05 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:45:05 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:45:05 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:45:05 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:45:05 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:45:05 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:45:05 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:45:05 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:45:05 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:45:05 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:45:05 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:45:05 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:45:05 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:45:05 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:45:05 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:45:05 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:45:06 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:45:06 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:45:06 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:45:06 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:45:06 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:45:06 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:45:06 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:45:06 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:45:06 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:45:06 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:45:06 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:45:06 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:45:06 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:45:06 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:45:06 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:45:06 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:45:06 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:45:06 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:45:06 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:45:06 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:45:06 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:45:06 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:45:06 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:45:06 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:45:06 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:45:06 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:45:06 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:45:06 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:45:06 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:45:06 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:45:06 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:45:06 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:45:06 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:45:06 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:45:06 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:45:06 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:45:06 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:45:06 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:45:06 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:45:06 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:45:06 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:45:06 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:45:06 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:45:06 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:45:06 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:45:06 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:45:06 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:45:06 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:45:06 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:45:06 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:45:06 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:45:06 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:45:06 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:45:06 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:45:06 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:45:06 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:45:06 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:45:06 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:45:06 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:45:06 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:45:11 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:45:11 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:45:11 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:45:11 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:45:11 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:45:11 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:45:11 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:45:11 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:45:11 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:45:11 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:45:11 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:45:11 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:45:11 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:45:11 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:45:11 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:45:11 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:45:11 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:45:11 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:45:11 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:45:11 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:45:11 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:45:11 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:45:11 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:45:11 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:45:11 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:45:11 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:45:11 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:45:11 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:45:11 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:45:11 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:45:11 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:45:11 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:45:11 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:45:11 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:45:11 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:45:11 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:45:11 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:45:11 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:45:11 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:45:11 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:45:11 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:45:11 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:45:11 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:45:11 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:45:11 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:45:11 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:45:11 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:45:11 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:45:11 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:45:11 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:45:11 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:45:11 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:45:11 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:45:11 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:45:11 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:45:11 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:45:11 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:45:11 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:45:11 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:45:11 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:45:11 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:45:11 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:45:11 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:45:11 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:45:11 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:45:11 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:45:11 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:45:11 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:45:11 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:45:11 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:45:11 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:45:11 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:45:11 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:45:11 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:45:11 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:45:11 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:45:11 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:45:11 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:45:11 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:45:11 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:45:21 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:45:21 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:45:21 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:45:21 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:45:21 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:45:21 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:45:21 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:45:21 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:45:21 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:45:21 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:45:21 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:45:21 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:45:21 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:45:21 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:45:21 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:45:21 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:45:21 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:45:21 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:45:21 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:45:21 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:45:21 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:45:21 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:45:21 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:45:21 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:45:21 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:45:21 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:45:21 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:45:21 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:45:21 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:45:21 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:45:21 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:45:21 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:45:21 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:45:21 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:45:21 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:45:21 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:45:21 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:45:21 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:45:21 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:45:21 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:45:21 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:45:21 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:45:21 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:45:21 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:45:21 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:45:21 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:45:21 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:45:21 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:45:21 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:45:21 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:45:21 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:45:21 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:45:21 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:45:21 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:45:21 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:45:21 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:45:21 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:45:21 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:45:21 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:45:21 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:45:21 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:45:21 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:45:21 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:45:21 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:45:21 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:45:21 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:45:21 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:45:21 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:45:21 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:45:21 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:45:21 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:45:21 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:45:21 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:45:21 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:45:21 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:45:21 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:45:21 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:45:21 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:45:21 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:45:21 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:45:21 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:45:21 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:45:21 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:45:21 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:45:21 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:45:21 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:45:21 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:45:21 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:45:21 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:45:21 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:45:21 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:45:21 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:45:21 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:45:21 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:45:21 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:45:21 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:45:21 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:45:21 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:45:21 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:45:21 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:45:21 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:45:21 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:45:21 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:45:21 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:45:21 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:45:21 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:45:21 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:45:21 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:45:21 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:45:21 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:45:21 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:45:21 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:45:21 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:45:21 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:45:21 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:45:21 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:45:21 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:45:21 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:45:21 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:45:21 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:45:21 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:45:21 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:45:21 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:45:21 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:45:21 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:45:21 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:45:21 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:45:21 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:45:21 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:45:21 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:45:21 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:45:21 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:45:21 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:45:21 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:45:21 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:45:21 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:45:21 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:45:21 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:45:21 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:45:21 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:45:21 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:45:21 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:45:21 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:45:21 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:45:21 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:45:21 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:45:21 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:45:21 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:45:21 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:45:21 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:45:21 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:45:21 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:45:21 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:45:21 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:45:21 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:45:21 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:45:22 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:45:22 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:45:22 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:45:22 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:48:53 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:48:53 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:48:53 INFO  CommandFactory:43 - Command get
+2019-05-30 01:48:53 INFO  RegistrationCommandPage:15 - execute
+2019-05-30 01:48:55 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:48:55 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:48:55 INFO  CommandFactory:43 - Command get
+2019-05-30 01:48:55 INFO  RegistrationCommandPage:15 - execute
+2019-05-30 01:48:56 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:48:56 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:48:56 INFO  CommandFactory:43 - Command get
+2019-05-30 01:49:04 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:49:04 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:49:04 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:49:04 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:49:04 INFO  CommandFactory:43 - Command get
+2019-05-30 01:49:04 INFO  AdminPageCommand:15 - execute
+2019-05-30 01:49:11 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:49:11 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:49:11 INFO  CommandFactory:43 - Command get
+2019-05-30 01:49:11 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:49:11 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:49:11 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:49:11 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:49:11 INFO  CommandFactory:43 - Command get
+2019-05-30 01:49:11 INFO  AdminPageCommand:15 - execute
+2019-05-30 01:49:12 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:49:12 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:49:12 INFO  CommandFactory:43 - Command get
+2019-05-30 01:49:12 INFO  LogoutCommand:17 - execute
+2019-05-30 01:49:12 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:49:12 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:49:12 INFO  CommandFactory:43 - Command get
+2019-05-30 01:49:15 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:49:15 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:49:15 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:49:15 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:49:15 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:49:15 INFO  CommandFactory:43 - Command get
+2019-05-30 01:49:17 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:49:17 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:49:17 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:49:18 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:49:18 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:49:18 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:49:18 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:49:18 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:49:18 INFO  CommandFactory:43 - Command get
+2019-05-30 01:49:21 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:49:21 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:49:21 INFO  CommandFactory:43 - Command get
+2019-05-30 01:49:21 INFO  LogoutCommand:17 - execute
+2019-05-30 01:49:21 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:49:21 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:49:21 INFO  CommandFactory:43 - Command get
+2019-05-30 01:49:25 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:49:25 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:49:25 INFO  CommandFactory:43 - Command get
+2019-05-30 01:49:25 INFO  DaoFactory:27 - dao factory
+2019-05-30 01:49:25 INFO  UserServiceImpl:63 - get Login and password
+2019-05-30 01:49:25 INFO  LoginCommand:36 - user login
+2019-05-30 01:49:25 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:49:25 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:49:25 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:49:25 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:49:25 INFO  CommandFactory:43 - Command get
+2019-05-30 01:49:25 INFO  AdminPageCommand:15 - execute
+2019-05-30 01:49:28 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:49:28 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:49:28 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:49:28 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:49:28 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:49:28 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:49:28 INFO  CommandFactory:43 - Command get
+2019-05-30 01:49:28 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:49:28 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:49:28 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:49:28 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:49:28 INFO  CommandFactory:43 - Command get
+2019-05-30 01:49:28 INFO  AdminPageCommand:15 - execute
+2019-05-30 01:49:35 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:49:35 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:49:35 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:49:35 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:49:35 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:49:35 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:49:35 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:49:35 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:49:35 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:49:35 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:49:35 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:49:35 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:49:35 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:49:35 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:49:35 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:49:35 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:49:35 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:49:35 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:49:35 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:49:35 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:49:35 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:49:35 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:49:35 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:49:35 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:49:35 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:49:35 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:49:35 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:49:35 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:49:35 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:49:35 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:49:35 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:49:35 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:49:35 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:49:35 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:49:35 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:49:35 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:49:35 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:49:35 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:49:35 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:49:35 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:49:35 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:49:35 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:49:35 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:49:35 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:49:35 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:49:35 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:49:35 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:49:35 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:49:35 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:49:35 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:49:35 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:49:35 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:49:35 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:49:35 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:49:35 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:49:35 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:49:35 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:49:35 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:49:35 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:49:35 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:49:35 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:49:35 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:49:35 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:49:35 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:49:35 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:49:35 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:49:35 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:49:35 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:49:35 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:49:35 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:49:35 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:49:35 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:49:35 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:49:35 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:49:35 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:49:35 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:49:35 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:49:35 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:49:35 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:49:35 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:49:35 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:49:35 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:49:35 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:49:35 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:49:35 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:49:35 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:49:35 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:49:35 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:49:35 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:49:35 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:49:35 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:49:35 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:49:35 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:49:35 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:49:35 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:49:35 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:49:35 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:49:35 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:49:35 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:49:35 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:49:35 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:49:35 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:49:35 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:49:35 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:49:35 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:49:35 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:49:35 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:49:35 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:49:35 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:49:35 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:49:35 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:49:35 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:49:36 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:49:36 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:49:36 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:49:36 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:49:36 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:49:36 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:49:36 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:49:36 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:49:36 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:49:36 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:49:36 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:49:36 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:49:36 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:49:36 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:49:36 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:49:36 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:49:36 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:49:36 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:49:36 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:49:36 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:49:36 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:49:36 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:49:36 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:49:36 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:49:36 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:49:36 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:49:36 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:49:36 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:49:36 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:49:36 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:49:36 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:49:36 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:49:36 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:49:36 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:49:36 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:49:36 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:49:36 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:49:36 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:49:36 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:49:36 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:49:36 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:49:36 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:49:36 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:49:36 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:49:36 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:49:36 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:49:36 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:49:36 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:49:41 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:49:41 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:49:41 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:49:41 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:49:41 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:49:41 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:49:41 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:49:41 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:49:41 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:49:41 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:49:41 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:49:41 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:49:41 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:49:41 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:49:41 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:49:41 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:49:41 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:49:41 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:49:41 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:49:41 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:49:41 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:49:41 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:49:41 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:49:41 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:49:41 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:49:41 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:49:41 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:49:41 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:49:41 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:49:41 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:49:41 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:49:41 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:49:41 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:49:41 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:49:41 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:49:41 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:49:41 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:49:41 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:49:41 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:49:41 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:49:41 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:49:41 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:49:41 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:49:41 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:49:41 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:49:41 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:49:41 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:49:41 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:49:41 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:49:41 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:49:41 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:49:41 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:49:41 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:49:41 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:49:41 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:49:41 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:49:41 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:49:41 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:49:41 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:49:41 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:49:41 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:49:41 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:49:41 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:49:41 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:49:41 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:49:41 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:49:41 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:49:41 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:49:41 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:49:41 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:49:41 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:49:41 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:49:41 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:49:41 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:49:41 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:49:41 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:49:41 INFO  EncodingFilter:17 - do Filter
+2019-05-30 01:49:41 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:49:41 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:49:41 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:50:13 INFO  EncodingFilter:21 - do Filter
+2019-05-30 01:50:13 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:50:15 INFO  EncodingFilter:21 - do Filter
+2019-05-30 01:50:15 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:50:15 INFO  EncodingFilter:21 - do Filter
+2019-05-30 01:50:15 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:50:20 INFO  EncodingFilter:21 - do Filter
+2019-05-30 01:50:20 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:50:20 INFO  EncodingFilter:21 - do Filter
+2019-05-30 01:50:20 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:50:22 INFO  EncodingFilter:21 - do Filter
+2019-05-30 01:50:22 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:50:22 INFO  EncodingFilter:21 - do Filter
+2019-05-30 01:50:22 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:50:22 INFO  EncodingFilter:21 - do Filter
+2019-05-30 01:50:22 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:50:22 INFO  DaoFactory:27 - dao factory
+2019-05-30 01:50:22 INFO  DaoFactory:27 - dao factory
+2019-05-30 01:50:22 INFO  DaoFactory:27 - dao factory
+2019-05-30 01:50:22 INFO  DaoFactory:27 - dao factory
+2019-05-30 01:50:22 INFO  DaoFactory:27 - dao factory
+2019-05-30 01:50:22 INFO  DaoFactory:27 - dao factory
+2019-05-30 01:50:22 INFO  DaoFactory:27 - dao factory
+2019-05-30 01:50:22 INFO  DaoFactory:27 - dao factory
+2019-05-30 01:50:22 INFO  DaoFactory:27 - dao factory
+2019-05-30 01:50:22 INFO  CommandFactory:43 - Command get
+2019-05-30 01:50:22 INFO  LogoutCommand:17 - execute
+2019-05-30 01:50:22 INFO  EncodingFilter:21 - do Filter
+2019-05-30 01:50:22 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:50:22 INFO  CommandFactory:43 - Command get
+2019-05-30 01:50:24 INFO  EncodingFilter:21 - do Filter
+2019-05-30 01:50:24 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:50:24 INFO  CommandFactory:43 - Command get
+2019-05-30 01:50:24 INFO  MainCommand:26 - execute
+2019-05-30 01:50:24 INFO  EncodingFilter:21 - do Filter
+2019-05-30 01:50:24 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:50:24 INFO  CommandFactory:43 - Command get
+2019-05-30 01:50:25 INFO  EncodingFilter:21 - do Filter
+2019-05-30 01:50:25 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:50:25 INFO  CommandFactory:43 - Command get
+2019-05-30 01:50:25 INFO  LogoutCommand:17 - execute
+2019-05-30 01:50:25 INFO  EncodingFilter:21 - do Filter
+2019-05-30 01:50:25 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:50:25 INFO  CommandFactory:43 - Command get
+2019-05-30 01:50:25 INFO  EncodingFilter:21 - do Filter
+2019-05-30 01:50:25 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:50:25 INFO  CommandFactory:43 - Command get
+2019-05-30 01:50:25 INFO  MainCommand:26 - execute
+2019-05-30 01:50:25 INFO  EncodingFilter:21 - do Filter
+2019-05-30 01:50:25 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:50:25 INFO  CommandFactory:43 - Command get
+2019-05-30 01:50:30 INFO  EncodingFilter:21 - do Filter
+2019-05-30 01:50:30 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:50:30 INFO  CommandFactory:43 - Command get
+2019-05-30 01:50:30 INFO  DaoFactory:27 - dao factory
+2019-05-30 01:50:30 INFO  UserServiceImpl:63 - get Login and password
+2019-05-30 01:50:30 INFO  LoginCommand:36 - user login
+2019-05-30 01:50:30 INFO  EncodingFilter:21 - do Filter
+2019-05-30 01:50:30 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:50:30 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:50:30 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:50:30 INFO  CommandFactory:43 - Command get
+2019-05-30 01:50:30 INFO  AdminPageCommand:15 - execute
+2019-05-30 01:50:35 INFO  EncodingFilter:21 - do Filter
+2019-05-30 01:50:35 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:50:35 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:50:35 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:50:44 INFO  EncodingFilter:21 - do Filter
+2019-05-30 01:50:44 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:50:44 INFO  CommandFactory:43 - Command get
+2019-05-30 01:50:44 INFO  EncodingFilter:21 - do Filter
+2019-05-30 01:50:44 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:50:44 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:50:44 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:50:44 INFO  CommandFactory:43 - Command get
+2019-05-30 01:50:44 INFO  AdminPageCommand:15 - execute
+2019-05-30 01:51:02 INFO  EncodingFilter:21 - do Filter
+2019-05-30 01:51:02 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:51:02 INFO  EncodingFilter:21 - do Filter
+2019-05-30 01:51:02 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:51:03 INFO  EncodingFilter:21 - do Filter
+2019-05-30 01:51:03 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:51:03 INFO  CommandFactory:43 - Command get
+2019-05-30 01:51:03 INFO  LogoutCommand:17 - execute
+2019-05-30 01:51:03 INFO  EncodingFilter:21 - do Filter
+2019-05-30 01:51:03 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:51:03 INFO  CommandFactory:43 - Command get
+2019-05-30 01:51:06 INFO  EncodingFilter:21 - do Filter
+2019-05-30 01:51:06 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:51:07 INFO  EncodingFilter:21 - do Filter
+2019-05-30 01:51:07 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:51:09 INFO  EncodingFilter:21 - do Filter
+2019-05-30 01:51:09 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:51:09 INFO  CommandFactory:43 - Command get
+2019-05-30 01:51:09 INFO  MainCommand:26 - execute
+2019-05-30 01:51:09 INFO  EncodingFilter:21 - do Filter
+2019-05-30 01:51:09 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:51:09 INFO  CommandFactory:43 - Command get
+2019-05-30 01:51:10 INFO  EncodingFilter:21 - do Filter
+2019-05-30 01:51:10 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:51:10 INFO  CommandFactory:43 - Command get
+2019-05-30 01:51:10 INFO  LogoutCommand:17 - execute
+2019-05-30 01:51:10 INFO  EncodingFilter:21 - do Filter
+2019-05-30 01:51:10 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:51:10 INFO  CommandFactory:43 - Command get
+2019-05-30 01:51:11 INFO  EncodingFilter:21 - do Filter
+2019-05-30 01:51:11 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:51:11 INFO  CommandFactory:43 - Command get
+2019-05-30 01:51:11 INFO  MainCommand:26 - execute
+2019-05-30 01:51:11 INFO  EncodingFilter:21 - do Filter
+2019-05-30 01:51:11 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:51:11 INFO  CommandFactory:43 - Command get
+2019-05-30 01:51:12 INFO  EncodingFilter:21 - do Filter
+2019-05-30 01:51:12 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:51:12 INFO  EncodingFilter:21 - do Filter
+2019-05-30 01:51:12 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:51:12 INFO  EncodingFilter:21 - do Filter
+2019-05-30 01:51:12 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:51:12 INFO  CommandFactory:43 - Command get
+2019-05-30 01:51:13 INFO  EncodingFilter:21 - do Filter
+2019-05-30 01:51:13 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:51:13 INFO  CommandFactory:43 - Command get
+2019-05-30 01:51:13 INFO  LogoutCommand:17 - execute
+2019-05-30 01:51:13 INFO  EncodingFilter:21 - do Filter
+2019-05-30 01:51:13 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:51:13 INFO  CommandFactory:43 - Command get
+2019-05-30 01:51:16 INFO  EncodingFilter:21 - do Filter
+2019-05-30 01:51:16 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:51:16 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:51:17 INFO  EncodingFilter:21 - do Filter
+2019-05-30 01:51:17 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:51:17 INFO  CommandFactory:43 - Command get
+2019-05-30 01:51:22 INFO  EncodingFilter:21 - do Filter
+2019-05-30 01:51:22 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:51:22 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:51:22 INFO  EncodingFilter:21 - do Filter
+2019-05-30 01:51:22 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:51:22 INFO  CommandFactory:43 - Command get
+2019-05-30 01:51:26 INFO  EncodingFilter:21 - do Filter
+2019-05-30 01:51:26 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:51:26 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:51:28 INFO  EncodingFilter:21 - do Filter
+2019-05-30 01:51:28 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:51:28 INFO  CommandFactory:43 - Command get
+2019-05-30 01:51:34 INFO  EncodingFilter:21 - do Filter
+2019-05-30 01:51:34 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:51:34 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:51:34 INFO  EncodingFilter:21 - do Filter
+2019-05-30 01:51:34 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:51:34 INFO  CommandFactory:43 - Command get
+2019-05-30 01:51:42 INFO  EncodingFilter:21 - do Filter
+2019-05-30 01:51:42 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:51:42 INFO  CommandFactory:43 - Command get
+2019-05-30 01:51:42 INFO  DaoFactory:27 - dao factory
+2019-05-30 01:51:42 INFO  UserServiceImpl:63 - get Login and password
+2019-05-30 01:51:42 INFO  LoginCommand:36 - user login
+2019-05-30 01:51:42 INFO  EncodingFilter:21 - do Filter
+2019-05-30 01:51:42 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:51:42 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:51:42 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:51:42 INFO  CommandFactory:43 - Command get
+2019-05-30 01:51:42 INFO  AdminPageCommand:15 - execute
+2019-05-30 01:51:46 INFO  EncodingFilter:21 - do Filter
+2019-05-30 01:51:46 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:51:46 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:51:46 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:52:48 INFO  EncodingFilter:21 - do Filter
+2019-05-30 01:52:48 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:52:48 INFO  CommandFactory:43 - Command get
+2019-05-30 01:52:48 INFO  EncodingFilter:21 - do Filter
+2019-05-30 01:52:48 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:52:48 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:52:48 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:52:48 INFO  CommandFactory:43 - Command get
+2019-05-30 01:52:48 INFO  AdminPageCommand:15 - execute
+2019-05-30 01:52:50 INFO  EncodingFilter:21 - do Filter
+2019-05-30 01:52:50 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:52:50 INFO  CommandFactory:43 - Command get
+2019-05-30 01:52:50 INFO  LogoutCommand:17 - execute
+2019-05-30 01:52:50 INFO  EncodingFilter:21 - do Filter
+2019-05-30 01:52:50 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:52:50 INFO  CommandFactory:43 - Command get
+2019-05-30 01:52:55 INFO  EncodingFilter:21 - do Filter
+2019-05-30 01:52:55 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:52:55 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:52:55 INFO  EncodingFilter:21 - do Filter
+2019-05-30 01:52:55 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:52:55 INFO  CommandFactory:43 - Command get
+2019-05-30 01:53:01 INFO  EncodingFilter:21 - do Filter
+2019-05-30 01:53:01 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:53:01 INFO  CommandFactory:43 - Command get
+2019-05-30 01:53:01 INFO  DaoFactory:27 - dao factory
+2019-05-30 01:53:01 INFO  UserServiceImpl:63 - get Login and password
+2019-05-30 01:53:01 INFO  LoginCommand:36 - user login
+2019-05-30 01:53:01 INFO  EncodingFilter:21 - do Filter
+2019-05-30 01:53:01 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:53:01 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:53:01 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:53:01 INFO  CommandFactory:43 - Command get
+2019-05-30 01:53:01 INFO  AdminPageCommand:15 - execute
+2019-05-30 01:53:06 INFO  EncodingFilter:21 - do Filter
+2019-05-30 01:53:06 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:53:06 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:53:06 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:53:24 INFO  EncodingFilter:21 - do Filter
+2019-05-30 01:53:24 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:53:25 INFO  EncodingFilter:21 - do Filter
+2019-05-30 01:53:25 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:53:25 INFO  EncodingFilter:21 - do Filter
+2019-05-30 01:53:25 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:54:26 INFO  EncodingFilter:21 - do Filter
+2019-05-30 01:54:26 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:54:26 INFO  DaoFactory:27 - dao factory
+2019-05-30 01:54:27 INFO  DaoFactory:27 - dao factory
+2019-05-30 01:54:27 INFO  DaoFactory:27 - dao factory
+2019-05-30 01:54:27 INFO  DaoFactory:27 - dao factory
+2019-05-30 01:54:27 INFO  DaoFactory:27 - dao factory
+2019-05-30 01:54:27 INFO  DaoFactory:27 - dao factory
+2019-05-30 01:54:27 INFO  DaoFactory:27 - dao factory
+2019-05-30 01:54:27 INFO  DaoFactory:27 - dao factory
+2019-05-30 01:54:27 INFO  DaoFactory:27 - dao factory
+2019-05-30 01:54:27 INFO  CommandFactory:43 - Command get
+2019-05-30 01:54:27 INFO  DaoFactory:27 - dao factory
+2019-05-30 01:54:27 INFO  UserServiceImpl:63 - get Login and password
+2019-05-30 01:54:27 INFO  LoginCommand:36 - user login
+2019-05-30 01:54:27 INFO  EncodingFilter:21 - do Filter
+2019-05-30 01:54:27 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:54:27 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:54:27 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:54:27 INFO  CommandFactory:43 - Command get
+2019-05-30 01:54:27 INFO  AdminPageCommand:15 - execute
+2019-05-30 01:54:33 INFO  EncodingFilter:21 - do Filter
+2019-05-30 01:54:33 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:54:33 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:54:33 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:58:56 INFO  EncodingFilter:21 - do Filter
+2019-05-30 01:58:56 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:58:56 INFO  CommandFactory:43 - Command get
+2019-05-30 01:58:56 INFO  EncodingFilter:21 - do Filter
+2019-05-30 01:58:56 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:58:56 INFO  CommandFactory:43 - Command get
+2019-05-30 01:58:56 INFO  EncodingFilter:21 - do Filter
+2019-05-30 01:58:56 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:58:56 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:58:56 INFO  RoleFilter:35 - Do Filter
+2019-05-30 01:58:56 INFO  CommandFactory:43 - Command get
+2019-05-30 01:58:56 INFO  AdminPageCommand:15 - execute
+2019-05-30 01:59:02 INFO  EncodingFilter:21 - do Filter
+2019-05-30 01:59:02 INFO  LocaleFilter:34 - do Filter
+2019-05-30 01:59:02 INFO  AuthenticationFilter:26 - doFilter
+2019-05-30 01:59:02 INFO  RoleFilter:35 - Do Filter

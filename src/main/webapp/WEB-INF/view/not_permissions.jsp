@@ -16,17 +16,17 @@
 <head>
     <title><fmt:message key="text.title"/></title>
     <jsp:include page="/WEB-INF/parts/header.jsp"/>
-    <title>Error 404</title>
+    <title>Error 403</title>
 
 </head>
 <body>
 <div class="container">
-<H1 class="flow-text"> <fmt:message key="text.error.page"/> </H1>
-<form method="post"
-      action="${pageContext.request.contextPath}/restaurant/main">
-    <input type="hidden">
-    <button class="btn" type="submit"><fmt:message key="text.main"/></button>
-</form>
+    <H1 class="flow-text"> <fmt:message key="text.error.page"></fmt:message> </H1>
+    <form method="post"
+          action="${pageContext.request.contextPath}/restaurant/main">
+        <input type="hidden">
+        <button class="btn" type="submit"><fmt:message key="text.main"/></button>
+    </form>
 </div>
 <jsp:include page="/WEB-INF/parts/footer.jsp"/>
 </body>
