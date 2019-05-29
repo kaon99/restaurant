@@ -24,6 +24,6 @@ public class MainCommand  implements Command {
             return CommandUtil.getUserPageByRole(user.getRole());
         }
         logger.info("execute");
-        return PageResourseManager.getProperty("redirect").concat("/login");
+        return PageResourseManager.getProperty("redirect.login");
     }
 }

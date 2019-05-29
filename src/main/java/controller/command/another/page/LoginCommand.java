@@ -31,7 +31,7 @@ public class LoginCommand implements Command {
             if(ContextUtil.isUserInContext(request.getSession(),user)){
                 ContextUtil.logoutUser(user);
             }
-            request.getSession().setAttribute("user", user);
+            request.getSession().setAttribute(AttributesResourseManager.getProperty("parameter.user"), user);
             ContextUtil.setAttributesToContext(request.getSession(),user);
             logger.info("user login");
 
@@ -40,7 +40,7 @@ public class LoginCommand implements Command {
                 return page;
             }
             else  {
-                request.setAttribute("notFound", true);
+                request.setAttribute(AttributesResourseManager.getProperty("parameter.not.found"), true);
             }
         }
 
