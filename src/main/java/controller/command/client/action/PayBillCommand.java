@@ -13,8 +13,8 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 public class PayBillCommand  implements Command {
-    Logger logger = Logger.getLogger(ClientBillPageCommand.class);
-    BillService billService = new BillServiceImpl();
+   private Logger logger = Logger.getLogger(ClientBillPageCommand.class);
+     private BillService billService = new BillServiceImpl();
     @Override
     public String execute(HttpServletRequest request, HttpServletResponse response) {
         try {
