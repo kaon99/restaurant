@@ -22,8 +22,8 @@ public class MenuDaoImpl implements MenuDao {
         try (Connection connection = ConnectionPool.getDataSource().getConnection();
              PreparedStatement statement = connection.prepareStatement(QueriesResourceManager.getProperty("menu.create"), Statement.RETURN_GENERATED_KEYS)) {
             statement.setString(1, entity.getNameEn());
-            statement.setString(1, entity.getNameUa());
-            statement.setInt(2, entity.getPrice());
+            statement.setString(2, entity.getNameUa());
+            statement.setInt(3, entity.getPrice());
             statement.executeUpdate();
 
             ResultSet resultSet = statement.getGeneratedKeys();
