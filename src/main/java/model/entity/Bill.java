@@ -2,6 +2,7 @@ package model.entity;
 
 
 import java.sql.Date;
+import java.util.Objects;
 
 public class Bill {
     private Integer id;
@@ -77,14 +78,19 @@ public class Bill {
     }
 
     @Override
-    public String toString() {
-        return "Bill{" +
-                "id=" + id +
-                ", date=" + date +
-                ", sum=" + sum +
-                ", status=" + status +
-                ", userId=" + userId +
-                ", orderId=" + orderId +
-                '}';
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Bill bill = (Bill) o;
+        return Objects.equals(date, bill.date) &&
+                Objects.equals(sum, bill.sum) &&
+                Objects.equals(status, bill.status) &&
+                Objects.equals(userId, bill.userId) &&
+                Objects.equals(orderId, bill.orderId);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(date, sum, status, userId, orderId);
     }
 }

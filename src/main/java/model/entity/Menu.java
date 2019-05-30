@@ -1,6 +1,7 @@
 package model.entity;
 
 import java.util.List;
+import java.util.Objects;
 
 public class Menu {
     private Integer id;
@@ -59,13 +60,19 @@ public class Menu {
     }
 
     @Override
-    public String toString() {
-        return "Menu{" +
-                "id=" + id +
-                ", nameEn='" + nameEn + '\'' +
-                ", nameUa='" + nameUa + '\'' +
-                ", price=" + price +
-                ", orders=" + orders +
-                '}';
+    public boolean equals(Object o) {
+
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Menu menu = (Menu) o;
+        return Objects.equals(nameEn, menu.nameEn) &&
+                Objects.equals(nameUa, menu.nameUa) &&
+                Objects.equals(price, menu.price) &&
+                Objects.equals(orders, menu.orders);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(nameEn, nameUa, price, orders);
     }
 }

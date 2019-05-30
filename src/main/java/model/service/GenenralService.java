@@ -12,4 +12,5 @@ public interface GenenralService<T> {
     List<T> findAll();
     void update(T entity);
     void delete(int id);
+
 }

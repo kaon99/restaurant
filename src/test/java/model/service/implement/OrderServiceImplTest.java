@@ -1,7 +1,7 @@
 package model.service.implement;
 
-import model.dao.daoimpl.DaoFactory;
-import model.dao.daoimpl.OrderDaoImpl;
+import model.dao.daoImpl.DaoFactory;
+import model.dao.daoImpl.OrderDaoImpl;
 import model.entity.Menu;
 import model.entity.Order;
 import org.junit.Before;

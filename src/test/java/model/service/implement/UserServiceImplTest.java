@@ -1,7 +1,7 @@
 package model.service.implement;
 
-import model.dao.daoimpl.DaoFactory;
-import model.dao.daointerface.UserDao;
+import model.dao.daoImpl.DaoFactory;
+import model.dao.daoInterface.UserDao;
 import model.entity.User;
 import org.junit.Before;
 import org.junit.Test;

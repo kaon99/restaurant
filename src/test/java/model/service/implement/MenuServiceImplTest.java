@@ -1,8 +1,7 @@
 package model.service.implement;
 
-import model.dao.daoimpl.DaoFactory;
-import model.dao.daoimpl.MenuDaoImpl;
-import model.entity.Bill;
+import model.dao.daoImpl.DaoFactory;
+import model.dao.daoImpl.MenuDaoImpl;
 import model.entity.Menu;
 import org.junit.Before;
 import org.junit.Test;
@@ -10,7 +9,6 @@ import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
 
-import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 

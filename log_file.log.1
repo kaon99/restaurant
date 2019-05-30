@@ -10,8 +10,8 @@ java.sql.SQLException: Field 'user_user_id' doesn't have a default value
 	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:387)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.execute(DelegatingPreparedStatement.java:172)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.execute(DelegatingPreparedStatement.java:172)
-	at model.dao.daoimpl.BillDaoImpl.create(BillDaoImpl.java:25)
-	at model.dao.daoimpl.BillDaoImpl.create(BillDaoImpl.java:12)
+	at model.dao.daoImpl.BillDaoImpl.create(BillDaoImpl.java:25)
+	at model.dao.daoImpl.BillDaoImpl.create(BillDaoImpl.java:12)
 	at Main.main(Main.java:14)
 2019-05-11 00:30:08 INFO  DaoFactory:27 - dao factory
 2019-05-11 00:30:34 INFO  DaoFactory:27 - dao factory
@@ -27,8 +27,8 @@ java.sql.SQLException: Parameter index out of range (1 > number of parameters, w
 	at com.mysql.cj.jdbc.ClientPreparedStatement.setInt(ClientPreparedStatement.java:1603)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.setInt(DelegatingPreparedStatement.java:120)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.setInt(DelegatingPreparedStatement.java:120)
-	at model.dao.daoimpl.BillDaoImpl.findById(BillDaoImpl.java:42)
-	at model.dao.daoimpl.BillDaoImpl.findById(BillDaoImpl.java:15)
+	at model.dao.daoImpl.BillDaoImpl.findById(BillDaoImpl.java:42)
+	at model.dao.daoImpl.BillDaoImpl.findById(BillDaoImpl.java:15)
 	at Main.main(Main.java:15)
 2019-05-11 00:31:33 INFO  DaoFactory:27 - dao factory
 2019-05-11 00:31:33 INFO  BillDaoImpl:50 - Bill do not find by Id
@@ -40,8 +40,8 @@ java.sql.SQLSyntaxErrorException: Unknown column 'BILL' in 'field list'
 	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1020)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
-	at model.dao.daoimpl.BillDaoImpl.findById(BillDaoImpl.java:43)
-	at model.dao.daoimpl.BillDaoImpl.findById(BillDaoImpl.java:15)
+	at model.dao.daoImpl.BillDaoImpl.findById(BillDaoImpl.java:43)
+	at model.dao.daoImpl.BillDaoImpl.findById(BillDaoImpl.java:15)
 	at Main.main(Main.java:15)
 2019-05-11 00:32:13 INFO  DaoFactory:27 - dao factory
 2019-05-11 00:32:16 INFO  BillDaoImpl:50 - Bill do not find by Id
@@ -53,8 +53,8 @@ java.sql.SQLSyntaxErrorException: Unknown column 'BILL' in 'field list'
 	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1020)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
-	at model.dao.daoimpl.BillDaoImpl.findById(BillDaoImpl.java:43)
-	at model.dao.daoimpl.BillDaoImpl.findById(BillDaoImpl.java:15)
+	at model.dao.daoImpl.BillDaoImpl.findById(BillDaoImpl.java:43)
+	at model.dao.daoImpl.BillDaoImpl.findById(BillDaoImpl.java:15)
 	at Main.main(Main.java:15)
 2019-05-11 00:32:24 INFO  DaoFactory:27 - dao factory
 2019-05-11 00:33:06 INFO  BillDaoImpl:50 - Bill do not find by Id
@@ -66,8 +66,8 @@ java.sql.SQLSyntaxErrorException: Unknown column 'BILL' in 'field list'
 	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1020)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
-	at model.dao.daoimpl.BillDaoImpl.findById(BillDaoImpl.java:43)
-	at model.dao.daoimpl.BillDaoImpl.findById(BillDaoImpl.java:15)
+	at model.dao.daoImpl.BillDaoImpl.findById(BillDaoImpl.java:43)
+	at model.dao.daoImpl.BillDaoImpl.findById(BillDaoImpl.java:15)
 	at Main.main(Main.java:15)
 2019-05-11 00:33:45 INFO  DaoFactory:27 - dao factory
 2019-05-11 00:34:20 INFO  DaoFactory:27 - dao factory
@@ -87,7 +87,7 @@ java.sql.SQLException: SQL String cannot be empty
 	at com.mysql.cj.jdbc.ConnectionImpl.prepareStatement(ConnectionImpl.java:1590)
 	at org.apache.commons.dbcp.DelegatingConnection.prepareStatement(DelegatingConnection.java:281)
 	at org.apache.commons.dbcp.PoolingDataSource$PoolGuardConnectionWrapper.prepareStatement(PoolingDataSource.java:313)
-	at model.dao.daoimpl.BillDaoImpl.findAll(BillDaoImpl.java:58)
+	at model.dao.daoImpl.BillDaoImpl.findAll(BillDaoImpl.java:58)
 	at Main.main(Main.java:15)
 Caused by: com.mysql.cj.exceptions.WrongArgumentException: SQL String cannot be empty
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
@@ -1420,7 +1420,7 @@ java.sql.SQLException: Parameter index out of range (2 > number of parameters, w
 	at com.mysql.cj.jdbc.ClientPreparedStatement.setString(ClientPreparedStatement.java:1782)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.setString(DelegatingPreparedStatement.java:135)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.setString(DelegatingPreparedStatement.java:135)
-	at model.dao.daoimpl.UserDaoImpl.getByLoginAndPass(UserDaoImpl.java:112)
+	at model.dao.daoImpl.UserDaoImpl.getByLoginAndPass(UserDaoImpl.java:112)
 	at model.service.implement.UserServiceImpl.loginUser(UserServiceImpl.java:63)
 	at controller.command.another.page.LoginCommand.execute(LoginCommand.java:30)
 	at controller.Servlet.processRequest(Servlet.java:32)
@@ -1472,7 +1472,7 @@ java.sql.SQLException: Parameter index out of range (2 > number of parameters, w
 	at com.mysql.cj.jdbc.ClientPreparedStatement.setString(ClientPreparedStatement.java:1782)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.setString(DelegatingPreparedStatement.java:135)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.setString(DelegatingPreparedStatement.java:135)
-	at model.dao.daoimpl.UserDaoImpl.getByLoginAndPass(UserDaoImpl.java:112)
+	at model.dao.daoImpl.UserDaoImpl.getByLoginAndPass(UserDaoImpl.java:112)
 	at model.service.implement.UserServiceImpl.loginUser(UserServiceImpl.java:63)
 	at controller.command.another.page.LoginCommand.execute(LoginCommand.java:30)
 	at controller.Servlet.processRequest(Servlet.java:32)
@@ -1524,7 +1524,7 @@ java.sql.SQLException: Parameter index out of range (2 > number of parameters, w
 	at com.mysql.cj.jdbc.ClientPreparedStatement.setString(ClientPreparedStatement.java:1782)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.setString(DelegatingPreparedStatement.java:135)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.setString(DelegatingPreparedStatement.java:135)
-	at model.dao.daoimpl.UserDaoImpl.getByLoginAndPass(UserDaoImpl.java:112)
+	at model.dao.daoImpl.UserDaoImpl.getByLoginAndPass(UserDaoImpl.java:112)
 	at model.service.implement.UserServiceImpl.loginUser(UserServiceImpl.java:63)
 	at controller.command.another.page.LoginCommand.execute(LoginCommand.java:30)
 	at controller.Servlet.processRequest(Servlet.java:32)
@@ -1576,7 +1576,7 @@ java.sql.SQLException: Parameter index out of range (2 > number of parameters, w
 	at com.mysql.cj.jdbc.ClientPreparedStatement.setString(ClientPreparedStatement.java:1782)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.setString(DelegatingPreparedStatement.java:135)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.setString(DelegatingPreparedStatement.java:135)
-	at model.dao.daoimpl.UserDaoImpl.getByLoginAndPass(UserDaoImpl.java:112)
+	at model.dao.daoImpl.UserDaoImpl.getByLoginAndPass(UserDaoImpl.java:112)
 	at model.service.implement.UserServiceImpl.loginUser(UserServiceImpl.java:63)
 	at controller.command.another.page.LoginCommand.execute(LoginCommand.java:30)
 	at controller.Servlet.processRequest(Servlet.java:32)
@@ -1628,7 +1628,7 @@ java.sql.SQLException: Parameter index out of range (2 > number of parameters, w
 	at com.mysql.cj.jdbc.ClientPreparedStatement.setString(ClientPreparedStatement.java:1782)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.setString(DelegatingPreparedStatement.java:135)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.setString(DelegatingPreparedStatement.java:135)
-	at model.dao.daoimpl.UserDaoImpl.getByLoginAndPass(UserDaoImpl.java:112)
+	at model.dao.daoImpl.UserDaoImpl.getByLoginAndPass(UserDaoImpl.java:112)
 	at model.service.implement.UserServiceImpl.loginUser(UserServiceImpl.java:63)
 	at controller.command.another.page.LoginCommand.execute(LoginCommand.java:30)
 	at controller.Servlet.processRequest(Servlet.java:32)
@@ -1680,7 +1680,7 @@ java.sql.SQLException: Parameter index out of range (2 > number of parameters, w
 	at com.mysql.cj.jdbc.ClientPreparedStatement.setString(ClientPreparedStatement.java:1782)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.setString(DelegatingPreparedStatement.java:135)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.setString(DelegatingPreparedStatement.java:135)
-	at model.dao.daoimpl.UserDaoImpl.getByLoginAndPass(UserDaoImpl.java:112)
+	at model.dao.daoImpl.UserDaoImpl.getByLoginAndPass(UserDaoImpl.java:112)
 	at model.service.implement.UserServiceImpl.loginUser(UserServiceImpl.java:63)
 	at controller.command.another.page.LoginCommand.execute(LoginCommand.java:30)
 	at controller.Servlet.processRequest(Servlet.java:32)
@@ -1740,7 +1740,7 @@ java.sql.SQLException: Parameter index out of range (2 > number of parameters, w
 	at com.mysql.cj.jdbc.ClientPreparedStatement.setString(ClientPreparedStatement.java:1782)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.setString(DelegatingPreparedStatement.java:135)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.setString(DelegatingPreparedStatement.java:135)
-	at model.dao.daoimpl.UserDaoImpl.getByLoginAndPass(UserDaoImpl.java:112)
+	at model.dao.daoImpl.UserDaoImpl.getByLoginAndPass(UserDaoImpl.java:112)
 	at model.service.implement.UserServiceImpl.loginUser(UserServiceImpl.java:63)
 	at controller.command.another.page.LoginCommand.execute(LoginCommand.java:30)
 	at controller.Servlet.processRequest(Servlet.java:32)
@@ -1798,7 +1798,7 @@ java.sql.SQLException: Parameter index out of range (2 > number of parameters, w
 	at com.mysql.cj.jdbc.ClientPreparedStatement.setString(ClientPreparedStatement.java:1782)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.setString(DelegatingPreparedStatement.java:135)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.setString(DelegatingPreparedStatement.java:135)
-	at model.dao.daoimpl.UserDaoImpl.getByLoginAndPass(UserDaoImpl.java:112)
+	at model.dao.daoImpl.UserDaoImpl.getByLoginAndPass(UserDaoImpl.java:112)
 	at model.service.implement.UserServiceImpl.loginUser(UserServiceImpl.java:63)
 	at controller.command.another.page.LoginCommand.execute(LoginCommand.java:30)
 	at controller.Servlet.processRequest(Servlet.java:32)
@@ -1856,7 +1856,7 @@ java.sql.SQLException: Parameter index out of range (2 > number of parameters, w
 	at com.mysql.cj.jdbc.ClientPreparedStatement.setString(ClientPreparedStatement.java:1782)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.setString(DelegatingPreparedStatement.java:135)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.setString(DelegatingPreparedStatement.java:135)
-	at model.dao.daoimpl.UserDaoImpl.getByLoginAndPass(UserDaoImpl.java:112)
+	at model.dao.daoImpl.UserDaoImpl.getByLoginAndPass(UserDaoImpl.java:112)
 	at model.service.implement.UserServiceImpl.loginUser(UserServiceImpl.java:63)
 	at controller.command.another.page.LoginCommand.execute(LoginCommand.java:30)
 	at controller.Servlet.processRequest(Servlet.java:32)
@@ -1926,7 +1926,7 @@ java.sql.SQLException: Parameter index out of range (2 > number of parameters, w
 	at com.mysql.cj.jdbc.ClientPreparedStatement.setString(ClientPreparedStatement.java:1782)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.setString(DelegatingPreparedStatement.java:135)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.setString(DelegatingPreparedStatement.java:135)
-	at model.dao.daoimpl.UserDaoImpl.getByLoginAndPass(UserDaoImpl.java:112)
+	at model.dao.daoImpl.UserDaoImpl.getByLoginAndPass(UserDaoImpl.java:112)
 	at model.service.implement.UserServiceImpl.loginUser(UserServiceImpl.java:63)
 	at controller.command.another.page.LoginCommand.execute(LoginCommand.java:30)
 	at controller.Servlet.processRequest(Servlet.java:32)
@@ -1972,7 +1972,7 @@ java.sql.SQLException: Parameter index out of range (2 > number of parameters, w
 	at com.mysql.cj.jdbc.ClientPreparedStatement.setString(ClientPreparedStatement.java:1782)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.setString(DelegatingPreparedStatement.java:135)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.setString(DelegatingPreparedStatement.java:135)
-	at model.dao.daoimpl.UserDaoImpl.getByLoginAndPass(UserDaoImpl.java:112)
+	at model.dao.daoImpl.UserDaoImpl.getByLoginAndPass(UserDaoImpl.java:112)
 	at model.service.implement.UserServiceImpl.loginUser(UserServiceImpl.java:63)
 	at controller.command.another.page.LoginCommand.execute(LoginCommand.java:30)
 	at controller.Servlet.processRequest(Servlet.java:32)
@@ -2018,7 +2018,7 @@ java.sql.SQLException: Parameter index out of range (2 > number of parameters, w
 	at com.mysql.cj.jdbc.ClientPreparedStatement.setString(ClientPreparedStatement.java:1782)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.setString(DelegatingPreparedStatement.java:135)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.setString(DelegatingPreparedStatement.java:135)
-	at model.dao.daoimpl.UserDaoImpl.getByLoginAndPass(UserDaoImpl.java:112)
+	at model.dao.daoImpl.UserDaoImpl.getByLoginAndPass(UserDaoImpl.java:112)
 	at model.service.implement.UserServiceImpl.loginUser(UserServiceImpl.java:63)
 	at controller.command.another.page.LoginCommand.execute(LoginCommand.java:30)
 	at controller.Servlet.processRequest(Servlet.java:32)
@@ -2074,7 +2074,7 @@ java.sql.SQLException: Parameter index out of range (2 > number of parameters, w
 	at com.mysql.cj.jdbc.ClientPreparedStatement.setString(ClientPreparedStatement.java:1782)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.setString(DelegatingPreparedStatement.java:135)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.setString(DelegatingPreparedStatement.java:135)
-	at model.dao.daoimpl.UserDaoImpl.getByLoginAndPass(UserDaoImpl.java:112)
+	at model.dao.daoImpl.UserDaoImpl.getByLoginAndPass(UserDaoImpl.java:112)
 	at model.service.implement.UserServiceImpl.loginUser(UserServiceImpl.java:63)
 	at controller.command.another.page.LoginCommand.execute(LoginCommand.java:30)
 	at controller.Servlet.processRequest(Servlet.java:32)
@@ -2122,7 +2122,7 @@ java.sql.SQLException: Parameter index out of range (2 > number of parameters, w
 	at com.mysql.cj.jdbc.ClientPreparedStatement.setString(ClientPreparedStatement.java:1782)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.setString(DelegatingPreparedStatement.java:135)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.setString(DelegatingPreparedStatement.java:135)
-	at model.dao.daoimpl.UserDaoImpl.getByLoginAndPass(UserDaoImpl.java:112)
+	at model.dao.daoImpl.UserDaoImpl.getByLoginAndPass(UserDaoImpl.java:112)
 	at Main.main(Main.java:12)
 2019-05-14 03:27:49 INFO  DaoFactory:27 - dao factory
 2019-05-14 03:28:03 INFO  UserDaoImpl:121 - Do not find user
@@ -2136,7 +2136,7 @@ java.sql.SQLException: Parameter index out of range (2 > number of parameters, w
 	at com.mysql.cj.jdbc.ClientPreparedStatement.setString(ClientPreparedStatement.java:1782)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.setString(DelegatingPreparedStatement.java:135)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.setString(DelegatingPreparedStatement.java:135)
-	at model.dao.daoimpl.UserDaoImpl.getByLoginAndPass(UserDaoImpl.java:112)
+	at model.dao.daoImpl.UserDaoImpl.getByLoginAndPass(UserDaoImpl.java:112)
 	at Main.main(Main.java:12)
 2019-05-14 03:29:48 INFO  DaoFactory:27 - dao factory
 2019-05-14 03:29:48 INFO  UserDaoImpl:121 - Do not find user
@@ -2150,7 +2150,7 @@ java.sql.SQLException: Parameter index out of range (2 > number of parameters, w
 	at com.mysql.cj.jdbc.ClientPreparedStatement.setString(ClientPreparedStatement.java:1782)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.setString(DelegatingPreparedStatement.java:135)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.setString(DelegatingPreparedStatement.java:135)
-	at model.dao.daoimpl.UserDaoImpl.getByLoginAndPass(UserDaoImpl.java:112)
+	at model.dao.daoImpl.UserDaoImpl.getByLoginAndPass(UserDaoImpl.java:112)
 	at Main.main(Main.java:12)
 2019-05-14 03:29:59 INFO  DaoFactory:27 - dao factory
 2019-05-14 03:32:50 INFO  UserDaoImpl:121 - Do not find user
@@ -2164,7 +2164,7 @@ java.sql.SQLException: Parameter index out of range (2 > number of parameters, w
 	at com.mysql.cj.jdbc.ClientPreparedStatement.setString(ClientPreparedStatement.java:1782)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.setString(DelegatingPreparedStatement.java:135)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.setString(DelegatingPreparedStatement.java:135)
-	at model.dao.daoimpl.UserDaoImpl.getByLoginAndPass(UserDaoImpl.java:112)
+	at model.dao.daoImpl.UserDaoImpl.getByLoginAndPass(UserDaoImpl.java:112)
 	at Main.main(Main.java:12)
 2019-05-14 03:32:54 INFO  DaoFactory:27 - dao factory
 2019-05-14 03:32:54 INFO  UserDaoImpl:121 - Do not find user
@@ -2178,7 +2178,7 @@ java.sql.SQLException: Parameter index out of range (2 > number of parameters, w
 	at com.mysql.cj.jdbc.ClientPreparedStatement.setString(ClientPreparedStatement.java:1782)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.setString(DelegatingPreparedStatement.java:135)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.setString(DelegatingPreparedStatement.java:135)
-	at model.dao.daoimpl.UserDaoImpl.getByLoginAndPass(UserDaoImpl.java:112)
+	at model.dao.daoImpl.UserDaoImpl.getByLoginAndPass(UserDaoImpl.java:112)
 	at Main.main(Main.java:12)
 2019-05-14 03:34:12 INFO  DaoFactory:27 - dao factory
 2019-05-14 03:34:17 INFO  LoginCommand:36 - user created
@@ -4186,7 +4186,7 @@ java.sql.SQLException: Column 'bill_id' not found.
 	at org.apache.commons.dbcp.DelegatingResultSet.getInt(DelegatingResultSet.java:275)
 	at org.apache.commons.dbcp.DelegatingResultSet.getInt(DelegatingResultSet.java:275)
 	at model.dao.mapper.MenuMapper.extractFromResultSet(MenuMapper.java:13)
-	at model.dao.daoimpl.MenuDaoImpl.findAll(MenuDaoImpl.java:60)
+	at model.dao.daoImpl.MenuDaoImpl.findAll(MenuDaoImpl.java:60)
 	at Main.main(Main.java:15)
 2019-05-16 00:10:05 INFO  DaoFactory:27 - dao factory
 2019-05-16 00:10:06 INFO  DaoFactory:27 - dao factory
@@ -4201,7 +4201,7 @@ java.sql.SQLException: Column 'bill_id' not found.
 	at org.apache.commons.dbcp.DelegatingResultSet.getInt(DelegatingResultSet.java:275)
 	at org.apache.commons.dbcp.DelegatingResultSet.getInt(DelegatingResultSet.java:275)
 	at model.dao.mapper.MenuMapper.extractFromResultSet(MenuMapper.java:13)
-	at model.dao.daoimpl.MenuDaoImpl.findAll(MenuDaoImpl.java:60)
+	at model.dao.daoImpl.MenuDaoImpl.findAll(MenuDaoImpl.java:60)
 	at Main.main(Main.java:15)
 2019-05-16 00:11:47 INFO  DaoFactory:27 - dao factory
 2019-05-16 00:11:48 INFO  DaoFactory:27 - dao factory
@@ -4216,7 +4216,7 @@ java.sql.SQLException: Column 'bill_id' not found.
 	at org.apache.commons.dbcp.DelegatingResultSet.getInt(DelegatingResultSet.java:275)
 	at org.apache.commons.dbcp.DelegatingResultSet.getInt(DelegatingResultSet.java:275)
 	at model.dao.mapper.MenuMapper.extractFromResultSet(MenuMapper.java:13)
-	at model.dao.daoimpl.MenuDaoImpl.findAll(MenuDaoImpl.java:60)
+	at model.dao.daoImpl.MenuDaoImpl.findAll(MenuDaoImpl.java:60)
 	at Main.main(Main.java:15)
 2019-05-16 00:13:20 INFO  DaoFactory:27 - dao factory
 2019-05-16 00:13:20 INFO  DaoFactory:27 - dao factory
@@ -4231,7 +4231,7 @@ java.sql.SQLException: Column 'bill_id' not found.
 	at org.apache.commons.dbcp.DelegatingResultSet.getInt(DelegatingResultSet.java:275)
 	at org.apache.commons.dbcp.DelegatingResultSet.getInt(DelegatingResultSet.java:275)
 	at model.dao.mapper.MenuMapper.extractFromResultSet(MenuMapper.java:13)
-	at model.dao.daoimpl.MenuDaoImpl.findAll(MenuDaoImpl.java:60)
+	at model.dao.daoImpl.MenuDaoImpl.findAll(MenuDaoImpl.java:60)
 	at Main.main(Main.java:15)
 2019-05-16 00:13:20 INFO  MenuDaoImpl:47 - Menu do not find by Id
 java.sql.SQLException: Column 'bill_id' not found.
@@ -4244,8 +4244,8 @@ java.sql.SQLException: Column 'bill_id' not found.
 	at org.apache.commons.dbcp.DelegatingResultSet.getInt(DelegatingResultSet.java:275)
 	at org.apache.commons.dbcp.DelegatingResultSet.getInt(DelegatingResultSet.java:275)
 	at model.dao.mapper.MenuMapper.extractFromResultSet(MenuMapper.java:13)
-	at model.dao.daoimpl.MenuDaoImpl.findById(MenuDaoImpl.java:43)
-	at model.dao.daoimpl.MenuDaoImpl.findById(MenuDaoImpl.java:16)
+	at model.dao.daoImpl.MenuDaoImpl.findById(MenuDaoImpl.java:43)
+	at model.dao.daoImpl.MenuDaoImpl.findById(MenuDaoImpl.java:16)
 	at Main.main(Main.java:16)
 2019-05-16 00:14:33 INFO  DaoFactory:27 - dao factory
 2019-05-16 00:14:33 INFO  DaoFactory:27 - dao factory
@@ -4264,7 +4264,7 @@ java.sql.BatchUpdateException: Cannot add or update a child row: a foreign key c
 	at com.mysql.cj.jdbc.StatementImpl.executeBatch(StatementImpl.java:814)
 	at org.apache.commons.dbcp.DelegatingStatement.executeBatch(DelegatingStatement.java:297)
 	at org.apache.commons.dbcp.DelegatingStatement.executeBatch(DelegatingStatement.java:297)
-	at model.dao.daoimpl.OrderDaoImpl.setDish(OrderDaoImpl.java:101)
+	at model.dao.daoImpl.OrderDaoImpl.setDish(OrderDaoImpl.java:101)
 	at Main.main(Main.java:20)
 Caused by: java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`resstaurant`.`order_has_menu`, CONSTRAINT `fk_order_has_menu_order` FOREIGN KEY (`order_order_id`) REFERENCES `order` (`order_id`))
 	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
@@ -4291,7 +4291,7 @@ java.sql.BatchUpdateException: Cannot add or update a child row: a foreign key c
 	at com.mysql.cj.jdbc.StatementImpl.executeBatch(StatementImpl.java:814)
 	at org.apache.commons.dbcp.DelegatingStatement.executeBatch(DelegatingStatement.java:297)
 	at org.apache.commons.dbcp.DelegatingStatement.executeBatch(DelegatingStatement.java:297)
-	at model.dao.daoimpl.OrderDaoImpl.setDish(OrderDaoImpl.java:101)
+	at model.dao.daoImpl.OrderDaoImpl.setDish(OrderDaoImpl.java:101)
 	at Main.main(Main.java:20)
 Caused by: java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`resstaurant`.`order_has_menu`, CONSTRAINT `fk_order_has_menu_order` FOREIGN KEY (`order_order_id`) REFERENCES `order` (`order_id`))
 	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
@@ -4318,7 +4318,7 @@ java.sql.BatchUpdateException: Cannot add or update a child row: a foreign key c
 	at com.mysql.cj.jdbc.StatementImpl.executeBatch(StatementImpl.java:814)
 	at org.apache.commons.dbcp.DelegatingStatement.executeBatch(DelegatingStatement.java:297)
 	at org.apache.commons.dbcp.DelegatingStatement.executeBatch(DelegatingStatement.java:297)
-	at model.dao.daoimpl.OrderDaoImpl.setDish(OrderDaoImpl.java:101)
+	at model.dao.daoImpl.OrderDaoImpl.setDish(OrderDaoImpl.java:101)
 	at Main.main(Main.java:20)
 Caused by: java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`resstaurant`.`order_has_menu`, CONSTRAINT `fk_order_has_menu_order` FOREIGN KEY (`order_order_id`) REFERENCES `order` (`order_id`))
 	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
@@ -4348,8 +4348,8 @@ java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check th
 	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1042)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:105)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:105)
-	at model.dao.daoimpl.OrderDaoImpl.create(OrderDaoImpl.java:31)
-	at model.dao.daoimpl.OrderDaoImpl.create(OrderDaoImpl.java:17)
+	at model.dao.daoImpl.OrderDaoImpl.create(OrderDaoImpl.java:31)
+	at model.dao.daoImpl.OrderDaoImpl.create(OrderDaoImpl.java:17)
 	at Main.main(Main.java:17)
 2019-05-16 01:02:11 INFO  DaoFactory:27 - dao factory
 2019-05-16 01:02:12 INFO  DaoFactory:27 - dao factory
@@ -4365,8 +4365,8 @@ java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check th
 	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1042)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:105)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:105)
-	at model.dao.daoimpl.OrderDaoImpl.create(OrderDaoImpl.java:31)
-	at model.dao.daoimpl.OrderDaoImpl.create(OrderDaoImpl.java:17)
+	at model.dao.daoImpl.OrderDaoImpl.create(OrderDaoImpl.java:31)
+	at model.dao.daoImpl.OrderDaoImpl.create(OrderDaoImpl.java:17)
 	at Main.main(Main.java:17)
 2019-05-16 01:02:17 INFO  DaoFactory:27 - dao factory
 2019-05-16 01:02:18 INFO  DaoFactory:27 - dao factory
@@ -4382,8 +4382,8 @@ java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check th
 	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1042)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:105)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:105)
-	at model.dao.daoimpl.OrderDaoImpl.create(OrderDaoImpl.java:31)
-	at model.dao.daoimpl.OrderDaoImpl.create(OrderDaoImpl.java:17)
+	at model.dao.daoImpl.OrderDaoImpl.create(OrderDaoImpl.java:31)
+	at model.dao.daoImpl.OrderDaoImpl.create(OrderDaoImpl.java:17)
 	at Main.main(Main.java:17)
 2019-05-16 01:03:16 INFO  DaoFactory:27 - dao factory
 2019-05-16 01:03:16 INFO  DaoFactory:27 - dao factory
@@ -4396,8 +4396,8 @@ java.sql.SQLException: Generated keys not requested. You need to specify Stateme
 	at com.mysql.cj.jdbc.StatementImpl.getGeneratedKeys(StatementImpl.java:1396)
 	at org.apache.commons.dbcp.DelegatingStatement.getGeneratedKeys(DelegatingStatement.java:315)
 	at org.apache.commons.dbcp.DelegatingStatement.getGeneratedKeys(DelegatingStatement.java:315)
-	at model.dao.daoimpl.OrderDaoImpl.create(OrderDaoImpl.java:32)
-	at model.dao.daoimpl.OrderDaoImpl.create(OrderDaoImpl.java:17)
+	at model.dao.daoImpl.OrderDaoImpl.create(OrderDaoImpl.java:32)
+	at model.dao.daoImpl.OrderDaoImpl.create(OrderDaoImpl.java:17)
 	at Main.main(Main.java:17)
 2019-05-16 01:04:29 INFO  DaoFactory:27 - dao factory
 2019-05-16 01:04:30 INFO  DaoFactory:27 - dao factory
@@ -4410,8 +4410,8 @@ java.sql.SQLException: Generated keys not requested. You need to specify Stateme
 	at com.mysql.cj.jdbc.StatementImpl.getGeneratedKeys(StatementImpl.java:1396)
 	at org.apache.commons.dbcp.DelegatingStatement.getGeneratedKeys(DelegatingStatement.java:315)
 	at org.apache.commons.dbcp.DelegatingStatement.getGeneratedKeys(DelegatingStatement.java:315)
-	at model.dao.daoimpl.OrderDaoImpl.create(OrderDaoImpl.java:32)
-	at model.dao.daoimpl.OrderDaoImpl.create(OrderDaoImpl.java:17)
+	at model.dao.daoImpl.OrderDaoImpl.create(OrderDaoImpl.java:32)
+	at model.dao.daoImpl.OrderDaoImpl.create(OrderDaoImpl.java:17)
 	at Main.main(Main.java:17)
 2019-05-16 01:05:31 INFO  DaoFactory:27 - dao factory
 2019-05-16 01:05:32 INFO  DaoFactory:27 - dao factory
@@ -4424,8 +4424,8 @@ java.sql.SQLException: Generated keys not requested. You need to specify Stateme
 	at com.mysql.cj.jdbc.StatementImpl.getGeneratedKeys(StatementImpl.java:1396)
 	at org.apache.commons.dbcp.DelegatingStatement.getGeneratedKeys(DelegatingStatement.java:315)
 	at org.apache.commons.dbcp.DelegatingStatement.getGeneratedKeys(DelegatingStatement.java:315)
-	at model.dao.daoimpl.OrderDaoImpl.create(OrderDaoImpl.java:32)
-	at model.dao.daoimpl.OrderDaoImpl.create(OrderDaoImpl.java:17)
+	at model.dao.daoImpl.OrderDaoImpl.create(OrderDaoImpl.java:32)
+	at model.dao.daoImpl.OrderDaoImpl.create(OrderDaoImpl.java:17)
 	at Main.main(Main.java:17)
 2019-05-16 01:07:27 INFO  DaoFactory:27 - dao factory
 2019-05-16 01:07:28 INFO  DaoFactory:27 - dao factory
@@ -4438,8 +4438,8 @@ java.sql.SQLException: Generated keys not requested. You need to specify Stateme
 	at com.mysql.cj.jdbc.StatementImpl.getGeneratedKeys(StatementImpl.java:1396)
 	at org.apache.commons.dbcp.DelegatingStatement.getGeneratedKeys(DelegatingStatement.java:315)
 	at org.apache.commons.dbcp.DelegatingStatement.getGeneratedKeys(DelegatingStatement.java:315)
-	at model.dao.daoimpl.OrderDaoImpl.create(OrderDaoImpl.java:32)
-	at model.dao.daoimpl.OrderDaoImpl.create(OrderDaoImpl.java:17)
+	at model.dao.daoImpl.OrderDaoImpl.create(OrderDaoImpl.java:32)
+	at model.dao.daoImpl.OrderDaoImpl.create(OrderDaoImpl.java:17)
 	at Main.main(Main.java:17)
 2019-05-16 01:07:51 INFO  DaoFactory:27 - dao factory
 2019-05-16 01:07:51 INFO  DaoFactory:27 - dao factory
@@ -4452,8 +4452,8 @@ java.sql.SQLException: Generated keys not requested. You need to specify Stateme
 	at com.mysql.cj.jdbc.StatementImpl.getGeneratedKeys(StatementImpl.java:1396)
 	at org.apache.commons.dbcp.DelegatingStatement.getGeneratedKeys(DelegatingStatement.java:315)
 	at org.apache.commons.dbcp.DelegatingStatement.getGeneratedKeys(DelegatingStatement.java:315)
-	at model.dao.daoimpl.OrderDaoImpl.create(OrderDaoImpl.java:32)
-	at model.dao.daoimpl.OrderDaoImpl.create(OrderDaoImpl.java:17)
+	at model.dao.daoImpl.OrderDaoImpl.create(OrderDaoImpl.java:32)
+	at model.dao.daoImpl.OrderDaoImpl.create(OrderDaoImpl.java:17)
 	at Main.main(Main.java:17)
 2019-05-16 01:09:51 INFO  DaoFactory:27 - dao factory
 2019-05-16 01:09:51 INFO  DaoFactory:27 - dao factory
@@ -4466,8 +4466,8 @@ java.sql.SQLException: Generated keys not requested. You need to specify Stateme
 	at com.mysql.cj.jdbc.StatementImpl.getGeneratedKeys(StatementImpl.java:1396)
 	at org.apache.commons.dbcp.DelegatingStatement.getGeneratedKeys(DelegatingStatement.java:315)
 	at org.apache.commons.dbcp.DelegatingStatement.getGeneratedKeys(DelegatingStatement.java:315)
-	at model.dao.daoimpl.OrderDaoImpl.create(OrderDaoImpl.java:31)
-	at model.dao.daoimpl.OrderDaoImpl.create(OrderDaoImpl.java:17)
+	at model.dao.daoImpl.OrderDaoImpl.create(OrderDaoImpl.java:31)
+	at model.dao.daoImpl.OrderDaoImpl.create(OrderDaoImpl.java:17)
 	at Main.main(Main.java:17)
 2019-05-16 01:10:07 INFO  DaoFactory:27 - dao factory
 2019-05-16 01:10:07 INFO  DaoFactory:27 - dao factory
@@ -4480,8 +4480,8 @@ java.sql.SQLException: Generated keys not requested. You need to specify Stateme
 	at com.mysql.cj.jdbc.StatementImpl.getGeneratedKeys(StatementImpl.java:1396)
 	at org.apache.commons.dbcp.DelegatingStatement.getGeneratedKeys(DelegatingStatement.java:315)
 	at org.apache.commons.dbcp.DelegatingStatement.getGeneratedKeys(DelegatingStatement.java:315)
-	at model.dao.daoimpl.OrderDaoImpl.create(OrderDaoImpl.java:31)
-	at model.dao.daoimpl.OrderDaoImpl.create(OrderDaoImpl.java:17)
+	at model.dao.daoImpl.OrderDaoImpl.create(OrderDaoImpl.java:31)
+	at model.dao.daoImpl.OrderDaoImpl.create(OrderDaoImpl.java:17)
 	at Main.main(Main.java:17)
 2019-05-16 01:10:54 INFO  DaoFactory:27 - dao factory
 2019-05-16 01:10:55 INFO  DaoFactory:27 - dao factory
@@ -4494,8 +4494,8 @@ java.sql.SQLException: Generated keys not requested. You need to specify Stateme
 	at com.mysql.cj.jdbc.StatementImpl.getGeneratedKeys(StatementImpl.java:1396)
 	at org.apache.commons.dbcp.DelegatingStatement.getGeneratedKeys(DelegatingStatement.java:315)
 	at org.apache.commons.dbcp.DelegatingStatement.getGeneratedKeys(DelegatingStatement.java:315)
-	at model.dao.daoimpl.OrderDaoImpl.create(OrderDaoImpl.java:31)
-	at model.dao.daoimpl.OrderDaoImpl.create(OrderDaoImpl.java:17)
+	at model.dao.daoImpl.OrderDaoImpl.create(OrderDaoImpl.java:31)
+	at model.dao.daoImpl.OrderDaoImpl.create(OrderDaoImpl.java:17)
 	at Main.main(Main.java:17)
 2019-05-16 10:23:35 INFO  DaoFactory:27 - dao factory
 2019-05-16 10:23:36 INFO  UserServiceImpl:19 - Create user = %d
@@ -6362,7 +6362,7 @@ java.sql.SQLException: No value specified for parameter 1
 	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1037)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
-	at model.dao.daoimpl.MenuDaoImpl.findDishListById(MenuDaoImpl.java:110)
+	at model.dao.daoImpl.MenuDaoImpl.findDishListById(MenuDaoImpl.java:110)
 	at Main.main(Main.java:22)
 2019-05-17 10:32:10 INFO  DaoFactory:27 - dao factory
 2019-05-17 10:32:10 INFO  DaoFactory:27 - dao factory
@@ -6374,7 +6374,7 @@ java.sql.SQLException: No value specified for parameter 1
 	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1037)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
-	at model.dao.daoimpl.MenuDaoImpl.findDishListById(MenuDaoImpl.java:110)
+	at model.dao.daoImpl.MenuDaoImpl.findDishListById(MenuDaoImpl.java:110)
 	at Main.main(Main.java:22)
 2019-05-17 10:32:21 INFO  DaoFactory:27 - dao factory
 2019-05-17 10:32:21 INFO  DaoFactory:27 - dao factory
@@ -6386,7 +6386,7 @@ java.sql.SQLException: No value specified for parameter 1
 	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1037)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
-	at model.dao.daoimpl.MenuDaoImpl.findDishListById(MenuDaoImpl.java:110)
+	at model.dao.daoImpl.MenuDaoImpl.findDishListById(MenuDaoImpl.java:110)
 	at Main.main(Main.java:22)
 2019-05-17 10:32:50 INFO  DaoFactory:27 - dao factory
 2019-05-17 10:32:50 INFO  DaoFactory:27 - dao factory
@@ -6398,7 +6398,7 @@ java.sql.SQLException: No value specified for parameter 1
 	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1037)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
-	at model.dao.daoimpl.MenuDaoImpl.findDishListById(MenuDaoImpl.java:110)
+	at model.dao.daoImpl.MenuDaoImpl.findDishListById(MenuDaoImpl.java:110)
 	at Main.main(Main.java:22)
 2019-05-17 10:35:39 INFO  DaoFactory:27 - dao factory
 2019-05-17 10:35:40 INFO  DaoFactory:27 - dao factory
@@ -6410,7 +6410,7 @@ java.sql.SQLException: No value specified for parameter 1
 	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1037)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
-	at model.dao.daoimpl.MenuDaoImpl.findDishListById(MenuDaoImpl.java:110)
+	at model.dao.daoImpl.MenuDaoImpl.findDishListById(MenuDaoImpl.java:110)
 	at Main.main(Main.java:22)
 2019-05-17 10:35:58 INFO  DaoFactory:27 - dao factory
 2019-05-17 10:35:58 INFO  DaoFactory:27 - dao factory
@@ -6422,7 +6422,7 @@ java.sql.SQLException: No value specified for parameter 1
 	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1037)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
-	at model.dao.daoimpl.MenuDaoImpl.findDishListById(MenuDaoImpl.java:110)
+	at model.dao.daoImpl.MenuDaoImpl.findDishListById(MenuDaoImpl.java:110)
 	at Main.main(Main.java:22)
 2019-05-17 10:36:04 INFO  DaoFactory:27 - dao factory
 2019-05-17 10:36:04 INFO  DaoFactory:27 - dao factory
@@ -6434,7 +6434,7 @@ java.sql.SQLException: No value specified for parameter 1
 	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1037)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
-	at model.dao.daoimpl.MenuDaoImpl.findDishListById(MenuDaoImpl.java:110)
+	at model.dao.daoImpl.MenuDaoImpl.findDishListById(MenuDaoImpl.java:110)
 	at Main.main(Main.java:22)
 2019-05-17 10:37:12 INFO  DaoFactory:27 - dao factory
 2019-05-17 10:37:12 INFO  DaoFactory:27 - dao factory
@@ -6446,7 +6446,7 @@ java.sql.SQLException: No value specified for parameter 1
 	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1037)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
-	at model.dao.daoimpl.MenuDaoImpl.findDishListById(MenuDaoImpl.java:110)
+	at model.dao.daoImpl.MenuDaoImpl.findDishListById(MenuDaoImpl.java:110)
 	at Main.main(Main.java:22)
 2019-05-17 10:37:17 INFO  DaoFactory:27 - dao factory
 2019-05-17 10:37:17 INFO  DaoFactory:27 - dao factory
@@ -6458,7 +6458,7 @@ java.sql.SQLException: No value specified for parameter 1
 	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1037)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
-	at model.dao.daoimpl.MenuDaoImpl.findDishListById(MenuDaoImpl.java:110)
+	at model.dao.daoImpl.MenuDaoImpl.findDishListById(MenuDaoImpl.java:110)
 	at Main.main(Main.java:22)
 2019-05-17 10:37:50 INFO  DaoFactory:27 - dao factory
 2019-05-17 10:37:50 INFO  DaoFactory:27 - dao factory
@@ -6470,7 +6470,7 @@ java.sql.SQLException: No value specified for parameter 1
 	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1037)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
-	at model.dao.daoimpl.MenuDaoImpl.findDishListById(MenuDaoImpl.java:110)
+	at model.dao.daoImpl.MenuDaoImpl.findDishListById(MenuDaoImpl.java:110)
 	at Main.main(Main.java:22)
 2019-05-17 10:37:54 INFO  DaoFactory:27 - dao factory
 2019-05-17 10:37:54 INFO  DaoFactory:27 - dao factory
@@ -6482,7 +6482,7 @@ java.sql.SQLException: No value specified for parameter 1
 	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1037)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
-	at model.dao.daoimpl.MenuDaoImpl.findDishListById(MenuDaoImpl.java:110)
+	at model.dao.daoImpl.MenuDaoImpl.findDishListById(MenuDaoImpl.java:110)
 	at Main.main(Main.java:22)
 2019-05-17 10:38:50 INFO  DaoFactory:27 - dao factory
 2019-05-17 10:38:50 INFO  DaoFactory:27 - dao factory
@@ -6501,7 +6501,7 @@ java.sql.BatchUpdateException: Can not issue executeUpdate() or executeLargeUpda
 	at com.mysql.cj.jdbc.StatementImpl.executeBatch(StatementImpl.java:814)
 	at org.apache.commons.dbcp.DelegatingStatement.executeBatch(DelegatingStatement.java:297)
 	at org.apache.commons.dbcp.DelegatingStatement.executeBatch(DelegatingStatement.java:297)
-	at model.dao.daoimpl.MenuDaoImpl.findDishListById(MenuDaoImpl.java:120)
+	at model.dao.daoImpl.MenuDaoImpl.findDishListById(MenuDaoImpl.java:120)
 	at Main.main(Main.java:22)
 Caused by: java.sql.SQLException: Can not issue executeUpdate() or executeLargeUpdate() for SELECTs
 	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
@@ -6528,7 +6528,7 @@ java.sql.BatchUpdateException: Can not issue executeUpdate() or executeLargeUpda
 	at com.mysql.cj.jdbc.StatementImpl.executeBatch(StatementImpl.java:814)
 	at org.apache.commons.dbcp.DelegatingStatement.executeBatch(DelegatingStatement.java:297)
 	at org.apache.commons.dbcp.DelegatingStatement.executeBatch(DelegatingStatement.java:297)
-	at model.dao.daoimpl.MenuDaoImpl.findDishListById(MenuDaoImpl.java:117)
+	at model.dao.daoImpl.MenuDaoImpl.findDishListById(MenuDaoImpl.java:117)
 	at Main.main(Main.java:22)
 Caused by: java.sql.SQLException: Can not issue executeUpdate() or executeLargeUpdate() for SELECTs
 	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
@@ -7046,7 +7046,7 @@ java.sql.SQLSyntaxErrorException: Table 'final_project.order' doesn't exist
 	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1020)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
-	at model.dao.daoimpl.BillDaoImpl.createBillWithSum(BillDaoImpl.java:111)
+	at model.dao.daoImpl.BillDaoImpl.createBillWithSum(BillDaoImpl.java:111)
 	at Main.main(Main.java:26)
 2019-05-18 00:59:32 INFO  DaoFactory:27 - dao factory
 2019-05-18 01:00:26 INFO  BillDaoImpl:133 - Bill don`t created 
@@ -7058,7 +7058,7 @@ java.sql.SQLSyntaxErrorException: Table 'final_project.order' doesn't exist
 	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1020)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
-	at model.dao.daoimpl.BillDaoImpl.createBillWithSum(BillDaoImpl.java:111)
+	at model.dao.daoImpl.BillDaoImpl.createBillWithSum(BillDaoImpl.java:111)
 	at Main.main(Main.java:26)
 2019-05-18 01:00:29 INFO  DaoFactory:27 - dao factory
 2019-05-18 01:00:30 INFO  BillDaoImpl:135 - Bill don`t created 
@@ -7070,7 +7070,7 @@ java.sql.SQLSyntaxErrorException: Table 'final_project.order' doesn't exist
 	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1020)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
-	at model.dao.daoimpl.BillDaoImpl.createBillWithSum(BillDaoImpl.java:111)
+	at model.dao.daoImpl.BillDaoImpl.createBillWithSum(BillDaoImpl.java:111)
 	at Main.main(Main.java:26)
 2019-05-18 01:00:38 INFO  DaoFactory:27 - dao factory
 2019-05-18 01:00:59 INFO  BillDaoImpl:135 - Bill don`t created 
@@ -7082,7 +7082,7 @@ java.sql.SQLSyntaxErrorException: Table 'final_project.order' doesn't exist
 	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1020)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
-	at model.dao.daoimpl.BillDaoImpl.createBillWithSum(BillDaoImpl.java:111)
+	at model.dao.daoImpl.BillDaoImpl.createBillWithSum(BillDaoImpl.java:111)
 	at Main.main(Main.java:26)
 2019-05-18 01:01:41 INFO  DaoFactory:27 - dao factory
 2019-05-18 01:03:27 INFO  BillDaoImpl:135 - Bill don`t created 
@@ -7094,7 +7094,7 @@ java.sql.SQLSyntaxErrorException: Table 'final_project.order' doesn't exist
 	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1020)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
-	at model.dao.daoimpl.BillDaoImpl.createBillWithSum(BillDaoImpl.java:111)
+	at model.dao.daoImpl.BillDaoImpl.createBillWithSum(BillDaoImpl.java:111)
 	at Main.main(Main.java:26)
 2019-05-18 01:03:32 INFO  DaoFactory:27 - dao factory
 2019-05-18 01:03:32 INFO  BillDaoImpl:135 - Bill don`t created 
@@ -7106,7 +7106,7 @@ java.sql.SQLSyntaxErrorException: Table 'final_project.order' doesn't exist
 	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1020)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
-	at model.dao.daoimpl.BillDaoImpl.createBillWithSum(BillDaoImpl.java:111)
+	at model.dao.daoImpl.BillDaoImpl.createBillWithSum(BillDaoImpl.java:111)
 	at Main.main(Main.java:26)
 2019-05-18 01:03:35 INFO  DaoFactory:27 - dao factory
 2019-05-18 01:06:05 INFO  BillDaoImpl:135 - Bill don`t created 
@@ -7118,7 +7118,7 @@ java.sql.SQLSyntaxErrorException: Table 'final_project.order' doesn't exist
 	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1020)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
-	at model.dao.daoimpl.BillDaoImpl.createBillWithSum(BillDaoImpl.java:111)
+	at model.dao.daoImpl.BillDaoImpl.createBillWithSum(BillDaoImpl.java:111)
 	at Main.main(Main.java:26)
 2019-05-18 01:06:07 INFO  DaoFactory:27 - dao factory
 2019-05-18 01:06:08 INFO  BillDaoImpl:135 - Bill don`t created 
@@ -7130,7 +7130,7 @@ java.sql.SQLSyntaxErrorException: Table 'final_project.order' doesn't exist
 	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1020)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
-	at model.dao.daoimpl.BillDaoImpl.createBillWithSum(BillDaoImpl.java:111)
+	at model.dao.daoImpl.BillDaoImpl.createBillWithSum(BillDaoImpl.java:111)
 	at Main.main(Main.java:27)
 2019-05-18 01:06:34 INFO  DaoFactory:27 - dao factory
 2019-05-18 01:06:35 INFO  BillDaoImpl:135 - Bill don`t created 
@@ -7142,7 +7142,7 @@ java.sql.SQLSyntaxErrorException: Table 'final_project.order' doesn't exist
 	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1020)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
-	at model.dao.daoimpl.BillDaoImpl.createBillWithSum(BillDaoImpl.java:111)
+	at model.dao.daoImpl.BillDaoImpl.createBillWithSum(BillDaoImpl.java:111)
 	at Main.main(Main.java:27)
 2019-05-18 01:09:51 INFO  DaoFactory:27 - dao factory
 2019-05-18 01:11:34 INFO  DaoFactory:27 - dao factory
@@ -7155,7 +7155,7 @@ java.sql.SQLSyntaxErrorException: Table 'final_project.order' doesn't exist
 	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1020)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
-	at model.dao.daoimpl.BillDaoImpl.createBillWithSum(BillDaoImpl.java:111)
+	at model.dao.daoImpl.BillDaoImpl.createBillWithSum(BillDaoImpl.java:111)
 	at Main.main(Main.java:27)
 2019-05-18 01:18:14 INFO  DaoFactory:27 - dao factory
 2019-05-18 01:19:36 INFO  BillDaoImpl:134 - Bill don`t created 
@@ -7167,7 +7167,7 @@ java.sql.SQLSyntaxErrorException: Table 'final_project.order' doesn't exist
 	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1020)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
-	at model.dao.daoimpl.BillDaoImpl.createBillWithSum(BillDaoImpl.java:112)
+	at model.dao.daoImpl.BillDaoImpl.createBillWithSum(BillDaoImpl.java:112)
 	at Main.main(Main.java:27)
 2019-05-18 01:19:41 INFO  DaoFactory:27 - dao factory
 2019-05-18 01:19:41 INFO  BillDaoImpl:134 - Bill don`t created 
@@ -7179,7 +7179,7 @@ java.sql.SQLSyntaxErrorException: Table 'final_project.order' doesn't exist
 	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1020)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
-	at model.dao.daoimpl.BillDaoImpl.createBillWithSum(BillDaoImpl.java:112)
+	at model.dao.daoImpl.BillDaoImpl.createBillWithSum(BillDaoImpl.java:112)
 	at Main.main(Main.java:27)
 2019-05-18 01:20:38 INFO  DaoFactory:27 - dao factory
 2019-05-18 01:20:39 INFO  BillDaoImpl:134 - Bill don`t created 
@@ -7191,7 +7191,7 @@ java.sql.SQLSyntaxErrorException: Table 'final_project.order' doesn't exist
 	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1020)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
-	at model.dao.daoimpl.BillDaoImpl.createBillWithSum(BillDaoImpl.java:112)
+	at model.dao.daoImpl.BillDaoImpl.createBillWithSum(BillDaoImpl.java:112)
 	at Main.main(Main.java:26)
 2019-05-18 01:21:26 INFO  DaoFactory:27 - dao factory
 2019-05-18 01:21:27 INFO  BillDaoImpl:134 - Bill don`t created 
@@ -7206,7 +7206,7 @@ java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child 
 	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1042)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:105)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:105)
-	at model.dao.daoimpl.BillDaoImpl.createBillWithSum(BillDaoImpl.java:128)
+	at model.dao.daoImpl.BillDaoImpl.createBillWithSum(BillDaoImpl.java:128)
 	at Main.main(Main.java:26)
 2019-05-18 01:22:20 INFO  DaoFactory:27 - dao factory
 2019-05-18 01:23:45 INFO  DaoFactory:27 - dao factory
@@ -7220,7 +7220,7 @@ java.sql.SQLSyntaxErrorException: Table 'final_project.order' doesn't exist
 	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1020)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
-	at model.dao.daoimpl.BillDaoImpl.createBillWithSum(BillDaoImpl.java:112)
+	at model.dao.daoImpl.BillDaoImpl.createBillWithSum(BillDaoImpl.java:112)
 	at Main.main(Main.java:26)
 2019-05-18 01:25:41 INFO  DaoFactory:27 - dao factory
 2019-05-18 01:25:41 INFO  BillDaoImpl:134 - Bill don`t created 
@@ -7232,7 +7232,7 @@ java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check th
 	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1020)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
-	at model.dao.daoimpl.BillDaoImpl.createBillWithSum(BillDaoImpl.java:112)
+	at model.dao.daoImpl.BillDaoImpl.createBillWithSum(BillDaoImpl.java:112)
 	at Main.main(Main.java:26)
 2019-05-18 01:26:50 INFO  DaoFactory:27 - dao factory
 2019-05-18 01:26:50 INFO  BillDaoImpl:136 - Bill don`t created 
@@ -7244,7 +7244,7 @@ java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check th
 	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1020)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
-	at model.dao.daoimpl.BillDaoImpl.createBillWithSum(BillDaoImpl.java:114)
+	at model.dao.daoImpl.BillDaoImpl.createBillWithSum(BillDaoImpl.java:114)
 	at Main.main(Main.java:26)
 2019-05-18 01:27:35 INFO  DaoFactory:27 - dao factory
 2019-05-18 01:27:35 INFO  BillDaoImpl:136 - Bill don`t created 
@@ -7256,7 +7256,7 @@ java.sql.SQLSyntaxErrorException: Table 'final_project.order_has_menu' doesn't e
 	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1020)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
-	at model.dao.daoimpl.BillDaoImpl.createBillWithSum(BillDaoImpl.java:114)
+	at model.dao.daoImpl.BillDaoImpl.createBillWithSum(BillDaoImpl.java:114)
 	at Main.main(Main.java:26)
 2019-05-18 01:29:18 INFO  DaoFactory:27 - dao factory
 2019-05-18 01:30:28 INFO  DaoFactory:27 - dao factory
@@ -7269,7 +7269,7 @@ java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check th
 	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1020)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
-	at model.dao.daoimpl.BillDaoImpl.createBillWithSum(BillDaoImpl.java:113)
+	at model.dao.daoImpl.BillDaoImpl.createBillWithSum(BillDaoImpl.java:113)
 	at Main.main(Main.java:26)
 2019-05-18 01:31:40 INFO  DaoFactory:27 - dao factory
 2019-05-18 01:33:04 INFO  DaoFactory:27 - dao factory
@@ -7481,7 +7481,7 @@ java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child 
 	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1042)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:105)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:105)
-	at model.dao.daoimpl.BillDaoImpl.createBillWithSum(BillDaoImpl.java:129)
+	at model.dao.daoImpl.BillDaoImpl.createBillWithSum(BillDaoImpl.java:129)
 	at model.service.implement.BillServiceImpl.createBillWithSum(BillServiceImpl.java:67)
 	at controller.command.admin.action.CreateBillCommand.execute(CreateBillCommand.java:27)
 	at controller.Servlet.processRequest(Servlet.java:32)
@@ -7542,7 +7542,7 @@ java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child 
 	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1042)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:105)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:105)
-	at model.dao.daoimpl.BillDaoImpl.createBillWithSum(BillDaoImpl.java:129)
+	at model.dao.daoImpl.BillDaoImpl.createBillWithSum(BillDaoImpl.java:129)
 	at model.service.implement.BillServiceImpl.createBillWithSum(BillServiceImpl.java:67)
 	at controller.command.admin.action.CreateBillCommand.execute(CreateBillCommand.java:27)
 	at controller.Servlet.processRequest(Servlet.java:32)
@@ -7603,7 +7603,7 @@ java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child 
 	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1042)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:105)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:105)
-	at model.dao.daoimpl.BillDaoImpl.createBillWithSum(BillDaoImpl.java:129)
+	at model.dao.daoImpl.BillDaoImpl.createBillWithSum(BillDaoImpl.java:129)
 	at model.service.implement.BillServiceImpl.createBillWithSum(BillServiceImpl.java:67)
 	at controller.command.admin.action.CreateBillCommand.execute(CreateBillCommand.java:27)
 	at controller.Servlet.processRequest(Servlet.java:32)
@@ -7664,7 +7664,7 @@ java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child 
 	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1042)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:105)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:105)
-	at model.dao.daoimpl.BillDaoImpl.createBillWithSum(BillDaoImpl.java:129)
+	at model.dao.daoImpl.BillDaoImpl.createBillWithSum(BillDaoImpl.java:129)
 	at model.service.implement.BillServiceImpl.createBillWithSum(BillServiceImpl.java:67)
 	at controller.command.admin.action.CreateBillCommand.execute(CreateBillCommand.java:27)
 	at controller.Servlet.processRequest(Servlet.java:32)
@@ -7756,7 +7756,7 @@ java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child 
 	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1042)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:105)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:105)
-	at model.dao.daoimpl.BillDaoImpl.createBillWithSum(BillDaoImpl.java:129)
+	at model.dao.daoImpl.BillDaoImpl.createBillWithSum(BillDaoImpl.java:129)
 	at model.service.implement.BillServiceImpl.createBillWithSum(BillServiceImpl.java:67)
 	at controller.command.admin.action.CreateBillCommand.execute(CreateBillCommand.java:27)
 	at controller.Servlet.processRequest(Servlet.java:32)
@@ -7812,7 +7812,7 @@ java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child 
 	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1042)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:105)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:105)
-	at model.dao.daoimpl.BillDaoImpl.createBillWithSum(BillDaoImpl.java:129)
+	at model.dao.daoImpl.BillDaoImpl.createBillWithSum(BillDaoImpl.java:129)
 	at Main.main(Main.java:26)
 2019-05-18 02:12:57 INFO  DaoFactory:27 - dao factory
 2019-05-18 02:13:33 INFO  EncodingFilter:17 - do Filter
@@ -7845,7 +7845,7 @@ java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child 
 	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1042)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:105)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:105)
-	at model.dao.daoimpl.BillDaoImpl.createBillWithSum(BillDaoImpl.java:129)
+	at model.dao.daoImpl.BillDaoImpl.createBillWithSum(BillDaoImpl.java:129)
 	at model.service.implement.BillServiceImpl.createBillWithSum(BillServiceImpl.java:67)
 	at controller.command.admin.action.CreateBillCommand.execute(CreateBillCommand.java:27)
 	at controller.Servlet.processRequest(Servlet.java:32)
@@ -7966,7 +7966,7 @@ java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child 
 	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1042)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:105)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:105)
-	at model.dao.daoimpl.BillDaoImpl.createBillWithSum(BillDaoImpl.java:129)
+	at model.dao.daoImpl.BillDaoImpl.createBillWithSum(BillDaoImpl.java:129)
 	at model.service.implement.BillServiceImpl.createBillWithSum(BillServiceImpl.java:67)
 	at controller.command.admin.action.CreateBillCommand.execute(CreateBillCommand.java:27)
 	at controller.Servlet.processRequest(Servlet.java:32)
@@ -8027,7 +8027,7 @@ java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child 
 	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1042)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:105)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:105)
-	at model.dao.daoimpl.BillDaoImpl.createBillWithSum(BillDaoImpl.java:129)
+	at model.dao.daoImpl.BillDaoImpl.createBillWithSum(BillDaoImpl.java:129)
 	at model.service.implement.BillServiceImpl.createBillWithSum(BillServiceImpl.java:67)
 	at controller.command.admin.action.CreateBillCommand.execute(CreateBillCommand.java:27)
 	at controller.Servlet.processRequest(Servlet.java:32)
@@ -8088,7 +8088,7 @@ java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child 
 	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1042)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:105)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:105)
-	at model.dao.daoimpl.BillDaoImpl.createBillWithSum(BillDaoImpl.java:129)
+	at model.dao.daoImpl.BillDaoImpl.createBillWithSum(BillDaoImpl.java:129)
 	at model.service.implement.BillServiceImpl.createBillWithSum(BillServiceImpl.java:67)
 	at controller.command.admin.action.CreateBillCommand.execute(CreateBillCommand.java:27)
 	at controller.Servlet.processRequest(Servlet.java:32)
@@ -8189,7 +8189,7 @@ java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child 
 	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1042)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:105)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:105)
-	at model.dao.daoimpl.BillDaoImpl.createBillWithSum(BillDaoImpl.java:129)
+	at model.dao.daoImpl.BillDaoImpl.createBillWithSum(BillDaoImpl.java:129)
 	at model.service.implement.BillServiceImpl.createBillWithSum(BillServiceImpl.java:67)
 	at controller.command.admin.action.CreateBillCommand.execute(CreateBillCommand.java:27)
 	at controller.Servlet.processRequest(Servlet.java:32)
@@ -8250,7 +8250,7 @@ java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child 
 	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1042)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:105)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:105)
-	at model.dao.daoimpl.BillDaoImpl.createBillWithSum(BillDaoImpl.java:129)
+	at model.dao.daoImpl.BillDaoImpl.createBillWithSum(BillDaoImpl.java:129)
 	at model.service.implement.BillServiceImpl.createBillWithSum(BillServiceImpl.java:67)
 	at controller.command.admin.action.CreateBillCommand.execute(CreateBillCommand.java:27)
 	at controller.Servlet.processRequest(Servlet.java:32)
@@ -8311,7 +8311,7 @@ java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child 
 	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1042)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:105)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:105)
-	at model.dao.daoimpl.BillDaoImpl.createBillWithSum(BillDaoImpl.java:129)
+	at model.dao.daoImpl.BillDaoImpl.createBillWithSum(BillDaoImpl.java:129)
 	at model.service.implement.BillServiceImpl.createBillWithSum(BillServiceImpl.java:67)
 	at controller.command.admin.action.CreateBillCommand.execute(CreateBillCommand.java:27)
 	at controller.Servlet.processRequest(Servlet.java:32)
@@ -8372,7 +8372,7 @@ java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child 
 	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1042)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:105)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:105)
-	at model.dao.daoimpl.BillDaoImpl.createBillWithSum(BillDaoImpl.java:129)
+	at model.dao.daoImpl.BillDaoImpl.createBillWithSum(BillDaoImpl.java:129)
 	at model.service.implement.BillServiceImpl.createBillWithSum(BillServiceImpl.java:67)
 	at controller.command.admin.action.CreateBillCommand.execute(CreateBillCommand.java:27)
 	at controller.Servlet.processRequest(Servlet.java:32)
@@ -8446,7 +8446,7 @@ java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child 
 	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1042)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:105)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:105)
-	at model.dao.daoimpl.BillDaoImpl.createBillWithSum(BillDaoImpl.java:129)
+	at model.dao.daoImpl.BillDaoImpl.createBillWithSum(BillDaoImpl.java:129)
 	at model.service.implement.BillServiceImpl.createBillWithSum(BillServiceImpl.java:67)
 	at controller.command.admin.action.CreateBillCommand.execute(CreateBillCommand.java:27)
 	at controller.Servlet.processRequest(Servlet.java:32)
@@ -8532,7 +8532,7 @@ java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child 
 	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1042)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:105)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:105)
-	at model.dao.daoimpl.BillDaoImpl.createBillWithSum(BillDaoImpl.java:129)
+	at model.dao.daoImpl.BillDaoImpl.createBillWithSum(BillDaoImpl.java:129)
 	at model.service.implement.BillServiceImpl.createBillWithSum(BillServiceImpl.java:67)
 	at controller.command.admin.action.CreateBillCommand.execute(CreateBillCommand.java:27)
 	at controller.Servlet.processRequest(Servlet.java:32)
@@ -8593,7 +8593,7 @@ java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child 
 	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1042)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:105)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:105)
-	at model.dao.daoimpl.BillDaoImpl.createBillWithSum(BillDaoImpl.java:129)
+	at model.dao.daoImpl.BillDaoImpl.createBillWithSum(BillDaoImpl.java:129)
 	at model.service.implement.BillServiceImpl.createBillWithSum(BillServiceImpl.java:67)
 	at controller.command.admin.action.CreateBillCommand.execute(CreateBillCommand.java:27)
 	at controller.Servlet.processRequest(Servlet.java:32)
@@ -8654,7 +8654,7 @@ java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child 
 	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1042)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:105)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:105)
-	at model.dao.daoimpl.BillDaoImpl.createBillWithSum(BillDaoImpl.java:129)
+	at model.dao.daoImpl.BillDaoImpl.createBillWithSum(BillDaoImpl.java:129)
 	at model.service.implement.BillServiceImpl.createBillWithSum(BillServiceImpl.java:67)
 	at controller.command.admin.action.CreateBillCommand.execute(CreateBillCommand.java:27)
 	at controller.Servlet.processRequest(Servlet.java:32)
@@ -8731,7 +8731,7 @@ java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child 
 	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1042)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:105)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:105)
-	at model.dao.daoimpl.BillDaoImpl.createBillWithSum(BillDaoImpl.java:129)
+	at model.dao.daoImpl.BillDaoImpl.createBillWithSum(BillDaoImpl.java:129)
 	at model.service.implement.BillServiceImpl.createBillWithSum(BillServiceImpl.java:67)
 	at controller.command.admin.action.CreateBillCommand.execute(CreateBillCommand.java:27)
 	at controller.Servlet.processRequest(Servlet.java:32)
@@ -8792,7 +8792,7 @@ java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child 
 	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1042)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:105)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:105)
-	at model.dao.daoimpl.BillDaoImpl.createBillWithSum(BillDaoImpl.java:129)
+	at model.dao.daoImpl.BillDaoImpl.createBillWithSum(BillDaoImpl.java:129)
 	at model.service.implement.BillServiceImpl.createBillWithSum(BillServiceImpl.java:67)
 	at controller.command.admin.action.CreateBillCommand.execute(CreateBillCommand.java:27)
 	at controller.Servlet.processRequest(Servlet.java:32)
@@ -8850,7 +8850,7 @@ java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child 
 	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1042)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:105)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:105)
-	at model.dao.daoimpl.BillDaoImpl.createBillWithSum(BillDaoImpl.java:129)
+	at model.dao.daoImpl.BillDaoImpl.createBillWithSum(BillDaoImpl.java:129)
 	at model.service.implement.BillServiceImpl.createBillWithSum(BillServiceImpl.java:67)
 	at Main.main(Main.java:30)
 2019-05-18 02:31:48 INFO  OrderServiceImpl:69 - create bill with sum
@@ -8869,7 +8869,7 @@ java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child 
 	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1042)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:105)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:105)
-	at model.dao.daoimpl.BillDaoImpl.createBillWithSum(BillDaoImpl.java:129)
+	at model.dao.daoImpl.BillDaoImpl.createBillWithSum(BillDaoImpl.java:129)
 	at model.service.implement.BillServiceImpl.createBillWithSum(BillServiceImpl.java:67)
 	at Main.main(Main.java:30)
 2019-05-18 02:32:56 INFO  OrderServiceImpl:69 - create bill with sum
@@ -8884,7 +8884,7 @@ java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check th
 	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1020)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
-	at model.dao.daoimpl.OrderDaoImpl.findAllUnpaid(OrderDaoImpl.java:78)
+	at model.dao.daoImpl.OrderDaoImpl.findAllUnpaid(OrderDaoImpl.java:78)
 	at model.service.implement.OrderServiceImpl.findAllUnpaid(OrderServiceImpl.java:73)
 	at Main.main(Main.java:28)
 2019-05-18 02:33:24 INFO  OrderServiceImpl:74 - Find all orders
@@ -8902,7 +8902,7 @@ java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child 
 	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1042)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:105)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:105)
-	at model.dao.daoimpl.BillDaoImpl.createBillWithSum(BillDaoImpl.java:129)
+	at model.dao.daoImpl.BillDaoImpl.createBillWithSum(BillDaoImpl.java:129)
 	at model.service.implement.BillServiceImpl.createBillWithSum(BillServiceImpl.java:67)
 	at Main.main(Main.java:30)
 2019-05-18 02:33:55 INFO  OrderServiceImpl:69 - create bill with sum
@@ -8920,7 +8920,7 @@ java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child 
 	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1042)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:105)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:105)
-	at model.dao.daoimpl.BillDaoImpl.createBillWithSum(BillDaoImpl.java:129)
+	at model.dao.daoImpl.BillDaoImpl.createBillWithSum(BillDaoImpl.java:129)
 	at model.service.implement.BillServiceImpl.createBillWithSum(BillServiceImpl.java:67)
 	at Main.main(Main.java:30)
 2019-05-18 02:34:51 INFO  OrderServiceImpl:69 - create bill with sum
@@ -8939,7 +8939,7 @@ java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child 
 	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1042)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:105)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:105)
-	at model.dao.daoimpl.BillDaoImpl.createBillWithSum(BillDaoImpl.java:129)
+	at model.dao.daoImpl.BillDaoImpl.createBillWithSum(BillDaoImpl.java:129)
 	at model.service.implement.BillServiceImpl.createBillWithSum(BillServiceImpl.java:67)
 	at Main.main(Main.java:30)
 2019-05-18 02:36:02 INFO  OrderServiceImpl:69 - create bill with sum
@@ -8958,7 +8958,7 @@ java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child 
 	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1042)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:105)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:105)
-	at model.dao.daoimpl.BillDaoImpl.createBillWithSum(BillDaoImpl.java:129)
+	at model.dao.daoImpl.BillDaoImpl.createBillWithSum(BillDaoImpl.java:129)
 	at model.service.implement.BillServiceImpl.createBillWithSum(BillServiceImpl.java:67)
 	at Main.main(Main.java:30)
 2019-05-18 02:36:43 INFO  OrderServiceImpl:69 - create bill with sum
@@ -8977,7 +8977,7 @@ java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child 
 	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1042)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:105)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:105)
-	at model.dao.daoimpl.BillDaoImpl.createBillWithSum(BillDaoImpl.java:129)
+	at model.dao.daoImpl.BillDaoImpl.createBillWithSum(BillDaoImpl.java:129)
 	at model.service.implement.BillServiceImpl.createBillWithSum(BillServiceImpl.java:67)
 	at Main.main(Main.java:30)
 2019-05-18 02:38:21 INFO  OrderServiceImpl:69 - create bill with sum
@@ -8996,7 +8996,7 @@ java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child 
 	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1042)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:105)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:105)
-	at model.dao.daoimpl.BillDaoImpl.createBillWithSum(BillDaoImpl.java:129)
+	at model.dao.daoImpl.BillDaoImpl.createBillWithSum(BillDaoImpl.java:129)
 	at model.service.implement.BillServiceImpl.createBillWithSum(BillServiceImpl.java:67)
 	at Main.main(Main.java:30)
 2019-05-18 02:39:07 INFO  OrderServiceImpl:69 - create bill with sum
@@ -9015,7 +9015,7 @@ java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child 
 	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1042)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:105)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:105)
-	at model.dao.daoimpl.BillDaoImpl.createBillWithSum(BillDaoImpl.java:129)
+	at model.dao.daoImpl.BillDaoImpl.createBillWithSum(BillDaoImpl.java:129)
 	at model.service.implement.BillServiceImpl.createBillWithSum(BillServiceImpl.java:67)
 	at Main.main(Main.java:30)
 2019-05-18 02:39:18 INFO  OrderServiceImpl:69 - create bill with sum
@@ -9034,7 +9034,7 @@ java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child 
 	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1042)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:105)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:105)
-	at model.dao.daoimpl.BillDaoImpl.createBillWithSum(BillDaoImpl.java:129)
+	at model.dao.daoImpl.BillDaoImpl.createBillWithSum(BillDaoImpl.java:129)
 	at Main.main(Main.java:30)
 2019-05-18 02:40:42 INFO  DaoFactory:27 - dao factory
 2019-05-18 02:40:42 INFO  DaoFactory:27 - dao factory
@@ -9054,7 +9054,7 @@ java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child 
 	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1042)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:105)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:105)
-	at model.dao.daoimpl.BillDaoImpl.createBillWithSum(BillDaoImpl.java:129)
+	at model.dao.daoImpl.BillDaoImpl.createBillWithSum(BillDaoImpl.java:129)
 	at Main.main(Main.java:30)
 2019-05-18 02:42:56 INFO  EncodingFilter:17 - do Filter
 2019-05-18 02:42:56 INFO  LocaleFilter:29 - do Filter
@@ -11963,7 +11963,7 @@ java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check th
 	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1020)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
-	at model.dao.daoimpl.OrderDaoImpl.getNumberOfRows(OrderDaoImpl.java:112)
+	at model.dao.daoImpl.OrderDaoImpl.getNumberOfRows(OrderDaoImpl.java:112)
 	at Main.main(Main.java:29)
 2019-05-20 00:06:51 INFO  DaoFactory:27 - dao factory
 2019-05-20 00:06:51 INFO  BillDaoImpl:119 - Cannot find number of rows
@@ -11975,7 +11975,7 @@ java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check th
 	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1020)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
-	at model.dao.daoimpl.OrderDaoImpl.getNumberOfRows(OrderDaoImpl.java:112)
+	at model.dao.daoImpl.OrderDaoImpl.getNumberOfRows(OrderDaoImpl.java:112)
 	at Main.main(Main.java:29)
 2019-05-20 00:07:48 INFO  DaoFactory:27 - dao factory
 2019-05-20 00:07:48 INFO  BillDaoImpl:119 - Cannot find number of rows
@@ -11987,7 +11987,7 @@ java.sql.SQLSyntaxErrorException: FUNCTION resstaurant.count does not exist. Che
 	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1020)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
-	at model.dao.daoimpl.OrderDaoImpl.getNumberOfRows(OrderDaoImpl.java:112)
+	at model.dao.daoImpl.OrderDaoImpl.getNumberOfRows(OrderDaoImpl.java:112)
 	at Main.main(Main.java:29)
 2019-05-20 00:09:16 INFO  DaoFactory:27 - dao factory
 2019-05-20 00:09:38 INFO  BillDaoImpl:119 - Cannot find number of rows
@@ -11999,7 +11999,7 @@ java.sql.SQLSyntaxErrorException: FUNCTION resstaurant.count does not exist. Che
 	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1020)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
-	at model.dao.daoimpl.OrderDaoImpl.getNumberOfRows(OrderDaoImpl.java:112)
+	at model.dao.daoImpl.OrderDaoImpl.getNumberOfRows(OrderDaoImpl.java:112)
 	at Main.main(Main.java:29)
 2019-05-20 00:09:40 INFO  DaoFactory:27 - dao factory
 2019-05-20 01:02:21 INFO  EncodingFilter:17 - do Filter
@@ -12240,7 +12240,7 @@ java.sql.SQLException: No value specified for parameter 1
 	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1037)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
-	at model.dao.daoimpl.OrderDaoImpl.findOrdersPagination(OrderDaoImpl.java:95)
+	at model.dao.daoImpl.OrderDaoImpl.findOrdersPagination(OrderDaoImpl.java:95)
 	at model.service.implement.OrderServiceImpl.findOrdersPagination(OrderServiceImpl.java:83)
 	at controller.command.admin.action.AdminOrderHistoryCommand.execute(AdminOrderHistoryCommand.java:19)
 	at controller.Servlet.processRequest(Servlet.java:32)
@@ -12297,7 +12297,7 @@ java.sql.SQLException: No value specified for parameter 1
 	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1037)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
-	at model.dao.daoimpl.OrderDaoImpl.findOrdersPagination(OrderDaoImpl.java:95)
+	at model.dao.daoImpl.OrderDaoImpl.findOrdersPagination(OrderDaoImpl.java:95)
 	at model.service.implement.OrderServiceImpl.findOrdersPagination(OrderServiceImpl.java:83)
 	at controller.command.admin.action.AdminOrderHistoryCommand.execute(AdminOrderHistoryCommand.java:19)
 	at controller.Servlet.processRequest(Servlet.java:32)
@@ -12354,7 +12354,7 @@ java.sql.SQLException: No value specified for parameter 1
 	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1037)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
-	at model.dao.daoimpl.OrderDaoImpl.findOrdersPagination(OrderDaoImpl.java:95)
+	at model.dao.daoImpl.OrderDaoImpl.findOrdersPagination(OrderDaoImpl.java:95)
 	at model.service.implement.OrderServiceImpl.findOrdersPagination(OrderServiceImpl.java:83)
 	at controller.command.admin.action.AdminOrderHistoryCommand.execute(AdminOrderHistoryCommand.java:19)
 	at controller.Servlet.processRequest(Servlet.java:32)
@@ -12411,7 +12411,7 @@ java.sql.SQLException: No value specified for parameter 1
 	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1037)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
-	at model.dao.daoimpl.OrderDaoImpl.findOrdersPagination(OrderDaoImpl.java:95)
+	at model.dao.daoImpl.OrderDaoImpl.findOrdersPagination(OrderDaoImpl.java:95)
 	at model.service.implement.OrderServiceImpl.findOrdersPagination(OrderServiceImpl.java:83)
 	at controller.command.admin.action.AdminOrderHistoryCommand.execute(AdminOrderHistoryCommand.java:19)
 	at controller.Servlet.processRequest(Servlet.java:32)
@@ -12468,7 +12468,7 @@ java.sql.SQLException: No value specified for parameter 1
 	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1037)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
-	at model.dao.daoimpl.OrderDaoImpl.findOrdersPagination(OrderDaoImpl.java:95)
+	at model.dao.daoImpl.OrderDaoImpl.findOrdersPagination(OrderDaoImpl.java:95)
 	at model.service.implement.OrderServiceImpl.findOrdersPagination(OrderServiceImpl.java:83)
 	at controller.command.admin.action.AdminOrderHistoryCommand.execute(AdminOrderHistoryCommand.java:19)
 	at controller.Servlet.processRequest(Servlet.java:32)
@@ -12525,7 +12525,7 @@ java.sql.SQLException: No value specified for parameter 1
 	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1037)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
-	at model.dao.daoimpl.OrderDaoImpl.findOrdersPagination(OrderDaoImpl.java:95)
+	at model.dao.daoImpl.OrderDaoImpl.findOrdersPagination(OrderDaoImpl.java:95)
 	at model.service.implement.OrderServiceImpl.findOrdersPagination(OrderServiceImpl.java:83)
 	at controller.command.admin.action.AdminOrderHistoryCommand.execute(AdminOrderHistoryCommand.java:19)
 	at controller.Servlet.processRequest(Servlet.java:32)
@@ -12582,7 +12582,7 @@ java.sql.SQLException: No value specified for parameter 1
 	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1037)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
-	at model.dao.daoimpl.OrderDaoImpl.findOrdersPagination(OrderDaoImpl.java:95)
+	at model.dao.daoImpl.OrderDaoImpl.findOrdersPagination(OrderDaoImpl.java:95)
 	at model.service.implement.OrderServiceImpl.findOrdersPagination(OrderServiceImpl.java:83)
 	at controller.command.admin.action.AdminOrderHistoryCommand.execute(AdminOrderHistoryCommand.java:19)
 	at controller.Servlet.processRequest(Servlet.java:32)
@@ -12639,7 +12639,7 @@ java.sql.SQLException: No value specified for parameter 1
 	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1037)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
-	at model.dao.daoimpl.OrderDaoImpl.findOrdersPagination(OrderDaoImpl.java:95)
+	at model.dao.daoImpl.OrderDaoImpl.findOrdersPagination(OrderDaoImpl.java:95)
 	at model.service.implement.OrderServiceImpl.findOrdersPagination(OrderServiceImpl.java:83)
 	at controller.command.admin.action.AdminOrderHistoryCommand.execute(AdminOrderHistoryCommand.java:19)
 	at controller.Servlet.processRequest(Servlet.java:32)
@@ -12696,7 +12696,7 @@ java.sql.SQLException: No value specified for parameter 1
 	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1037)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
-	at model.dao.daoimpl.OrderDaoImpl.findOrdersPagination(OrderDaoImpl.java:95)
+	at model.dao.daoImpl.OrderDaoImpl.findOrdersPagination(OrderDaoImpl.java:95)
 	at model.service.implement.OrderServiceImpl.findOrdersPagination(OrderServiceImpl.java:83)
 	at controller.command.admin.action.AdminOrderHistoryCommand.execute(AdminOrderHistoryCommand.java:19)
 	at controller.Servlet.processRequest(Servlet.java:32)
@@ -12753,7 +12753,7 @@ java.sql.SQLException: No value specified for parameter 1
 	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1037)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
-	at model.dao.daoimpl.OrderDaoImpl.findOrdersPagination(OrderDaoImpl.java:95)
+	at model.dao.daoImpl.OrderDaoImpl.findOrdersPagination(OrderDaoImpl.java:95)
 	at model.service.implement.OrderServiceImpl.findOrdersPagination(OrderServiceImpl.java:83)
 	at controller.command.admin.action.AdminOrderHistoryCommand.execute(AdminOrderHistoryCommand.java:19)
 	at controller.Servlet.processRequest(Servlet.java:32)
@@ -12810,7 +12810,7 @@ java.sql.SQLException: No value specified for parameter 1
 	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1037)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
-	at model.dao.daoimpl.OrderDaoImpl.findOrdersPagination(OrderDaoImpl.java:95)
+	at model.dao.daoImpl.OrderDaoImpl.findOrdersPagination(OrderDaoImpl.java:95)
 	at model.service.implement.OrderServiceImpl.findOrdersPagination(OrderServiceImpl.java:83)
 	at controller.command.admin.action.AdminOrderHistoryCommand.execute(AdminOrderHistoryCommand.java:19)
 	at controller.Servlet.processRequest(Servlet.java:32)
@@ -12876,7 +12876,7 @@ java.sql.SQLException: No value specified for parameter 1
 	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1037)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
-	at model.dao.daoimpl.OrderDaoImpl.findOrdersPagination(OrderDaoImpl.java:95)
+	at model.dao.daoImpl.OrderDaoImpl.findOrdersPagination(OrderDaoImpl.java:95)
 	at model.service.implement.OrderServiceImpl.findOrdersPagination(OrderServiceImpl.java:83)
 	at controller.command.admin.action.AdminOrderHistoryCommand.execute(AdminOrderHistoryCommand.java:19)
 	at controller.Servlet.processRequest(Servlet.java:32)
@@ -12933,7 +12933,7 @@ java.sql.SQLException: No value specified for parameter 1
 	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1037)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
-	at model.dao.daoimpl.OrderDaoImpl.findOrdersPagination(OrderDaoImpl.java:95)
+	at model.dao.daoImpl.OrderDaoImpl.findOrdersPagination(OrderDaoImpl.java:95)
 	at model.service.implement.OrderServiceImpl.findOrdersPagination(OrderServiceImpl.java:83)
 	at controller.command.admin.action.AdminOrderHistoryCommand.execute(AdminOrderHistoryCommand.java:19)
 	at controller.Servlet.processRequest(Servlet.java:32)
@@ -12990,7 +12990,7 @@ java.sql.SQLException: No value specified for parameter 1
 	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1037)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
-	at model.dao.daoimpl.OrderDaoImpl.findOrdersPagination(OrderDaoImpl.java:95)
+	at model.dao.daoImpl.OrderDaoImpl.findOrdersPagination(OrderDaoImpl.java:95)
 	at model.service.implement.OrderServiceImpl.findOrdersPagination(OrderServiceImpl.java:83)
 	at controller.command.admin.action.AdminOrderHistoryCommand.execute(AdminOrderHistoryCommand.java:19)
 	at controller.Servlet.processRequest(Servlet.java:32)
@@ -13047,7 +13047,7 @@ java.sql.SQLException: No value specified for parameter 1
 	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1037)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
-	at model.dao.daoimpl.OrderDaoImpl.findOrdersPagination(OrderDaoImpl.java:95)
+	at model.dao.daoImpl.OrderDaoImpl.findOrdersPagination(OrderDaoImpl.java:95)
 	at model.service.implement.OrderServiceImpl.findOrdersPagination(OrderServiceImpl.java:83)
 	at controller.command.admin.action.AdminOrderHistoryCommand.execute(AdminOrderHistoryCommand.java:19)
 	at controller.Servlet.processRequest(Servlet.java:32)
@@ -13104,7 +13104,7 @@ java.sql.SQLException: No value specified for parameter 1
 	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1037)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
-	at model.dao.daoimpl.OrderDaoImpl.findOrdersPagination(OrderDaoImpl.java:95)
+	at model.dao.daoImpl.OrderDaoImpl.findOrdersPagination(OrderDaoImpl.java:95)
 	at model.service.implement.OrderServiceImpl.findOrdersPagination(OrderServiceImpl.java:83)
 	at controller.command.admin.action.AdminOrderHistoryCommand.execute(AdminOrderHistoryCommand.java:19)
 	at controller.Servlet.processRequest(Servlet.java:32)
@@ -13161,7 +13161,7 @@ java.sql.SQLException: No value specified for parameter 1
 	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1037)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
-	at model.dao.daoimpl.OrderDaoImpl.findOrdersPagination(OrderDaoImpl.java:95)
+	at model.dao.daoImpl.OrderDaoImpl.findOrdersPagination(OrderDaoImpl.java:95)
 	at model.service.implement.OrderServiceImpl.findOrdersPagination(OrderServiceImpl.java:83)
 	at controller.command.admin.action.AdminOrderHistoryCommand.execute(AdminOrderHistoryCommand.java:19)
 	at controller.Servlet.processRequest(Servlet.java:32)
@@ -13218,7 +13218,7 @@ java.sql.SQLException: No value specified for parameter 1
 	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1037)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
-	at model.dao.daoimpl.OrderDaoImpl.findOrdersPagination(OrderDaoImpl.java:95)
+	at model.dao.daoImpl.OrderDaoImpl.findOrdersPagination(OrderDaoImpl.java:95)
 	at model.service.implement.OrderServiceImpl.findOrdersPagination(OrderServiceImpl.java:83)
 	at controller.command.admin.action.AdminOrderHistoryCommand.execute(AdminOrderHistoryCommand.java:19)
 	at controller.Servlet.processRequest(Servlet.java:32)
@@ -13301,7 +13301,7 @@ java.sql.SQLException: No value specified for parameter 1
 	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1037)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
-	at model.dao.daoimpl.OrderDaoImpl.findOrdersPagination(OrderDaoImpl.java:95)
+	at model.dao.daoImpl.OrderDaoImpl.findOrdersPagination(OrderDaoImpl.java:95)
 	at model.service.implement.OrderServiceImpl.findOrdersPagination(OrderServiceImpl.java:83)
 	at controller.command.admin.action.AdminOrderHistoryCommand.execute(AdminOrderHistoryCommand.java:19)
 	at controller.Servlet.processRequest(Servlet.java:32)
@@ -13363,7 +13363,7 @@ java.sql.SQLException: No value specified for parameter 1
 	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1037)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
-	at model.dao.daoimpl.OrderDaoImpl.findOrdersPagination(OrderDaoImpl.java:95)
+	at model.dao.daoImpl.OrderDaoImpl.findOrdersPagination(OrderDaoImpl.java:95)
 	at model.service.implement.OrderServiceImpl.findOrdersPagination(OrderServiceImpl.java:83)
 	at controller.command.admin.action.AdminOrderHistoryCommand.execute(AdminOrderHistoryCommand.java:19)
 	at controller.Servlet.processRequest(Servlet.java:32)
@@ -13421,7 +13421,7 @@ java.sql.SQLException: No value specified for parameter 1
 	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1037)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
-	at model.dao.daoimpl.OrderDaoImpl.findOrdersPagination(OrderDaoImpl.java:95)
+	at model.dao.daoImpl.OrderDaoImpl.findOrdersPagination(OrderDaoImpl.java:95)
 	at model.service.implement.OrderServiceImpl.findOrdersPagination(OrderServiceImpl.java:83)
 	at controller.command.admin.action.AdminOrderHistoryCommand.execute(AdminOrderHistoryCommand.java:19)
 	at controller.Servlet.processRequest(Servlet.java:32)
@@ -13479,7 +13479,7 @@ java.sql.SQLException: No value specified for parameter 1
 	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1037)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
-	at model.dao.daoimpl.OrderDaoImpl.findOrdersPagination(OrderDaoImpl.java:95)
+	at model.dao.daoImpl.OrderDaoImpl.findOrdersPagination(OrderDaoImpl.java:95)
 	at model.service.implement.OrderServiceImpl.findOrdersPagination(OrderServiceImpl.java:83)
 	at controller.command.admin.action.AdminOrderHistoryCommand.execute(AdminOrderHistoryCommand.java:19)
 	at controller.Servlet.processRequest(Servlet.java:32)
@@ -13575,7 +13575,7 @@ java.sql.SQLException: No value specified for parameter 1
 	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1037)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
-	at model.dao.daoimpl.OrderDaoImpl.findOrdersPagination(OrderDaoImpl.java:95)
+	at model.dao.daoImpl.OrderDaoImpl.findOrdersPagination(OrderDaoImpl.java:95)
 	at model.service.implement.OrderServiceImpl.findOrdersPagination(OrderServiceImpl.java:83)
 	at controller.command.admin.action.AdminOrderHistoryCommand.execute(AdminOrderHistoryCommand.java:20)
 	at controller.Servlet.processRequest(Servlet.java:32)
@@ -13625,7 +13625,7 @@ java.sql.SQLException: No value specified for parameter 1
 	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1037)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
-	at model.dao.daoimpl.OrderDaoImpl.findOrdersPagination(OrderDaoImpl.java:95)
+	at model.dao.daoImpl.OrderDaoImpl.findOrdersPagination(OrderDaoImpl.java:95)
 	at model.service.implement.OrderServiceImpl.findOrdersPagination(OrderServiceImpl.java:83)
 	at controller.command.admin.action.AdminOrderHistoryCommand.execute(AdminOrderHistoryCommand.java:21)
 	at controller.Servlet.processRequest(Servlet.java:32)
@@ -13681,7 +13681,7 @@ java.sql.SQLException: No value specified for parameter 1
 	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1037)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
-	at model.dao.daoimpl.OrderDaoImpl.findOrdersPagination(OrderDaoImpl.java:95)
+	at model.dao.daoImpl.OrderDaoImpl.findOrdersPagination(OrderDaoImpl.java:95)
 	at model.service.implement.OrderServiceImpl.findOrdersPagination(OrderServiceImpl.java:83)
 	at controller.command.admin.action.AdminOrderHistoryCommand.execute(AdminOrderHistoryCommand.java:20)
 	at controller.Servlet.processRequest(Servlet.java:32)
@@ -13731,7 +13731,7 @@ java.sql.SQLException: No value specified for parameter 1
 	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1037)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
-	at model.dao.daoimpl.OrderDaoImpl.findOrdersPagination(OrderDaoImpl.java:95)
+	at model.dao.daoImpl.OrderDaoImpl.findOrdersPagination(OrderDaoImpl.java:95)
 	at model.service.implement.OrderServiceImpl.findOrdersPagination(OrderServiceImpl.java:83)
 	at controller.command.admin.action.AdminOrderHistoryCommand.execute(AdminOrderHistoryCommand.java:21)
 	at controller.Servlet.processRequest(Servlet.java:32)
@@ -13787,7 +13787,7 @@ java.sql.SQLException: No value specified for parameter 1
 	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1037)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
-	at model.dao.daoimpl.OrderDaoImpl.findOrdersPagination(OrderDaoImpl.java:95)
+	at model.dao.daoImpl.OrderDaoImpl.findOrdersPagination(OrderDaoImpl.java:95)
 	at model.service.implement.OrderServiceImpl.findOrdersPagination(OrderServiceImpl.java:83)
 	at controller.command.admin.action.AdminOrderHistoryCommand.execute(AdminOrderHistoryCommand.java:20)
 	at controller.Servlet.processRequest(Servlet.java:32)
@@ -13837,7 +13837,7 @@ java.sql.SQLException: No value specified for parameter 1
 	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1037)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
-	at model.dao.daoimpl.OrderDaoImpl.findOrdersPagination(OrderDaoImpl.java:95)
+	at model.dao.daoImpl.OrderDaoImpl.findOrdersPagination(OrderDaoImpl.java:95)
 	at model.service.implement.OrderServiceImpl.findOrdersPagination(OrderServiceImpl.java:83)
 	at controller.command.admin.action.AdminOrderHistoryCommand.execute(AdminOrderHistoryCommand.java:21)
 	at controller.Servlet.processRequest(Servlet.java:32)
@@ -13893,7 +13893,7 @@ java.sql.SQLException: No value specified for parameter 1
 	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1037)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
-	at model.dao.daoimpl.OrderDaoImpl.findOrdersPagination(OrderDaoImpl.java:95)
+	at model.dao.daoImpl.OrderDaoImpl.findOrdersPagination(OrderDaoImpl.java:95)
 	at model.service.implement.OrderServiceImpl.findOrdersPagination(OrderServiceImpl.java:83)
 	at controller.command.admin.action.AdminOrderHistoryCommand.execute(AdminOrderHistoryCommand.java:20)
 	at controller.Servlet.processRequest(Servlet.java:32)
@@ -13943,7 +13943,7 @@ java.sql.SQLException: No value specified for parameter 1
 	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1037)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
-	at model.dao.daoimpl.OrderDaoImpl.findOrdersPagination(OrderDaoImpl.java:95)
+	at model.dao.daoImpl.OrderDaoImpl.findOrdersPagination(OrderDaoImpl.java:95)
 	at model.service.implement.OrderServiceImpl.findOrdersPagination(OrderServiceImpl.java:83)
 	at controller.command.admin.action.AdminOrderHistoryCommand.execute(AdminOrderHistoryCommand.java:21)
 	at controller.Servlet.processRequest(Servlet.java:32)
@@ -13999,7 +13999,7 @@ java.sql.SQLException: No value specified for parameter 1
 	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1037)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
-	at model.dao.daoimpl.OrderDaoImpl.findOrdersPagination(OrderDaoImpl.java:95)
+	at model.dao.daoImpl.OrderDaoImpl.findOrdersPagination(OrderDaoImpl.java:95)
 	at model.service.implement.OrderServiceImpl.findOrdersPagination(OrderServiceImpl.java:83)
 	at controller.command.admin.action.AdminOrderHistoryCommand.execute(AdminOrderHistoryCommand.java:20)
 	at controller.Servlet.processRequest(Servlet.java:32)
@@ -14049,7 +14049,7 @@ java.sql.SQLException: No value specified for parameter 1
 	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1037)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
-	at model.dao.daoimpl.OrderDaoImpl.findOrdersPagination(OrderDaoImpl.java:95)
+	at model.dao.daoImpl.OrderDaoImpl.findOrdersPagination(OrderDaoImpl.java:95)
 	at model.service.implement.OrderServiceImpl.findOrdersPagination(OrderServiceImpl.java:83)
 	at controller.command.admin.action.AdminOrderHistoryCommand.execute(AdminOrderHistoryCommand.java:21)
 	at controller.Servlet.processRequest(Servlet.java:32)
@@ -14105,7 +14105,7 @@ java.sql.SQLException: No value specified for parameter 1
 	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1037)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
-	at model.dao.daoimpl.OrderDaoImpl.findOrdersPagination(OrderDaoImpl.java:95)
+	at model.dao.daoImpl.OrderDaoImpl.findOrdersPagination(OrderDaoImpl.java:95)
 	at model.service.implement.OrderServiceImpl.findOrdersPagination(OrderServiceImpl.java:83)
 	at controller.command.admin.action.AdminOrderHistoryCommand.execute(AdminOrderHistoryCommand.java:20)
 	at controller.Servlet.processRequest(Servlet.java:32)
@@ -14155,7 +14155,7 @@ java.sql.SQLException: No value specified for parameter 1
 	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1037)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
-	at model.dao.daoimpl.OrderDaoImpl.findOrdersPagination(OrderDaoImpl.java:95)
+	at model.dao.daoImpl.OrderDaoImpl.findOrdersPagination(OrderDaoImpl.java:95)
 	at model.service.implement.OrderServiceImpl.findOrdersPagination(OrderServiceImpl.java:83)
 	at controller.command.admin.action.AdminOrderHistoryCommand.execute(AdminOrderHistoryCommand.java:21)
 	at controller.Servlet.processRequest(Servlet.java:32)
@@ -14211,7 +14211,7 @@ java.sql.SQLException: No value specified for parameter 1
 	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1037)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
-	at model.dao.daoimpl.OrderDaoImpl.findOrdersPagination(OrderDaoImpl.java:95)
+	at model.dao.daoImpl.OrderDaoImpl.findOrdersPagination(OrderDaoImpl.java:95)
 	at model.service.implement.OrderServiceImpl.findOrdersPagination(OrderServiceImpl.java:83)
 	at controller.command.admin.action.AdminOrderHistoryCommand.execute(AdminOrderHistoryCommand.java:20)
 	at controller.Servlet.processRequest(Servlet.java:32)
@@ -14261,7 +14261,7 @@ java.sql.SQLException: No value specified for parameter 1
 	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1037)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
-	at model.dao.daoimpl.OrderDaoImpl.findOrdersPagination(OrderDaoImpl.java:95)
+	at model.dao.daoImpl.OrderDaoImpl.findOrdersPagination(OrderDaoImpl.java:95)
 	at model.service.implement.OrderServiceImpl.findOrdersPagination(OrderServiceImpl.java:83)
 	at controller.command.admin.action.AdminOrderHistoryCommand.execute(AdminOrderHistoryCommand.java:21)
 	at controller.Servlet.processRequest(Servlet.java:32)
@@ -14317,7 +14317,7 @@ java.sql.SQLException: No value specified for parameter 1
 	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1037)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
-	at model.dao.daoimpl.OrderDaoImpl.findOrdersPagination(OrderDaoImpl.java:95)
+	at model.dao.daoImpl.OrderDaoImpl.findOrdersPagination(OrderDaoImpl.java:95)
 	at model.service.implement.OrderServiceImpl.findOrdersPagination(OrderServiceImpl.java:83)
 	at controller.command.admin.action.AdminOrderHistoryCommand.execute(AdminOrderHistoryCommand.java:20)
 	at controller.Servlet.processRequest(Servlet.java:32)
@@ -14367,7 +14367,7 @@ java.sql.SQLException: No value specified for parameter 1
 	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1037)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
-	at model.dao.daoimpl.OrderDaoImpl.findOrdersPagination(OrderDaoImpl.java:95)
+	at model.dao.daoImpl.OrderDaoImpl.findOrdersPagination(OrderDaoImpl.java:95)
 	at model.service.implement.OrderServiceImpl.findOrdersPagination(OrderServiceImpl.java:83)
 	at controller.command.admin.action.AdminOrderHistoryCommand.execute(AdminOrderHistoryCommand.java:21)
 	at controller.Servlet.processRequest(Servlet.java:32)
@@ -14423,7 +14423,7 @@ java.sql.SQLException: No value specified for parameter 1
 	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1037)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
-	at model.dao.daoimpl.OrderDaoImpl.findOrdersPagination(OrderDaoImpl.java:95)
+	at model.dao.daoImpl.OrderDaoImpl.findOrdersPagination(OrderDaoImpl.java:95)
 	at model.service.implement.OrderServiceImpl.findOrdersPagination(OrderServiceImpl.java:83)
 	at controller.command.admin.action.AdminOrderHistoryCommand.execute(AdminOrderHistoryCommand.java:20)
 	at controller.Servlet.processRequest(Servlet.java:32)
@@ -14473,7 +14473,7 @@ java.sql.SQLException: No value specified for parameter 1
 	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1037)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
-	at model.dao.daoimpl.OrderDaoImpl.findOrdersPagination(OrderDaoImpl.java:95)
+	at model.dao.daoImpl.OrderDaoImpl.findOrdersPagination(OrderDaoImpl.java:95)
 	at model.service.implement.OrderServiceImpl.findOrdersPagination(OrderServiceImpl.java:83)
 	at controller.command.admin.action.AdminOrderHistoryCommand.execute(AdminOrderHistoryCommand.java:21)
 	at controller.Servlet.processRequest(Servlet.java:32)
@@ -14529,7 +14529,7 @@ java.sql.SQLException: No value specified for parameter 1
 	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1037)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
-	at model.dao.daoimpl.OrderDaoImpl.findOrdersPagination(OrderDaoImpl.java:95)
+	at model.dao.daoImpl.OrderDaoImpl.findOrdersPagination(OrderDaoImpl.java:95)
 	at model.service.implement.OrderServiceImpl.findOrdersPagination(OrderServiceImpl.java:83)
 	at controller.command.admin.action.AdminOrderHistoryCommand.execute(AdminOrderHistoryCommand.java:20)
 	at controller.Servlet.processRequest(Servlet.java:32)
@@ -14579,7 +14579,7 @@ java.sql.SQLException: No value specified for parameter 1
 	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1037)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
-	at model.dao.daoimpl.OrderDaoImpl.findOrdersPagination(OrderDaoImpl.java:95)
+	at model.dao.daoImpl.OrderDaoImpl.findOrdersPagination(OrderDaoImpl.java:95)
 	at model.service.implement.OrderServiceImpl.findOrdersPagination(OrderServiceImpl.java:83)
 	at controller.command.admin.action.AdminOrderHistoryCommand.execute(AdminOrderHistoryCommand.java:21)
 	at controller.Servlet.processRequest(Servlet.java:32)
@@ -14635,7 +14635,7 @@ java.sql.SQLException: No value specified for parameter 1
 	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1037)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
-	at model.dao.daoimpl.OrderDaoImpl.findOrdersPagination(OrderDaoImpl.java:95)
+	at model.dao.daoImpl.OrderDaoImpl.findOrdersPagination(OrderDaoImpl.java:95)
 	at model.service.implement.OrderServiceImpl.findOrdersPagination(OrderServiceImpl.java:83)
 	at controller.command.admin.action.AdminOrderHistoryCommand.execute(AdminOrderHistoryCommand.java:20)
 	at controller.Servlet.processRequest(Servlet.java:32)
@@ -14685,7 +14685,7 @@ java.sql.SQLException: No value specified for parameter 1
 	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1037)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
-	at model.dao.daoimpl.OrderDaoImpl.findOrdersPagination(OrderDaoImpl.java:95)
+	at model.dao.daoImpl.OrderDaoImpl.findOrdersPagination(OrderDaoImpl.java:95)
 	at model.service.implement.OrderServiceImpl.findOrdersPagination(OrderServiceImpl.java:83)
 	at controller.command.admin.action.AdminOrderHistoryCommand.execute(AdminOrderHistoryCommand.java:21)
 	at controller.Servlet.processRequest(Servlet.java:32)
@@ -14741,7 +14741,7 @@ java.sql.SQLException: No value specified for parameter 1
 	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1037)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
-	at model.dao.daoimpl.OrderDaoImpl.findOrdersPagination(OrderDaoImpl.java:95)
+	at model.dao.daoImpl.OrderDaoImpl.findOrdersPagination(OrderDaoImpl.java:95)
 	at model.service.implement.OrderServiceImpl.findOrdersPagination(OrderServiceImpl.java:83)
 	at controller.command.admin.action.AdminOrderHistoryCommand.execute(AdminOrderHistoryCommand.java:20)
 	at controller.Servlet.processRequest(Servlet.java:32)
@@ -14791,7 +14791,7 @@ java.sql.SQLException: No value specified for parameter 1
 	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1037)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
-	at model.dao.daoimpl.OrderDaoImpl.findOrdersPagination(OrderDaoImpl.java:95)
+	at model.dao.daoImpl.OrderDaoImpl.findOrdersPagination(OrderDaoImpl.java:95)
 	at model.service.implement.OrderServiceImpl.findOrdersPagination(OrderServiceImpl.java:83)
 	at controller.command.admin.action.AdminOrderHistoryCommand.execute(AdminOrderHistoryCommand.java:21)
 	at controller.Servlet.processRequest(Servlet.java:32)
@@ -14847,7 +14847,7 @@ java.sql.SQLException: No value specified for parameter 1
 	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1037)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
-	at model.dao.daoimpl.OrderDaoImpl.findOrdersPagination(OrderDaoImpl.java:95)
+	at model.dao.daoImpl.OrderDaoImpl.findOrdersPagination(OrderDaoImpl.java:95)
 	at model.service.implement.OrderServiceImpl.findOrdersPagination(OrderServiceImpl.java:83)
 	at controller.command.admin.action.AdminOrderHistoryCommand.execute(AdminOrderHistoryCommand.java:20)
 	at controller.Servlet.processRequest(Servlet.java:32)
@@ -14897,7 +14897,7 @@ java.sql.SQLException: No value specified for parameter 1
 	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1037)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
-	at model.dao.daoimpl.OrderDaoImpl.findOrdersPagination(OrderDaoImpl.java:95)
+	at model.dao.daoImpl.OrderDaoImpl.findOrdersPagination(OrderDaoImpl.java:95)
 	at model.service.implement.OrderServiceImpl.findOrdersPagination(OrderServiceImpl.java:83)
 	at controller.command.admin.action.AdminOrderHistoryCommand.execute(AdminOrderHistoryCommand.java:21)
 	at controller.Servlet.processRequest(Servlet.java:32)
@@ -14953,7 +14953,7 @@ java.sql.SQLException: No value specified for parameter 1
 	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1037)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
-	at model.dao.daoimpl.OrderDaoImpl.findOrdersPagination(OrderDaoImpl.java:95)
+	at model.dao.daoImpl.OrderDaoImpl.findOrdersPagination(OrderDaoImpl.java:95)
 	at model.service.implement.OrderServiceImpl.findOrdersPagination(OrderServiceImpl.java:83)
 	at controller.command.admin.action.AdminOrderHistoryCommand.execute(AdminOrderHistoryCommand.java:20)
 	at controller.Servlet.processRequest(Servlet.java:32)
@@ -15003,7 +15003,7 @@ java.sql.SQLException: No value specified for parameter 1
 	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1037)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
-	at model.dao.daoimpl.OrderDaoImpl.findOrdersPagination(OrderDaoImpl.java:95)
+	at model.dao.daoImpl.OrderDaoImpl.findOrdersPagination(OrderDaoImpl.java:95)
 	at model.service.implement.OrderServiceImpl.findOrdersPagination(OrderServiceImpl.java:83)
 	at controller.command.admin.action.AdminOrderHistoryCommand.execute(AdminOrderHistoryCommand.java:21)
 	at controller.Servlet.processRequest(Servlet.java:32)
@@ -15059,7 +15059,7 @@ java.sql.SQLException: No value specified for parameter 1
 	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1037)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
-	at model.dao.daoimpl.OrderDaoImpl.findOrdersPagination(OrderDaoImpl.java:95)
+	at model.dao.daoImpl.OrderDaoImpl.findOrdersPagination(OrderDaoImpl.java:95)
 	at model.service.implement.OrderServiceImpl.findOrdersPagination(OrderServiceImpl.java:83)
 	at controller.command.admin.action.AdminOrderHistoryCommand.execute(AdminOrderHistoryCommand.java:20)
 	at controller.Servlet.processRequest(Servlet.java:32)
@@ -15109,7 +15109,7 @@ java.sql.SQLException: No value specified for parameter 1
 	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1037)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
-	at model.dao.daoimpl.OrderDaoImpl.findOrdersPagination(OrderDaoImpl.java:95)
+	at model.dao.daoImpl.OrderDaoImpl.findOrdersPagination(OrderDaoImpl.java:95)
 	at model.service.implement.OrderServiceImpl.findOrdersPagination(OrderServiceImpl.java:83)
 	at controller.command.admin.action.AdminOrderHistoryCommand.execute(AdminOrderHistoryCommand.java:21)
 	at controller.Servlet.processRequest(Servlet.java:32)
@@ -15165,7 +15165,7 @@ java.sql.SQLException: No value specified for parameter 1
 	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1037)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
-	at model.dao.daoimpl.OrderDaoImpl.findOrdersPagination(OrderDaoImpl.java:95)
+	at model.dao.daoImpl.OrderDaoImpl.findOrdersPagination(OrderDaoImpl.java:95)
 	at model.service.implement.OrderServiceImpl.findOrdersPagination(OrderServiceImpl.java:83)
 	at controller.command.admin.action.AdminOrderHistoryCommand.execute(AdminOrderHistoryCommand.java:20)
 	at controller.Servlet.processRequest(Servlet.java:32)
@@ -15215,7 +15215,7 @@ java.sql.SQLException: No value specified for parameter 1
 	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1037)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
 	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
-	at model.dao.daoimpl.OrderDaoImpl.findOrdersPagination(OrderDaoImpl.java:95)
+	at model.dao.daoImpl.OrderDaoImpl.findOrdersPagination(OrderDaoImpl.java:95)
 	at model.service.implement.OrderServiceImpl.findOrdersPagination(OrderServiceImpl.java:83)
 	at controller.command.admin.action.AdminOrderHistoryCommand.execute(AdminOrderHistoryCommand.java:21)
 	at controller.Servlet.processRequest(Servlet.java:32)

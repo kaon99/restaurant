@@ -1,6 +1,7 @@
 package model.entity;
 
 import java.util.List;
+import java.util.Objects;
 
 public class Order {
     private Integer id;
@@ -64,13 +65,18 @@ public class Order {
     }
 
     @Override
-    public String toString() {
-        return "Order{" +
-                "id=" + id +
-                ", note='" + note + '\'' +
-                ", menu=" + menu +
-                ", billId=" + billId +
-                ", userId=" + userId +
-                '}';
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Order order = (Order) o;
+        return Objects.equals(note, order.note) &&
+                Objects.equals(menu, order.menu) &&
+                Objects.equals(billId, order.billId) &&
+                Objects.equals(userId, order.userId);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(note, menu, billId, userId);
     }
 }

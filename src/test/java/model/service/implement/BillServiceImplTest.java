@@ -2,8 +2,8 @@ package model.service.implement;
 
 
 
-import model.dao.daoimpl.BillDaoImpl;
-import model.dao.daoimpl.DaoFactory;
+import model.dao.daoImpl.BillDaoImpl;
+import model.dao.daoImpl.DaoFactory;
 import model.entity.Bill;
 import org.junit.Before;
 import org.junit.Test;
