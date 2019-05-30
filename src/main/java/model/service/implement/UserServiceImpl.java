@@ -9,14 +9,18 @@ import org.apache.log4j.Logger;
 import java.util.List;
 
 public class UserServiceImpl implements UserService {
-    DaoFactory daoFactory = DaoFactory.getInstance();
+    DaoFactory daoFactory ;
     private Logger logger = Logger.getLogger(UserServiceImpl.class);
 
+    public UserServiceImpl() {
+        daoFactory = DaoFactory.getInstance();
+
+    }
 
     @Override
     public User create(User entity) {
         try (UserDao userDao = daoFactory.createUserDao()) {
-            logger.info("Create user = %d");
+            logger.info("Create user ");
             return userDao.create(entity);
         }
     }
@@ -43,7 +47,7 @@ public class UserServiceImpl implements UserService {
     public void update(User entity) {
         try (UserDao userDao = daoFactory.createUserDao()) {
             userDao.update(entity);
-            logger.info("User update %d");
+            logger.info("User update ");
         }
     }
 

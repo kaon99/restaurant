@@ -19,7 +19,7 @@ public class OrderServiceImpl implements OrderService {
     @Override
     public Order create(Order entity) {
         try (OrderDao orderDao = daoFactory.createOrderDao()) {
-            logger.info("Create order = %d");
+            logger.info("Create order ");
             return orderDao.create(entity);
 
         }

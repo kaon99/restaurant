@@ -19,7 +19,7 @@ public class MenuServiceImpl implements MenuService {
     @Override
     public Menu create(Menu entity) {
         try (MenuDao menuDao = daoFactory.createMenuDao()) {
-            logger.info("Create menu = %d");
+            logger.info("Create menu ");
             return menuDao.create(entity);
 
         }
@@ -52,7 +52,7 @@ public class MenuServiceImpl implements MenuService {
     public void update(Menu entity) {
         try (MenuDao menuDao = daoFactory.createMenuDao()) {
             menuDao.update(entity);
-            logger.info("bill update %d");
+            logger.info("bill update ");
         }
 
 
@@ -82,6 +82,7 @@ public class MenuServiceImpl implements MenuService {
             }
 
         }
+        logger.info("set dith");
         return menus;
 
 

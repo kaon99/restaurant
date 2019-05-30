@@ -18,9 +18,7 @@ public class BillServiceImpl implements BillService {
     @Override
     public Bill create(Bill entity) {
         try (BillDao billDao = daoFactory.createBillDao()) {
-
-
-            logger.info("Create menu = %d");
+            logger.info("Create menu ");
             return billDao.create(entity);
         }
     }
@@ -47,7 +45,7 @@ public class BillServiceImpl implements BillService {
     public void update(Bill entity) {
         try (BillDao billDao = daoFactory.createBillDao()) {
             billDao.update(entity);
-            logger.info("bill update %d");
+            logger.info("bill update ");
         }
     }
 
